@@ -3221,8 +3221,8 @@ SSC_GD_Full_Test_04,"Suman has a brother,Tushar. Tushar’s daughter is Urmi. Ur
             // --- MULTI-TEST SUPPORT ---
             function slugify(str) {
                 return str.trim().toLowerCase()
-                    .replace(/[^a-z0-9\s-]/g, '')
-                    .replace(/[\s_]+/g, '-')
+                    .replace(/[_\s]+/g, '-')       // underscores/spaces -> hyphens first
+                    .replace(/[^a-z0-9-]/g, '')    // then strip everything else
                     .replace(/-+/g, '-')
                     .replace(/^-|-$/g, '');
             }
@@ -3242,8 +3242,8 @@ SSC_GD_Full_Test_04,"Suman has a brother,Tushar. Tushar’s daughter is Urmi. Ur
                 } catch(e) {}
                 if (!text) text = document.getElementById('csv-data').textContent;
                 const rows = parseCSV(text);
-                // Skip header row, keep all data rows
-                allCsvRows = rows.slice(1).filter(row => row[0] && row[0].trim() !== '' && row.length >= 6);
+                // Skip header row — valid rows need: test_id(A) + Statement(B) + 4 opts + Answer = 7 cols min
+                allCsvRows = rows.slice(1).filter(row => row.length >= 7 && row[0] && row[0].trim() !== '' && row[1] && row[1].trim() !== '');
                 return allCsvRows;
             }
 
@@ -3269,6 +3269,12 @@ SSC_GD_Full_Test_04,"Suman has a brother,Tushar. Tushar’s daughter is Urmi. Ur
                 C.quizTitle = matchingRows[0][0].trim();
                 document.title = `${C.appName || 'Testbook'} | ${C.quizTitle}`;
 
+                // Read per-test config from first row: H(7)=Positive, I(8)=Negative, J(9)=Time(min)
+                const firstRow = matchingRows[0];
+                const csvPositive = (firstRow.length > 7 && firstRow[7].trim()) ? parseFloat(firstRow[7].trim()) : null;
+                const csvNegative = (firstRow.length > 8 && firstRow[8].trim()) ? parseFloat(firstRow[8].trim()) : null;
+                const csvTimeMin  = (firstRow.length > 9 && firstRow[9].trim()) ? parseInt(firstRow[9].trim()) : null;
+
                 C.questions = matchingRows.map((row, index) => {
                     const statement = cleanQuestionText(row[1] || '');
                     const options = [
@@ -3289,19 +3295,33 @@ SSC_GD_Full_Test_04,"Suman has a brother,Tushar. Tushar’s daughter is Urmi. Ur
                     };
                 });
 
-                // Apply URL param overrides or use defaults
+                // Priority: URL params > CSV columns H/I/J > quiz-data defaults
                 const params = getUrlParams();
-                if (params.get('pos')) C.positiveMarking = parseFloat(params.get('pos'));
-                if (params.get('neg')) C.negativeMarking = parseFloat(params.get('neg'));
+                const qCount = C.questions.length;
+
+                // Positive marking
+                if (params.get('pos')) {
+                    C.positiveMarking = parseFloat(params.get('pos'));
+                } else if (csvPositive !== null && !isNaN(csvPositive)) {
+                    C.positiveMarking = csvPositive;
+                }
                 if (!C.positiveMarking) C.positiveMarking = 1;
+
+                // Negative marking
+                if (params.get('neg')) {
+                    C.negativeMarking = parseFloat(params.get('neg'));
+                } else if (csvNegative !== null && !isNaN(csvNegative)) {
+                    C.negativeMarking = csvNegative;
+                }
                 if (C.negativeMarking === undefined) C.negativeMarking = 0;
 
-                // Time: URL param (minutes) > timePerQuestion config > 2 min/question
-                const qCount = C.questions.length;
-                const timePerQ = C.timePerQuestion || 2; // minutes per question
+                // Time: URL param (min) > CSV col J (min) > timePerQuestion * qCount > 2min * qCount
                 if (params.get('time')) {
                     C.totalTime = parseInt(params.get('time')) * 60;
+                } else if (csvTimeMin !== null && !isNaN(csvTimeMin)) {
+                    C.totalTime = csvTimeMin * 60;
                 } else {
+                    const timePerQ = C.timePerQuestion || 2;
                     C.totalTime = qCount * timePerQ * 60;
                 }
 
@@ -3823,7 +3843,11 @@ SSC_GD_Full_Test_04,"Suman has a brother,Tushar. Tushar’s daughter is Urmi. Ur
                     const proceed = document.getElementById('proceedButton');
                     if (proceed) proceed.onclick = () => showScreen('secondInstructions');
                     const backLink = document.getElementById('goBackLink');
-                    if (backLink) backLink.onclick = () => alert('Go to Tests clicked (Placeholder)');
+                    if (backLink) backLink.onclick = (e) => {
+                        e.preventDefault();
+                        // Go back to test picker (remove ?test= param)
+                        window.location.href = window.location.pathname;
+                    };
                 }
 
                 else if (S.appPhase === 'secondInstructions') {

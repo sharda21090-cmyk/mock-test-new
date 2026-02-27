@@ -62,8 +62,8 @@ def download_csv(url: str) -> str:
 def slugify(text: str) -> str:
     """Create a URL-friendly slug from a string."""
     s = text.strip().lower()
-    s = re.sub(r'[^a-z0-9\s-]', '', s)
-    s = re.sub(r'[\s_]+', '-', s)
+    s = re.sub(r'[_\s]+', '-', s)       # underscores/spaces -> hyphens first
+    s = re.sub(r'[^a-z0-9-]', '', s)    # then strip everything else
     s = re.sub(r'-+', '-', s)
     return s.strip('-')
 
