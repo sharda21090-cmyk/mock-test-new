@@ -73,17 +73,17 @@
         }
 
         .dark-theme {
-            --bg-page: #1a202c;
-            --bg-card: #2d3748;
-            --bg-top-bar: #2d3748;
-            --bg-section-bar: #1a202c;
-            --bg-sidebar: #2d3748;
-            --bg-sidebar-alt: #1a202c;
-            --text-main: #edf2f7;
-            --text-muted: #a0aec0;
+            --bg-page: #121212;
+            --bg-card: #1e1e1e;
+            --bg-top-bar: #1e1e1e;
+            --bg-section-bar: #121212;
+            --bg-sidebar: #1e1e1e;
+            --bg-sidebar-alt: #252525;
+            --text-main: #e0e0e0;
+            --text-muted: #b0b0b0;
             --text-heading: #ffffff;
-            --border-main: #4a5568;
-            --border-dark: #718096;
+            --border-main: #333333;
+            --border-dark: #444444;
 
             background-color: var(--bg-page);
             color: var(--text-main);
@@ -97,13 +97,28 @@
         .dark-theme .sidebar-legend,
         .dark-theme .palette-grid,
         .dark-theme .landing-container,
-        .dark-theme .start-test-modal {
+        .dark-theme .start-test-modal,
+        .dark-theme .quiz-footer,
+        .dark-theme .question-pane,
+        .dark-theme .left-pane-wrapper,
+        .dark-theme .quiz-main-area,
+        .dark-theme .sidebar-user-info,
+        .dark-theme .sidebar-bottom-actions,
+        .dark-theme .test-picker-grid,
+        .dark-theme .test-picker-body,
+        .dark-theme .results-card,
+        .dark-theme .feedback-card,
+        .dark-theme .review-card,
+        .dark-theme .review-question-pane,
+        .dark-theme .review-sidebar-card {
             background-color: var(--bg-card) !important;
             color: var(--text-main) !important;
             border-color: var(--border-main) !important;
         }
 
-        .dark-theme .quiz-top-bar {
+        .dark-theme .quiz-top-bar,
+        .dark-theme .sidebar-user-info,
+        .dark-theme .sidebar-bottom-actions {
             background-color: var(--bg-top-bar) !important;
             border-bottom-color: var(--border-main) !important;
         }
@@ -118,35 +133,46 @@
             border-left-color: var(--border-main) !important;
         }
 
-        .dark-theme .sidebar-user-info,
-        .dark-theme .sidebar-bottom-actions {
-            background-color: var(--bg-sidebar-alt) !important;
-            border-color: var(--border-main) !important;
-        }
-
         .dark-theme .test-picker-card {
-            background: #2d3748;
-            border-color: #4a5568;
+            background: #252525 !important;
+            border-color: #333333 !important;
         }
 
         .dark-theme .test-picker-card-title,
         .dark-theme .test-picker-heading,
         .dark-theme .start-test-modal h2,
-        .dark-theme .instructions-content h1 {
+        .dark-theme .instructions-content h1,
+        .dark-theme .question-no,
+        .dark-theme .results-header h1,
+        .dark-theme .test-title-large,
+        .dark-theme .landing-title {
             color: var(--text-heading) !important;
         }
 
+
         .dark-theme .timer-display {
-            background-color: #1a202c;
-            border-color: #4a5568;
-            color: #edf2f7;
+            background-color: #121212 !important;
+            border-color: #333333 !important;
+            color: #ffffff !important;
         }
 
         .dark-theme .btn-top-control {
-            background: #2d3748;
-            border-color: #4361ee;
-            color: #ffffff;
+            background: #252525 !important;
+            border-color: #4361ee !important;
+            color: #ffffff !important;
         }
+
+        .dark-theme .option-btn:hover {
+            background-color: #333333 !important;
+        }
+
+        .dark-theme .option-btn.selected {
+            background-color: #3d3d3d !important;
+            border-color: #4361ee !important;
+            color: #ffffff !important;
+        }
+
+
 
 
         *,
@@ -3237,7 +3263,8 @@
     </div>
 
     <script id="csv-data" type="text/csv">
-test_id,Statement,Option 1,Option 2,Option 3,Option 4,Correct Answer,Positive,Negative,Time,Test_link
+test_id,Statement,Option 1,Option 2,Option 3,Option 4,Correct Answer,Positive,Negative,Time,Test_link
+
 Reasoning Quiz,"&lt;p&gt;Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Statements:&lt;/strong&gt;&lt;/p&gt;
@@ -3269,7 +3296,8 @@ Reasoning Quiz,"&lt;p&gt;Read the given statements and conclusions carefully. As
 &lt;p&gt;(I) कुछ सितारे रिबन हैं।&lt;/p&gt;
 
 &lt;p&gt;(II) कुछ रिबन बटन हैं।&lt;/p&gt;
-",Both conclusions (I) and (II) follow / दोनों निष्कर्ष (I) और (II) अनुसरण करते हैं,Only conclusion (I) follows / केवल निष्कर्ष (I) अनुसरण करता है,Neither conclusion (I) nor (II) follows / न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है,Only conclusion (II) follows / केवल निष्कर्ष (II) अनुसरण करता है,1,2,0,20,https://mock-test-kappa.vercel.app/?test=reasoning-quiz
+",Both conclusions (I) and (II) follow / दोनों निष्कर्ष (I) और (II) अनुसरण करते हैं,Only conclusion (I) follows / केवल निष्कर्ष (I) अनुसरण करता है,Neither conclusion (I) nor (II) follows / न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है,Only conclusion (II) follows / केवल निष्कर्ष (II) अनुसरण करता है,1,2,0,20,https://mock-test-kappa.vercel.app/?test=reasoning-quiz
+
 Reasoning Quiz,"&lt;p&gt;If &amp;lsquo;+&amp;rsquo; means &amp;lsquo;&amp;ndash;&amp;rsquo;, &amp;lsquo;&amp;ndash;&amp;rsquo; means &amp;lsquo;&amp;times;&amp;rsquo;, &amp;lsquo;&amp;times;&amp;rsquo; means &amp;lsquo;&amp;divide;&amp;rsquo;, &amp;lsquo;&amp;divide;&amp;rsquo; means &amp;lsquo;+&amp;rsquo;, then what will come in place of the question mark (?) in the following equation?&lt;/p&gt;
 
 &lt;p&gt;13 &amp;ndash; 182 &amp;times; 14 &amp;divide; 25 + 16 = ?&lt;/p&gt;
@@ -3277,7 +3305,8 @@ Reasoning Quiz,"&lt;p&gt;If &amp;lsquo;+&amp;rsquo; means &amp;lsquo;&amp;ndash;
 &lt;p&gt;यदि &amp;#39;+&amp;#39; का अर्थ &amp;#39;-&amp;#39;, &amp;#39;-&amp;#39; का अर्थ &amp;#39;&amp;times;&amp;#39;, &amp;#39;&amp;times;&amp;#39; का अर्थ &amp;#39;&amp;divide;&amp;#39;, &amp;#39;&amp;divide;&amp;#39; का अर्थ &amp;#39;+&amp;#39; है, तो निम्नलिखित समीकरण में प्रश्न चिह्न (?) के स्थान पर क्या आएगा?&lt;/p&gt;
 
 &lt;p&gt;13 - 182 &amp;times; 14 &amp;divide; 25 + 16 = ?&lt;/p&gt;
-",155,169,178,182,3,,,,
+",155,169,178,182,3,,,,
+
 Reasoning Quiz,"&lt;p&gt;&lt;strong&gt;Directions:&lt;/strong&gt; Read the following information carefully and answer the question that follow:&lt;/p&gt;
 
 &lt;p&gt;Admission in FIIT-JEE is going on for the IIT aspirants. To be eligible to take admission in the course, a candidate must fulfil the following requirements.&lt;/p&gt;
@@ -3305,7 +3334,8 @@ Sneha has scored 86% in 12&lt;sup&gt;th&lt;/sup&gt; exam and has studied both Bi
 &lt;p&gt;iv) उम्मीदवार ने प्रवेश परीक्षा के लिए हुए साक्षात्कार में कम से कम 50% अंक प्राप्त किए हों।&lt;/p&gt;
 
 &lt;p&gt;नीचे दिए गए प्रश्न में एक उम्मीदवार का विवरण दिया गया है। आपको ऊपर दी गईं शर्तों और प्रत्येक प्रश्न में दी गयी जानकारी के आधार पर निम्नलिखित क्रियाविधियों में से एक को चुनना है और उस क्रियाविधि की संख्या को अपने उत्तर के रूप में चिन्हित करना है। आपको प्रत्येक प्रश्न में दी गई जानकारी के अलावा कुछ भी नहीं मानना है।&lt;/p&gt;
-स्नेहा ने 12वीं की परीक्षा में 86% अंक प्राप्त किए हैं और स्कूल में एक विषय के रूप में जीव विज्ञान और गणित दोनों की पढ़ाई की है। उसने साक्षात्कार में 56% और प्रवेश परीक्षा में 64% अंक प्राप्त किए हैं।",The candidate will be selected / उम्मीदवार का चयन किया जाएगा।&amp;nbsp;,The candidate will be enrolled in one month development program / उम्मीदवार को एक महीने के विकास कार्यक्रम में दाखिला दिया जाएगा।&amp;nbsp;,The candidate will not be selected / उम्मीदवार का चयन नहीं किया जाएगा।&amp;nbsp;,Data is not sufficient to take any decision / किसी भी निर्णय को लेने के लिए जानकारी पर्याप्त नहीं है।&amp;nbsp;,3,,,,
+स्नेहा ने 12वीं की परीक्षा में 86% अंक प्राप्त किए हैं और स्कूल में एक विषय के रूप में जीव विज्ञान और गणित दोनों की पढ़ाई की है। उसने साक्षात्कार में 56% और प्रवेश परीक्षा में 64% अंक प्राप्त किए हैं।",The candidate will be selected / उम्मीदवार का चयन किया जाएगा।&amp;nbsp;,The candidate will be enrolled in one month development program / उम्मीदवार को एक महीने के विकास कार्यक्रम में दाखिला दिया जाएगा।&amp;nbsp;,The candidate will not be selected / उम्मीदवार का चयन नहीं किया जाएगा।&amp;nbsp;,Data is not sufficient to take any decision / किसी भी निर्णय को लेने के लिए जानकारी पर्याप्त नहीं है।&amp;nbsp;,3,,,,
+
 Reasoning Quiz,"&lt;p&gt;Select the option that is related to the fifth letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster and the fourth letter-cluster is related to the third letter-cluster.&lt;/p&gt;
 
 &lt;p&gt;GOOD : IMQB :: CARE : EYTC :: SAVE : ?&lt;/p&gt;
@@ -3313,7 +3343,8 @@ Reasoning Quiz,"&lt;p&gt;Select the option that is related to the fifth letter-c
 &lt;p&gt;उस विकल्प का चयन कीजिए जो पाँचवे&amp;nbsp;अक्षर-समूह से उसी प्रकार संबंधित है, जिस प्रकार दूसरा अक्षर-समूह, पहले अक्षर-समूह से संबंधित है और चौथा अक्षर-समूह, तीसरे अक्षर-समूह से संबंधित है।&lt;/p&gt;
 
 &lt;p&gt;GOOD : IMQB :: CARE : EYTC :: SAVE : ?&lt;/p&gt;
-",QCTG,UXXC,UYXC,UYTG,3,,,,
+",QCTG,UXXC,UYXC,UYTG,3,,,,
+
 Reasoning Quiz,"&lt;p&gt;&amp;#39;M ! N&amp;#39; means M is the son of N.&lt;/p&gt;
 
 &lt;p&gt;&amp;#39;M @ N&amp;#39; means M is the brother&amp;nbsp;of N.&lt;/p&gt;
@@ -3337,59 +3368,80 @@ Reasoning Quiz,"&lt;p&gt;&amp;#39;M ! N&amp;#39; means M is the son of N.&lt;/p&
 &lt;p&gt;&amp;#39;M &amp;amp; N&amp;#39; का अर्थ है&amp;nbsp;M,&amp;nbsp;N का पिता है&lt;span style=&quot;&quot;&gt;।&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;इस व्यंजक P @ Q ! R # S &amp;amp; T में,&amp;nbsp;Q,&amp;nbsp;T से किस प्रकार संबंधित&amp;nbsp;है?&lt;/p&gt;
-",Father / पिता,Mother / माता,Cousin / कजिन,Sister / बहन,3,,,,
-SSC English Quiz,The protesting employees were asked to ________ their strike.,1) call over,2) call on,3) call of,4) call off,4,2,0.5,20,https://mock-test-kappa.vercel.app/?test=ssc-english-quiz
+",Father / पिता,Mother / माता,Cousin / कजिन,Sister / बहन,3,,,,
+
+SSC English Quiz,The protesting employees were asked to ________ their strike.,1) call over,2) call on,3) call of,4) call off,4,2,0.5,20,https://mock-test-kappa.vercel.app/?test=ssc-english-quiz
+
 SSC English Quiz,"Select the most appropriate option to fill in the blank.
 
 My niece is very kind and ______ to everyone in the family.
-",1) callous,2) ruthless,3) generous,4) stern,3,,,,
+",1) callous,2) ruthless,3) generous,4) stern,3,,,,
+
 SSC English Quiz,"Directions: Each item in this section consists of a sentence with an underlined word followed by four words/groups of words. Select the option that is nearest in meaning to the underlined word and mark your response on the Answer Sheet accordingly.
-The team's strategy was ""innovative"", introducing new methods that set industry standards.",1) traditional,2) creative,3) outdated,4) usual,2,,,,
+The team's strategy was ""innovative"", introducing new methods that set industry standards.",1) traditional,2) creative,3) outdated,4) usual,2,,,,
+
 SSC English Quiz,"Select the most appropriate option that can substitute the underlined segment in the given sentence.
 
 She always do her work in time.
-",1) always will done,2) always done,3) always does,4) always doing,3,,,,
+",1) always will done,2) always done,3) always does,4) always doing,3,,,,
+
 SSC English Quiz,"Find the part of the given sentence that has an error in it. If there is no error, choose 'No error'.
 
 Onions are most water, (1)/ plus some vitamins (2)/ and sugar compounds. (3)/ No error (4)
-","1) Onions are most water,",2) and sugar compounds.,3) plus some vitamins,4) No error,1,,,,
+","1) Onions are most water,",2) and sugar compounds.,3) plus some vitamins,4) No error,1,,,,
+
 SSC English Quiz,"Select the most appropriate ANTONYM of the given word.
 
 JUICY
-",1) Oily,2) Dewy,3) Watery,4) Dry,4,,,,
-SSC English Quiz,Select the incorrectly spelt word.,1) Harmonious,2) Supernatural,3) Hereditory,4) Revolution,3,,,,
+",1) Oily,2) Dewy,3) Watery,4) Dry,4,,,,
+
+SSC English Quiz,Select the incorrectly spelt word.,1) Harmonious,2) Supernatural,3) Hereditory,4) Revolution,3,,,,
+
 SSC English Quiz,"Read the sentence carefully and choose the option that has an error in it:
 
 In spite of its small size, these cameras take very good pictures.
-",1) take very good pictures.,2) In spite of its small size,3) these cameras,4) No error,2,,,,
+",1) take very good pictures.,2) In spite of its small size,3) these cameras,4) No error,2,,,,
+
 SSC English Quiz,"Select the option that gives the most appropriate meaning of the underlined idiom.
 
 Beginners should not put all eggs in one basket.
-",1) Put all eggs in a basket and carry,2) Put all materials in a container,3) Use all money you have with you,4) Risk everything in one venture,4,,,,
+",1) Put all eggs in a basket and carry,2) Put all materials in a container,3) Use all money you have with you,4) Risk everything in one venture,4,,,,
+
 SSC English Quiz,"Select the option that will improve the underlined part of the given sentence. In case no improvement is needed, select 'No improvement required'.
 
 In India, processed foods becomes popular in the 20th century.
-",1) became popular in,2) become popularity in,3) No improvement required,4) become popular at,1,,,,
+",1) became popular in,2) become popularity in,3) No improvement required,4) become popular at,1,,,,
+
 Computer Quiz,"IBM 370 was a _________ generation computer.
-IBM 370 किस पीढ़ी का कंप्यूटर था?",4&lt;sup&gt;th&lt;/sup&gt; / चौथी,3&lt;sup&gt;rd&lt;/sup&gt; / तीसरी,2&lt;sup&gt;nd&lt;/sup&gt; / दूसरी,1&lt;sup&gt;st&lt;/sup&gt; / पहली,2,1,0.33,20,https://mock-test-kappa.vercel.app/?test=computer-quiz
+IBM 370 किस पीढ़ी का कंप्यूटर था?",4&lt;sup&gt;th&lt;/sup&gt; / चौथी,3&lt;sup&gt;rd&lt;/sup&gt; / तीसरी,2&lt;sup&gt;nd&lt;/sup&gt; / दूसरी,1&lt;sup&gt;st&lt;/sup&gt; / पहली,2,1,0.33,20,https://mock-test-kappa.vercel.app/?test=computer-quiz
+
 Computer Quiz,"What is the correct full form of &amp;ldquo;VIRUS&amp;rdquo; in computer programming?
-कंप्यूटर प्रोग्रामिंग में &amp;ldquo;VIRUS&amp;rdquo; का सही पूरा रूप क्या है?",Vital Information Resources Under Seize,Vital Information Record User Seize,Vital Information Recognize Search,Vital Inter Change Result Until Source,1,,,,
+कंप्यूटर प्रोग्रामिंग में &amp;ldquo;VIRUS&amp;rdquo; का सही पूरा रूप क्या है?",Vital Information Resources Under Seize,Vital Information Record User Seize,Vital Information Recognize Search,Vital Inter Change Result Until Source,1,,,,
+
 Computer Quiz,"Which of the following matches is INCORRECT?
-निम्नलिखित में से कौन-सा मिलान गलत है?",1024 ZB = 1 YB,1024 TB = 1 PB,1024 EB = 1 YB,8 bits = 1 byte / 8 बिट = 1 बाइट,3,,,,
+निम्नलिखित में से कौन-सा मिलान गलत है?",1024 ZB = 1 YB,1024 TB = 1 PB,1024 EB = 1 YB,8 bits = 1 byte / 8 बिट = 1 बाइट,3,,,,
+
 Computer Quiz,"How many bytes are there in 4 Kilobyte memory?
-4 किलोबाइट मेमोरी में कितने बाइट होते हैं?","1,024",512,"2,048","4,096",4,,,,
+4 किलोबाइट मेमोरी में कितने बाइट होते हैं?","1,024",512,"2,048","4,096",4,,,,
+
 Computer Quiz,"Which of the following is the memory which is used by CPU to store data and signals at the time of data processing?
-निम्नलिखित में से वह कौन-सी मेमोरी है जिसे डेटा प्रोसेसिंग के समय डेटा और संकेतों को संगृहीत करने के लिए CPU द्वारा प्रयोग किया जाता है?",Auxiliary Memory / &lt;span style=&quot;&quot;&gt;ऑक्जिलरी मेमोरी&amp;nbsp;&lt;/span&gt;,Primary Memory / &lt;span style=&quot;&quot;&gt;प्राथमिक मेमोरी&amp;nbsp;&lt;/span&gt;,Secondary Memory / &lt;span style=&quot;&quot;&gt;द्वितीयक मेमोरी&lt;/span&gt;,Tertiary Memory / &lt;span style=&quot;&quot;&gt;तृतीयक मेमोरी&lt;/span&gt;,2,,,,
+निम्नलिखित में से वह कौन-सी मेमोरी है जिसे डेटा प्रोसेसिंग के समय डेटा और संकेतों को संगृहीत करने के लिए CPU द्वारा प्रयोग किया जाता है?",Auxiliary Memory / &lt;span style=&quot;&quot;&gt;ऑक्जिलरी मेमोरी&amp;nbsp;&lt;/span&gt;,Primary Memory / &lt;span style=&quot;&quot;&gt;प्राथमिक मेमोरी&amp;nbsp;&lt;/span&gt;,Secondary Memory / &lt;span style=&quot;&quot;&gt;द्वितीयक मेमोरी&lt;/span&gt;,Tertiary Memory / &lt;span style=&quot;&quot;&gt;तृतीयक मेमोरी&lt;/span&gt;,2,,,,
+
 Computer Quiz,"ENIAC, the first electronics digital programmable computer device (1943), stands for ________.
-1943 में बनाया गया पहला इलेक्ट्रॉनिक डिजिटल प्रोग्रामेबल कंप्यूटर डिवाइस ENIAC, किसके लिए जाना जाता है?",Electronic Numerical Integrator and Analytical Computer / इलेक्ट्रॉनिक न्यूमेरिकल इंटीग्रेटर और एनालिटिकल कंप्यूटर,Electronic Network Integrator and Computer / इलेक्ट्रॉनिक नेटवर्क इंटीग्रेटर और कंप्यूटर,Electronic Numerical Integrator and Computer / इलेक्ट्रॉनिक न्यूमेरिकल इंटीग्रेटर और कंप्यूटर,Electronic Numerical Interactive and Computer / इलेक्ट्रॉनिक न्यूमेरिकल इंटरेक्टिव और कंप्यूटर,3,,,,
+1943 में बनाया गया पहला इलेक्ट्रॉनिक डिजिटल प्रोग्रामेबल कंप्यूटर डिवाइस ENIAC, किसके लिए जाना जाता है?",Electronic Numerical Integrator and Analytical Computer / इलेक्ट्रॉनिक न्यूमेरिकल इंटीग्रेटर और एनालिटिकल कंप्यूटर,Electronic Network Integrator and Computer / इलेक्ट्रॉनिक नेटवर्क इंटीग्रेटर और कंप्यूटर,Electronic Numerical Integrator and Computer / इलेक्ट्रॉनिक न्यूमेरिकल इंटीग्रेटर और कंप्यूटर,Electronic Numerical Interactive and Computer / इलेक्ट्रॉनिक न्यूमेरिकल इंटरेक्टिव और कंप्यूटर,3,,,,
+
 Computer Quiz,"Which of the following was used as the main electronic component in the second generation computers?
-निम्नलिखित में से किसका उपयोग दूसरी पीढ़ी के कंप्यूटर में मुख्य इलेक्ट्रॉनिक घटक के रूप में किया गया था?",Microprocessor / &lt;span style=&quot;&quot;&gt;माइक्रोप्रोसेसर&lt;/span&gt;,Integrated Circuits / &lt;span style=&quot;&quot;&gt;इंटीग्रेटेड सर्किट&lt;/span&gt;,Vacuum Tubes / &lt;span style=&quot;&quot;&gt;वैक्यूम ट्यूब&lt;/span&gt;,Transistors / ट्रांजिस्टर,4,,,,
+निम्नलिखित में से किसका उपयोग दूसरी पीढ़ी के कंप्यूटर में मुख्य इलेक्ट्रॉनिक घटक के रूप में किया गया था?",Microprocessor / &lt;span style=&quot;&quot;&gt;माइक्रोप्रोसेसर&lt;/span&gt;,Integrated Circuits / &lt;span style=&quot;&quot;&gt;इंटीग्रेटेड सर्किट&lt;/span&gt;,Vacuum Tubes / &lt;span style=&quot;&quot;&gt;वैक्यूम ट्यूब&lt;/span&gt;,Transistors / ट्रांजिस्टर,4,,,,
+
 Computer Quiz,"&lt;span style=&quot;&quot;&gt;What is the binary representation of 92?&lt;/span&gt;
-&lt;span style=&quot;&quot;&gt;92 का बाइनरी निरूपण क्या है?&lt;/span&gt;",1100001,&lt;span style=&quot;&quot;&gt;1011110&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;1011100&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;1011001&lt;/span&gt;,3,,,,
+&lt;span style=&quot;&quot;&gt;92 का बाइनरी निरूपण क्या है?&lt;/span&gt;",1100001,&lt;span style=&quot;&quot;&gt;1011110&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;1011100&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;1011001&lt;/span&gt;,3,,,,
+
 Computer Quiz,"In 1642, the calculating machine was introduced by ________.&amp;nbsp;&amp;nbsp;
-1642 में, परिकलन यंत्र (कैलकुलेटिंग मशीन) की शुरुआत ________&amp;nbsp;द्वारा हुई थी।",Adam Pascal / एडम पास्कल,"Roman koheller&amp;nbsp; / &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;रोमन कोहेलर&lt;/span&gt;","Joseph Mark&amp;nbsp; / &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;जोसेफ मार्क&lt;/span&gt;","Blaise Pascal&amp;nbsp; / &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;ब्लेज पास्कल&lt;/span&gt;",4,,,,
+1642 में, परिकलन यंत्र (कैलकुलेटिंग मशीन) की शुरुआत ________&amp;nbsp;द्वारा हुई थी।",Adam Pascal / एडम पास्कल,"Roman koheller&amp;nbsp; / &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;रोमन कोहेलर&lt;/span&gt;","Joseph Mark&amp;nbsp; / &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;जोसेफ मार्क&lt;/span&gt;","Blaise Pascal&amp;nbsp; / &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;ब्लेज पास्कल&lt;/span&gt;",4,,,,
+
 Computer Quiz,"Second generation computers were&amp;nbsp;developed during -
-दूसरी पीढ़ी के कंप्यूटरों का विकास किस दौरान हुआ था?",1970 to 1990 / 1970 से 1990,1956 to 1963 / 1956 से 1963,1649 to 1670 / 1649 से 1670,1965 to 1970 / 1965 से 1970,2,,,,
+दूसरी पीढ़ी के कंप्यूटरों का विकास किस दौरान हुआ था?",1970 to 1990 / 1970 से 1990,1956 to 1963 / 1956 से 1963,1649 to 1670 / 1649 से 1670,1965 to 1970 / 1965 से 1970,2,,,,
+
 Logical Reasoning Quiz,"&lt;p&gt;Select the option figure in which the given figure (X) is embedded as its part (rotation is NOT allowed).&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/03/F1_Madhuri_SSC_01.03.2023_D52.png&quot; style=&quot;width: 34px; height: 32px;&quot; /&gt;&lt;/p&gt;
@@ -3397,9 +3449,11 @@ Logical Reasoning Quiz,"&lt;p&gt;Select the option figure in which the given fig
 &lt;p&gt;उस विकल्प आकृति का चयन कीजिए&amp;nbsp;जिसमें दी गई आकृति (X) उसके भाग के रूप में अन्तर्निहित है (घुमाने&amp;nbsp;की अनुमति नहीं है)।&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/03/F1_Madhuri_SSC_01.03.2023_D52.png&quot; style=&quot;width: 34px; height: 32px;&quot; /&gt;&lt;/p&gt;
-",&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/03/F1_Madhuri_SSC_01.03.2023_D53.png&quot; style=&quot;width: 83px; height: 42px;&quot; /&gt;,&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/03/F1_Madhuri_SSC_01.03.2023_D54.png&quot; style=&quot;width: 48px; height: 74px;&quot; /&gt;,&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/03/F1_Madhuri_SSC_01.03.2023_D55.png&quot; style=&quot;width: 58px; height: 57px;&quot; /&gt;,&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/03/F1_Madhuri_SSC_01.03.2023_D56.png&quot; style=&quot;width: 75px; height: 68px;&quot; /&gt;,4,2,0.5,20,https://mock-test-kappa.vercel.app/?test=logical-reasoning-quiz
+",&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/03/F1_Madhuri_SSC_01.03.2023_D53.png&quot; style=&quot;width: 83px; height: 42px;&quot; /&gt;,&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/03/F1_Madhuri_SSC_01.03.2023_D54.png&quot; style=&quot;width: 48px; height: 74px;&quot; /&gt;,&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/03/F1_Madhuri_SSC_01.03.2023_D55.png&quot; style=&quot;width: 58px; height: 57px;&quot; /&gt;,&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/03/F1_Madhuri_SSC_01.03.2023_D56.png&quot; style=&quot;width: 75px; height: 68px;&quot; /&gt;,4,2,0.5,20,https://mock-test-kappa.vercel.app/?test=logical-reasoning-quiz
+
 Logical Reasoning Quiz,"11 is related to 123 following a certain logic. Following the same logic, 20 is related to 402. To which of the following is 13 related to, following the same logic?
-एक निश्चित तर्क के अनुसार, 11, 123 से सम्बन्धित है। उसी तर्क के अनुसार 20, 402 से सम्बन्धित&amp;nbsp;है। उसी तर्क के अनुसार 13 निम्नलिखित में से किससे सम्बन्धित&amp;nbsp;है?",4104:00:00,4128:00:00,173,4176:00:00,1,,,,
+एक निश्चित तर्क के अनुसार, 11, 123 से सम्बन्धित है। उसी तर्क के अनुसार 20, 402 से सम्बन्धित&amp;nbsp;है। उसी तर्क के अनुसार 13 निम्नलिखित में से किससे सम्बन्धित&amp;nbsp;है?",4104:00:00,4128:00:00,173,4176:00:00,1,,,,
+
 Logical Reasoning Quiz,"&lt;p&gt;Select the option that is related to the fifth letter- cluster in the same way as the second letter- cluster is related to the first letter-cluster and the fourth letter- cluster is related to the third letter- cluster.&lt;/p&gt;
 
 &lt;p&gt;DGI : LIE :: RUW : ZWS :: OSV : ?&lt;/p&gt;
@@ -3407,7 +3461,8 @@ Logical Reasoning Quiz,"&lt;p&gt;Select the option that is related to the fifth 
 &lt;p&gt;उस विकल्प का चयन कीजिए जो पाँचवें अक्षर-समूह से उसी प्रकार से संबंधित है जिस प्रकार से दूसरा अक्षर-समूह, पहले अक्षर-समूह से संबंधित है और चौथा अक्षर-समूह, तीसरे अक्षर-समूह से संबंधित है।&lt;/p&gt;
 
 &lt;p&gt;DGI : LIE :: RUW : ZWS :: OSV : ?&lt;/p&gt;
-",PQR,YUP,YPU,VTX,2,,,,
+",PQR,YUP,YPU,VTX,2,,,,
+
 Logical Reasoning Quiz,"&lt;p&gt;Which of the following numbers will replace the question mark (?) in the given series?&lt;/p&gt;
 
 &lt;p&gt;11, 21, 47, 97, 179, ?&lt;/p&gt;
@@ -3415,7 +3470,8 @@ Logical Reasoning Quiz,"&lt;p&gt;Which of the following numbers will replace the
 &lt;p&gt;निम्नलिखित में से कौन-सी संख्या दी गई शृंखला में प्रश्न चिह्न (?) को प्रतिस्थापित करेगी?&lt;/p&gt;
 
 &lt;p&gt;11, 21, 47, 97, 179, ?&lt;/p&gt;
-",281,301,231,295,2,,,,
+",281,301,231,295,2,,,,
+
 Logical Reasoning Quiz,"&lt;p&gt;&lt;span style=&quot;&quot;&gt;In&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;the following questions, select the related word from the given alternatives:-&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;Symphony : Composer ::&amp;nbsp;Fresco : ?&lt;/p&gt;
@@ -3423,7 +3479,8 @@ Logical Reasoning Quiz,"&lt;p&gt;&lt;span style=&quot;&quot;&gt;In&lt;/span&gt;&
 &lt;p&gt;&lt;span style=&quot;&quot;&gt;निम्नलिखित&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;प्रश्न में दिए गए विकल्पों में से सम्बंधित शब्द का चयन करें&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;स्वर की समता : संगीतकार ::&amp;nbsp;फ्रेस्को : ?&lt;/p&gt;
-",Painter / चित्रकार,Inventor / आविष्कारक,Singer / गायक,Writer / लेखक,1,,,,
+",Painter / चित्रकार,Inventor / आविष्कारक,Singer / गायक,Writer / लेखक,1,,,,
+
 Logical Reasoning Quiz,"&lt;p&gt;Select the option that is related to the fifth letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster and the fourth letter-cluster is related to the third letter-cluster.&lt;/p&gt;
 
 &lt;p&gt;ABC2 ∶ HIJ9 ∶∶ DEF5 ∶ KLM12 ∶∶ OPQ16 ∶ ?&amp;nbsp;&lt;/p&gt;
@@ -3431,9 +3488,11 @@ Logical Reasoning Quiz,"&lt;p&gt;Select the option that is related to the fifth 
 &lt;p&gt;उस विकल्प का चयन कीजिए जिसका पांचवें अक्षर-समूह के साथ वही संबंध है, जो दूसरे अक्षर-समूह का पहले अक्षर-समूह के साथ और चौथे अक्षर-समूह का तीसरे अक्षर-समूह के साथ है।&lt;/p&gt;
 
 &lt;p&gt;ABC2 ∶ HIJ9 ∶∶ DEF5 ∶ KLM12 ∶∶ OPQ16 ∶ ?&amp;nbsp;&lt;/p&gt;
-",UVW23,VWX23,VWX22,UVW22,2,,,,
+",UVW23,VWX23,VWX22,UVW22,2,,,,
+
 Logical Reasoning Quiz,"Four letter-clusters have been given, out of which three are alike in some manner and one is different. Select the letter-cluster that is different.
-&lt;span style=&quot;color: rgb(37, 37, 37);  &quot;&gt;चार अक्षर-समूह दिए गए हैं, जिनमें से तीन किसी न किसी रूप में एक जैसे हैं और एक भिन्न है। उस अक्षर-समूह का चयन कीजिये जो भिन्न हो।&lt;/span&gt;",TXBV,GKPJ,QUFZ,KOLF,1,,,,
+&lt;span style=&quot;color: rgb(37, 37, 37);  &quot;&gt;चार अक्षर-समूह दिए गए हैं, जिनमें से तीन किसी न किसी रूप में एक जैसे हैं और एक भिन्न है। उस अक्षर-समूह का चयन कीजिये जो भिन्न हो।&lt;/span&gt;",TXBV,GKPJ,QUFZ,KOLF,1,,,,
+
 Logical Reasoning Quiz,"&lt;p&gt;What will come in place of &amp;#39;?&amp;#39; in the following equation, if &amp;#39;+&amp;#39; and &amp;#39;&amp;divide;&amp;#39; are interchanged and &amp;#39;&amp;times;&amp;#39; and &amp;#39;-&amp;#39;&amp;nbsp;are interchanged?&lt;/p&gt;
 
 &lt;p&gt;10 &amp;divide; 2 - 6&amp;nbsp;&amp;times;&amp;nbsp;7 + 1 = ?&lt;/p&gt;
@@ -3441,7 +3500,8 @@ Logical Reasoning Quiz,"&lt;p&gt;What will come in place of &amp;#39;?&amp;#39; 
 &lt;p&gt;निम्नलिखित समीकरण में &amp;#39;?&amp;#39; के स्थान पर क्या आएगा, यदि &amp;#39;+&amp;#39; और &amp;#39;&amp;divide;&amp;#39; को परस्पर बदल दिया जाए तथा &amp;#39;&amp;times;&amp;#39; और &amp;#39;-&amp;#39; को परस्पर बदल दिया जाए?&lt;/p&gt;
 
 &lt;p&gt;10 &amp;divide; 2 - 6 &amp;times; 7 + 1 = ?&lt;/p&gt;
-",24,19,18,15,4,,,,
+",24,19,18,15,4,,,,
+
 Logical Reasoning Quiz,"&lt;p&gt;Select the option that is related to the third number in the same way as second number is related to the first number and the sixth number is related to the fifth number.&lt;/p&gt;
 
 &lt;p&gt;98 : 72:: 92:? :: 54: 20&lt;/p&gt;
@@ -3449,27 +3509,38 @@ Logical Reasoning Quiz,"&lt;p&gt;Select the option that is related to the third 
 &lt;p&gt;&lt;span style=&quot;&quot;&gt;उस विकल्प को चुनिए&amp;nbsp;जो तीसरी संख्या से उसी प्रकार संबंधित है जैसे दूसरी संख्या पहली संख्या से संबंधित है और छठी संख्या पाँचवीं&amp;nbsp;संख्या से संबंधित है।&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;98 : 72 :: 92 : ? :: 54 : 20&lt;/p&gt;
-",70,68,18,32,3,,,,
+",70,68,18,32,3,,,,
+
 Logical Reasoning Quiz,"In a family of six persons with two couples, D is the sister of E and daughter of F. G&amp;rsquo;s mother H is the wife of E and the daughter-in-law of J. E&amp;rsquo;s sister&amp;rsquo;s mother is married to F. How is F related to J?&amp;nbsp;
-दो युगल वाले छह व्यक्तियों के परिवार में, D, E की बहन है और F की पुत्री है। G की माता H, E की पत्नी है और J की पुत्रवधू है। E की बहन की माता का विवाह F से हुआ है। F, J से &lt;span style=&quot;&quot;&gt;किस प्रकार&amp;nbsp;&lt;/span&gt;संबंधित है?",&lt;span style=&quot;&quot;&gt;Wife&amp;nbsp;&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;पत्नी&amp;nbsp;&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;Father-in-law&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;ससुर&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;Husband&amp;nbsp;&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;पति&amp;nbsp;&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;Brother-in-law&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;देवर&lt;/span&gt;,3,,,,
+दो युगल वाले छह व्यक्तियों के परिवार में, D, E की बहन है और F की पुत्री है। G की माता H, E की पत्नी है और J की पुत्रवधू है। E की बहन की माता का विवाह F से हुआ है। F, J से &lt;span style=&quot;&quot;&gt;किस प्रकार&amp;nbsp;&lt;/span&gt;संबंधित है?",&lt;span style=&quot;&quot;&gt;Wife&amp;nbsp;&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;पत्नी&amp;nbsp;&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;Father-in-law&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;ससुर&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;Husband&amp;nbsp;&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;पति&amp;nbsp;&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;Brother-in-law&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;देवर&lt;/span&gt;,3,,,,
+
 General Knowledge Quiz,"How many countries were evaluated in the Climate Change Performance Index 2025?
-जलवायु परिवर्तन प्रदर्शन सूचकांक 2025 में कितने देशों का मूल्यांकन किया गया था?",83,63,73,93,2,2,0.5,20,https://mock-test-kappa.vercel.app/?test=general-knowledge-quiz
+जलवायु परिवर्तन प्रदर्शन सूचकांक 2025 में कितने देशों का मूल्यांकन किया गया था?",83,63,73,93,2,2,0.5,20,https://mock-test-kappa.vercel.app/?test=general-knowledge-quiz
+
 General Knowledge Quiz,"&amp;#39;Lavani&amp;#39; is the famous dance form of which state?
-&amp;#39;लावणी&amp;#39; किस राज्य की प्रसिद्ध नृत्य शैली है?",Manipur / मणिपुर,Madhya Pradesh / मध्य प्रदेश,Meghalaya / मेघालय,Maharashtra / महाराष्ट्र,4,,,,
+&amp;#39;लावणी&amp;#39; किस राज्य की प्रसिद्ध नृत्य शैली है?",Manipur / मणिपुर,Madhya Pradesh / मध्य प्रदेश,Meghalaya / मेघालय,Maharashtra / महाराष्ट्र,4,,,,
+
 General Knowledge Quiz,"In which of the following sports is &amp;#39;Bishop&amp;#39; used?
-निम्नलिखित में से किस खेल में &amp;#39;बिशप&amp;#39; का प्रयोग किया जाता है?",Snooker / स्नूकर,Baseball / बेसबॉल,Billiards / बिलियर्ड्स,Chess / शतरंज,4,,,,
+निम्नलिखित में से किस खेल में &amp;#39;बिशप&amp;#39; का प्रयोग किया जाता है?",Snooker / स्नूकर,Baseball / बेसबॉल,Billiards / बिलियर्ड्स,Chess / शतरंज,4,,,,
+
 General Knowledge Quiz,"Whom did Gukesh Dommaraju defeat in a 72-move marathon match at the Tata Steel Chess 2025?
-टाटा स्टील चेस 2025 में 72 चालों के मैराथन मैच में गुकेश दम्मारजू ने किसको हराया था?",Leon Mendonca / लियोन मेंडोंका,Max Warmerdam / मैक्स वार्मरडैम,Vincent Keymer / विनसेंट कीमर,None of the above / उपरोक्त में से कोई नहीं,3,,,,
+टाटा स्टील चेस 2025 में 72 चालों के मैराथन मैच में गुकेश दम्मारजू ने किसको हराया था?",Leon Mendonca / लियोन मेंडोंका,Max Warmerdam / मैक्स वार्मरडैम,Vincent Keymer / विनसेंट कीमर,None of the above / उपरोक्त में से कोई नहीं,3,,,,
+
 General Knowledge Quiz,"The Rural Landless Labour Employment Guarantee Programme (RLEGP) was started in which of the following Five-Year Plans?
-ग्रामीण भूमिहीन श्रम रोजगार गारंटी कार्यक्रम (RLEGP) निम्नलिखित में से किस पंचवर्षीय योजना में शुरू किया गया था?",Sixth / छठी,Seventh / सातवीं,Fifth / पांचवीं,Fourth / चौथी,1,,,,
+ग्रामीण भूमिहीन श्रम रोजगार गारंटी कार्यक्रम (RLEGP) निम्नलिखित में से किस पंचवर्षीय योजना में शुरू किया गया था?",Sixth / छठी,Seventh / सातवीं,Fifth / पांचवीं,Fourth / चौथी,1,,,,
+
 General Knowledge Quiz,"Which of the following dialects is not native to Madhya Pradesh?
-&lt;span style=&quot;&quot;&gt;निम्न में से कौन-सी बोली मध्य प्रदेश की मूल बोली नहीं है?&lt;/span&gt;",&lt;span style=&quot;&quot;&gt;Korku&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;कोरकू&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;Brijbhasa&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;बृजभाषा&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;Goundi&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;गोँडी&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;Maithili&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;मैथिली&lt;/span&gt;,4,,,,
+&lt;span style=&quot;&quot;&gt;निम्न में से कौन-सी बोली मध्य प्रदेश की मूल बोली नहीं है?&lt;/span&gt;",&lt;span style=&quot;&quot;&gt;Korku&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;कोरकू&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;Brijbhasa&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;बृजभाषा&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;Goundi&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;गोँडी&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;Maithili&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;मैथिली&lt;/span&gt;,4,,,,
+
 General Knowledge Quiz,"As per the World Bank report, by how much percentage did extreme poverty in India fall between 2011-12 and 2022-23?
-विश्व बैंक की रिपोर्ट के अनुसार, भारत में 2011-12 और 2022-23 के बीच अत्यधिक गरीबी कितने प्रतिशत कम हुई?",From 20.5% to 3.5% / 20.5% से 3.5% तक,From 18.0% to 4.0% / 18.0% से 4.0% तक,From 16.2% to 2.3% / 16.2% से 2.3% तक,From 15.5% to 1.8% / 15.5% से 1.8% तक,3,,,,
+विश्व बैंक की रिपोर्ट के अनुसार, भारत में 2011-12 और 2022-23 के बीच अत्यधिक गरीबी कितने प्रतिशत कम हुई?",From 20.5% to 3.5% / 20.5% से 3.5% तक,From 18.0% to 4.0% / 18.0% से 4.0% तक,From 16.2% to 2.3% / 16.2% से 2.3% तक,From 15.5% to 1.8% / 15.5% से 1.8% तक,3,,,,
+
 General Knowledge Quiz,"Chhau dance is a popular dance of which region of India?
-छऊ&amp;nbsp;नृत्य भारत के किस क्षेत्र का लोकप्रिय नृत्य है?",Southern India / दक्षिणी भारत,Northern India / उत्तरी भारत,Eastern India / पूर्वी भारत,Western India / पश्चिमी भारत,3,,,,
+छऊ&amp;nbsp;नृत्य भारत के किस क्षेत्र का लोकप्रिय नृत्य है?",Southern India / दक्षिणी भारत,Northern India / उत्तरी भारत,Eastern India / पूर्वी भारत,Western India / पश्चिमी भारत,3,,,,
+
 General Knowledge Quiz,"The constitutional provision Center-State relationship has been borrowed from which of the following countries?
-संवैधानिक प्रावधान केंद्र-राज्य संबंध निम्नलिखित में से किस देश से उधार लिया गया है?",Germany / जर्मनी,Australia / ऑस्ट्रेलिया,USA / अमेरीका,Canada / कनाडा,4,,,,
+संवैधानिक प्रावधान केंद्र-राज्य संबंध निम्नलिखित में से किस देश से उधार लिया गया है?",Germany / जर्मनी,Australia / ऑस्ट्रेलिया,USA / अमेरीका,Canada / कनाडा,4,,,,
+
 General Knowledge Quiz,"The least populated district of India as per 2011 Census is located in which of the following states?
 2011 की जनगणना के अनुसार भारत का सबसे कम जनसंख्या वाला जिला निम्नलिखित में से किस राज्य में स्थित है?",Uttarakhand / उत्तराखंड&amp;nbsp;,Himachal Pradesh / हिमाचल प्रदेश&amp;nbsp;,Arunachal Pradesh / अरुणाचल प्रदेश&amp;nbsp;,Assam / असम&amp;nbsp;,3,,,,
     </script>
