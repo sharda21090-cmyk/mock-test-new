@@ -140,6 +140,10 @@
             border-color: var(--border-main) !important;
         }
 
+        .dark-theme .question-text {
+            color: var(--text-main) !important;
+        }
+
         .dark-theme .review-q-header,
         .dark-theme .instructions-summary {
             background-color: var(--bg-subtle) !important;
@@ -839,6 +843,7 @@
             margin-bottom: 0.3rem;
             white-space: pre-line;
             line-height: 1.5;
+            color: #000000;
         }
 
         /* Remove browser-default p/ul/ol margins inside question HTML */
@@ -2391,15 +2396,15 @@
         .question-text {
             font-size: 24px;
             line-height: 1.5;
-            color: var(--text-main);
-            margin-bottom: 2rem;
+            color: #000000;
+            margin-bottom: 0.5rem;
             white-space: normal;
         }
 
         .options-grid {
             display: flex;
             flex-direction: column;
-            gap: 8px;
+            gap: 6px;
         }
 
         .option-btn {
@@ -2409,7 +2414,7 @@
             background: var(--bg-card);
             border: 1px solid var(--border-main);
             border-radius: 0.4rem;
-            padding: 8px 12px;
+            padding: 6px 12px;
             cursor: pointer;
             font-size: 24px;
             color: var(--text-main);
@@ -4446,16 +4451,13 @@ General Knowledge Quiz,"The least populated district of India as per 2011 Census
 
             // --- THEME LOGIC ---
             function initTheme() {
-                const savedTheme = localStorage.getItem('theme') || 'light';
-                if (savedTheme === 'dark') {
-                    document.body.classList.add('dark-theme');
-                }
+                // Always start in light mode when the link is opened
+                document.body.classList.remove('dark-theme');
                 updateThemeToggleUI();
             }
 
             function toggleTheme() {
-                const isDark = document.body.classList.toggle('dark-theme');
-                localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                document.body.classList.toggle('dark-theme');
                 updateThemeToggleUI();
             }
 
