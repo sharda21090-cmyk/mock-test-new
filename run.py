@@ -38,7 +38,7 @@ except ImportError:
 
 # ── Load .env ────────────────────────────────────────────────────────
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-load_dotenv(os.path.join(SCRIPT_DIR, ".env"))
+load_dotenv(os.path.join(SCRIPT_DIR, ".env"), override=True)
 
 LMS_EMAIL    = os.getenv("LMS_EMAIL", "")
 LMS_PASSWORD = os.getenv("LMS_PASSWORD", "")
@@ -117,16 +117,25 @@ def slugify(text: str) -> str:
 # ── LMS AUTH ─────────────────────────────────────────────────────────
 
 def auto_login(email: str, password: str) -> str:
-    """POST to LMS login and return the Bearer token."""
+    """POST to LMS login and return the Bearer token.
+    The JS callApi sends payload as form-encoded (not JSON), so we do the same.
+    """
     payload = {"email": email, "password": password, "otp": ""}
     try:
-        resp = requests.post(LMS_LOGIN_URL, json=payload, timeout=30)
+        # Use data= (form-encoded) — matches UrlFetchApp 'payload' in the JS reference
+        resp = requests.post(LMS_LOGIN_URL, data=payload, timeout=30)
         resp.raise_for_status()
         data = resp.json().get("data", {})
         token = data.get("token", "")
         if not token:
-            raise RuntimeError("Login succeeded but no token returned. Check credentials.")
+            raise RuntimeError(
+                f"Login succeeded but no token returned.\nResponse: {resp.text[:200]}"
+            )
         return token
+    except requests.HTTPError as e:
+        msg = f"LMS login HTTP error {e.response.status_code}"
+        msg += f"\nResponse: {e.response.text[:300]}"
+        raise RuntimeError(msg)
     except requests.RequestException as e:
         raise RuntimeError(f"LMS login failed: {e}")
 
@@ -166,7 +175,7 @@ def combine(val_en: str, val_hi: str) -> str:
 def extract_multilang_row(test_id: str, q: dict, test_link: str,
                            positive: float, negative: float, time_val: int,
                            lang_primary: str = "en",
-                           lang_secondary: str | None = "hi") -> list | None:
+                           lang_secondary: str | None = "hn") -> list | None:
     """
     Mirror of the JS multiLang function.
     Returns a CSV row list or None if data is missing.
@@ -180,7 +189,8 @@ def extract_multilang_row(test_id: str, q: dict, test_link: str,
     # ── Statement ────────────────────────────────────────────────────
     stmt_p = (primary.get("value") or "").strip()
     stmt_s = (secondary.get("value") or "").strip() if secondary else ""
-    statement = stmt_p + ("\n" + stmt_s if stmt_s else "")
+    # Use <br> so the Hindi line renders on a new line (index.html uses innerHTML)
+    statement = stmt_p + ("<br>" + stmt_s if stmt_s else "")
 
     # ── Correct option index ─────────────────────────────────────────
     correct_answer = primary.get("co", 1)
@@ -199,6 +209,18 @@ def extract_multilang_row(test_id: str, q: dict, test_link: str,
     opt3 = combine(get_opt(p_opts, 2), get_opt(s_opts, 2))
     opt4 = combine(get_opt(p_opts, 3), get_opt(s_opts, 3))
 
+    # ── Solution ──────────────────────────────────────────────────────
+    def get_sol(lang_data):
+        sols = lang_data.get("sol", [])
+        if sols and len(sols) > 0:
+            return (sols[0].get("value") or "").strip()
+        return ""
+
+    sol_p = get_sol(primary)
+    sol_s = get_sol(secondary) if secondary else ""
+    # Combine solutions similar to statements (with a new line)
+    solution = sol_p + ("<br><br>" + sol_s if sol_s else "")
+
     return [
         test_id,
         statement,
@@ -210,6 +232,7 @@ def extract_multilang_row(test_id: str, q: dict, test_link: str,
         positive,
         negative,
         time_val,
+        solution,
         test_link,
     ]
 
@@ -426,7 +449,7 @@ def main():
     CSV_HEADERS = [
         "test_id", "Statement",
         "Option 1", "Option 2", "Option 3", "Option 4",
-        "Correct Answer", "Positive", "Negative", "Time", "Test_link",
+        "Correct Answer", "Positive", "Negative", "Time", "Solution", "Test_link",
     ]
     all_rows      = [CSV_HEADERS]
     total_fetched = 0
@@ -545,6 +568,43 @@ def main():
         print(f"    {url}\n")
 
     print("  Done!")
+
+    # ── Git push prompt ──────────────────────────────────────────────
+    print()
+    answer = input("  Push to GitHub now? [y/N]: ").strip().lower()
+    if answer in ("y", "yes"):
+        import subprocess, datetime
+
+        today    = datetime.date.today().strftime("%d %b %Y")
+        names    = ", ".join(tests.keys())
+        msg      = f"sync: {names} ({today})"
+
+        def run_git(*args):
+            result = subprocess.run(
+                ["git"] + list(args),
+                cwd=SCRIPT_DIR,
+                capture_output=True,
+                text=True,
+            )
+            if result.returncode != 0:
+                print(f"  [git error] {result.stderr.strip()}")
+                return False
+            return True
+
+        print()
+        if (run_git("add", "Questions.csv", "index.html") and
+                run_git("commit", "-m", msg) and
+                run_git("push", "new-origin", "main")):
+            print(f"  ✓ Pushed to GitHub — commit: \"{msg}\"")
+            print(f"  ✓ Vercel will auto-deploy in ~30 seconds.")
+        else:
+            print("  ✗ Push failed. Run manually:")
+            print(f'    git add Questions.csv index.html && git commit -m "{msg}" && git push new-origin main')
+    else:
+        print("  Skipped. Run when ready:")
+        names = ", ".join(tests.keys())
+        today = __import__("datetime").date.today().strftime("%d %b %Y")
+        print(f'    git add Questions.csv index.html && git commit -m "sync: {names} ({today})" && git push new-origin main')
 
 
 if __name__ == "__main__":
