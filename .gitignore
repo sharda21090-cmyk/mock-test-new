@@ -1,0 +1,18 @@
+# Environment / secrets — NEVER commit these
+.env
+*.env
+
+# Local QID cache — regenerated on each run; no need to track
+.qid_cache.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

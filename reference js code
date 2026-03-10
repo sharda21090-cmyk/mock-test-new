@@ -1,0 +1,936 @@
+
+var MySheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1")
+var MySheet3 = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet3")
+var lightlogo = '1ojPonXlJaaQ_OjJZLTxH5g8PjultQAu9'
+var darklogo = '1yi8UB1o_0UqHxu2ZqwkVsaqhs1013lRI'
+
+var crOpColor = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().getRange('F2').getValue()
+
+function onOpen() {
+    var ui = SpreadsheetApp.getUi();
+    var menu = ui.createMenu('TB Tools');
+    menu
+        .addItem('Get Data', 'GetQuesDetails')
+        .addItem('Get MultiLang Data', 'multiLang')
+        .addItem('Generate Qs PPT', 'createCustomSlidesFromSheetV28')
+        .addItem('Generate Qs+Ans PPT', 'createCustomSlidesFromSheetV29')
+        .addItem('Generate ML - Qs PPT', 'createCustomSlidesFromSheetM2')
+        .addItem('Generate ML - Qs+Ans PPT', 'createCustomSlidesFromSheetV2M')
+        .addToUi();
+
+}
+
+function addQs() {
+    var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+    var qs = sheet.getRange("C4:C" + sheet.getLastRow()).getValues();
+    Logger.log(qs);
+
+    for (var h = 0; h < qs.length; h++) {
+        var fop1 = "Q" + (h + 1) + ". " + qs[h][0];
+        sheet.getRange(h + 4, 3).setValue(fop1);
+    }
+}
+
+
+
+function createCustomSlidesFromSheetV28() {
+    var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1");
+    var backgroundColor = sheet.getRange('A2').getValue();
+    var fontColor = sheet.getRange('B2').getValue();
+    var data = sheet.getRange("C4:I" + sheet.getLastRow()).getValues();
+    var name = sheet.getRange('C2').getValue();
+    var size = sheet.getRange('D2').getValue();
+    var alignment = sheet.getRange('H2').getValue();
+    var presentationTitle = name;
+    var presentation = SlidesApp.create(presentationTitle);
+
+    var lc = sheet.getRange('E2').getValue();
+
+    var im;
+    if (lc == 'Light') {
+        im = '1ojPonXlJaaQ_OjJZLTxH5g8PjultQAu9'; // Replace 'lightLogoId' with actual ID of the light logo.
+    } else {
+        im = '1yi8UB1o_0UqHxu2ZqwkVsaqhs1013lRI'; // Replace 'darkLogoId' with actual ID of the dark logo.
+    }
+
+    data.forEach(function (rowData) {
+        var slide = presentation.appendSlide(SlidesApp.PredefinedLayout.BLANK);
+        slide.getBackground().setSolidFill(backgroundColor);
+
+        var image = DriveApp.getFileById(im);
+        slide.insertImage(image, 0, 2, 100, 50);
+
+        // Get presentation page width for consistent calculations
+        var slideWidth = presentation.getPageWidth();
+
+        var posX = alignment === "right" ? slideWidth * 0.3 : 20;  // Adjust based on alignment
+        var posY = 40;
+        var maxWidth = alignment === "right" ? slideWidth * 0.7 : slideWidth * 0.7;  // Calculate 70% width
+
+        var combinedTextContent = rowData[0]; // Start with the question.
+
+        // Concatenate options with a newline for spacing.
+        var op5 = rowData[5]
+        Logger.log(op5)
+        Logger.log("op5")
+
+        if (op5 != null) {
+
+            var options = rowData.slice(1, 6);
+            Logger.log(options)
+            Logger.log("options")
+            options.forEach(function (option) {
+                combinedTextContent += "\n\n" + option;
+            });
+        }
+
+        else {
+
+            var options = rowData.slice(1, 5);
+            Logger.log(options)
+            Logger.log("options")
+            options.forEach(function (option) {
+                combinedTextContent += "\n\n" + option;
+            });
+        }
+
+        insertCombinedStyledText(slide, combinedTextContent, posX, posY, maxWidth, size, fontColor);
+    });
+
+    var link = "https://slides.google.com/a/" + presentation.getId();
+    sheet.getRange('G2').setValue(link);
+}
+
+function insertCombinedStyledText(slide, textContent, posX, posY, width, fontSize, fontColor) {
+    var textBox = slide.insertTextBox(textContent, posX, posY, width, 300);
+    var textStyleRange = textBox.getText().getTextStyle();
+    textStyleRange.setFontSize(parseInt(fontSize));
+    textStyleRange.setForegroundColor(fontColor);
+    textStyleRange.setBold(true);
+}
+
+function createCustomSlidesFromSheetM2() {
+    var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet3");
+    var backgroundColor = sheet.getRange('A2').getValue();
+    var fontColor = sheet.getRange('B2').getValue();
+    var data = sheet.getRange("C4:I" + sheet.getLastRow()).getValues();
+    var name = sheet.getRange('C2').getValue();
+    var size = sheet.getRange('D2').getValue();
+    var alignment = sheet.getRange('H2').getValue();
+    var presentationTitle = name;
+    var presentation = SlidesApp.create(presentationTitle);
+
+    var lc = sheet.getRange('E2').getValue();
+
+    var im;
+    if (lc == 'Light') {
+        im = '1ojPonXlJaaQ_OjJZLTxH5g8PjultQAu9'; // Replace 'lightLogoId' with actual ID of the light logo.
+    } else {
+        im = '1yi8UB1o_0UqHxu2ZqwkVsaqhs1013lRI'; // Replace 'darkLogoId' with actual ID of the dark logo.
+    }
+
+    data.forEach(function (rowData) {
+        var slide = presentation.appendSlide(SlidesApp.PredefinedLayout.BLANK);
+        slide.getBackground().setSolidFill(backgroundColor);
+
+        var image = DriveApp.getFileById(im);
+        slide.insertImage(image, 2, 2, 100, 50);
+
+        // Get presentation page width for consistent calculations
+        var slideWidth = presentation.getPageWidth();
+
+        var posX = alignment === "right" ? slideWidth * 0.3 : 20;  // Adjust based on alignment
+        var posY = 40;
+        var maxWidth = alignment === "right" ? slideWidth * 0.7 : slideWidth * 0.7;  // Calculate 70% width
+
+        var combinedTextContent = rowData[0] + "/n/n";
+
+        var op5 = rowData[5]
+        Logger.log(op5)
+        Logger.log("op5")
+
+        if (op5 != null) {
+
+            var options = rowData.slice(1, 6);
+            Logger.log(options)
+            Logger.log("options")
+            options.forEach(function (option) {
+                combinedTextContent += "\n\n" + option;
+            });
+        }
+
+        else {
+
+            var options = rowData.slice(1, 5);
+            Logger.log(options)
+            Logger.log("options")
+            options.forEach(function (option) {
+                combinedTextContent += "\n\n" + option;
+            });
+        }
+
+        insertCombinedStyledText(slide, combinedTextContent, posX, posY, maxWidth, size, fontColor);
+    });
+
+    var link = "https://slides.google.com/a/" + presentation.getId();
+    sheet.getRange('G2').setValue(link);
+}
+
+
+function createCustomSlidesFromSheetV29() {
+    var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1");
+    var data = sheet.getRange("C4:I" + sheet.getLastRow()).getValues();
+
+    Logger.log
+
+    var backgroundColor = sheet.getRange('A2').getValue();
+    var fontColor = sheet.getRange('B2').getValue();
+
+    var name = sheet.getRange('C2').getValue();
+    var size = sheet.getRange('D2').getValue();
+
+    var presentationTitle = name;
+    var presentation = SlidesApp.create(presentationTitle);
+
+    var index = 1;  // Initialize slide index
+
+
+
+    data.forEach(function (rowData) {
+        // Pass the colors and index for the question slide, and increment index afterwards
+        createSlide(presentation, rowData, size, false, backgroundColor, fontColor, "Q" + index);
+        Logger.log("slide1");
+        Utilities.sleep(500);
+        // Pass the colors and index for the answer slide
+        createSlide(presentation, rowData, size, true, backgroundColor, fontColor, "Ans " + index);
+        index++;
+    });
+
+    var link = "https://slides.google.com/a/" + presentation.getId();
+    sheet.getRange('G2').setValue(link);
+}
+
+function createSlide(presentation, rowData, size, highlightCorrectOption, backgroundColor, fontColor, titlePrefix) {
+    var slide = presentation.appendSlide(SlidesApp.PredefinedLayout.BLANK);
+
+    var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+
+    var lc = sheet.getRange('E2').getValue();
+    var qno = sheet.getRange('I2').getValue();
+
+
+    slide.getBackground().setSolidFill(backgroundColor);
+
+    var posX = 20;
+    var posY = 40;
+    var maxWidth = 650;
+    var alignment = sheet.getRange('H2').getValue();
+
+    // Assume lightlogo and darklogo are defined somewhere in your script
+    var im = (lc == 'Light') ? lightlogo : darklogo;
+
+    var image = DriveApp.getFileById(im);
+    slide.insertImage(image, 2, 2, 100, 50);
+
+    var slideWidth = presentation.getPageWidth();
+
+    posX = alignment === "right" ? slideWidth * 0.3 : 20;  // Adjust based on alignment
+    posY = 40;
+    maxWidth = alignment === "right" ? slideWidth * 0.7 : slideWidth * 0.7;  // Calculate 70% width
+
+    // Add the titlePrefix ("Q" or "Ans") to the beginning of the question text
+
+    if (qno == "Yes") {
+        var question = titlePrefix + ". " + rowData[0];
+    }
+    else {
+        var question = rowData[0];
+    }
+    //var options = rowData.slice(1, 5);
+    var correctOptionIndex = rowData[6] - 1; // Adjusting because sheet indices start at 1
+    var textContent = question + '\n\n';
+    // options.forEach(function (option, index) {
+    //   textContent += option + '\n';
+    // });
+
+    var op5 = rowData[5]
+    Logger.log(op5)
+    Logger.log("op5")
+
+    var options = op5 != null ? rowData.slice(1, 6) : rowData.slice(1, 5);
+    options.forEach(function (option, index) {
+        // If this is the correct option, prepend and append '**' to highlight it
+        if (highlightCorrectOption && index == correctOptionIndex) {
+            textContent += "**" + option + "**" + '\n';
+        } else {
+            textContent += option + '\n';
+        }
+    });
+
+    // Modifications to insertCombinedStyledTexta or its replacement function may be needed
+    // Assuming insertCombinedStyledTexta is a custom function handling text styling and insertion
+    posY += insertCombinedStyledTexta(slide, textContent, posX, posY, maxWidth, 50, size, fontColor, highlightCorrectOption);
+}
+
+function insertCombinedStyledTexta(slide, textContent, posX, posY, width, initialHeight, fontSize, fontColor, highlightCorrectOption) {
+    var lines = textContent.split('\n');
+    var lineHeight = fontSize * 1.2; // Estimate line height
+    var adjustedHeight = lines.length * lineHeight + 20; // Add some padding
+    var cleanTextContent = textContent.replace(/^\*\*|\*\*$/gm, ''); // Remove ** markers for insertion
+
+    var textBox = slide.insertTextBox(cleanTextContent, posX, posY, width, adjustedHeight);
+    var textStyle = textBox.getText().getTextStyle();
+    textStyle.setBold(true);
+    textStyle.setFontSize(parseInt(fontSize));
+    textStyle.setForegroundColor(fontColor); // Set default color
+
+    Logger.log(crOpColor)
+
+    if (highlightCorrectOption) {
+        var currentOffset = 0;
+        lines.forEach(function (line) {
+            var isCorrectOptionLine = line.startsWith("**");
+            if (isCorrectOptionLine) {
+                var correctedLine = line.replace(/^\*\*|\*\*$/g, ''); // Remove ** for length calculation
+                var start = currentOffset;
+                var end = start + correctedLine.length;
+                // Apply highlighting to this range
+                var range = textBox.getText().getRange(start, end);
+                range.getTextStyle().setForegroundColor(crOpColor).setBold(true); // Use a specific color for highlighting
+                currentOffset += correctedLine.length + 1; // Adjust offset considering newline
+            } else {
+                currentOffset += line.length + 1; // Adjust for lines without **
+            }
+        });
+    }
+
+    // Adjust height properly based on content
+    return adjustedHeight;
+}
+
+
+
+function createCustomSlidesFromSheetV29aa() {
+    var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1");
+    var data = sheet.getRange("C4:I" + sheet.getLastRow()).getValues();
+
+    // Fetch background and font colors from the Spreadsheet
+    var backgroundColor = sheet.getRange('A2').getValue();
+    var fontColor = sheet.getRange('B2').getValue();
+
+    var data = sheet.getRange("C4:I" + sheet.getLastRow()).getValues();
+    var name = sheet.getRange('C2').getValue();
+    var size = sheet.getRange('D2').getValue();
+
+
+    var presentationTitle = name;
+    var presentation = SlidesApp.create(presentationTitle);
+
+    data.forEach(function (rowData) {
+        // Pass the colors to the createSlide function
+        createSlide(presentation, rowData, size, false, backgroundColor, fontColor);
+        Logger.log("slide1")
+        Utilities.sleep(500)
+        createSlide(presentation, rowData, size, true, backgroundColor, fontColor);
+    });
+
+    var link = "https://slides.google.com/a/" + presentation.getId();
+    sheet.getRange('G2').setValue(link);
+}
+
+function createSlideaa(presentation, rowData, size, highlightCorrectOption, backgroundColor, fontColor) {
+    var slide = presentation.appendSlide(SlidesApp.PredefinedLayout.BLANK);
+
+    var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+
+    var lc = sheet.getRange('E2').getValue()
+
+    slide.getBackground().setSolidFill(backgroundColor);
+
+    var posX = 20;
+    var posY = 40;
+    var maxWidth = 650;
+    var alignment = sheet.getRange('H2').getValue();
+
+
+    if (lc == 'Light') {
+        var im = lightlogo
+    }
+    else {
+        var im = darklogo
+    }
+
+    var image = DriveApp.getFileById(im);
+    slide.insertImage(image, 2, 2, 100, 50);
+
+    var slideWidth = presentation.getPageWidth();
+
+    var posX = 20;
+    var posY = 40;
+    var maxWidth = 650;
+
+    // if (alignment === "right") {
+    //   posX = 230;
+    //   maxWidth = 440;
+    // }
+
+
+
+    var posX = alignment === "right" ? slideWidth * 0.3 : 20;  // Adjust based on alignment
+    var posY = 40;
+    var maxWidth = alignment === "right" ? slideWidth * 0.7 : slideWidth * 0.7;  // Calculate 70% width
+
+    // Concatenate question and options, highlighted if needed
+    var question = rowData[0];
+    var options = rowData.slice(1, 5);
+    var correctOptionIndex = rowData[6] - 1; // Adjusting because sheet indices start at 1
+    var textContent = question + '\n\n';
+    options.forEach(function (option, index) {
+        if (index === correctOptionIndex) {
+            textContent += "**" + option + "**\n";
+        } else {
+            textContent += option + '\n';
+        }
+    });
+
+    // Use modified insertStyledText to insert all text in a single box, looking for **
+    posY += insertCombinedStyledTexta(slide, textContent, posX, posY, maxWidth, 50, size, fontColor, highlightCorrectOption);
+}
+
+function createCustomSlidesFromSheetV2M() {
+    var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet3");
+    var data = sheet.getRange("C4:I" + sheet.getLastRow()).getValues();
+
+    Logger.log
+
+    var backgroundColor = sheet.getRange('A2').getValue();
+    var fontColor = sheet.getRange('B2').getValue();
+
+    var name = sheet.getRange('C2').getValue();
+    var size = sheet.getRange('D2').getValue();
+
+    var presentationTitle = name;
+    var presentation = SlidesApp.create(presentationTitle);
+
+    var index = 1;  // Initialize slide index
+
+    data.forEach(function (rowData) {
+        // Pass the colors and index for the question slide, and increment index afterwards
+        createSlide(presentation, rowData, size, false, backgroundColor, fontColor, "Q" + index);
+        Logger.log("slide1");
+        Utilities.sleep(500);
+        // Pass the colors and index for the answer slide
+        createSlide(presentation, rowData, size, true, backgroundColor, fontColor, "Ans " + index);
+        index++;
+    });
+
+    var link = "https://slides.google.com/a/" + presentation.getId();
+    sheet.getRange('G2').setValue(link);
+}
+
+
+function insertStyledText(slide, text, x, y, width, height, fontSize, fontColor) {
+    // This function needs to insert the text into the slide with the given styles.
+    // Consider this a placeholder for your implementation.
+    var textBox = slide.insertTextBox(text, x, y, width, height);
+    var textStyle = textBox.getText().getTextStyle();
+    textStyle.setFontSize(fontSize);
+    textStyle.setForegroundColor(fontColor);
+    // Adjust textStyle further as needed.
+}
+
+
+function checker() {
+    MySheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet()
+    var lastRow3 = MySheet.getLastRow();
+    var statement = MySheet.getRange('C4:C' + lastRow3).getValues()
+    var op1 = MySheet.getRange('D4:D' + lastRow3).getValues()
+    Logger.log(op1)
+    var op2 = MySheet.getRange('E4:E' + lastRow3).getValues()
+    var op3 = MySheet.getRange('F4:F' + lastRow3).getValues()
+    var op4 = MySheet.getRange('G4:G' + lastRow3).getValues()
+    var op5 = MySheet.getRange('H4:H' + lastRow3).getValues()
+    var cop = MySheet.getRange('I4:I' + lastRow3).getValues()
+    var sol = MySheet.getRange('J4:J' + lastRow3).getValues()
+    for (o = 0; 0 < statement.length; o++) {
+        var sta = statement[o]
+        var fop1 = op1[o][0]
+        Logger.log(fop1)
+        Logger.log("option1")
+        var fop2 = op2[o][0]
+        var fop3 = op3[o][0]
+        var fop4 = op4[o][0]
+        var fop5 = op5[o][0]
+        var fsol = sol[o]
+        Logger.log(fsol)
+        var finstatement = convertMathAndRemoveHtml(sta)
+        var fop1 = "1) " + convertMathAndRemoveHtml(fop1)
+        var fop2 = "2) " + convertMathAndRemoveHtml(fop2)
+        var fop3 = "3) " + convertMathAndRemoveHtml(fop3)
+        var fop4 = "4) " + convertMathAndRemoveHtml(fop4)
+        Logger.log(fop5)
+        Logger.log("op5")
+        if (fop5 == null || fop5 == '') {
+            var fop5 = null
+        }
+        else {
+
+            var fop5 = "5) " + convertMathAndRemoveHtml(fop5)
+        }
+        MySheet.getRange(o + 4, 3).setValue(finstatement)
+        MySheet.getRange(o + 4, 4).setValue(fop1)
+        MySheet.getRange(o + 4, 5).setValue(fop2)
+        MySheet.getRange(o + 4, 6).setValue(fop3)
+        MySheet.getRange(o + 4, 7).setValue(fop4)
+        MySheet.getRange(o + 4, 8).setValue(fop5)
+    }
+}
+
+
+function convertMathAndRemoveHtml5(htmlBlock) {
+
+    htmlBlock = htmlBlock.toString().replace(/&amp;/g, '&')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&quot;/g, '"')
+        .replace(/&#39;/g, '\'')
+        .replace(/&nbsp;/g, ' ')
+        .replace(/&radic;/g, "√")
+        .replace(/~/g, ' ')
+        .replace(/&infin;,/g, "∞")
+        .replace(/\\theta/g, "θ")
+        .replace(/\\left/g, '')
+        .replace(/\\right/g, '')
+        .replace(/\\cos/g, 'cos')
+        .replace(/\\sin/g, 'sin')
+        .replace(/\\alpha/g, "α")
+        .replace(/\\&deg; /g, "°")
+        .replace(/\\begin{array}{[^}]*}/g, '(')
+        .replace(/\\end{array}/g, ')')
+        .replace(/&lsquo;/g, "'")
+        .replace(/&ldquo;/g, '"')
+        .replace(/&rdquo;/g, '"')
+        .replace(/&rsquo;/g, "'")
+        .replace(/&minus;/g, "-")
+        .replace(/\\\\/g, '; ')
+        .replace(/&prop;/g, '∝')
+        .replace(/&deg;/g, 'º')
+        .replace(/&ordm;/g, 'º')
+        .replace(/&times;/g, '×')
+        .replace(/&Delta;/g, "Δ")
+        .replace(/&divide;/g, '÷') //∠
+        .replace(/&ang;/g, '∠')
+
+    htmlBlock = htmlBlock.replace(/<[^>]+>/g, '');
+
+    // htmlBlock = htmlBlock.replace(/_\\?{?(\d+)}?/g, function (match, p1) {
+    //   return digitToSubscript(p1);
+    // });
+
+
+    htmlBlock = htmlBlock.replace(/\\\(/g, '').replace(/\\\)/g, '');
+
+
+    htmlBlock = htmlBlock.replace(/\\rm\s*/g, '');
+
+
+    htmlBlock = htmlBlock.replace(/\\frac{([^}]+)}{([^}]+)}/g, "($1)/($2)");
+
+    // htmlBlock = htmlBlock.replace(/<sup>([^<]+)<\/sup>/g, "^($1)");
+
+    // // Handle subscript tags (improved)
+    // htmlBlock = htmlBlock.replace(/<sub>([^<]+)<\/sub>/g, "($1)").replace(/<sup>(.*?)<\/sup>/g, "^($1)")
+    //   .replace(/<sub>(.*?)<\/sub>/g, "_($1)");
+
+
+
+    // Generic superscript and subscript handling
+    htmlBlock = htmlBlock.replace(/([^\s\d\-+\*/])\^([^<]+)/g, "$1^($2)");
+    htmlBlock = htmlBlock.replace(/([^\s\d\-+\*/])_([^<]+)/g, "$1_($2)");
+
+
+    htmlBlock = htmlBlock.replace(/\\sqrt{([^}]+)}/g, "√($1)");
+
+
+    htmlBlock = htmlBlock.replace(/\\sqrt\[3\]{([^}]+)}/g, "∛($1)");
+
+
+    htmlBlock = htmlBlock.replace(/\^{([^}]+)}/g, "^($1)");
+
+    htmlBlock = htmlBlock.replace(/([^\s\d\-+\*/])_([^<]+)/g, "$1_($2)");
+
+
+    // const inequalities = {
+    //   "\\ge": "≥",
+    //   "\\le": "≤",
+    //   "\\ne": "≠",
+    //   "\\>": ">", // Ensure direct LaTeX symbol replacements
+    //   "\\<": "<"
+    // };
+    // for (const [key, value] of Object.entries(inequalities)) {
+    //   htmlBlock = htmlBlock.replace(new RegExp(key, 'g'), value);
+    // }
+
+
+    htmlBlock = htmlBlock.replace(/\\(cos|sin|tan|sec|csc|cot)\{([^}]+)\}/g, "$1($2)");
+
+
+    const simpleReplacements = {
+        "\\\\times": "×",
+        "\\\\cdot": "⋅",
+        "\\\\div": "÷",
+        "\\\\pm": "±",
+        "\\\\theta": "θ",
+    };
+
+    Object.keys(simpleReplacements).forEach((key) => {
+        const re = new RegExp(key, 'g');
+        htmlBlock = htmlBlock.replace(re, simpleReplacements[key]);
+    });
+
+
+    htmlBlock = htmlBlock.replace(/\\([^a-zA-Z])/g, "$1")
+    htmlBlock = htmlBlock.replace(/(\d+)_{([^<]+)}/g, "($1)_($2)");
+
+    return htmlBlock;
+}
+
+function convertMathAndRemoveHtml(htmlBlock) {
+
+    htmlBlock = htmlBlock.toString().replace(/&amp;/g, '&')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&quot;/g, '"')
+        .replace(/&#39;/g, '\'')
+        .replace(/&nbsp;/g, ' ')
+        .replace(/&radic;/g, "√")
+        .replace(/~/g, ' ')
+        .replace(/&infin;,/g, "∞")
+        .replace(/\\theta/g, "θ")
+        .replace(/\\left/g, '')
+        .replace(/\\right/g, '')
+        .replace(/\\cos/g, 'cos')
+        .replace(/\\sin/g, 'sin')
+        .replace(/\\alpha/g, "α")
+        .replace(/\\&deg; /g, "°")
+        .replace(/&lsquo;/g, "'")
+        .replace(/&ldquo;/g, '"')
+        .replace(/&rdquo;/g, '"')
+        .replace(/&rsquo;/g, "'")
+        .replace(/&minus;/g, "-")
+        .replace(/&amp;/g, '&')
+        .replace(/\\\\/g, '; ')
+        .replace(/&prop;/g, '∝')
+        .replace(/&deg;/g, 'º')
+        .replace(/&ordm;/g, 'º')
+        .replace(/&times;/g, '×')
+        .replace(/&Delta;/g, "Δ")
+        .replace(/&divide;/g, '÷')
+        .replace(/&ang;/g, '∠')
+
+    htmlBlock = htmlBlock.replace(/<[^>]+>/g, '');
+
+    htmlBlock = htmlBlock.replace(/\\\(/g, '').replace(/\\\)/g, '');
+
+    htmlBlock = htmlBlock.replace(/\\rm\s*/g, '');
+
+    htmlBlock = htmlBlock.replace(/\\frac{([^}]+)}{([^}]+)}/g, "($1)/($2)");
+
+    htmlBlock = htmlBlock.replace(/<sup>([^<]+)<\/sup>/g, "^($1)");
+
+    htmlBlock = htmlBlock.replace(/\\sqrt{([^}]+)}/g, "√($1)");
+
+    htmlBlock = htmlBlock.replace(/\\sqrt\[3\]{([^}]+)}/g, "∛($1)");
+
+    htmlBlock = htmlBlock.replace(/\^{([^}]+)}/g, "^($1)");
+
+    htmlBlock = htmlBlock.replace(/\\(cos|sin|tan|sec|csc|cot)\{([^}]+)\}/g, "$1($2)");
+
+    const simpleReplacements = {
+        "\\\\times": "×",
+        "\\\\cdot": "⋅",
+        "\\\\div": "÷",
+        "\\\\pm": "±",
+        "\\\\theta": "θ",
+    };
+
+    Object.keys(simpleReplacements).forEach((key) => {
+        const re = new RegExp(key, 'g');
+        htmlBlock = htmlBlock.replace(re, simpleReplacements[key]);
+    });
+
+    htmlBlock = htmlBlock.replace(/\\([^a-zA-Z])/g, "$1");
+
+    return htmlBlock;
+}
+
+
+
+function GetQuesDetails() {
+    authCode = "Bearer " + autoLogin();
+    var headers = {
+        "Authorization": authCode,
+        "Content-Type": "application/json"
+    }
+    var lastrow = MySheet.getLastRow()
+    var qids = MySheet.getRange("A4:A" + lastrow).getValues();
+    var lang = MySheet.getRange("B4:B" + lastrow).getValues();
+    for (var i = 0; i < qids.length; i++) {
+        var qid = qids[i][0]
+        var lan = lang[i][0]
+        //lan = JSON.stringify(lans)
+        // Logger.log(lan)
+        var url = 'https://lms-api.testbook.com/api/v2/questions/get?language=All&limit=1&skip=0'
+        var formdata = '{"role": "admin", "ids": ["' + qid + '"]}'
+        var response = callApi(url, "post", formdata, headers, "GetQuesDetails");
+        var data = response.getContentText();
+        var parseResponse = JSON.parse(data);
+        var fullData = parseResponse.data;
+        var x = fullData['questions'][0]
+        var a = x[lan]['value']
+        var co1 = x[lan]['co']
+        var b = x[lan]['options'][0]['value']
+        var c = x[lan]['options'][1]['value']
+        var d = x[lan]['options'][2]['value']
+        var e = x[lan]['options'][3]['value']
+        var op5 = x[lan]['options'][4]
+        if (op5 != null) {
+            var g = x[lan]['options'][4]['value']
+        }
+        else {
+            var g = ""
+        }
+        Logger.log(a)
+        Logger.log(b)
+        Logger.log(c)
+        Logger.log(d)
+        Logger.log(e)
+        Logger.log(g)
+        var y = x[lan]['sol']
+        if (y != null) {
+            var f = y[0]['value']
+        }
+        Logger.log(f)
+        Logger.log("f")
+        MySheet.getRange(i + 4, 3).setValue(a)
+        MySheet.getRange(i + 4, 4).setValue(b)
+        MySheet.getRange(i + 4, 5).setValue(c)
+        MySheet.getRange(i + 4, 6).setValue(d)
+        MySheet.getRange(i + 4, 7).setValue(e)
+        MySheet.getRange(i + 4, 8).setValue(g)
+        MySheet.getRange(i + 4, 9).setValue(co1)
+
+    }
+
+    Utilities.sleep(500)
+    checker();
+
+}
+
+function multiLang() {
+    authCode = "Bearer " + autoLogin();
+    var headers = {
+        "Authorization": authCode,
+        "Content-Type": "application/json"
+    }
+    var lastrow = MySheet3.getLastRow()
+    var qids = MySheet3.getRange("A4:A" + lastrow).getValues();
+    var lang = MySheet3.getRange("B4:B" + lastrow).getValues();
+    for (var i = 0; i < qids.length; i++) {
+        var qid = qids[i][0]
+        var lan = lang[i][0].split(',')
+        //lan = JSON.stringify(lans)
+        // Logger.log(lan)
+        var url = 'https://lms-api.testbook.com/api/v2/questions/get?language=All&limit=1&skip=0'
+        var formdata = '{"role": "admin", "ids": ["' + qid + '"]}'
+        var response = callApi(url, "post", formdata, headers, "GetQuesDetails");
+        var data = response.getContentText();
+        var parseResponse = JSON.parse(data);
+        var fullData = parseResponse.data;
+        var x = fullData['questions'][0]
+        var a = x[lan[0]]['value']
+        var co1 = x[lan[0]]['co']
+        Logger.log(co1)
+        Logger.log("co1")
+        var b = x[lan[0]]['options'][0]['value']
+        var c = x[lan[0]]['options'][1]['value']
+        var d = x[lan[0]]['options'][2]['value']
+        var e = x[lan[0]]['options'][3]['value']
+        var op5 = x[lan[0]]['options'][4]
+        Logger.log(op5)
+        if (op5 == null) {
+            var g = ""
+        }
+        else {
+            var g = op5['value']
+            Logger.log(g)
+        }
+
+
+        var aa = x[lan[1]]['value']
+        var ab = x[lan[1]]['options'][0]['value']
+        var ac = x[lan[1]]['options'][1]['value']
+        var ad = x[lan[1]]['options'][2]['value']
+        var ae = x[lan[1]]['options'][3]['value']
+        var aop5 = x[lan[1]]['options'][4]
+        if (aop5 == null) {
+            var ag = ""
+        }
+        else {
+            var ag = aop5['value']
+        }
+
+
+        var fa = a + '\n' + aa
+
+        if (b == ab) {
+            var fb = b
+        }
+        else {
+            var fb = b + ' / ' + ab
+        }
+        if (c == ac) {
+            var fc = c
+        }
+        else {
+            var fc = c + ' / ' + ac
+        }
+        if (d == ad) {
+            var fd = d
+        }
+        else {
+            var fd = d + ' / ' + ad
+        }
+        if (e == ae) {
+            var fe = e
+        }
+        else {
+            var fe = e + ' / ' + ae
+        }
+        if (g != null) {
+            if (g == ag) {
+                var ff = g
+            }
+            else {
+                var ff = g + ' / ' + ag
+            }
+        }
+        else {
+            var ff = null
+        }
+
+        MySheet3.getRange(i + 4, 3).setValue(fa)
+        MySheet3.getRange(i + 4, 4).setValue(fb)
+        MySheet3.getRange(i + 4, 5).setValue(fc)
+        MySheet3.getRange(i + 4, 6).setValue(fd)
+        MySheet3.getRange(i + 4, 7).setValue(fe)
+        MySheet3.getRange(i + 4, 8).setValue(ff)
+        MySheet3.getRange(i + 4, 9).setValue(co1)
+
+    }
+    Utilities.sleep(500)
+
+    checker();
+}
+
+function loginToLMS() {
+    var ui = SpreadsheetApp.getUi();
+    var address = 'http://lms-api.testbook.com'
+    var lms_sign = address + '/api/v2/admin/login'
+    var ui = SpreadsheetApp.getUi();
+
+    var userChoice = ui.alert("Confirm", "Do you want to use any other LMS account?", ui.ButtonSet.YES_NO);
+    if (userChoice == ui.Button.YES) {
+        var lmsEmail = ui.prompt("Enter email used in LMS", "", ui.ButtonSet.OK_CANCEL);
+        var password = ui.prompt("Enter LMS password", "", ui.ButtonSet.OK_CANCEL);
+        var otp = ui.prompt("Enter OTP", "", ui.ButtonSet.OK_CANCEL);
+        var email = lmsEmail.getResponseText();
+        var pass = password.getResponseText();
+        var gOTP = otp.getResponseText();
+    }
+
+    else {
+
+
+        var password = ui.prompt("Enter LMS password", "", ui.ButtonSet.OK_CANCEL);
+        var otp = ui.prompt("Enter OTP", "", ui.ButtonSet.OK_CANCEL);
+        var email = Session.getEffectiveUser().getEmail();
+        var pass = password.getResponseText();
+        var gOTP = otp.getResponseText();
+
+    }
+    var sign_data = {
+        'email': email,
+        'password': pass,
+        'otp': gOTP
+    }
+    authCode = callApi(lms_sign, "post", sign_data, null, "loginToLMS").token;
+    return authCode;
+}
+
+
+function autoLogin() {
+    var em = PropertiesService.getScriptProperties().getProperty('email');
+    var ps = PropertiesService.getScriptProperties().getProperty('pass');
+    var address = 'http://lms-api.testbook.com'
+    var lms_sign = address + '/api/v2/admin/login'
+    Logger.log(lms_sign)
+    var sign_data = {
+        'email': em,
+        'password': ps,
+        'otp': ""
+    }
+    authCode1 = callApi(lms_sign, "post", sign_data, null, "autoLogin").token;
+    Logger.log(authCode1)
+    return authCode1;
+}
+
+
+function callApi(targetURL, method, formData, headers, functionName) {
+    var options = {
+        "method": method,
+        "payload": formData,
+        "headers": headers
+    }
+    try {
+        var response = UrlFetchApp.fetch(targetURL, options);
+    } catch (error) {
+        return false;
+    }
+
+    if (typeof response !== undefined && typeof response.token !== undefined)
+        if (functionName == "getResult") {
+            return response;
+        }
+        else if (functionName == "loginToLMS") {
+            return JSON.parse(response.getContentText()).data;
+        }
+        else if (functionName == "autoLogin") {
+            return JSON.parse(response.getContentText()).data;
+        }
+        else if (functionName == "addSoln") {
+            return response;
+        }
+        else if (typeof response !== undefined && typeof response.token !== undefined)
+            if (functionName == "GetQuesDetails") {
+                return response;
+            }
+            else if (typeof response !== undefined && typeof response.token !== undefined)
+                if (functionName == "engHindi") {
+                    return response;
+                }
+                else if (typeof response !== undefined && typeof response.token !== undefined)
+                    if (functionName == "getResult1") {
+                        return response;
+                    }
+    if (functionName == "ChatGPT") {
+        return response.getContentText()
+    }
+    else {
+        return false;
+
+    }
+
+
+
+}
