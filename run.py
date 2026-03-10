@@ -48,7 +48,7 @@ LMS_PASSWORD = os.getenv("LMS_PASSWORD", "")
 QID_SHEET_ID  = "1yZAwshv5r5m-sK1JRyGXb0xWlMKcS219rzU7qWpPPN8"
 QID_SHEET_GID = "0"
 
-VERCEL_DOMAIN = "https://mock-test-kappa.vercel.app"
+VERCEL_DOMAIN = "https://mock-test-new.vercel.app"
 
 # Defaults (used when not overridden per test)
 DEFAULT_POSITIVE      = 2.0
