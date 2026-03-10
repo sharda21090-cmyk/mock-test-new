@@ -571,6 +571,10 @@ def main():
 
     # ── Git push prompt ──────────────────────────────────────────────
     print()
+    if os.getenv("CI") or os.getenv("GITHUB_ACTIONS"):
+        print("  Running in CI environment — skipping interactive git push.")
+        sys.exit(0)
+
     answer = input("  Push to GitHub now? [y/N]: ").strip().lower()
     if answer in ("y", "yes"):
         import subprocess, datetime
@@ -598,13 +602,13 @@ def main():
             print(f"  ✓ Pushed to GitHub — commit: \"{msg}\"")
             print(f"  ✓ Vercel will auto-deploy in ~30 seconds.")
         else:
-            print("  ✗ Push failed. Run manually:")
-            print(f'    git add Questions.csv index.html && git commit -m "{msg}" && git push new-origin main')
+            print("  ✗ Push failed. Run manually (PowerShell compatible):")
+            print(f'    git add Questions.csv index.html; git commit -m "{msg}"; git push new-origin main')
     else:
-        print("  Skipped. Run when ready:")
+        print("  Skipped. Run when ready (PowerShell compatible):")
         names = ", ".join(tests.keys())
         today = __import__("datetime").date.today().strftime("%d %b %Y")
-        print(f'    git add Questions.csv index.html && git commit -m "sync: {names} ({today})" && git push new-origin main')
+        print(f'    git add Questions.csv index.html; git commit -m "sync: {names} ({today})"; git push new-origin main')
 
 
 if __name__ == "__main__":
