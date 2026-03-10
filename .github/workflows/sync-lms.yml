@@ -41,4 +41,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Automated Sync from Google Sheet"
-          file_pattern: 'Questions.csv index.html .qid_cache.json'
+          file_pattern: 'Questions.csv index.html'
