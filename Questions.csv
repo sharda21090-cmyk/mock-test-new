@@ -1,23 +1,35 @@
 test_id,Statement,Option 1,Option 2,Option 3,Option 4,Correct Answer,Positive,Negative,Time,Test_link
 Reasoning Qiz 10 March,"&lt;p&gt;Select the option that is related to the third term in the same way as the second term is related to the first term.&lt;/p&gt;
 
-&lt;p&gt;Tea : Leaves :: Coffee : ?&lt;/p&gt;",Leaves&amp;nbsp; / ,Powder / ,Beans&amp;nbsp; / ,Plant / ,3,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
-Reasoning Qiz 10 March,"In a certain code language, &amp;lsquo;HARRY&amp;rsquo; is written as &amp;lsquo;IZSQZ&amp;rsquo; What is the code for &amp;lsquo;POTTER&amp;rsquo; in that code language?",SNSUDS / ,QNSUFS / ,QNUSFQ / ,SNUSDQ / ,3,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
-Reasoning Qiz 10 March,"If it was Friday on 8 March 1996, then what will be the day of the week on 7 April 2006?",Saturday / ,Wednesday / ,Thursday / ,Friday / ,4,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
+&lt;p&gt;Tea : Leaves :: Coffee : ?&lt;/p&gt;<br>&lt;p style=&quot;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;उस विकल्प का चयन करें जो तीसरे पद से उसी प्रकार संबंधित है जिस प्रकार दूसरा पद पहले पद से संबंधित है।&lt;/font&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;चाय : पत्तियां :: कॉफी : ?&lt;/font&gt;&lt;/p&gt;",Leaves&amp;nbsp; / पत्तियां&amp;nbsp;,Powder / &lt;span style=&quot;&quot;&gt;पाउडर&lt;/span&gt;,Beans&amp;nbsp; / फलियाँ&amp;nbsp;,Plant / &lt;span style=&quot;&quot;&gt;पौधा&lt;/span&gt;,3,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
+Reasoning Qiz 10 March,"In a certain code language, &amp;lsquo;HARRY&amp;rsquo; is written as &amp;lsquo;IZSQZ&amp;rsquo; What is the code for &amp;lsquo;POTTER&amp;rsquo; in that code language?<br>एक निश्चित कूट भाषा में, &amp;#39;HARRY&amp;#39; को &amp;#39;IZSQZ&amp;#39; के रूप में लिखा जाता है, उस कूट भाषा में &amp;#39;POTTER&amp;#39; के लिए क्या कूट होगा?",SNSUDS,QNSUFS,QNUSFQ,SNUSDQ,3,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
+Reasoning Qiz 10 March,"If it was Friday on 8 March 1996, then what will be the day of the week on 7 April 2006?<br>यदि 8 मार्च 1996 को शुक्रवार था, तो 7 अप्रैल 2006 को सप्ताह का कौन-सा दिन होगा?",Saturday / शनिवार&amp;nbsp;,Wednesday / बुधवार&amp;nbsp;,Thursday / गुरुवार&amp;nbsp;,Friday / शुक्रवार&amp;nbsp;,4,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
 Reasoning Qiz 10 March,"&lt;p&gt;Select the option that is related to the fifth term in the same way as the fourth term is related to the third term and the second term is related to the first term.&lt;/p&gt;
 
-&lt;p&gt;&lt;span style=&quot;&quot;&gt;EXTEND&amp;nbsp;: GTZWXR :: MARKED : OWXCOR :: HIDDEN: ?&lt;/span&gt;&lt;/p&gt;",JEJVOB / ,JEEOVB / ,BOJEOV / ,JEOVOC / ,1,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;EXTEND&amp;nbsp;: GTZWXR :: MARKED : OWXCOR :: HIDDEN: ?&lt;/span&gt;&lt;/p&gt;<br>&lt;p&gt;&lt;span style=&quot;&quot;&gt;उस विकल्प का चयन कीजिए जो पाँचवें पद से उसी प्रकार संबंधित है, जिस प्रकार चौथा पद, तीसरे पद से &lt;/span&gt;संबंधित&amp;nbsp;&lt;span style=&quot;&quot;&gt;है और दूसरा पद, पहले पद से &lt;/span&gt;संबंधित&amp;nbsp;&lt;span style=&quot;&quot;&gt;है।&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;EXTEND&amp;nbsp;: GTZWXR :: MARKED : OWXCOR :: HIDDEN: ?&lt;/p&gt;",JEJVOB,JEEOVB,BOJEOV,JEOVOC,1,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
 Reasoning Qiz 10 March,"&lt;p&gt;Select the combination of letters that when sequentially placed in the blanks of the given series will complete the series.&lt;/p&gt;
 
-&lt;p&gt;K _ T Z _ Y _ N&amp;nbsp;_ Z O _ K _ T _ O Y&lt;/p&gt;",N O T T Y N Z / ,N N K T Y K Z / ,N O T Y K N Z / ,N O K T Y N Z / ,4,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
+&lt;p&gt;K _ T Z _ Y _ N&amp;nbsp;_ Z O _ K _ T _ O Y&lt;/p&gt;<br>&lt;p&gt;अक्षरों के उस संयोजन का चयन कीजिए जिसे दी गई शृंखला के रिक्त स्थानों में क्रमिक रूप से रखने पर &lt;span style=&quot;&quot;&gt;शृंखला&lt;/span&gt; पूर्ण हो जाएगी।&lt;/p&gt;
+
+&lt;p&gt;K _ T Z _ Y _ N _ Z O _ K _ T _ O Y&lt;/p&gt;",N O T T Y N Z,N N K T Y K Z,N O T Y K N Z,N O K T Y N Z,4,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
 Reasoning Qiz 10 March,"&lt;p&gt;What is missing term in the following series?&lt;/p&gt;
 
-&lt;p&gt;2, 14, 18, ?, 82, 174,&lt;/p&gt;",52 / ,46 / ,36 / ,62 / ,2,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
+&lt;p&gt;2, 14, 18, ?, 82, 174,&lt;/p&gt;<br>&lt;p&gt;निम्नलिखित&amp;nbsp;श्रेणी में लुप्त पद क्या है?&lt;/p&gt;
+
+&lt;p&gt;2, 14, 18, ?, 82, 174,&lt;/p&gt;",52,46,36,62,2,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
 Reasoning Qiz 10 March,"&lt;p&gt;&lt;span data-sheets-userformat=&quot;{&amp;quot;2&amp;quot;:33560960,&amp;quot;10&amp;quot;:1,&amp;quot;11&amp;quot;:4,&amp;quot;14&amp;quot;:[null,2,0],&amp;quot;15&amp;quot;:&amp;quot;Calibri&amp;quot;,&amp;quot;28&amp;quot;:1}&quot; data-sheets-value=&quot;{&amp;quot;1&amp;quot;:2,&amp;quot;2&amp;quot;:&amp;quot;Select the related number from the given alternatives.&amp;quot;}&quot; style=&quot;color: rgb(0, 0, 0);  &quot;&gt;Select the related number from the given alternatives.&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;25 : 225 : : 43 : ?&lt;/p&gt;",&lt;span style=&quot;&quot;&gt;383&lt;/span&gt; / ,&lt;span style=&quot;&quot;&gt;485&lt;/span&gt; / ,&lt;span style=&quot;&quot;&gt;484&lt;/span&gt; / ,387 / ,4,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
-Reasoning Qiz 10 March,Which of the following options is fourth to the right of the twelfth letter from the right in a forward alphabet series?,P / ,K / ,S / ,H / ,3,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
+&lt;p&gt;25 : 225 : : 43 : ?&lt;/p&gt;<br>&lt;p&gt;दिए गए विकल्पों में से संबंधित संख्या का चयन कीजिए।&lt;/p&gt;
+
+&lt;p&gt;25 : 225 : : 43 : ?&lt;/p&gt;",&lt;span style=&quot;&quot;&gt;383&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;485&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;484&lt;/span&gt;,387,4,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
+Reasoning Qiz 10 March,"Which of the following options is fourth to the right of the twelfth letter from the right in a forward alphabet series?<br>निम्नलिखित में से कौन-सा विकल्प, अग्रिम वर्णमाला शृंखला में दाएँ से बारहवें अक्षर के दाएँ ओर से चौथा है?",P,K,S,H,3,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
 Reasoning Qiz 10 March,"&lt;p&gt;&lt;span style=&quot;&quot;&gt;Which of the two numbers&amp;nbsp;should be&amp;nbsp;interchanged to correct the following equation?&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;span style=&quot;&quot;&gt;21&amp;nbsp;&amp;divide; 9 + 4&amp;nbsp;&amp;times; 7 - 27 + 11&amp;nbsp;&amp;times; 8&amp;nbsp;&amp;divide; 8 = 23&lt;/span&gt;&lt;/p&gt;",4 and 11 / ,7 and 9 / ,21 and 27 / ,4 and 8 / ,2,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
-Reasoning Qiz 10 March,"In a code language, if &amp;#39;dish is tasty&amp;#39; is written as &amp;#39;lam kam dam&amp;#39;, &amp;#39;it is sweet&amp;#39; is written as &amp;#39;ram sam kam&amp;#39;, and &amp;#39;it ate dish&amp;#39; is written as &amp;#39;ram dam pam&amp;#39;, then how would &amp;#39;tasty sweet&amp;#39; be written in this language?",sam lam / ,lam ram / ,sam dam / ,sam kam / ,1,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;21&amp;nbsp;&amp;divide; 9 + 4&amp;nbsp;&amp;times; 7 - 27 + 11&amp;nbsp;&amp;times; 8&amp;nbsp;&amp;divide; 8 = 23&lt;/span&gt;&lt;/p&gt;<br>&lt;p&gt;निम्नलिखित समीकरण को सही करने के लिए&amp;nbsp;कौन-सी दो संख्याओं&amp;nbsp;का व्युत्क्रमण किया जाना चाहिए?&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;21&amp;nbsp;&amp;divide; 9 + 4&amp;nbsp;&amp;times; 7 - 27 + 11&amp;nbsp;&amp;times; 8&amp;nbsp;&amp;divide; 8 = 23&lt;/span&gt;&lt;/p&gt;",4 and 11 / 4 और 11,7 and 9 / 7 और 9,21 and 27 / 21 और 27,4 and 8 / 4 और 8,2,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
+Reasoning Qiz 10 March,"In a code language, if &amp;#39;dish is tasty&amp;#39; is written as &amp;#39;lam kam dam&amp;#39;, &amp;#39;it is sweet&amp;#39; is written as &amp;#39;ram sam kam&amp;#39;, and &amp;#39;it ate dish&amp;#39; is written as &amp;#39;ram dam pam&amp;#39;, then how would &amp;#39;tasty sweet&amp;#39; be written in this language?<br>किसी कूट भाषा में, यदि &amp;#39;dish is tasty&amp;#39; को &amp;#39;lam kam dam&amp;#39; लिखा जाता है, &amp;#39;it is sweet&amp;#39; को &amp;#39;ram sam kam&amp;#39; लिखा जाता है, और &amp;#39;it ate dish&amp;#39; को &amp;#39;ram dam pam&amp;#39; लिखा जाता है, तो इसी भाषा में &amp;#39;tasty sweet&amp;#39; किस प्रकार लिखा जाएगा?",sam lam,lam ram,sam dam,sam kam,1,2.0,1.0,20,https://mock-test-new.vercel.app?test=reasoning-qiz-10-march
