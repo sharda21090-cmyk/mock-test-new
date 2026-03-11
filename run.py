@@ -483,7 +483,14 @@ def main():
 
             # ── Cache hit: reuse stored row ──────────────────────────
             if qid in cache:
-                all_rows.append(cache[qid])
+                cached_row = list(cache[qid])
+                cached_row[0] = test_name
+                # Indices 7, 8, 9, 11 correspond to positive, negative, time_val, test_link in extract_multilang_row
+                cached_row[7] = positive
+                cached_row[8] = negative
+                cached_row[9] = time_val
+                cached_row[11] = test_link
+                all_rows.append(cached_row)
                 total_fetched += 1
                 cache_hits    += 1
                 print(f"    ↩ QID {qid}  (cached)")
