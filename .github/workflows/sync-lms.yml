@@ -15,6 +15,9 @@ on:
 jobs:
   sync_and_deploy:
     runs-on: ubuntu-latest
+    concurrency:
+      group: sync-lms-group
+      cancel-in-progress: false
     permissions:
       contents: write
 
