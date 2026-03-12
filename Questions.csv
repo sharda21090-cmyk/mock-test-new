@@ -23903,3 +23903,1047 @@ Maths Quiz Railways 12th March,"The number 9700X2 is divisible by 9. Find the po
 &lt;p&gt;&amp;rArr; यदि संख्या 9 से विभाज्य है तो 18 + X को 9&amp;nbsp;से विभाज्य होना चाहिए।&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&amp;there4; X के संभावित मान = 0, 9&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=maths-quiz-railways-12th-march
+Maths Speedy Quiz 12th March 2026,"The HCF of two numbers is 11 and their LCM is 609. If one of the numbers is 77, find the other number.<br>ਦੋ ਨੰਬਰਾਂ ਦਾ HCF 11 ਹੈ ਅਤੇ ਉਹਨਾਂ ਦਾ LCM 609 ਹੈ। ਜੇਕਰ ਇੱਕ ਸੰਖਿਆ 77 ਹੈ, ਤਾਂ ਦੂਜੀ ਸੰਖਿਆ ਲੱਭੋ।",81,87,97&amp;nbsp; / 97,99,2,1.0,0.0,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;HCF = 11 &amp;amp; LCM = 609&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Concept used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;Product of numbers = HCF &amp;times; LCM&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;Let, 2nd number be m,&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;&amp;rArr; m&amp;nbsp;&amp;times; 77 = 11&amp;nbsp;&amp;times; 609&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;&amp;rArr; m = 609/7&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;&amp;rArr; m = 87&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;&amp;there4;&amp;nbsp;The 2nd number is 87.&lt;/strong&gt;&lt;/p&gt;<br><br><p><strong>ਦਿੱਤਾ ਗਿਆ:</strong></p>
+
+<p>HCF = 11 ਅਤੇ LCM = 609</p>
+
+<p><strong>ਵਰਤਿਆ ਗਿਆ ਸੰਕਲਪ:</strong></p>
+
+<p dir=""ltr"">ਸੰਖਿਆਵਾਂ ਦਾ ਉਤਪਾਦ = HCF &times; LCM</p>
+
+<p dir=""ltr""><strong>ਗਣਨਾ:</strong></p>
+
+<p dir=""ltr"">ਮੰਨ ਲਓ, ਦੂਜਾ ਨੰਬਰ m ਹੋਵੇ,</p>
+
+<p dir=""ltr"">&rArr; m &times; 77 = 11 &times; 609</p>
+
+<p dir=""ltr"">&rArr; m = 609/7</p>
+
+<p dir=""ltr"">&rArr; m = 87</p>
+
+<p dir=""ltr""><strong>ਦੂਜਾ ਨੰਬਰ 87 ਹੈ।</strong></p>",https://mock-test-new.vercel.app?test=maths-speedy-quiz-12th-march-2026
+Maths Speedy Quiz 12th March 2026,"&lt;p&gt;Simplify:&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(3 \frac{3}{5} \times 3 \frac{3}{5}+2 \times 3 \frac{3}{5} \times \frac{2}{5}+\frac{2}{5} \times \frac{2}{5}\)&lt;/span&gt;&lt;/p&gt;<br><p>ਸਰਲ ਬਣਾਓ:</p><p> <span class=""math-tex"">\(3 \frac{3}{5} \times 3 \frac{3}{5}+2 \times 3 \frac{3}{5} \times \frac{2}{5}+\frac{2}{5} \times \frac{2}{5}\)</span></p>",15,16,17,18,2,1.0,0.0,10,"&lt;p&gt;&lt;strong&gt;Formula Used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;(a +&amp;nbsp;b)&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;= a&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;+ 2ab + b&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(3 \frac{3}{5} \times 3 \frac{3}{5}+2 \times 3 \frac{3}{5} \times \frac{2}{5}+\frac{2}{5} \times \frac{2}{5}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;On&amp;nbsp;comparing it with the above formula,&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(a = 3\frac{3}{5}, \ b = \frac{2}{5} \)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;We can write this as&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(( 3\frac{3}{5}+ \frac{2}{5} )^2 =(\frac{18}{5}+\frac{2}{5})^2 = (\frac{20}{5})^2 = 4^2 = 16\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(\therefore 3 \frac{3}{5} \times 3 \frac{3}{5}+2 \times 3 \frac{3}{5} \times \frac{2}{5}+\frac{2}{5} \times \frac{2}{5} = 16\)&lt;/span&gt;&lt;/p&gt;<br><br><p><strong>ਵਰਤਿਆ ਗਿਆ ਫਾਰਮੂਲਾ:</strong></p><p> (a + b) <sup>2</sup> = a <sup>2</sup> + 2ab + b <sup>2</sup></p><p> <strong>ਗਣਨਾ:</strong></p><p> <span class=""math-tex"">\(3 \frac{3}{5} \times 3 \frac{3}{5}+2 \times 3 \frac{3}{5} \times \frac{2}{5}+\frac{2}{5} \times \frac{2}{5}\)</span></p><p> ਉਪਰੋਕਤ ਫਾਰਮੂਲੇ ਨਾਲ ਤੁਲਨਾ ਕਰਨ &#39;ਤੇ,</p><p> <span class=""math-tex"">\(a = 3\frac{3}{5}, \ b = \frac{2}{5} \)</span></p><p> ਅਸੀਂ ਇਸਨੂੰ ਇਸ ਤਰ੍ਹਾਂ ਲਿਖ ਸਕਦੇ ਹਾਂ</p><p> <span class=""math-tex"">\(( 3\frac{3}{5}+ \frac{2}{5} )^2 =(\frac{18}{5}+\frac{2}{5})^2 = (\frac{20}{5})^2 = 4^2 = 16\)</span></p><p> <span class=""math-tex"">\(\therefore 3 \frac{3}{5} \times 3 \frac{3}{5}+2 \times 3 \frac{3}{5} \times \frac{2}{5}+\frac{2}{5} \times \frac{2}{5} = 16\)</span></p>",https://mock-test-new.vercel.app?test=maths-speedy-quiz-12th-march-2026
+Maths Speedy Quiz 12th March 2026,"If a&amp;nbsp;∶ b = 2&amp;nbsp;∶ 3 and b&amp;nbsp;∶ c = 4&amp;nbsp;∶ 7, then what is 2a&amp;nbsp;∶ 3b&amp;nbsp;∶ c?<br>ਜੇਕਰ a ∶ b = 2 ∶ 3 ਅਤੇ b ∶ c = 4 ∶ 7, ਤਾਂ 2a ∶ 3b ∶ c ਕੀ ਹੈ?",2&amp;nbsp;∶ 3 ∶ 14 / 2 ∶ 3 ∶ 14,8&amp;nbsp;∶ 36&amp;nbsp;∶ 21 / 8 ∶ 36 ∶ 21,16&amp;nbsp;∶ 36&amp;nbsp;∶ 21 / 16 ∶ 36 ∶ 21,8&amp;nbsp;∶ 12&amp;nbsp;∶ 21 / 8 ∶ 12 ∶ 21,3,1.0,0.0,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;a&amp;nbsp;∶ b = 2&amp;nbsp;∶ 3 and b&amp;nbsp;∶ c = 4&amp;nbsp;∶ 7&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;a&amp;nbsp; :&amp;nbsp; b&amp;nbsp; :&amp;nbsp; c&lt;/p&gt;
+
+&lt;p&gt;2&amp;nbsp; :&amp;nbsp; 3&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;4&amp;nbsp; :&amp;nbsp; 7&amp;nbsp;&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;8&amp;nbsp; :&amp;nbsp; 12&amp;nbsp; :&amp;nbsp; 21&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;a : b : c = 8 : 12 : 21&lt;/p&gt;
+
+&lt;p&gt;Now,&amp;nbsp;2a&amp;nbsp;∶ 3b&amp;nbsp;∶ c = 2&amp;nbsp;&amp;times; 8 : 3&amp;nbsp;&amp;times; 12 : 21&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 16 : 36 : 21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4;&amp;nbsp;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;2a&amp;nbsp;∶ 3b&amp;nbsp;∶ c =&amp;nbsp;16 : 36 : 21&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;<br><br><p><strong>ਦਿੱਤਾ ਗਿਆ:</strong></p>
+
+<p>a ∶ b = 2 ∶ 3 ਅਤੇ b ∶ c = 4 ∶ 7</p>
+
+<p><strong>ਗਣਨਾ:</strong></p>
+
+<p>a : b : c</p>
+
+<p>2 : 3</p>
+
+<p><u>4:7</u></p>
+
+<p><u>8 : 12 : 21</u></p>
+
+<p>a : b : c = 8 : 12 : 21</p>
+
+<p>ਹੁਣ, 2a ∶ 3b ∶ c = 2 &times; 8 : 3 &times; 12 : 21</p>
+
+<p>&rArr; 16 : 36 : 21</p>
+
+<p><strong>&there4; <span style=""color: rgb(33, 37, 41);"">2a ∶ 3b ∶ c = 16 : 36 : 21</span></strong></p>",https://mock-test-new.vercel.app?test=maths-speedy-quiz-12th-march-2026
+Maths Speedy Quiz 12th March 2026,"What is the value of&amp;nbsp;&lt;span class=&quot;math-tex&quot;&gt;\(\left(\dfrac{10}{5} \times \dfrac{3}{6} \right) + \left( \dfrac{2}{3} \times \dfrac{6}{2}\right) - \dfrac{8}{4} \)&lt;/span&gt;&amp;nbsp;of&amp;nbsp;&lt;span class=&quot;math-tex&quot;&gt;\(\dfrac{14}{7}\)&lt;/span&gt;?<br><span class=""math-tex"">\(\left(\dfrac{10}{5} \times \dfrac{3}{6} \right) + \left( \dfrac{2}{3} \times \dfrac{6}{2}\right) - \dfrac{8}{4} \)</span> <span class=""math-tex"">\(\dfrac{14}{7}\)</span> ?",-1,3,4,0,1,1.0,0.0,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(\left(\dfrac{10}{5} × \dfrac{3}{6} \right) + \left( \dfrac{2}{3} × \dfrac{6}{2}\right) - \dfrac{8}{4} \)&lt;/span&gt;&amp;nbsp;of&amp;nbsp;&lt;span class=&quot;math-tex&quot;&gt;\(\dfrac{14}{7}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Concept used:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Follow the BODMAS rule according to the table given below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://storage.googleapis.com/tb-img/production/21/12/boadmas.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(\left(\dfrac{10}{5} × \dfrac{3}{6} \right) + \left( \dfrac{2}{3} × \dfrac{6}{2}\right) - \dfrac{8}{4} \)&lt;/span&gt;&amp;nbsp;of&amp;nbsp;&lt;span class=&quot;math-tex&quot;&gt;\(\dfrac{14}{7}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr;&amp;nbsp;(1) + (2) -&amp;nbsp;&lt;span class=&quot;math-tex&quot;&gt;\(\dfrac{8}{4}\)&lt;/span&gt;&amp;nbsp;&amp;times;&amp;nbsp;&lt;span class=&quot;math-tex&quot;&gt;\(\dfrac{14}{7}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 1 + 2 - 4&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 3 - 4 = -1&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(\left(\dfrac{10}{5} × \dfrac{3}{6} \right) + \left( \dfrac{2}{3} × \dfrac{6}{2}\right) - \dfrac{8}{4} \)&lt;/span&gt;&amp;nbsp;of&amp;nbsp;&lt;span class=&quot;math-tex&quot;&gt;\(\dfrac{14}{7}\)&lt;/span&gt;&amp;nbsp;= -1&lt;/p&gt;<br><br><p><strong>ਦਿੱਤਾ ਗਿਆ:</strong></p>
+
+<p><span class=""math-tex"">\(\left(\dfrac{10}{5} × \dfrac{3}{6} \right) + \left( \dfrac{2}{3} × \dfrac{6}{2}\right) - \dfrac{8}{4} \(\left(\dfrac{10}{5} × \dfrac{3}{6} \right) + \left( \dfrac{2}{3} × \dfrac{6}{2}\right) - \dfrac{8}{4} \(\dfrac{14}{7}\)</span> <span class=""math-tex"">\(\left(\dfrac{10}{5} × \dfrac{3}{6} \right) + \left( \dfrac{2}{3} × \dfrac{6}{2}\right) - \dfrac{8}{4} \)\)</span> <span class=""math-tex"">\)</span> ਦਾ \dfrac{8}{4} \)</p>
+
+<p><strong>ਵਰਤਿਆ ਗਿਆ ਸੰਕਲਪ:</strong></p>
+
+<p>ਹੇਠਾਂ ਦਿੱਤੀ ਸਾਰਣੀ ਦੇ ਅਨੁਸਾਰ BODMAS ਨਿਯਮ ਦੀ ਪਾਲਣਾ ਕਰੋ:</p>
+
+<p><img alt="""" src=""https://storage.googleapis.com/tb-img/production/21/12/boadmas.png"" /></p>
+
+<p><strong>ਗਣਨਾ:</strong></p>
+
+<p><span class=""math-tex"">\(\dfrac{14}{7}\)</span> <span class=""math-tex"">\(\dfrac{14}{7}</span> <span class=""math-tex"">\)</span> ਦਾ \dfrac{8}{4} \)</p>
+
+<p>&rArr; (1) + (2) - <span class=""math-tex"">\(\dfrac{8}{4}\)</span> &times; <span class=""math-tex"">\(\dfrac{14}{7}\)</span></p>
+
+<p>&rArr; 1 + 2 - 4</p>
+
+<p>&rArr; 3 - 4 = -1</p>
+
+<p><span class=""math-tex"">\(\left(\dfrac{10}{5} × \dfrac{3}{6} \ਸੱਜੇ) + \left( \dfrac{2}{3} × \dfrac{6}{2}\ਸੱਜੇ) - \dfrac{8}{4} \)</span> <span class=""math-tex"">\(\dfrac{14}{7}\)</span> = -1 ਦਾ</p>",https://mock-test-new.vercel.app?test=maths-speedy-quiz-12th-march-2026
+Maths Speedy Quiz 12th March 2026,"In an examination, 40% of students failed in English, 20% failed in math. If 10% of the students failed in both these subjects, then what percentage of students passed in both the subject?<br>ਇੱਕ ਇਮਤਿਹਾਨ ਵਿੱਚ, 40% ਵਿਦਿਆਰਥੀ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਫੇਲ੍ਹ ਹੋਏ, 20% ਗਣਿਤ ਵਿੱਚ ਫੇਲ੍ਹ ਹੋਏ। ਜੇਕਰ ਇਹਨਾਂ ਦੋਨਾਂ ਵਿਸ਼ਿਆਂ ਵਿੱਚ 10% ਵਿਦਿਆਰਥੀ ਫੇਲ ਹੋ ਗਏ ਹਨ, ਤਾਂ ਇਹਨਾਂ ਦੋਨਾਂ ਵਿਸ਼ਿਆਂ ਵਿੱਚ ਕਿੰਨੇ ਪ੍ਰਤੀਸ਼ਤ ਵਿਦਿਆਰਥੀ ਪਾਸ ਹੋਏ ਹਨ?",50%,40%,30%,None of these / ਇਹਨਾਂ ਵਿੱਚੋਂ ਕੋਈ ਨਹੀਂ,1,1.0,0.0,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;40% of students failed in English, 20% failed in Math and 10% failed in both subject&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Let the total student be 100%&lt;/p&gt;
+
+&lt;p&gt;Total students failed in English = 40%&lt;/p&gt;
+
+&lt;p&gt;Total students failed in both English &amp;amp; Maths = 10%&lt;/p&gt;
+
+&lt;p&gt;Total students failed only in English = 40% - 10% = 30%&lt;/p&gt;
+
+&lt;p&gt;Similarly, total students failed only&amp;nbsp;in Maths = 20% - 10% = 10%&lt;/p&gt;
+
+&lt;p&gt;Failed students diagram&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/21/03/F1_Shailendra.K_13-03-21_Savita_D4.png&quot; style=&quot;width: 148px; height: 129px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;According to the diagram,&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Total failed students = 30% + 10% + 10%&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr;&amp;nbsp;Total failed students = 50%&lt;/p&gt;
+
+&lt;p&gt;We know that,&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Total students = Total number of&amp;nbsp;passed students - Total number of failed students&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Percentage of passed student = 100% - 50%&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Percentage of passed student = 50%&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; Percentage of students passed are 50%&lt;/strong&gt;&lt;/p&gt;<br><br><p><strong>ਦਿੱਤਾ ਗਿਆ:</strong></p>
+
+<p>40% ਵਿਦਿਆਰਥੀ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਫੇਲ੍ਹ ਹੋਏ, 20% ਗਣਿਤ ਵਿੱਚ ਫੇਲ੍ਹ ਹੋਏ ਅਤੇ 10% ਦੋਵੇਂ ਵਿਸ਼ਿਆਂ ਵਿੱਚ ਫੇਲ੍ਹ ਹੋਏ</p>
+
+<p><strong>ਗਣਨਾ:</strong></p>
+
+<p>ਕੁੱਲ ਵਿਦਿਆਰਥੀ 100% ਹੋਣ ਦਿਓ</p>
+
+<p>ਕੁੱਲ ਵਿਦਿਆਰਥੀ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਫੇਲ੍ਹ ਹੋਏ = 40%</p>
+
+<p>ਕੁੱਲ ਵਿਦਿਆਰਥੀ ਅੰਗਰੇਜ਼ੀ ਅਤੇ ਗਣਿਤ ਦੋਵਾਂ ਵਿੱਚ ਫੇਲ੍ਹ ਹੋਏ = 10%</p>
+
+<p>ਕੁੱਲ ਵਿਦਿਆਰਥੀ ਸਿਰਫ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਫੇਲ ਹੋਏ = 40% - 10% = 30%</p>
+
+<p>ਇਸੇ ਤਰ੍ਹਾਂ, ਕੁੱਲ ਵਿਦਿਆਰਥੀ ਸਿਰਫ ਗਣਿਤ ਵਿੱਚ ਫੇਲ੍ਹ ਹੋਏ = 20% - 10% = 10%</p>
+
+<p>ਫੇਲ੍ਹ ਹੋਏ ਵਿਦਿਆਰਥੀਆਂ ਦਾ ਚਿੱਤਰ</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="""" src=""//storage.googleapis.com/tb-img/production/21/03/F1_Shailendra.K_13-03-21_Savita_D4.png"" style=""width: 148px; height: 129px;"" /></p>
+
+<p>ਚਿੱਤਰ ਦੇ ਅਨੁਸਾਰ,</p>
+
+<p>&rArr; ਕੁੱਲ ਫੇਲ ਵਿਦਿਆਰਥੀ = 30% + 10% + 10%</p>
+
+<p>&rArr; ਕੁੱਲ ਫੇਲ ਵਿਦਿਆਰਥੀ = 50%</p>
+
+<p>ਅਸੀਂ ਜਾਣਦੇ ਹਾਂ ਕਿ,</p>
+
+<p><strong>ਕੁੱਲ ਵਿਦਿਆਰਥੀ = ਪਾਸ ਵਿਦਿਆਰਥੀਆਂ ਦੀ ਕੁੱਲ ਸੰਖਿਆ - ਫੇਲ੍ਹ ਹੋਏ ਵਿਦਿਆਰਥੀਆਂ ਦੀ ਕੁੱਲ ਸੰਖਿਆ</strong></p>
+
+<p>&rArr; ਪਾਸ ਵਿਦਿਆਰਥੀ ਦੀ ਪ੍ਰਤੀਸ਼ਤਤਾ = 100% - 50%</p>
+
+<p>&rArr; ਪਾਸ ਵਿਦਿਆਰਥੀ ਦਾ ਪ੍ਰਤੀਸ਼ਤ = 50%</p>
+
+<p><strong>&there4; ਪਾਸ ਹੋਏ ਵਿਦਿਆਰਥੀਆਂ ਦੀ ਪ੍ਰਤੀਸ਼ਤਤਾ 50% ਹੈ</strong></p>",https://mock-test-new.vercel.app?test=maths-speedy-quiz-12th-march-2026
+Maths Speedy Quiz 12th March 2026,What price should a shopkeeper mark on an article costing him Rs. 200 to gain 30% after allowing a discount of 35%?<br>ਇੱਕ ਦੁਕਾਨਦਾਰ ਨੂੰ ਰੁਪਏ ਦੀ ਕੀਮਤ ਵਾਲੇ ਲੇਖ &#39;ਤੇ ਕੀ ਨਿਸ਼ਾਨ ਲਗਾਉਣਾ ਚਾਹੀਦਾ ਹੈ? 35% ਦੀ ਛੋਟ ਦੇਣ ਤੋਂ ਬਾਅਦ 200 30% ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ?,Rs. 400 / ਰੁ. 400,Rs. 450 / ਰੁ. 450,Rs. 500 / ਰੁ 500,Rs. 550 / ਰੁ.. 550,1,1.0,0.0,10,"&lt;p&gt;&lt;strong&gt;Short Trick:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Let the marked price of the article be x.&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Since, Mark Price after discount = Cost Price after profit&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; x = (200 &amp;times; 130)/65&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; x = Rs. 400&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We know that,&lt;/p&gt;
+
+&lt;p&gt;Cost price of article = Rs. 200&lt;/p&gt;
+
+&lt;p&gt;Profit on article = 30% of Rs. 200 = Rs. 60&lt;/p&gt;
+
+&lt;p&gt;Selling Price of Article after 30% profit = 200 + 60 = Rs. 260&lt;/p&gt;
+
+&lt;p&gt;Let the marked price of the article be x.&lt;/p&gt;
+
+&lt;p&gt;Since, Mark Price after discount = Selling Price&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 65% of x = Rs. 260&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 65/100 &amp;times; x = 260&lt;/p&gt;
+
+&lt;p&gt;&amp;there4; x = Rs. 400&lt;/p&gt;<br><br><p>ਛੋਟੀ ਚਾਲ:</p>
+
+<p>ਲੇਖ ਦੀ ਚਿੰਨ੍ਹਿਤ ਕੀਮਤ ਨੂੰ x ਕਰੀਏ।</p>
+
+<p>&rArr; ਕਿਉਂਕਿ, ਛੂਟ ਤੋਂ ਬਾਅਦ ਮਾਰਕ ਕੀਮਤ = ਲਾਭ ਤੋਂ ਬਾਅਦ ਲਾਗਤ ਮੁੱਲ</p>
+
+<p>&rArr; x = (200 &times; 130)/65</p>
+
+<p>&rArr; x = Rs. 400</p>
+
+<p><strong>ਵਿਸਤ੍ਰਿਤ ਹੱਲ</strong>:</p>
+
+<p>ਅਸੀਂ ਜਾਣਦੇ ਹਾਂ ਕਿ,</p>
+
+<p>ਲੇਖ ਦੀ ਲਾਗਤ ਕੀਮਤ= Rs. 200</p>
+
+<p>ਲੇਖ &#39;ਤੇ ਲਾਭ = 30% of Rs. 200 = Rs. 60</p>
+
+<p>30% ਮੁਨਾਫੇ ਤੋਂ ਬਾਅਦ ਲੇਖ ਦੀ ਕੀਮਤ ਵੇਚਣਾ= 200 + 60 = Rs. 260</p>
+
+<p>ਲੇਖ ਦੀ ਚਿੰਨ੍ਹਿਤ ਕੀਮਤ ਨੂੰ x ਕਰੀਏ।</p>
+
+<p>ਕਿਉਂਕਿ, ਛੂਟ ਤੋਂ ਬਾਅਦ ਮਾਰਕ ਕੀਮਤ = ਵੇਚਣ ਦੀ ਕੀਮਤ</p>
+
+<p>&rArr; 65% of x = Rs. 260</p>
+
+<p>&rArr; 65/100 &times; x = 260</p>
+
+<p>&there4; x = Rs. 400</p>",https://mock-test-new.vercel.app?test=maths-speedy-quiz-12th-march-2026
+Maths Speedy Quiz 12th March 2026,"Rajesh took a loan of Rs. 12,000 for 3 years at simple interest. If the total interest paid by him is Rs. 2,700, what is rate of interest per annum?<br>ਰਾਜੇਸ਼ ਨੇ ਰੁਪਏ ਦਾ ਕਰਜ਼ਾ ਲਿਆ ਸੀ। ਸਾਧਾਰਨ ਵਿਆਜ &#39;ਤੇ 3 ਸਾਲਾਂ ਲਈ 12,000। ਜੇਕਰ ਉਸ ਦੁਆਰਾ ਅਦਾ ਕੀਤਾ ਕੁੱਲ ਵਿਆਜ ਰੁਪਏ ਹੈ। 2,700, ਪ੍ਰਤੀ ਸਾਲ ਵਿਆਜ ਦਰ ਕੀ ਹੈ?",2.5%,7.5%,10%,15%,2,1.0,0.0,10,"&lt;p&gt;Principal = 12000&lt;/p&gt;
+
+&lt;p&gt;Time = 3 years&lt;/p&gt;
+
+&lt;p&gt;SI = 2700&lt;/p&gt;
+
+&lt;p&gt;As we know,&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; SI = (p &amp;times; r &amp;times; t)/100&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 2700 = (12000 &amp;times; r &amp;times; 3)/100&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; r = 2700/360&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; r = 7.5%&lt;/p&gt;<br><br><p>ਪ੍ਰਿੰਸੀਪਲ = 12000</p>
+
+<p>ਸਮਾਂ = 3 ਸਾਲ</p>
+
+<p>SI = 2700</p>
+
+<p>ਜਿਵੇਂ ਕਿ ਅਸੀਂ ਜਾਣਦੇ ਹਾਂ,</p>
+
+<p>&rArr; SI = (p &times; r &times; t)/100</p>
+
+<p>&rArr; 2700 = (12000 &times; r &times; 3)/100</p>
+
+<p>&rArr; r = 2700/360</p>
+
+<p>&rArr; r = 7.5%</p>",https://mock-test-new.vercel.app?test=maths-speedy-quiz-12th-march-2026
+Maths Speedy Quiz 12th March 2026,A perfect square is obtained by multiplying the smallest number with 486. Find the square root of the square thus obtained.<br>ਸਭ ਤੋਂ ਛੋਟੀ ਸੰਖਿਆ ਨੂੰ 486 ਨਾਲ ਗੁਣਾ ਕਰਕੇ ਇੱਕ ਸੰਪੂਰਨ ਵਰਗ ਪ੍ਰਾਪਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ। ਇਸ ਤਰ੍ਹਾਂ ਪ੍ਰਾਪਤ ਕੀਤੇ ਵਰਗ ਦਾ ਵਰਗ ਮੂਲ ਲੱਭੋ।,24,48,54,26,3,1.0,0.0,10,"&lt;p style=&quot;&quot;&gt;&lt;strong style=&quot;&quot;&gt;Given&lt;/strong&gt;&lt;strong style=&quot;&quot;&gt;:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;The given number = 486&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;strong style=&quot;&quot;&gt;Concept:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;Factorize the given number and then make pairs of a number. The number which is left unpaired when multiplied with the original given number, the resultant becomes a perfect square.&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;strong style=&quot;&quot;&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;486 = 2 &amp;times; 3 &amp;times; 3 &amp;times; 3 &amp;times; 3 &amp;times; 3&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ---(1)&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;On pairing,&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;486 = (3 &amp;times; 3) &amp;times; (3 &amp;times; 3) &amp;times; (2) &amp;times; (3)&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;Multiply by 2 &amp;times; 3 in equation (1) to make number perfect square.&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;486 &amp;times; 2 &amp;times; 3 = 2 &amp;times; 3 &amp;times; 3 &amp;times; 3 &amp;times; 3 &amp;times; 3 &amp;times; 2 &amp;times; 3&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;rArr; 2916 = 2 &amp;times; 2 &amp;times; 3 &amp;times; 3 &amp;times; 3 &amp;times; 3 &amp;times; 3 &amp;times; 3&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;there4; The square root of 2916 &amp;rArr; &amp;radic;2916&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;rArr; &amp;radic;(2 &amp;times; 2 &amp;times; 3 &amp;times; 3 &amp;times; 3 &amp;times; 3 &amp;times; 3 &amp;times; 3)&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;rArr; 2 &amp;times; 3 &amp;times; 3 &amp;times; 3&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;rArr; 54&lt;/p&gt;<br><br><p style=""""><strong style="""">ਦਿੱਤਾ ਗਿਆ</strong> <strong style="""">:</strong></p><p style=""""> ਦਿੱਤਾ ਸੰਖਿਆ = 486</p><p style=""""> <strong style="""">ਸੰਕਲਪ:</strong></p><p style=""""> ਦਿੱਤੀ ਗਈ ਸੰਖਿਆ ਨੂੰ ਗੁਣਨਬੱਧ ਕਰੋ ਅਤੇ ਫਿਰ ਕਿਸੇ ਸੰਖਿਆ ਦੇ ਜੋੜੇ ਬਣਾਓ। ਜਿਸ ਸੰਖਿਆ ਨੂੰ ਮੂਲ ਦਿੱਤੇ ਨੰਬਰ ਨਾਲ ਗੁਣਾ ਕਰਨ &#39;ਤੇ ਬਿਨਾਂ ਜੋੜੀ ਛੱਡ ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ, ਨਤੀਜਾ ਇੱਕ ਸੰਪੂਰਨ ਵਰਗ ਬਣ ਜਾਂਦਾ ਹੈ।</p><p style=""""> <strong style="""">ਗਣਨਾ:</strong></p><p style=""""> 486 = 2 × 3 × 3 × 3 × 3 × 3 ---(1)</p><p style=""""> ਜੋੜੀ ਬਣਾਉਣ &#39;ਤੇ,</p><p style=""""> 486 = (3 × 3) × (3 × 3) × (2) × (3)</p><p style=""""> ਸੰਖਿਆ ਨੂੰ ਸੰਪੂਰਨ ਵਰਗ ਬਣਾਉਣ ਲਈ ਸਮੀਕਰਨ (1) ਵਿੱਚ 2 × 3 ਨਾਲ ਗੁਣਾ ਕਰੋ।</p><p style=""""> 486 × 2 × 3 = 2 × 3 × 3 × 3 × 3 × 3 × 2 × 3</p><p style=""""> ⇒ 2916 = 2 × 2 × 3 × 3 × 3 × 3 × 3 × 3</p><p style=""""> ∴ 2916 ਦਾ ਵਰਗ ਮੂਲ ⇒ √2916</p><p style=""""> ⇒ √(2 × 2 × 3 × 3 × 3 × 3 × 3 × 3)</p><p style=""""> ⇒ 2 × 3 × 3 × 3</p><p style=""""> ⇒ 54</p>",https://mock-test-new.vercel.app?test=maths-speedy-quiz-12th-march-2026
+Maths Speedy Quiz 12th March 2026,"The average age of 5 members is 21 years. If the age of the youngest member be 5 years, find the average age of the family at the birth of the youngest member.<br>5 ਮੈਂਬਰਾਂ ਦੀ ਔਸਤ ਉਮਰ 21 ਸਾਲ ਹੈ। ਜੇਕਰ ਸਭ ਤੋਂ ਛੋਟੇ ਮੈਂਬਰ ਦੀ ਉਮਰ 5 ਸਾਲ ਹੈ, ਤਾਂ ਸਭ ਤੋਂ ਛੋਟੇ ਮੈਂਬਰ ਦੇ ਜਨਮ &#39;ਤੇ ਪਰਿਵਾਰ ਦੀ ਔਸਤ ਉਮਰ ਦਾ ਪਤਾ ਲਗਾਓ।",24 years / 24 ਸਾਲ,28 years / 28 ਸਾਲ,25 years / 25 ਸਾਲ,20 years / 20 ਸਾਲ,4,1.0,0.0,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The average age of 5 members family = 21 years&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Age of the youngest member = 5 years&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formula used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Average age = Sum of ages of all the members/Total number of the members&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sum of ages of all the members = 5&amp;nbsp;&amp;times; 21 = 105 years&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;At the time of birth, means 5 years ago&lt;/p&gt;
+
+&lt;p&gt;There are only four members in the family&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Total age of family 5&amp;nbsp;years ago = 105 &amp;ndash;&amp;nbsp;25 = 80&lt;/p&gt;
+
+&lt;p&gt;5 years ago only 4 members in the family&lt;/p&gt;
+
+&lt;p&gt;Average = 80/4 = 20&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The average age of the family is&amp;nbsp;20 years&lt;/strong&gt;&lt;/p&gt;<br><br><p><strong>ਦਿੱਤਾ ਗਿਆ:</strong></p><p> ਪਰਿਵਾਰ ਦੇ 5 ਮੈਂਬਰਾਂ ਦੀ ਔਸਤ ਉਮਰ = 21 ਸਾਲ</p><p> ਸਭ ਤੋਂ ਛੋਟੇ ਮੈਂਬਰ ਦੀ ਉਮਰ = 5 ਸਾਲ</p><p> <strong>ਵਰਤਿਆ ਫਾਰਮੂਲਾ:</strong></p><p> ਔਸਤ ਉਮਰ = ਸਾਰੇ ਮੈਂਬਰਾਂ ਦੀ ਉਮਰ ਦਾ ਜੋੜ/ਮੈਂਬਰਾਂ ਦੀ ਕੁੱਲ ਸੰਖਿਆ</p><p> <strong>ਗਣਨਾ:</strong></p><p> ਸਾਰੇ ਮੈਂਬਰਾਂ ਦੀ ਉਮਰ ਦਾ ਜੋੜ = 5 × 21 = 105 ਸਾਲ</p><p> ਜਨਮ ਸਮੇਂ, ਮਤਲਬ 5 ਸਾਲ ਪਹਿਲਾਂ</p><p> ਪਰਿਵਾਰ ਵਿੱਚ ਸਿਰਫ਼ ਚਾਰ ਮੈਂਬਰ ਹਨ</p><p> 5 ਸਾਲ ਪਹਿਲਾਂ ਪਰਿਵਾਰ ਦੀ ਕੁੱਲ ਉਮਰ = 105 – 25 = 80</p><p> 5 ਸਾਲ ਪਹਿਲਾਂ ਪਰਿਵਾਰ ਵਿੱਚ ਸਿਰਫ਼ 4 ਮੈਂਬਰ ਸਨ</p><p> ਔਸਤ = 80/4 = 20</p><p> <strong>∴ ਪਰਿਵਾਰ ਦੀ ਔਸਤ ਉਮਰ 20 ਸਾਲ ਹੈ</strong></p>",https://mock-test-new.vercel.app?test=maths-speedy-quiz-12th-march-2026
+Maths Speedy Quiz 12th March 2026,"The base and height of a triangle are in the ratio 3 : 4. If the area is 150 cm&lt;sup&gt;2&lt;/sup&gt;, its height in cm is:<br>ਇੱਕ ਤਿਕੋਣ ਦਾ ਅਧਾਰ ਅਤੇ ਉਚਾਈ 3 : 4 ਦੇ ਅਨੁਪਾਤ ਵਿੱਚ ਹੈ। ਜੇਕਰ ਖੇਤਰਫਲ 150 cm<sup>2</sup> ਹੈ, ਤਾਂ ਇਸਦੀ ਉਚਾਈ cm ਵਿੱਚ ਹੈ:",20,5,15,12,1,1.0,0.0,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ratio of base and height of the triangle is 3 : 4 and area of the triangle is 150 cm&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Concept Used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If base of a triangle is &amp;#39;b&amp;#39; and height be &amp;#39;h&amp;#39; then area of the triangle is (1/2)&amp;nbsp;&amp;times; b&amp;nbsp;&amp;times; h&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ratio of base and height of the triangle is 3 : 4&lt;/p&gt;
+
+&lt;p&gt;Let, base be 3x and height be 4x&lt;/p&gt;
+
+&lt;p&gt;Accordingly,&lt;/p&gt;
+
+&lt;p&gt;(1/2)&amp;nbsp;&amp;times; 3x&amp;nbsp;&amp;times; 4x = 150&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 6x&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;= 150&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; x&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;= 25&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; x = 5&lt;/p&gt;
+
+&lt;p&gt;Height of the triangle is 4x = 4&amp;nbsp;&amp;times; 5 = 20 cm&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The height of the triangle in cm is 20 cm.&lt;/strong&gt;&lt;/p&gt;<br><br><p><strong>ਦਿੱਤਾ ਗਿਆ:</strong></p>
+
+<p>ਤਿਕੋਣ ਦੇ ਅਧਾਰ ਅਤੇ ਉਚਾਈ ਦਾ ਅਨੁਪਾਤ 3 : 4 ਹੈ ਅਤੇ ਤਿਕੋਣ ਦਾ ਖੇਤਰਫਲ 150 cm<sup>2</sup> ਹੈ</p>
+
+<p><strong>ਵਰਤਿਆ ਗਿਆ ਸੰਕਲਪ:</strong></p>
+
+<p>ਜੇਕਰ ਕਿਸੇ ਤਿਕੋਣ ਦਾ ਅਧਾਰ &#39;b&#39; ਹੈ ਅਤੇ ਉਚਾਈ &#39;h&#39; ਹੈ ਤਾਂ ਤਿਕੋਣ ਦਾ ਖੇਤਰਫਲ (1/2) &times; b &times; h ਹੈ।</p>
+
+<p><strong>ਗਣਨਾ:</strong></p>
+
+<p>ਤਿਕੋਣ ਦੇ ਅਧਾਰ ਅਤੇ ਉਚਾਈ ਦਾ ਅਨੁਪਾਤ 3 : 4 ਹੈ</p>
+
+<p>ਮੰਨ ਲਓ, ਅਧਾਰ 3x ਅਤੇ ਉਚਾਈ 4x ਹੈ</p>
+
+<p>ਇਸ ਅਨੁਸਾਰ ਸ.</p>
+
+<p>(1/2) &times; 3x &times; 4x = 150</p>
+
+<p>&rArr; 6x<sup>2</sup> = 150</p>
+
+<p>&rArr; x<sup>2</sup> = 25</p>
+
+<p>&rArr; x = 5</p>
+
+<p>ਤਿਕੋਣ ਦੀ ਉਚਾਈ 4x = 4 &times; 5 = 20 ਸੈਂਟੀਮੀਟਰ ਹੈ</p>
+
+<p><strong>&there4; ਸੈ.ਮੀ.ਵਿੱਚ ਤਿਕੋਣ ਦੀ ਉਚਾਈ 20 ਸੈ.ਮੀ. ਹੈ।</strong></p>",https://mock-test-new.vercel.app?test=maths-speedy-quiz-12th-march-2026
+GS Railways Quiz 12th March 2026,In which year did Mendeleev publish the periodic table?<br>মেন্ডেলিভ কোন সালে পর্যায় সারণী প্রকাশ করেন?,1948,1903,1869,1894,3,1.0,0.33,10,"&lt;p&gt;The correct answer is &lt;u&gt;&lt;strong&gt;1869&lt;/strong&gt;&lt;/u&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;display: flex;gap: 6px;align-items: center;&quot;&gt;&lt;img height=&quot;26px&quot; src=&quot;//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png&quot; width=&quot;26px&quot; /&gt;&lt;u style=&quot;font-size: 21px; font-weight: bolder; font-family: var(--bs-body-font-family); text-align: var(--bs-body-text-align);&quot;&gt;Key Points&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Dmitri Mendeleev published the first version of the periodic table in &lt;strong&gt;1869&lt;/strong&gt;, classifying elements based on their atomic weights and properties.&lt;/li&gt;
+	&lt;li&gt;Mendeleev&amp;#39;s table included &lt;strong&gt;63 elements&lt;/strong&gt; known at the time and left gaps for elements that were yet to be discovered.&lt;/li&gt;
+	&lt;li&gt;He predicted the existence and properties of undiscovered elements such as &lt;strong&gt;gallium, scandium, and germanium&lt;/strong&gt;, which were later found to match his predictions.&lt;/li&gt;
+	&lt;li&gt;Mendeleev&amp;rsquo;s periodic table laid the foundation for the modern periodic table, which is now based on atomic numbers rather than atomic weights.&lt;/li&gt;
+	&lt;li&gt;The periodic law, as formulated by Mendeleev, states that the &lt;strong&gt;properties of elements are periodic functions of their atomic weights&lt;/strong&gt; (later revised to atomic numbers).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;display: flex;gap: 6px;align-items: center;&quot;&gt;&lt;img height=&quot;26px&quot; src=&quot;//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png&quot; width=&quot;26px&quot; /&gt;&lt;strong&gt;&lt;span style=&quot;vertical-align: middle;font-size: 21px;&quot;&gt;&lt;u&gt;Additional Information&lt;/u&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Periodic Table:&lt;/strong&gt; The periodic table organizes elements into rows (periods) and columns (groups) based on their chemical and physical properties.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Atomic Number:&lt;/strong&gt; Modern periodic tables are arranged by atomic number, which is the number of protons in the nucleus of an atom.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Periodic Law:&lt;/strong&gt; The modern periodic law states that the physical and chemical properties of elements are periodic functions of their atomic numbers.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gaps in Mendeleev&amp;#39;s Table:&lt;/strong&gt; Mendeleev intentionally left gaps in his table for elements he predicted would be discovered, showcasing the predictive power of his work.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Modern Updates:&lt;/strong&gt; The periodic table has been expanded over time to include synthetic elements, with the latest being element 118, oganesson (Og), discovered in 2002.&lt;/li&gt;
+&lt;/ul&gt;<br><br><p>সঠিক উত্তর হলো <u><strong>1869</strong></u>।</p>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"" width=""26px"" /><span style=""font-size: 20px; font-weight: bolder; text-decoration-line: underline;"">Key Points</span></span></p>
+
+<ul style=""color: rgb(33, 37, 41);"">
+</ul>
+
+<ul>
+	<li>দ্বিমিত্রি মেন্ডেলিভ <strong>1869</strong> সালে পর্যায় সারণীর প্রথম সংস্করণ প্রকাশ করেন, যেখানে তিনি পারমাণবিক ওজন ও ধর্ম অনুসারে মৌলগুলিকে শ্রেণীবদ্ধ করেন।</li>
+	<li>মেন্ডেলিভের সারণীতে সেই সময়ে পরিচিত <strong>63টি মৌল</strong> অন্তর্ভুক্ত ছিল এবং যে মৌলগুলি তখনও আবিষ্কৃত হয়নি সেগুলির জন্য তিনি ফাঁকা স্থান রেখেছিলেন।</li>
+	<li>তিনি গ্যালিয়াম, স্ক্যান্ডিয়াম এবং জার্মেনিয়ামের মতো অনাবিষ্কৃত মৌলগুলির অস্তিত্ব এবং ধর্মগুলির ভবিষ্যদ্বাণী করেছিলেন, যা পরে তাঁর ভবিষ্যদ্বাণীর সাথে মিলে গিয়েছিল।</li>
+	<li>মেন্ডেলিভের পর্যায় সারণী আধুনিক পর্যায় সারণীর ভিত্তি স্থাপন করেছিল, যা এখন পারমাণবিক ওজন-এর পরিবর্তে পারমাণবিক সংখ্যার উপর ভিত্তি করে তৈরি হয়েছে।</li>
+	<li>মেন্ডেলিভ দ্বারা প্রণীত পর্যায়ক্রমিক সূত্রটি বলে যে, মৌলগুলির ধর্ম তাদের <strong>পারমাণবিক ওজনের পর্যায়ক্রমিক ক্রিয়া&nbsp;</strong>(পরে পারমাণবিক সংখ্যায় সংশোধিত হয়)।</li>
+</ul>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"" width=""26px"" /><u style=""font-size: 20px; font-weight: bolder;"">Additional Information</u></span></p>
+
+<ul style=""color: rgb(33, 37, 41);"">
+</ul>
+
+<ul>
+	<li><strong>পর্যায় সারণী:</strong> পর্যায় সারণী মৌলগুলিকে তাদের রাসায়নিক এবং ভৌত ধর্ম অনুসারে সারি (পর্যায়) এবং স্তম্ভে (শ্রেণী) সাজায়।</li>
+	<li><strong>পারমাণবিক সংখ্যা:</strong> আধুনিক পর্যায় সারণী পারমাণবিক সংখ্যা অনুসারে সাজানো হয়েছে, যা একটি পরমাণুর নিউক্লিয়াসে প্রোটনের সংখ্যা।</li>
+	<li><strong>পর্যায়ক্রমিক সূত্র:</strong> আধুনিক পর্যায়ক্রমিক সূত্র বলে যে, মৌলগুলির ভৌত এবং রাসায়নিক ধর্ম তাদের পারমাণবিক সংখ্যার পর্যায়ক্রমিক ক্রিয়া।</li>
+	<li><strong>মেন্ডেলিভের সারণীতে ফাঁকা স্থান:</strong> মেন্ডেলিভ ইচ্ছাকৃতভাবে তাঁর সারণীতে সেইসব মৌলের জন্য ফাঁকা স্থান রেখেছিলেন যেগুলি আবিষ্কৃত হবে বলে তিনি ভবিষ্যদ্বাণী করেছিলেন, যা তাঁর কাজের পূর্বাভাস ক্ষমতার প্রমাণ।</li>
+	<li><strong>আধুনিক আপডেট:</strong> পর্যায় সারণী সময়ের সাথে সাথে কৃত্রিম মৌলগুলিকে অন্তর্ভুক্ত করার জন্য প্রসারিত হয়েছে, যার মধ্যে সর্বশেষটি হল 118 নম্বর মৌল ওগানেসন (Og), যা 2002 সালে আবিষ্কৃত হয়েছিল।</li>
+</ul>",https://mock-test-new.vercel.app?test=gs-railways-quiz-12th-march-2026
+GS Railways Quiz 12th March 2026,What is the dimensional formula of pressure?<br>চাপের মাত্রিক সূত্র কী?,"&lt;span class=&quot;math-tex&quot;&gt;\([M L^{-2} T^{-2}]\)&lt;/span&gt; / <span class=""math-tex"">\([M L^{-2} T^{-2}]\)</span>","&lt;span class=&quot;math-tex&quot;&gt;\([M L^{2} T^{-2}]\)&lt;/span&gt; / <span class=""math-tex"">\([M L^{2} T^{-2}]\)</span>","&lt;span class=&quot;math-tex&quot;&gt;\([M L^{-1} T^{-2}]\)&lt;/span&gt; / <span class=""math-tex"">\([M L^{-1} T^{-2}]\)</span>","&lt;span class=&quot;math-tex&quot;&gt;\([M L T^{-2}]\)&lt;/span&gt; / <span class=""math-tex"">\([M L T^{-2}]\)</span>",3,1.0,0.33,10,"&lt;p&gt;The correct answer is &lt;u&gt;&lt;strong&gt;[ML&lt;sup&gt;-1&lt;/sup&gt;T&lt;sup&gt;-2&lt;/sup&gt;]&lt;/strong&gt;&lt;/u&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;display: flex;gap: 6px;align-items: center;&quot;&gt;&lt;img height=&quot;26px&quot; src=&quot;//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png&quot; width=&quot;26px&quot; /&gt;&lt;strong&gt;&lt;span style=&quot;vertical-align: middle;font-size: 21px;&quot;&gt;&lt;u&gt;Key Points&lt;/u&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul style=&quot;color: (33, 37, 41);&quot;&gt;
+	&lt;li&gt;&lt;strong&gt;Pressure&lt;/strong&gt; is defined as the &lt;strong&gt;force&lt;/strong&gt; applied per unit &lt;strong&gt;area&lt;/strong&gt;.&lt;/li&gt;
+	&lt;li&gt;Mathematically, &lt;strong&gt;Pressure = Force / Area&lt;/strong&gt;.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Force&lt;/strong&gt; has the dimensional formula &lt;strong&gt;[MLT&lt;sup&gt;-2&lt;/sup&gt;]&lt;/strong&gt;, where M = mass, L = length, T = time.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Area&lt;/strong&gt; has the dimensional formula &lt;strong&gt;[L2]&lt;/strong&gt;.&lt;/li&gt;
+	&lt;li&gt;Dividing force by area gives &lt;strong&gt;[MLT&lt;sup&gt;-2&lt;/sup&gt;] / [L&lt;sup&gt;2&lt;/sup&gt;] = [ML&lt;sup&gt;-1&lt;/sup&gt;T&lt;sup&gt;-2&lt;/sup&gt;]&lt;/strong&gt;, which is the dimensional formula of pressure.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Applications:&lt;/strong&gt; Pressure is used in fields like &lt;strong&gt;fluid mechanics, hydraulics, meteorology, and engineering design&lt;/strong&gt;.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Examples:&lt;/strong&gt; Atmospheric pressure, blood pressure, and pressure in hydraulic lifts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;display: flex;gap: 6px;align-items: center;&quot;&gt;&lt;img height=&quot;26px&quot; src=&quot;//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png&quot; width=&quot;26px&quot; /&gt; &lt;strong&gt;&lt;span style=&quot;vertical-align: middle;font-size: 21px;&quot;&gt;&lt;u&gt;Additional Information&lt;/u&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;u&gt;&lt;strong&gt;[ML&lt;sup&gt;-2&lt;/sup&gt;T&lt;sup&gt;-2&lt;/sup&gt;]&lt;/strong&gt;&lt;/u&gt;: This dimensional formula corresponds to &lt;strong&gt;surface tension&lt;/strong&gt;.
+
+	&lt;ul&gt;
+		&lt;li&gt;&lt;strong&gt;Surface tension&lt;/strong&gt; represents force per unit &lt;strong&gt;length&lt;/strong&gt; along the surface of a liquid.&lt;/li&gt;
+		&lt;li&gt;Common applications include &lt;strong&gt;capillary action, formation of droplets, and liquid interfaces in engineering.&lt;/strong&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;u&gt;&lt;strong&gt;[ML&lt;sup&gt;2&lt;/sup&gt;T&lt;sup&gt;-2&lt;/sup&gt;]&lt;/strong&gt;&lt;/u&gt;:&amp;nbsp;This represents &lt;strong&gt;moment of force or torque&lt;/strong&gt;.
+	&lt;ul&gt;
+		&lt;li&gt;It is calculated as &lt;strong&gt;Force &amp;times; Distance&lt;/strong&gt; from the pivot.&lt;/li&gt;
+		&lt;li&gt;Used in applications such as &lt;strong&gt;lever systems, mechanical rotation, and structural analysis.&lt;/strong&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;u&gt;&lt;strong&gt;[MLT&lt;sup&gt;-2&lt;/sup&gt;]&lt;/strong&gt;&lt;/u&gt;:&amp;nbsp;This is the dimensional formula for force itself.
+	&lt;ul&gt;
+		&lt;li&gt;&lt;strong&gt;Force&lt;/strong&gt; acts on objects to produce &lt;strong&gt;acceleration&lt;/strong&gt;.&lt;/li&gt;
+		&lt;li&gt;Applications include &lt;strong&gt;mechanics, dynamics, and structural design calculations.&lt;/strong&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;<br><br><p>সঠিক উত্তর হল <u><strong><span class=""MathJax"" data-mathml=""<math xmlns=""http://www.w3.org/1998/Math/MathML""><mo stretchy=""false"">[</mo><mi>M</mi><msup><mi>L</mi><mrow class=""MJX-TeXAtom-ORD""><mo>&#x2212;</mo><mn>1</mn></mrow></msup><msup><mi>T</mi><mrow class=""MJX-TeXAtom-ORD""><mo>&#x2212;</mo><mn>2</mn></mrow></msup><mo stretchy=""false"">]</mo></math>"" id=""MathJax-Element-12-Frame"" role=""presentation"" style=""position: relative;"" tabindex=""0""><nobr aria-hidden=""true""><span class=""math"" id=""MathJax-Span-142"" style=""width: 6.092em; display: inline-block;""><span style=""display: inline-block; position: relative; width: 4.98em; height: 0px; font-size: 122%;""><span style=""position: absolute; clip: rect(1.232em, 1004.86em, 2.638em, -999.997em); top: -2.222em; left: 0em;""><span class=""mrow"" id=""MathJax-Span-143""><span class=""mo"" id=""MathJax-Span-144"" style=""font-family: MathJax_Main;"">[</span><span class=""mi"" id=""MathJax-Span-145"" style=""font-family: MathJax_Math-italic;"">M</span><span class=""msubsup"" id=""MathJax-Span-146""><span style=""display: inline-block; position: relative; width: 1.642em; height: 0px;""><span style=""position: absolute; clip: rect(3.106em, 1000.65em, 4.16em, -999.997em); top: -3.978em; left: 0em;""><span class=""mi"" id=""MathJax-Span-147"" style=""font-family: MathJax_Math-italic;"">L</span></span><span style=""position: absolute; top: -4.33em; left: 0.706em;""><span class=""texatom"" id=""MathJax-Span-148""><span class=""mrow"" id=""MathJax-Span-149""><span class=""mo"" id=""MathJax-Span-150"" style=""font-size: 70.7%; font-family: MathJax_Main;"">&minus;</span><span class=""mn"" id=""MathJax-Span-151"" style=""font-size: 70.7%; font-family: MathJax_Main;"">1</span></span></span></span></span></span><span class=""msubsup"" id=""MathJax-Span-152""><span style=""display: inline-block; position: relative; width: 1.759em; height: 0px;""><span style=""position: absolute; clip: rect(3.106em, 1000.71em, 4.16em, -999.997em); top: -3.978em; left: 0em;""><span class=""mi"" id=""MathJax-Span-153"" style=""font-family: MathJax_Math-italic;"">T</span></span><span style=""position: absolute; top: -4.33em; left: 0.764em;""><span class=""texatom"" id=""MathJax-Span-154""><span class=""mrow"" id=""MathJax-Span-155""><span class=""mo"" id=""MathJax-Span-156"" style=""font-size: 70.7%; font-family: MathJax_Main;"">&minus;</span><span class=""mn"" id=""MathJax-Span-157"" style=""font-size: 70.7%; font-family: MathJax_Main;"">2</span></span></span></span></span></span><span class=""mo"" id=""MathJax-Span-158"" style=""font-family: MathJax_Main;"">]</span></span></span></span></span></nobr><span class=""MJX_Assistive_MathML"" role=""presentation""><math xmlns=""http://www.w3.org/1998/Math/MathML""><mo stretchy=""false"">[</mo><mi>M</mi><msup><mi>L</mi><mrow class=""MJX-TeXAtom-ORD""><mo>&minus;</mo><mn>1</mn></mrow></msup><msup><mi>T</mi><mrow class=""MJX-TeXAtom-ORD""><mo>&minus;</mo><mn>2</mn></mrow></msup><mo stretchy=""false"">]</mo></math></span></span>
+<script id=""MathJax-Element-12"" type=""math/tex"">[M L^{-1} T^{-2}]</script>
+</strong></u>।</p>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"" width=""26px"" /><u style=""font-size: 21px; font-weight: bolder; font-family: var(--bs-body-font-family); text-align: var(--bs-body-text-align);"">গুরুত্বপূর্ণ বিষয়</u></span></p>
+
+<ul>
+	<li>চাপকে প্রতি একক ক্ষেত্রফল হিসাবে সংজ্ঞায়িত করা হয়, গাণিতিকভাবে <span class=""MathJax"" data-mathml=""<math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>P</mi><mo>=</mo><mfrac><mi>F</mi><mi>A</mi></mfrac></math>"" id=""MathJax-Element-13-Frame"" role=""presentation"" style=""position: relative;"" tabindex=""0""><nobr aria-hidden=""true""><span class=""math"" id=""MathJax-Span-159"" style=""width: 3.75em; display: inline-block;""><span style=""display: inline-block; position: relative; width: 3.047em; height: 0px; font-size: 122%;""><span style=""position: absolute; clip: rect(1.174em, 1003.05em, 2.813em, -999.997em); top: -2.222em; left: 0em;""><span class=""mrow"" id=""MathJax-Span-160""><span class=""mi"" id=""MathJax-Span-161"" style=""font-family: MathJax_Math-italic;"">P</span><span class=""mo"" id=""MathJax-Span-162"" style=""font-family: MathJax_Main; padding-left: 0.296em;"">=</span><span class=""mfrac"" id=""MathJax-Span-163"" style=""padding-left: 0.296em;""><span style=""display: inline-block; position: relative; width: 0.647em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;""><span style=""position: absolute; clip: rect(3.34em, 1000.53em, 4.16em, -999.997em); top: -4.388em; left: 50%; margin-left: -0.29em;""><span class=""mi"" id=""MathJax-Span-164"" style=""font-size: 70.7%; font-family: MathJax_Math-italic;"">F</span></span><span style=""position: absolute; clip: rect(3.282em, 1000.53em, 4.16em, -999.997em); top: -3.569em; left: 50%; margin-left: -0.29em;""><span class=""mi"" id=""MathJax-Span-165"" style=""font-size: 70.7%; font-family: MathJax_Math-italic;"">A</span></span></span></span></span></span></span></span></nobr><span class=""MJX_Assistive_MathML"" role=""presentation""><math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>P</mi><mo>=</mo><mfrac><mi>F</mi><mi>A</mi></mfrac></math></span></span>
+	<script id=""MathJax-Element-13"" type=""math/tex"">P = \frac{F}{A}</script>
+	 হিসাবে প্রকাশ করা হয়।</li>
+	<li>বলের মাত্রিক সূত্র হল <span class=""MathJax"" data-mathml=""<math xmlns=""http://www.w3.org/1998/Math/MathML""><mo stretchy=""false"">[</mo><mi>M</mi><mi>L</mi><msup><mi>T</mi><mrow class=""MJX-TeXAtom-ORD""><mo>&#x2212;</mo><mn>2</mn></mrow></msup><mo stretchy=""false"">]</mo></math>"" id=""MathJax-Element-14-Frame"" role=""presentation"" style=""position: relative;"" tabindex=""0""><nobr aria-hidden=""true""><span class=""math"" id=""MathJax-Span-166"" style=""width: 4.921em; display: inline-block;""><span style=""display: inline-block; position: relative; width: 4.043em; height: 0px; font-size: 122%;""><span style=""position: absolute; clip: rect(1.232em, 1003.93em, 2.638em, -999.997em); top: -2.222em; left: 0em;""><span class=""mrow"" id=""MathJax-Span-167""><span class=""mo"" id=""MathJax-Span-168"" style=""font-family: MathJax_Main;"">[</span><span class=""mi"" id=""MathJax-Span-169"" style=""font-family: MathJax_Math-italic;"">M</span><span class=""mi"" id=""MathJax-Span-170"" style=""font-family: MathJax_Math-italic;"">L</span><span class=""msubsup"" id=""MathJax-Span-171""><span style=""display: inline-block; position: relative; width: 1.759em; height: 0px;""><span style=""position: absolute; clip: rect(3.106em, 1000.71em, 4.16em, -999.997em); top: -3.978em; left: 0em;""><span class=""mi"" id=""MathJax-Span-172"" style=""font-family: MathJax_Math-italic;"">T</span></span><span style=""position: absolute; top: -4.33em; left: 0.764em;""><span class=""texatom"" id=""MathJax-Span-173""><span class=""mrow"" id=""MathJax-Span-174""><span class=""mo"" id=""MathJax-Span-175"" style=""font-size: 70.7%; font-family: MathJax_Main;"">&minus;</span><span class=""mn"" id=""MathJax-Span-176"" style=""font-size: 70.7%; font-family: MathJax_Main;"">2</span></span></span></span></span></span><span class=""mo"" id=""MathJax-Span-177"" style=""font-family: MathJax_Main;"">]</span></span></span></span></span></nobr><span class=""MJX_Assistive_MathML"" role=""presentation""><math xmlns=""http://www.w3.org/1998/Math/MathML""><mo stretchy=""false"">[</mo><mi>M</mi><mi>L</mi><msup><mi>T</mi><mrow class=""MJX-TeXAtom-ORD""><mo>&minus;</mo><mn>2</mn></mrow></msup><mo stretchy=""false"">]</mo></math></span></span>
+	<script id=""MathJax-Element-14"" type=""math/tex"">[M L T^{-2}]</script>
+	, যা নিউটনের দ্বিতীয় সূত্র থেকে উদ্ভূত (<span class=""MathJax"" data-mathml=""<math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>F</mi><mo>=</mo><mi>m</mi><mi>a</mi></math>"" id=""MathJax-Element-15-Frame"" role=""presentation"" style=""position: relative;"" tabindex=""0""><nobr aria-hidden=""true""><span class=""math"" id=""MathJax-Span-178"" style=""width: 4.335em; display: inline-block;""><span style=""display: inline-block; position: relative; width: 3.516em; height: 0px; font-size: 122%;""><span style=""position: absolute; clip: rect(1.35em, 1003.52em, 2.403em, -999.997em); top: -2.222em; left: 0em;""><span class=""mrow"" id=""MathJax-Span-179""><span class=""mi"" id=""MathJax-Span-180"" style=""font-family: MathJax_Math-italic;"">F</span><span class=""mo"" id=""MathJax-Span-181"" style=""font-family: MathJax_Main; padding-left: 0.296em;"">=</span><span class=""mi"" id=""MathJax-Span-182"" style=""font-family: MathJax_Math-italic; padding-left: 0.296em;"">m</span><span class=""mi"" id=""MathJax-Span-183"" style=""font-family: MathJax_Math-italic;"">a</span></span></span></span></span></nobr><span class=""MJX_Assistive_MathML"" role=""presentation""><math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>F</mi><mo>=</mo><mi>m</mi><mi>a</mi></math></span></span>
+	<script id=""MathJax-Element-15"" type=""math/tex"">F = ma</script>
+	)।</li>
+	<li>ক্ষেত্রফলের মাত্রিক সূত্র হল <span class=""MathJax"" data-mathml=""<math xmlns=""http://www.w3.org/1998/Math/MathML""><mo stretchy=""false"">[</mo><msup><mi>L</mi><mn>2</mn></msup><mo stretchy=""false"">]</mo></math>"" id=""MathJax-Element-16-Frame"" role=""presentation"" style=""position: relative;"" tabindex=""0""><nobr aria-hidden=""true""><span class=""math"" id=""MathJax-Span-184"" style=""width: 2.111em; display: inline-block;""><span style=""display: inline-block; position: relative; width: 1.701em; height: 0px; font-size: 122%;""><span style=""position: absolute; clip: rect(1.232em, 1001.58em, 2.638em, -999.997em); top: -2.222em; left: 0em;""><span class=""mrow"" id=""MathJax-Span-185""><span class=""mo"" id=""MathJax-Span-186"" style=""font-family: MathJax_Main;"">[</span><span class=""msubsup"" id=""MathJax-Span-187""><span style=""display: inline-block; position: relative; width: 1.115em; height: 0px;""><span style=""position: absolute; clip: rect(3.106em, 1000.65em, 4.16em, -999.997em); top: -3.978em; left: 0em;""><span class=""mi"" id=""MathJax-Span-188"" style=""font-family: MathJax_Math-italic;"">L</span></span><span style=""position: absolute; top: -4.33em; left: 0.706em;""><span class=""mn"" id=""MathJax-Span-189"" style=""font-size: 70.7%; font-family: MathJax_Main;"">2</span></span></span></span><span class=""mo"" id=""MathJax-Span-190"" style=""font-family: MathJax_Main;"">]</span></span></span></span></span></nobr><span class=""MJX_Assistive_MathML"" role=""presentation""><math xmlns=""http://www.w3.org/1998/Math/MathML""><mo stretchy=""false"">[</mo><msup><mi>L</mi><mn>2</mn></msup><mo stretchy=""false"">]</mo></math></span></span>
+	<script id=""MathJax-Element-16"" type=""math/tex"">[L^2]</script>
+	, কারণ এটি একটি দ্বি-মাত্রিক রাশি (<span class=""MathJax"" data-mathml=""<math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>L</mi><mo>&#x00D7;</mo><mi>L</mi></math>"" id=""MathJax-Element-17-Frame"" role=""presentation"" style=""position: relative;"" tabindex=""0""><nobr aria-hidden=""true""><span class=""math"" id=""MathJax-Span-191"" style=""width: 3.223em; display: inline-block;""><span style=""display: inline-block; position: relative; width: 2.638em; height: 0px; font-size: 122%;""><span style=""position: absolute; clip: rect(1.35em, 1002.58em, 2.403em, -999.997em); top: -2.222em; left: 0em;""><span class=""mrow"" id=""MathJax-Span-192""><span class=""mi"" id=""MathJax-Span-193"" style=""font-family: MathJax_Math-italic;"">L</span><span class=""mo"" id=""MathJax-Span-194"" style=""font-family: MathJax_Main; padding-left: 0.237em;"">x</span><span class=""mi"" id=""MathJax-Span-195"" style=""font-family: MathJax_Math-italic; padding-left: 0.237em;"">L</span></span></span></span></span></nobr><span class=""MJX_Assistive_MathML"" role=""presentation""><math xmlns=""http://www.w3.org/1998/Math/MathML""><mi>L</mi><mo>x</mo><mi>L</mi></math></span></span>
+	<script id=""MathJax-Element-17"" type=""math/tex"">L \times L</script>
+	)।</li>
+	<li>ক্ষেত্রফল দ্বারা বলের মাত্রিক সূত্রকে ভাগ করলে চাপের মাত্রিক সূত্র পাওয়া যায়: <span class=""MathJax"" data-mathml=""<math xmlns=""http://www.w3.org/1998/Math/MathML""><mo stretchy=""false"">[</mo><mi>M</mi><msup><mi>L</mi><mrow class=""MJX-TeXAtom-ORD""><mo>&#x2212;</mo><mn>1</mn></mrow></msup><msup><mi>T</mi><mrow class=""MJX-TeXAtom-ORD""><mo>&#x2212;</mo><mn>2</mn></mrow></msup><mo stretchy=""false"">]</mo></math>"" id=""MathJax-Element-18-Frame"" role=""presentation"" style=""position: relative;"" tabindex=""0""><nobr aria-hidden=""true""><span class=""math"" id=""MathJax-Span-196"" style=""width: 6.092em; display: inline-block;""><span style=""display: inline-block; position: relative; width: 4.98em; height: 0px; font-size: 122%;""><span style=""position: absolute; clip: rect(1.232em, 1004.86em, 2.638em, -999.997em); top: -2.222em; left: 0em;""><span class=""mrow"" id=""MathJax-Span-197""><span class=""mo"" id=""MathJax-Span-198"" style=""font-family: MathJax_Main;"">[</span><span class=""mi"" id=""MathJax-Span-199"" style=""font-family: MathJax_Math-italic;"">M</span><span class=""msubsup"" id=""MathJax-Span-200""><span style=""display: inline-block; position: relative; width: 1.642em; height: 0px;""><span style=""position: absolute; clip: rect(3.106em, 1000.65em, 4.16em, -999.997em); top: -3.978em; left: 0em;""><span class=""mi"" id=""MathJax-Span-201"" style=""font-family: MathJax_Math-italic;"">L</span></span><span style=""position: absolute; top: -4.33em; left: 0.706em;""><span class=""texatom"" id=""MathJax-Span-202""><span class=""mrow"" id=""MathJax-Span-203""><span class=""mo"" id=""MathJax-Span-204"" style=""font-size: 70.7%; font-family: MathJax_Main;"">&minus;</span><span class=""mn"" id=""MathJax-Span-205"" style=""font-size: 70.7%; font-family: MathJax_Main;"">1</span></span></span></span></span></span><span class=""msubsup"" id=""MathJax-Span-206""><span style=""display: inline-block; position: relative; width: 1.759em; height: 0px;""><span style=""position: absolute; clip: rect(3.106em, 1000.71em, 4.16em, -999.997em); top: -3.978em; left: 0em;""><span class=""mi"" id=""MathJax-Span-207"" style=""font-family: MathJax_Math-italic;"">T</span></span><span style=""position: absolute; top: -4.33em; left: 0.764em;""><span class=""texatom"" id=""MathJax-Span-208""><span class=""mrow"" id=""MathJax-Span-209""><span class=""mo"" id=""MathJax-Span-210"" style=""font-size: 70.7%; font-family: MathJax_Main;"">&minus;</span><span class=""mn"" id=""MathJax-Span-211"" style=""font-size: 70.7%; font-family: MathJax_Main;"">2</span></span></span></span></span></span><span class=""mo"" id=""MathJax-Span-212"" style=""font-family: MathJax_Main;"">]</span></span></span></span></span></nobr><span class=""MJX_Assistive_MathML"" role=""presentation""><math xmlns=""http://www.w3.org/1998/Math/MathML""><mo stretchy=""false"">[</mo><mi>M</mi><msup><mi>L</mi><mrow class=""MJX-TeXAtom-ORD""><mo>&minus;</mo><mn>1</mn></mrow></msup><msup><mi>T</mi><mrow class=""MJX-TeXAtom-ORD""><mo>&minus;</mo><mn>2</mn></mrow></msup><mo stretchy=""false"">]</mo></math></span></span>
+	<script id=""MathJax-Element-18"" type=""math/tex"">[M L^{-1} T^{-2}]</script>
+	।</li>
+	<li>সুতরাং, চাপের জন্য সঠিক মাত্রিক সূত্র হল <span class=""MathJax"" data-mathml=""<math xmlns=""http://www.w3.org/1998/Math/MathML""><mo stretchy=""false"">[</mo><mi>M</mi><msup><mi>L</mi><mrow class=""MJX-TeXAtom-ORD""><mo>&#x2212;</mo><mn>1</mn></mrow></msup><msup><mi>T</mi><mrow class=""MJX-TeXAtom-ORD""><mo>&#x2212;</mo><mn>2</mn></mrow></msup><mo stretchy=""false"">]</mo></math>"" id=""MathJax-Element-19-Frame"" role=""presentation"" style=""position: relative;"" tabindex=""0""><nobr aria-hidden=""true""><span class=""math"" id=""MathJax-Span-213"" style=""width: 6.092em; display: inline-block;""><span style=""display: inline-block; position: relative; width: 4.98em; height: 0px; font-size: 122%;""><span style=""position: absolute; clip: rect(1.232em, 1004.86em, 2.638em, -999.997em); top: -2.222em; left: 0em;""><span class=""mrow"" id=""MathJax-Span-214""><span class=""mo"" id=""MathJax-Span-215"" style=""font-family: MathJax_Main;"">[</span><span class=""mi"" id=""MathJax-Span-216"" style=""font-family: MathJax_Math-italic;"">M</span><span class=""msubsup"" id=""MathJax-Span-217""><span style=""display: inline-block; position: relative; width: 1.642em; height: 0px;""><span style=""position: absolute; clip: rect(3.106em, 1000.65em, 4.16em, -999.997em); top: -3.978em; left: 0em;""><span class=""mi"" id=""MathJax-Span-218"" style=""font-family: MathJax_Math-italic;"">L</span></span><span style=""position: absolute; top: -4.33em; left: 0.706em;""><span class=""texatom"" id=""MathJax-Span-219""><span class=""mrow"" id=""MathJax-Span-220""><span class=""mo"" id=""MathJax-Span-221"" style=""font-size: 70.7%; font-family: MathJax_Main;"">&minus;</span><span class=""mn"" id=""MathJax-Span-222"" style=""font-size: 70.7%; font-family: MathJax_Main;"">1</span></span></span></span></span></span><span class=""msubsup"" id=""MathJax-Span-223""><span style=""display: inline-block; position: relative; width: 1.759em; height: 0px;""><span style=""position: absolute; clip: rect(3.106em, 1000.71em, 4.16em, -999.997em); top: -3.978em; left: 0em;""><span class=""mi"" id=""MathJax-Span-224"" style=""font-family: MathJax_Math-italic;"">T</span></span><span style=""position: absolute; top: -4.33em; left: 0.764em;""><span class=""texatom"" id=""MathJax-Span-225""><span class=""mrow"" id=""MathJax-Span-226""><span class=""mo"" id=""MathJax-Span-227"" style=""font-size: 70.7%; font-family: MathJax_Main;"">&minus;</span><span class=""mn"" id=""MathJax-Span-228"" style=""font-size: 70.7%; font-family: MathJax_Main;"">2</span></span></span></span></span></span><span class=""mo"" id=""MathJax-Span-229"" style=""font-family: MathJax_Main;"">]</span></span></span></span></span></nobr><span class=""MJX_Assistive_MathML"" role=""presentation""><math xmlns=""http://www.w3.org/1998/Math/MathML""><mo stretchy=""false"">[</mo><mi>M</mi><msup><mi>L</mi><mrow class=""MJX-TeXAtom-ORD""><mo>&minus;</mo><mn>1</mn></mrow></msup><msup><mi>T</mi><mrow class=""MJX-TeXAtom-ORD""><mo>&minus;</mo><mn>2</mn></mrow></msup><mo stretchy=""false"">]</mo></math></span></span>
+	<script id=""MathJax-Element-19"" type=""math/tex"">[M L^{-1} T^{-2}]</script>
+	।</li>
+</ul>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>অতিরিক্ত তথ্য</u></span></strong></span></p>
+
+<ul>
+	<li><strong>চাপ:</strong> এটি একটি স্কেলার ভৌত ​​রাশি যা প্রতি একক ক্ষেত্রফলে প্রযুক্ত বলকে উপস্থাপন করে।</li>
+	<li><strong>SI একক:</strong> চাপের SI একক হল পাস্কাল (Pa), যেখানে <span class=""MathJax"" data-mathml=""<math xmlns=""http://www.w3.org/1998/Math/MathML""><mn>1</mn><mspace width=""thinmathspace"" /><mtext>Pa</mtext><mo>=</mo><mn>1</mn><mspace width=""thinmathspace"" /><msup><mtext>N/m</mtext><mn>2</mn></msup></math>"" id=""MathJax-Element-20-Frame"" role=""presentation"" style=""position: relative;"" tabindex=""0""><nobr aria-hidden=""true""><span class=""math"" id=""MathJax-Span-230"" style=""width: 7.907em; display: inline-block;""><span style=""display: inline-block; position: relative; width: 6.443em; height: 0px; font-size: 122%;""><span style=""position: absolute; clip: rect(1.115em, 1006.44em, 2.638em, -999.997em); top: -2.222em; left: 0em;""><span class=""mrow"" id=""MathJax-Span-231""><span class=""mn"" id=""MathJax-Span-232"" style=""font-family: MathJax_Main;"">1</span><span class=""mtext"" id=""MathJax-Span-234"" style=""font-family: MathJax_Main;"">Pa</span><span class=""mo"" id=""MathJax-Span-235"" style=""font-family: MathJax_Main; padding-left: 0.296em;"">=</span><span class=""mn"" id=""MathJax-Span-236"" style=""font-family: MathJax_Main; padding-left: 0.296em;"">1</span><span class=""msubsup"" id=""MathJax-Span-238""><span style=""display: inline-block; position: relative; width: 2.52em; height: 0px;""><span style=""position: absolute; clip: rect(3.047em, 1002.05em, 4.394em, -999.997em); top: -3.978em; left: 0em;""><span class=""mtext"" id=""MathJax-Span-239"" style=""font-family: MathJax_Main;"">N/m</span></span><span style=""position: absolute; top: -4.447em; left: 2.111em;""><span class=""mn"" id=""MathJax-Span-240"" style=""font-size: 70.7%; font-family: MathJax_Main;"">2</span></span></span></span></span></span></span></span></nobr><span class=""MJX_Assistive_MathML"" role=""presentation""><math xmlns=""http://www.w3.org/1998/Math/MathML""><mn>1</mn><mspace width=""thinmathspace""></mspace><mtext>Pa</mtext><mo>=</mo><mn>1</mn><mspace width=""thinmathspace""></mspace><msup><mtext>N/m</mtext><mn>2</mn></msup></math></span></span>
+	<script id=""MathJax-Element-20"" type=""math/tex"">1 \, \text{Pa} = 1 \, \text{N/m}^2</script>
+	।</li>
+	<li><strong>বায়ুমণ্ডলীয় চাপ:</strong> পৃথিবীর বায়ুমণ্ডল দ্বারা প্রয়োগ করা চাপ প্রায় <span class=""MathJax"" data-mathml=""<math xmlns=""http://www.w3.org/1998/Math/MathML""><mn>101</mn><mo>,</mo><mn>325</mn><mspace width=""thinmathspace"" /><mtext>Pa</mtext></math>"" id=""MathJax-Element-21-Frame"" role=""presentation"" style=""position: relative;"" tabindex=""0""><nobr aria-hidden=""true""><span class=""math"" id=""MathJax-Span-241"" style=""width: 5.858em; display: inline-block;""><span style=""display: inline-block; position: relative; width: 4.804em; height: 0px; font-size: 122%;""><span style=""position: absolute; clip: rect(1.35em, 1004.8em, 2.579em, -999.997em); top: -2.222em; left: 0em;""><span class=""mrow"" id=""MathJax-Span-242""><span class=""mn"" id=""MathJax-Span-243"" style=""font-family: MathJax_Main;"">101</span><span class=""mo"" id=""MathJax-Span-244"" style=""font-family: MathJax_Main;"">,</span><span class=""mn"" id=""MathJax-Span-245"" style=""font-family: MathJax_Main; padding-left: 0.179em;"">325</span><span class=""mtext"" id=""MathJax-Span-247"" style=""font-family: MathJax_Main;"">Pa</span></span></span></span></span></nobr><span class=""MJX_Assistive_MathML"" role=""presentation""><math xmlns=""http://www.w3.org/1998/Math/MathML""><mn>101</mn><mo>,</mo><mn>325</mn><mspace width=""thinmathspace""></mspace><mtext>Pa</mtext></math></span></span>
+	<script id=""MathJax-Element-21"" type=""math/tex"">101,325 \, \text{Pa}</script>
+	(1 atm)।</li>
+	<li><strong>চাপের প্রকারভেদ:</strong> রেফারেন্স পয়েন্টের উপর ভিত্তি করে পরম চাপ, গেজ চাপ এবং ডিফারেনশিয়াল চাপ হল সাধারণ শ্রেণিবিন্যাস।</li>
+	<li><strong>চাপের প্রয়োগ:</strong> আবহাওয়া, প্রকৌশল (যেমন, হাইড্রোলিক্স), এবং চিকিৎসা (যেমন, রক্তচাপ পর্যবেক্ষণ) এর মতো ক্ষেত্রগুলিতে চাপ পরিমাপ অত্যন্ত গুরুত্বপূর্ণ।</li>
+</ul>",https://mock-test-new.vercel.app?test=gs-railways-quiz-12th-march-2026
+GS Railways Quiz 12th March 2026,Which metals are generally used for electrical transmission lines?<br>বৈদ্যুতিক সঞ্চালন লাইনের জন্য সাধারণত কোন ধাতু ব্যবহার করা হয়?,Silver and gold / রুপা এবং সোনা,Zinc and lead / দস্তা এবং সীসা,Iron and nickel&amp;nbsp; / লোহা এবং নিকেল,Copper and aluminium / তামা এবং অ্যালুমিনিয়াম,4,1.0,0.33,10,"&lt;p&gt;The correct answer is &lt;u&gt;&lt;strong&gt;Copper and aluminium&lt;/strong&gt;&lt;/u&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;display: flex;gap: 6px;align-items: center;&quot;&gt;&lt;img height=&quot;26px&quot; src=&quot;//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png&quot; width=&quot;26px&quot; /&gt;&lt;u style=&quot;font-size: 21px; font-weight: bolder; font-family: var(--bs-body-font-family); text-align: var(--bs-body-text-align);&quot;&gt;Key Points&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Copper&lt;/strong&gt; is widely used in electrical transmission lines due to its excellent conductivity, durability, and resistance to corrosion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Aluminium&lt;/strong&gt; is commonly used because it is lightweight, cost-effective, and has a high conductivity-to-weight ratio.&lt;/li&gt;
+	&lt;li&gt;Both metals are preferred in applications requiring efficient power transmission over long distances.&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;Aluminium is often used in high-voltage transmission lines, while copper is preferred for lower-voltage applications and in areas where space is limited.&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;Modern transmission cables often use &lt;strong&gt;aluminium core reinforced with steel&lt;/strong&gt; (ACSR) to improve strength while maintaining conductivity.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;display: flex;gap: 6px;align-items: center;&quot;&gt;&lt;img height=&quot;26px&quot; src=&quot;//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png&quot; width=&quot;26px&quot; /&gt;&lt;strong&gt;&lt;span style=&quot;vertical-align: middle;font-size: 21px;&quot;&gt;&lt;u&gt;Additional Information&lt;/u&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Electrical Conductivity:&lt;/strong&gt;
+
+	&lt;ul&gt;
+		&lt;li&gt;Copper has one of the highest electrical conductivity values among metals, second only to silver.&lt;/li&gt;
+		&lt;li&gt;Aluminium&amp;#39;s conductivity is lower than copper but is still highly efficient for transmission purposes.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Cost Considerations:&lt;/strong&gt;
+	&lt;ul&gt;
+		&lt;li&gt;Aluminium is significantly cheaper than copper, making it an economical choice for large-scale transmission projects.&lt;/li&gt;
+		&lt;li&gt;Copper, while more expensive, is used where higher performance and durability are required.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Strength and Weight:&lt;/strong&gt;
+	&lt;ul&gt;
+		&lt;li&gt;Aluminium&amp;#39;s lower density makes it lighter and easier to install in overhead transmission lines.&lt;/li&gt;
+		&lt;li&gt;Steel reinforcement in aluminium cables increases tensile strength for long-distance applications.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Applications of Copper vs Aluminium:&lt;/strong&gt;
+	&lt;ul&gt;
+		&lt;li&gt;Copper is used in underground cables, electrical wiring, and machinery due to its compact nature and reliability.&lt;/li&gt;
+		&lt;li&gt;Aluminium is used in overhead lines, including long-distance power transmission and distribution networks.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Environmental Aspect:&lt;/strong&gt;
+	&lt;ul&gt;
+		&lt;li&gt;Both copper and aluminium are recyclable and contribute to sustainable energy systems.&lt;/li&gt;
+		&lt;li&gt;Efficient transmission reduces energy loss, making them critical for modern energy-efficient grids.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;<br><br><p>সঠিক উত্তর হল <u><strong>তামা এবং অ্যালুমিনিয়াম</strong></u>।</p>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"" width=""26px"" /><u style=""font-size: 20px; font-weight: bolder;"">Key Points</u></span></p>
+
+<ul>
+	<li><strong>তামা</strong> তার সুপরিবাহিতা, স্থায়িত্ব এবং ক্ষয় প্রতিরোধের কারণে বৈদ্যুতিক সংক্রমণ লাইনে ব্যাপকভাবে ব্যবহৃত হয়।</li>
+	<li><strong>অ্যালুমিনিয়াম</strong> সাধারণত ব্যবহৃত হয় কারণ এটি হালকা ওজনের, সাশ্রয়ী এবং উচ্চ পরিবাহিতা-থেকে-ওজন অনুপাত রয়েছে।</li>
+	<li>দীর্ঘ দূরত্বে দক্ষ শক্তি সঞ্চালনের প্রয়োজনে উভয় ধাতু পছন্দ করা হয়।</li>
+	<li>অ্যালুমিনিয়াম প্রায়শই উচ্চ-ভোল্টেজ ট্রান্সমিশন লাইনে ব্যবহৃত হয়, যেখানে কম-ভোল্টেজের অ্যাপ্লিকেশন এবং স্থান সীমিত এলাকায় তামাকে প্রাধান্য দেওয়া হয়।</li>
+	<li>আধুনিক ট্রান্সমিশন কেবলগুলি প্রায়শই পরিবাহিতা বজায় রেখে শক্তি উন্নত করতে <strong>ইস্পাত (ACSR) দ্বারা চাঙ্গা অ্যালুমিনিয়াম কোর</strong> ব্যবহার করে।</li>
+</ul>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"" width=""26px"" /><u style=""font-weight: bolder; font-size: 20px;"">Additional Information</u></span></p>
+
+<ul>
+	<li><strong>বৈদ্যুতিক পরিবাহিতা:</strong>
+
+	<ul>
+		<li>তামার ধাতুর মধ্যে অন্যতম সর্বোচ্চ বৈদ্যুতিক পরিবাহিতা মান রয়েছে, যা রৌপ্যের পরেই দ্বিতীয়।</li>
+		<li>অ্যালুমিনিয়ামের পরিবাহিতা তামার চেয়ে কম তবে ট্রান্সমিশন উদ্দেশ্যে এটি এখনও অত্যন্ত কার্যকর।</li>
+	</ul>
+	</li>
+	<li><strong>খরচ বিবেচনা:</strong>
+	<ul>
+		<li>অ্যালুমিনিয়াম তামার চেয়ে উল্লেখযোগ্যভাবে সস্তা, যা এটিকে বড় আকারের সংক্রমণ প্রকল্পের জন্য একটি অর্থনৈতিক পছন্দ করে তোলে।</li>
+		<li>তামা, যদিও বেশি ব্যয়বহুল, যেখানে উচ্চ কার্যকারিতা এবং স্থায়িত্ব প্রয়োজন সেখানে ব্যবহার করা হয়।</li>
+	</ul>
+	</li>
+	<li><strong>শক্তি এবং ওজন:</strong>
+	<ul>
+		<li>অ্যালুমিনিয়ামের কম ঘনত্ব এটিকে হালকা এবং ওভারহেড ট্রান্সমিশন লাইনে ইনস্টল করা সহজ করে তোলে।</li>
+		<li>অ্যালুমিনিয়াম তারের ইস্পাত শক্তিবৃদ্ধি দীর্ঘ-দূরত্বের অ্যাপ্লিকেশনের জন্য প্রসার্য শক্তি বাড়ায়।</li>
+	</ul>
+	</li>
+	<li><strong>তামা বনাম অ্যালুমিনিয়ামের প্রয়োগ:</strong>
+	<ul>
+		<li>তামা ভূগর্ভস্থ তার, বৈদ্যুতিক তার এবং যন্ত্রপাতিতে এর কমপ্যাক্ট প্রকৃতি এবং নির্ভরযোগ্যতার কারণে ব্যবহৃত হয়।</li>
+		<li>অ্যালুমিনিয়াম ওভারহেড লাইনগুলিতে ব্যবহৃত হয়, যার মধ্যে দীর্ঘ-দূরত্বের বিদ্যুৎ সঞ্চালন এবং বিতরণ নেটওয়ার্ক রয়েছে।</li>
+	</ul>
+	</li>
+	<li><strong>পরিবেশগত দিক:</strong>
+	<ul>
+		<li>তামা এবং অ্যালুমিনিয়াম উভয়ই পুনর্ব্যবহারযোগ্য এবং টেকসই শক্তি ব্যবস্থায় অবদান রাখে।</li>
+		<li>দক্ষ সংক্রমণ শক্তি হ্রাস হ্রাস করে, যা আধুনিক শক্তি-দক্ষ গ্রিডের জন্য তাদের গুরুত্বপূর্ণ করে তোলে।</li>
+	</ul>
+	</li>
+</ul>",https://mock-test-new.vercel.app?test=gs-railways-quiz-12th-march-2026
+GS Railways Quiz 12th March 2026,What is the temperature of the triple point of water on the Celsius scale?<br>সেলসিয়াস স্কেলে জলের ত্রয়ী বিন্দুর তাপমাত্রা কত?,100&amp;deg;C / 100&deg;C,0&amp;deg;C / 0&deg;C,-273.15&amp;deg;C / -273.15&deg;C,0.01&amp;deg;C / 0.01&deg;C,4,1.0,0.33,10,"&lt;p&gt;The correct answer is &lt;u&gt;&lt;strong&gt;0.01&amp;ordm;C&lt;/strong&gt;&lt;/u&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;display: flex;gap: 6px;align-items: center;&quot;&gt;&lt;img height=&quot;26px&quot; src=&quot;//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png&quot; width=&quot;26px&quot; /&gt;&lt;u style=&quot;font-size: 21px; font-weight: bolder; font-family: var(--bs-body-font-family); text-align: var(--bs-body-text-align);&quot;&gt;Key Points&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;The triple point of water is the temperature and pressure at which water exists simultaneously in its &lt;strong&gt;solid, liquid, and gaseous states&lt;/strong&gt;.&lt;/li&gt;
+	&lt;li&gt;On the Celsius scale, the triple point of water is precisely &lt;strong&gt;0.01&amp;ordm;C&lt;/strong&gt;.&lt;/li&gt;
+	&lt;li&gt;This value is used as a standard fixed point in the definition of the Celsius temperature scale.&lt;/li&gt;
+	&lt;li&gt;The corresponding pressure at the triple point of water is exactly &lt;strong&gt;611.657 pascals (Pa)&lt;/strong&gt;.&lt;/li&gt;
+	&lt;li&gt;The triple point of water is critical for scientific calibration of thermometers and maintaining the International Temperature Scale.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;display: flex;gap: 6px;align-items: center;&quot;&gt;&lt;img height=&quot;26px&quot; src=&quot;//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png&quot; width=&quot;26px&quot; /&gt;&lt;strong&gt;&lt;span style=&quot;vertical-align: middle;font-size: 21px;&quot;&gt;&lt;u&gt;Additional Information&lt;/u&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Definition of Triple Point:&lt;/strong&gt;
+
+	&lt;ul&gt;
+		&lt;li&gt;The triple point is a unique thermodynamic state where three phases (solid, liquid, and gas) coexist in equilibrium.&lt;/li&gt;
+		&lt;li&gt;It is a fundamental reference point for thermodynamic measurements.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Kelvin and Celsius Relationship:&lt;/strong&gt;
+	&lt;ul&gt;
+		&lt;li&gt;The triple point of water is defined as 273.16 K on the Kelvin scale.&lt;/li&gt;
+		&lt;li&gt;The Celsius scale is defined such that the triple point of water is 0.01&amp;ordm;C.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Role in Metrology:&lt;/strong&gt;
+	&lt;ul&gt;
+		&lt;li&gt;The triple point of water is used in metrology to calibrate temperature-measuring instruments.&lt;/li&gt;
+		&lt;li&gt;It is a key reference point for defining the International Temperature Scale (ITS-90).&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Physical Significance:&lt;/strong&gt;
+	&lt;ul&gt;
+		&lt;li&gt;The triple point demonstrates the delicate balance of thermodynamic states under specific conditions.&lt;/li&gt;
+		&lt;li&gt;For water, it highlights the unique properties of this universal solvent, which is critical for life on Earth.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;<br><br><p>সঠিক উত্তর হল <u><strong>0.01&ordm;C</strong></u>।</p>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"" width=""26px"" /><u style=""font-size: 20px; font-weight: bolder;"">Key Points</u></span></p>
+
+<ul>
+	<li>জলের ত্রয়ী বিন্দু হল সেই তাপমাত্রা এবং চাপ, যেখানে জল একই সাথে তার <strong>কঠিন, তরল এবং গ্যাসীয় অবস্থায়</strong> বিদ্যমান থাকে।</li>
+	<li>সেলসিয়াস স্কেলে, জলের ত্রয়ী বিন্দুটি সুনির্দিষ্টভাবে <strong>0.01&ordm;C</strong>।</li>
+	<li>এই মানটি সেলসিয়াস তাপমাত্রা স্কেলের সংজ্ঞায় একটি মানক স্থির বিন্দু হিসাবে ব্যবহৃত হয়।</li>
+	<li>জলের ত্রয়ী বিন্দুতে সংশ্লিষ্ট চাপ সুনির্দিষ্টভাবে <strong>611.657 প্যাসকেল (Pa)</strong>।</li>
+	<li>জলের ত্রয়ী বিন্দু থার্মোমিটারের বৈজ্ঞানিক ক্রমাঙ্কন এবং আন্তর্জাতিক তাপমাত্রা স্কেল বজায় রাখার জন্য গুরুত্বপূর্ণ।</li>
+</ul>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"" width=""26px"" /><u style=""font-size: 20px; font-weight: 700;"">Additional Information</u></span></p>
+
+<ul>
+	<li><strong>ত্রয়ী বিন্দুর সংজ্ঞা:</strong>
+
+	<ul>
+		<li>ত্রয়ী বিন্দু হল একটি অনন্য তাপগতিবিদ্যা সংক্রান্ত অবস্থা যেখানে তিনটি দশা (কঠিন, তরল এবং গ্যাস) ভারসাম্যে সহাবস্থান করে।</li>
+		<li>এটি তাপগতিবিদ্যা সংক্রান্ত পরিমাপের জন্য একটি মৌলিক নির্দেশক বিন্দু।</li>
+	</ul>
+	</li>
+	<li><strong>কেলভিন এবং সেলসিয়াস সম্পর্ক:</strong>
+	<ul>
+		<li>জলের ত্রয়ী বিন্দু কেলভিন স্কেলে 273.16 K হিসাবে সংজ্ঞায়িত করা হয়।</li>
+		<li>সেলসিয়াস স্কেল এমনভাবে সংজ্ঞায়িত করা হয়েছে যে জলের ত্রয়ী বিন্দুটি 0.01&ordm;C।</li>
+	</ul>
+	</li>
+	<li><strong>মেট্রোলজিতে ভূমিকা:</strong>
+	<ul>
+		<li>জলের ত্রয়ী বিন্দু তাপমাত্রা পরিমাপের যন্ত্রের ক্রমাঙ্কন করতে মেট্রোলজিতে ব্যবহৃত হয়।</li>
+		<li>এটি আন্তর্জাতিক তাপমাত্রা স্কেল (ITS-90) সংজ্ঞায়িত করার জন্য একটি মূল নির্দেশক বিন্দু।</li>
+	</ul>
+	</li>
+	<li><strong>ভৌত তাৎপর্য:</strong>
+	<ul>
+		<li>ত্রয়ী বিন্দু নির্দিষ্ট অবস্থার অধীনে তাপগতিবিদ্যা সংক্রান্ত অবস্থার সূক্ষ্ম ভারসাম্য প্রদর্শন করে।</li>
+		<li>জলের জন্য, এটি এই সার্বজনীন দ্রাবকের অনন্য বৈশিষ্ট্যগুলিকে তুলে ধরে, যা পৃথিবীর জীবনের জন্য গুরুত্বপূর্ণ।</li>
+	</ul>
+	</li>
+</ul>",https://mock-test-new.vercel.app?test=gs-railways-quiz-12th-march-2026
+GS Railways Quiz 12th March 2026,What is the formula for density?<br>ঘনত্বের সূত্র কী?,"&lt;p data-end=&quot;126&quot; data-start=&quot;89&quot;&gt;Density = Mass &amp;times; Volume​&lt;/p&gt; / <span style=""color: rgb(33, 37, 41);"">ঘনত্ব = ভর &times; আয়তন</span>","&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Density = Weight / Volume&lt;/span&gt; / <span style=""color: rgb(33, 37, 41);"">ঘনত্ব = ওজন / আয়তন</span>","&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Density = Mass / Volume&lt;/span&gt; / <span style=""color: rgb(33, 37, 41);"">ঘনত্ব = ভর / আয়তন</span>","&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;nbsp;Density = Volume / Mass&lt;/span&gt; / <span style=""color: rgb(33, 37, 41);"">ঘনত্ব = আয়তন / ভর</span>",3,1.0,0.33,10,"&lt;p&gt;The correct answer is &lt;u&gt;&lt;strong&gt;Density = Mass / Volume&lt;/strong&gt;&lt;/u&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;display: flex;gap: 6px;align-items: center;&quot;&gt;&lt;img height=&quot;26px&quot; src=&quot;//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png&quot; width=&quot;26px&quot; /&gt;&lt;u style=&quot;font-size: 21px; font-weight: bolder; font-family: var(--bs-body-font-family); text-align: var(--bs-body-text-align);&quot;&gt;Key Points&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Density&lt;/strong&gt; is defined as the amount of mass per unit volume of a substance.&lt;/li&gt;
+	&lt;li&gt;The standard formula for density is &lt;strong&gt;Density = Mass / Volume&lt;/strong&gt;.&lt;/li&gt;
+	&lt;li&gt;The SI unit of density is &lt;strong&gt;kilograms per cubic meter (kg/m&amp;sup3;)&lt;/strong&gt;.&lt;/li&gt;
+	&lt;li&gt;Density helps determine whether a substance will &lt;strong&gt;sink or float&lt;/strong&gt; when placed in a fluid.&lt;/li&gt;
+	&lt;li&gt;Commonly used in various fields, including physics, chemistry, and engineering, to analyze material properties.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;display: flex;gap: 6px;align-items: center;&quot;&gt;&lt;img height=&quot;26px&quot; src=&quot;//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png&quot; width=&quot;26px&quot; /&gt;&lt;strong&gt;&lt;span style=&quot;vertical-align: middle;font-size: 21px;&quot;&gt;&lt;u&gt;Additional Information&lt;/u&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Mass:&lt;/strong&gt; The quantity of matter in an object, measured in kilograms (kg) in the SI system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Volume:&lt;/strong&gt; The amount of space occupied by an object or substance, measured in cubic meters (m&amp;sup3;) in the SI system.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Relative Density:&lt;/strong&gt; It is the ratio of the density of a substance to the density of a reference substance (usually water for liquids and solids).&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Buoyancy:&lt;/strong&gt; An object&amp;#39;s ability to float is determined by comparing its density to the density of the fluid it is placed in.&lt;/li&gt;
+	&lt;li&gt;Materials with higher density than water (1 g/cm&amp;sup3;) will sink, whereas those with lower density will float.&lt;/li&gt;
+&lt;/ul&gt;<br><br><p>সঠিক উত্তর হল <u><strong>ঘনত্ব = ভর / আয়তন</strong></u>।</p>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"" width=""26px"" /><u style=""font-size: 20px; font-weight: bolder;"">Key Points</u></span></p>
+
+<ul>
+	<li><strong>ঘনত্ব</strong> কে একটি পদার্থের প্রতি একক আয়তনের ভরের পরিমাণ হিসাবে সংজ্ঞায়িত করা হয়।</li>
+	<li>ঘনত্বের আদর্শ সূত্র হল <strong>ঘনত্ব = ভর / আয়তন</strong>।</li>
+	<li>ঘনত্বের SI একক হল <strong>কিলোগ্রাম প্রতি ঘনমিটার (kg/m&sup3;)</strong>।</li>
+	<li>ঘনত্ব একটি পদার্থকে তরলে রাখলে তা <strong>ডুবে যাবে নাকি ভাসবে</strong> তা নির্ধারণ করতে সাহায্য করে।</li>
+	<li>পদার্থের বৈশিষ্ট্য বিশ্লেষণ করার জন্য পদার্থবিদ্যা, রসায়ন এবং প্রকৌশল সহ বিভিন্ন ক্ষেত্রে এটি সাধারণত ব্যবহৃত হয়।</li>
+</ul>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"" width=""26px"" /><u style=""font-weight: bolder; font-size: 20px;"">Additional Information</u></span></p>
+
+<ul>
+	<li><strong>ভর:</strong> একটি বস্তুর পদার্থের পরিমাণ, SI পদ্ধতিতে কিলোগ্রাম (kg) পরিমাপ করা হয়।</li>
+	<li><strong>আয়তন:</strong> একটি বস্তু বা পদার্থ দ্বারা দখল করা স্থানের পরিমাণ, SI পদ্ধতিতে ঘনমিটার (m&sup3;) পরিমাপ করা হয়।</li>
+	<li><strong>আপেক্ষিক ঘনত্ব:</strong> এটি একটি পদার্থের ঘনত্বের সাথে একটি রেফারেন্স পদার্থের (সাধারণত তরল এবং কঠিন পদার্থের জন্য জল) ঘনত্বের অনুপাত।</li>
+	<li><strong>প্লবতা:</strong> একটি বস্তুর ভেসে থাকার ক্ষমতা তার ঘনত্বকে যে তরলে রাখা হয়েছে তার ঘনত্বের সাথে তুলনা করে নির্ধারিত হয়।</li>
+	<li>যেসব পদার্থের ঘনত্ব জলের (1 g/cm&sup3;) চেয়ে বেশি, তারা ডুবে যাবে, আর যাদের ঘনত্ব কম, তারা ভেসে থাকবে।</li>
+</ul>",https://mock-test-new.vercel.app?test=gs-railways-quiz-12th-march-2026
+GS Railways Quiz 12th March 2026,Which major discovery helps to design drugs in the treatment of hyperacidity?<br>কোন প্রধান আবিষ্কারটি হাইপার অ্যাসিডিটির চিকিৎসায় ওষুধ ডিজাইন করতে সাহায্য করে?,The role of enzymes in digestion / হজমে উৎসেচকের ভূমিকা,The use of antibiotics to neutralize stomach acid / পেটের অ্যাসিডকে নিরপেক্ষ করতে অ্যান্টিবায়োটিকের ব্যবহার,Hydrochloric acid present in the stomach / পেটে হাইড্রোক্লোরিক অ্যাসিডের উপস্থিতি,Histamine stimulates acid secretion in the stomach / হিস্টামিন পেটে অ্যাসিড নিঃসরণকে উদ্দীপিত করে,4,1.0,0.33,10,"&lt;p&gt;The correct answer is &lt;u&gt;&lt;strong&gt;Histamine stimulates acid secretion in the stomach&lt;/strong&gt;&lt;/u&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;display: flex;gap: 6px;align-items: center;&quot;&gt;&lt;img height=&quot;26px&quot; src=&quot;//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png&quot; width=&quot;26px&quot; /&gt;&lt;u style=&quot;font-size: 21px; font-weight: bolder; font-family: var(--bs-body-font-family); text-align: var(--bs-body-text-align);&quot;&gt;Key Points&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Histamine plays a crucial role&lt;/strong&gt; in stimulating the secretion of gastric acid in the stomach by binding to H2 receptors on the parietal cells.&lt;/li&gt;
+	&lt;li&gt;This discovery has been instrumental in the development of &lt;strong&gt;H2 receptor antagonists&lt;/strong&gt; such as ranitidine and famotidine, which are widely used to treat hyperacidity and related disorders.&lt;/li&gt;
+	&lt;li&gt;Histamine-mediated acid secretion is an important target in the treatment of conditions like &lt;strong&gt;gastroesophageal reflux disease (GERD), peptic ulcers, and Zollinger-Ellison syndrome&lt;/strong&gt;.&lt;/li&gt;
+	&lt;li&gt;The regulation of histamine pathways has also led to advancements in &lt;strong&gt;proton pump inhibitors (PPIs)&lt;/strong&gt;, which further reduce gastric acid production.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;display: flex;gap: 6px;align-items: center;&quot;&gt;&lt;img height=&quot;26px&quot; src=&quot;//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png&quot; width=&quot;26px&quot; /&gt;&lt;strong&gt;&lt;span style=&quot;vertical-align: middle;font-size: 21px;&quot;&gt;&lt;u&gt;Additional Information&lt;/u&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Histamine:&lt;/strong&gt; A chemical messenger released by certain cells in the body, including mast cells, that plays a key role in immune responses and gastric acid secretion.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;H2 Receptor Antagonists:&lt;/strong&gt; Drugs like ranitidine and cimetidine that block histamine H2 receptors, reducing stomach acid production and relieving symptoms of hyperacidity.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Proton Pump Inhibitors (PPIs):&lt;/strong&gt; Medications such as omeprazole and esomeprazole that inhibit the final step in acid secretion, providing long-lasting relief for acid-related conditions.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Gastroesophageal Reflux Disease (GERD):&lt;/strong&gt; A chronic condition where stomach acid frequently flows back into the esophagus, causing irritation and requiring acid-suppressing treatments.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Parietal Cells:&lt;/strong&gt; Specialized cells in the stomach lining that produce hydrochloric acid and intrinsic factor, essential for digestion and vitamin B12 absorption.&lt;/li&gt;
+&lt;/ul&gt;<br><br><p>সঠিক উত্তর হল <u><strong>হিস্টামিন পেটে অ্যাসিড নিঃসরণকে উদ্দীপিত করে</strong></u>।</p>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"" width=""26px"" /><u style=""font-size: 20px; font-weight: bolder;"">Key Points</u></span></p>
+
+<ul>
+	<li>প্যারাইটাল কোষগুলিতে H2 গ্রাহকগুলির সাথে আবদ্ধ হয়ে <strong>হিস্টামিন পেটে গ্যাস্ট্রিক অ্যাসিডের নিঃসরণকে উদ্দীপিত করতে গুরুত্বপূর্ণ ভূমিকা পালন করে</strong>।</li>
+	<li>এই আবিষ্কারটি রেনিটিডিন এবং ফামোটিডিনের মতো <strong>H2 রিসেপ্টর অ্যান্টাগোনিস্টের</strong> বিকাশে সহায়ক হয়েছে, যা হাইপার অ্যাসিডিটি এবং সম্পর্কিত ব্যাধিগুলির চিকিৎসায় ব্যাপকভাবে ব্যবহৃত হয়।</li>
+	<li>গ্যাস্ট্রোইসোফেজিয়াল রিফ্লাক্স ডিজিজ (GERD), পেপটিক আলসার এবং জোলিঙ্গার-এলিসন সিন্ড্রোমের মতো অবস্থার চিকিৎসায় হিস্টামিন-মধ্যস্থিত অ্যাসিড নিঃসরণ একটি গুরুত্বপূর্ণ লক্ষ্য।</li>
+	<li>হিস্টামিন পথের নিয়ন্ত্রণ <strong>প্রোটন পাম্প ইনহিবিটর (PPI)</strong> এর অগ্রগতিতেও সাহায্য করেছে, যা গ্যাস্ট্রিক অ্যাসিড উৎপাদনকে আরও কমিয়ে দেয়।</li>
+</ul>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"" width=""26px"" /><u style=""font-size: 20px; font-weight: 700;"">Additional Information</u></span></p>
+
+<ul>
+	<li><strong>হিস্টামিন:</strong> শরীরের নির্দিষ্ট কিছু কোষ দ্বারা নির্গত একটি রাসায়নিক বার্তাবাহক, যার মধ্যে রয়েছে মাস্ট কোষ, যা অনাক্রমতা প্রতিক্রিয়া এবং গ্যাস্ট্রিক অ্যাসিড নিঃসরণে একটি গুরুত্বপূর্ণ ভূমিকা পালন করে।</li>
+	<li><strong>H2 গ্রাহক অ্যান্টাগোনিস্ট:</strong> রেনিটিডিন এবং সিমেটিডিনের মতো ওষুধ যা হিস্টামিন H2 গ্রাহককে ব্লক করে, পেটের অ্যাসিড উৎপাদন হ্রাস করে এবং হাইপার অ্যাসিডিটির লক্ষণগুলি থেকে মুক্তি দেয়।</li>
+	<li><strong>প্রোটন পাম্প ইনহিবিটর (PPI):</strong> ওমেপ্রাজল এবং এসোমেপ্রাজলের মতো ওষুধ যা অ্যাসিড নিঃসরণের চূড়ান্ত ধাপকে বাধা দেয়, যা অ্যাসিড-সম্পর্কিত অবস্থার জন্য দীর্ঘস্থায়ী ত্রাণ প্রদান করে।</li>
+	<li><strong>গ্যাস্ট্রোইসোফেজিয়াল রিফ্লাক্স ডিজিজ (GERD):</strong> একটি দীর্ঘস্থায়ী অবস্থা যেখানে পেটের অ্যাসিড প্রায়শই খাদ্যনালীতে ফিরে আসে, যার ফলে জ্বালা হয় এবং অ্যাসিড-দমনকারী চিকিৎসার প্রয়োজন হয়।</li>
+	<li><strong>প্যারাইটাল কোষ:</strong> পেটের আস্তরণের বিশেষ কোষ যা হাইড্রোক্লোরিক অ্যাসিড এবং ইন্ট্রিনসিক ফ্যাক্টর তৈরি করে, যা হজম এবং ভিটামিন B12 শোষণের জন্য অপরিহার্য।</li>
+</ul>",https://mock-test-new.vercel.app?test=gs-railways-quiz-12th-march-2026
+GS Railways Quiz 12th March 2026,The Meissner effect is a defining characteristic of which state of matter?<br>মেইসনার প্রভাব পদার্থের কোন অবস্থার একটি সংজ্ঞায়িত বৈশিষ্ট্য?,Paramagnetic state / পরাচৌম্বক অবস্থা,Superconducting state / অতিপরিবাহী অবস্থা,Ferromagnetic state / অয়শ্চৌম্বক অবস্থা,Insulating state / অন্তরক অবস্থা,2,1.0,0.33,10,"&lt;p&gt;The Correct answer is &lt;u&gt;&lt;strong&gt;Superconducting state&lt;/strong&gt;&lt;/u&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;display: flex;gap: 6px;align-items: center;&quot;&gt;&lt;img height=&quot;26px&quot; src=&quot;//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png&quot; width=&quot;26px&quot; /&gt;&lt;strong&gt;&lt;span style=&quot;vertical-align: middle;font-size: 21px;&quot;&gt;&lt;u&gt;Key Points&lt;/u&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul style=&quot;color: (33, 37, 41);&quot;&gt;
+	&lt;li&gt;The &lt;strong&gt;Meissner effect&lt;/strong&gt; is the phenomenon where a material expels &lt;strong&gt;magnetic fields&lt;/strong&gt; when it transitions into the &lt;strong&gt;superconducting state&lt;/strong&gt;.&lt;/li&gt;
+	&lt;li&gt;This effect is a defining characteristic of superconductors and demonstrates their ability to exhibit &lt;strong&gt;perfect diamagnetism&lt;/strong&gt;.&lt;/li&gt;
+	&lt;li&gt;In the superconducting state, the material&amp;#39;s resistance drops to &lt;strong&gt;zero&lt;/strong&gt;, allowing electric currents to flow without energy loss.&lt;/li&gt;
+	&lt;li&gt;The effect was discovered in &lt;strong&gt;1933&lt;/strong&gt; by Walther Meissner and Robert Ochsenfeld.&lt;/li&gt;
+	&lt;li&gt;It occurs due to the formation of &lt;strong&gt;Cooper pairs&lt;/strong&gt;, which are paired electrons that move without scattering.&lt;/li&gt;
+	&lt;li&gt;The Meissner effect is observed below a critical temperature, which varies depending on the type of superconducting material.&lt;/li&gt;
+	&lt;li&gt;The effect is utilized in technologies such as &lt;strong&gt;magnetic levitation&lt;/strong&gt; and highly efficient electrical systems.&lt;/li&gt;
+	&lt;li&gt;Superconductors are categorized into two types: &lt;strong&gt;Type I&lt;/strong&gt; and &lt;strong&gt;Type II&lt;/strong&gt;, both exhibiting the Meissner effect but with different behaviors in external magnetic fields.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;display: flex;gap: 6px;align-items: center;&quot;&gt;&lt;img height=&quot;26px&quot; src=&quot;//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png&quot; width=&quot;26px&quot; /&gt; &lt;strong&gt;&lt;span style=&quot;vertical-align: middle;font-size: 21px;&quot;&gt;&lt;u&gt;Additional Information&lt;/u&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;u&gt;&lt;strong&gt;Paramagnetic state&lt;/strong&gt;&lt;/u&gt;
+
+	&lt;ul&gt;
+		&lt;li&gt;In the &lt;strong&gt;paramagnetic state&lt;/strong&gt;, materials are weakly attracted to external magnetic fields due to the alignment of magnetic moments.&lt;/li&gt;
+		&lt;li&gt;Unlike the superconducting state, paramagnetic materials do not exhibit &lt;strong&gt;zero resistance&lt;/strong&gt; or expulsion of magnetic fields.&lt;/li&gt;
+		&lt;li&gt;Examples of paramagnetic materials include &lt;strong&gt;aluminum&lt;/strong&gt;, &lt;strong&gt;platinum&lt;/strong&gt;, and &lt;strong&gt;magnesium.&lt;/strong&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;u&gt;&lt;strong&gt;Ferromagnetic state&lt;/strong&gt;&lt;/u&gt;
+	&lt;ul&gt;
+		&lt;li&gt;In the &lt;strong&gt;ferromagnetic state&lt;/strong&gt;, materials exhibit strong attraction to magnetic fields and retain their magnetization even after the external field is removed.&lt;/li&gt;
+		&lt;li&gt;Examples include &lt;strong&gt;iron&lt;/strong&gt;, &lt;strong&gt;nickel&lt;/strong&gt;, and &lt;strong&gt;cobalt&lt;/strong&gt;.&lt;/li&gt;
+		&lt;li&gt;Ferromagnetic materials are used in applications like &lt;strong&gt;electric motors&lt;/strong&gt;, &lt;strong&gt;transformers&lt;/strong&gt;, and &lt;strong&gt;permanent magnets&lt;/strong&gt;.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;u&gt;&lt;strong&gt;Insulating state&lt;/strong&gt;&lt;/u&gt;
+	&lt;ul&gt;
+		&lt;li&gt;In the &lt;strong&gt;insulating state&lt;/strong&gt;, materials do not conduct electricity due to the absence of free electrons or charge carriers.&lt;/li&gt;
+		&lt;li&gt;Common examples include &lt;strong&gt;rubber&lt;/strong&gt;, &lt;strong&gt;glass&lt;/strong&gt;, and &lt;strong&gt;ceramics&lt;/strong&gt;.&lt;/li&gt;
+		&lt;li&gt;Insulators are widely used in &lt;strong&gt;electrical wiring&lt;/strong&gt; and &lt;strong&gt;circuit components&lt;/strong&gt; to prevent current leakage.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;<br><br><p>সঠিক উত্তর হল <u><strong><span style=""color: rgb(33, 37, 41);"">অতিপরিবাহী অবস্থা</span></strong></u></p>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"" width=""26px"" /><u style=""font-size: 20px; font-weight: 700;"">Key Points</u></span></p>
+
+<ul style=""color: (33, 37, 41);"">
+	<li><strong>মেইসনার প্রভাব</strong> হল এমন একটি ঘটনা যেখানে একটি পদার্থ <strong>চৌম্বক ক্ষেত্রগুলিকে</strong> বহিষ্কার করে যখন এটি <strong><span style=""color: rgb(33, 37, 41);"">অতিপরিবাহী অবস্থা</span> </strong>রূপান্তরিত হয়।</li>
+	<li>এই প্রভাব <span style=""color: rgb(33, 37, 41);"">অতিপরিবাহী</span>গুলির একটি সংজ্ঞায়িত বৈশিষ্ট্য এবং তাদের <strong>নিখুঁত তিরশ্চৌম্বক </strong>প্রদর্শনের ক্ষমতাকে তুলে ধরে।</li>
+	<li>অতিপরিবাহী অবস্থায়, পদার্থের রোধ <strong>শূন্যে</strong> নেমে আসে, যা শক্তি ক্ষয় ছাড়াই তড়িৎ প্রবাহকে প্রবাহিত হতে দেয়।</li>
+	<li>ওয়ালথার মেইসনার এবং রবার্ট অক্সেনফেল্ড <strong>1933</strong> সালে এই প্রভাবটি আবিষ্কার করেন।</li>
+	<li>এটি <strong>কুপার জোড়</strong> গঠনের কারণে ঘটে, যেগুলি জোড়বদ্ধ ইলেক্ট্রন যা বিক্ষিপ্ত না হয়ে চলে।</li>
+	<li>মেইসনার প্রভাব একটি সঙ্কটপূর্ণ তাপমাত্রার নিচে পরিলক্ষিত হয়, যা <span style=""color: rgb(33, 37, 41);"">অতিপরিবাহী</span> উপাদানের প্রকারের উপর নির্ভর করে পরিবর্তিত হয়।</li>
+	<li>এই প্রভাবটি <strong>চৌম্বকীয় উত্তোলন</strong> এবং অত্যন্ত দক্ষ বৈদ্যুতিক ব্যবস্থার মতো প্রযুক্তিতে ব্যবহৃত হয়।</li>
+	<li><span style=""color: rgb(33, 37, 41);"">অতিপরিবাহী</span>গুলিকে দুটি প্রকারে শ্রেণীবদ্ধ করা হয়: <strong>প্রকার I</strong> এবং <strong>প্রকার II</strong>, উভয়ই মেইসনার প্রভাব প্রদর্শন করে তবে বাহ্যিক চৌম্বক ক্ষেত্রে ভিন্ন আচরণ করে।</li>
+</ul>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"" width=""26px"" /><u style=""font-weight: bolder; font-size: 20px;"">Additional Information</u></span></p>
+
+<ul>
+	<li><u><strong><span style=""color: rgb(33, 37, 41);"">পরাচৌম্বক</span> অবস্থা</strong></u>
+
+	<ul>
+		<li><strong><span style=""color: rgb(33, 37, 41);"">পরাচৌম্বক</span> অবস্থায়</strong>, চৌম্বকীয় মুহূর্তগুলির সারিবদ্ধতার কারণে পদার্থগুলি বাহ্যিক চৌম্বক ক্ষেত্রগুলির প্রতি দুর্বলভাবে আকৃষ্ট হয়।</li>
+		<li>অতিপরিবাহী অবস্থার মতো, <span style=""color: rgb(33, 37, 41);"">পরাচৌম্বক</span> পদার্থগুলি <strong>শূন্য রোধ</strong> বা চৌম্বক ক্ষেত্রগুলির বহিষ্কার প্রদর্শন করে না।</li>
+		<li><span style=""color: rgb(33, 37, 41);"">পরাচৌম্বক</span> পদার্থের উদাহরণগুলির মধ্যে রয়েছে <strong>অ্যালুমিনিয়াম</strong>, <strong>প্ল্যাটিনাম</strong> এবং <strong>ম্যাগনেসিয়াম</strong>।</li>
+	</ul>
+	</li>
+	<li><u><strong><span style=""color: rgb(33, 37, 41);"">অয়শ্চৌম্বক</span> অবস্থা</strong></u>
+	<ul>
+		<li><strong><span style=""color: rgb(33, 37, 41);"">অয়শ্চৌম্বক</span><strong> </strong>অবস্থায়</strong>, পদার্থগুলি চৌম্বক ক্ষেত্রগুলির প্রতি শক্তিশালী আকর্ষণ প্রদর্শন করে এবং বাহ্যিক ক্ষেত্রটি অপসারণ করার পরেও তাদের চৌম্বকীয়তা বজায় রাখে।</li>
+		<li>উদাহরণগুলির মধ্যে রয়েছে <strong>লোহা</strong>, <strong>নিকেল</strong> এবং <strong>কোবাল্ট</strong>।</li>
+		<li><span style=""color: rgb(33, 37, 41);"">অয়শ্চৌম্বক </span>পদার্থগুলি <strong>বৈদ্যুতিক মোটর</strong>, <strong>ট্রান্সফরমার</strong> এবং <strong>স্থায়ী চুম্বক</strong>-এর মতো প্রয়োগগুলিতে ব্যবহৃত হয়।</li>
+	</ul>
+	</li>
+	<li><u><strong>অন্তরক অবস্থা</strong></u>
+	<ul>
+		<li><strong>অন্তরক অবস্থায়</strong>, মুক্ত ইলেক্ট্রন বা আধান বাহকের অনুপস্থিতির কারণে পদার্থগুলি বিদ্যুৎ সঞ্চালন করে না।</li>
+		<li>সাধারণ উদাহরণগুলির মধ্যে রয়েছে <strong>রাবার</strong>, <strong>কাঁচ</strong> এবং <strong>সিরামিক</strong>।</li>
+		<li>অন্তরকগুলি <strong>বৈদ্যুতিক তারের</strong> এবং <strong>সার্কিট উপাদানগুলিতে</strong> তড়িৎ প্রবাহের ফুটো প্রতিরোধ করতে ব্যাপকভাবে ব্যবহৃত হয়।</li>
+	</ul>
+	</li>
+</ul>",https://mock-test-new.vercel.app?test=gs-railways-quiz-12th-march-2026
+GS Railways Quiz 12th March 2026,"For acid rain, the pH of rain water should be less than<br>অ্যাসিড বৃষ্টির জন্য, বৃষ্টির জলের pH এর কম হওয়া উচিত",7&amp;middot;0 / 7&middot;0,6&amp;middot;6 / 6&middot;6,5&amp;middot;6 / 5&middot;6,8&amp;middot;0 / 8&middot;0,3,1.0,0.33,10,"&lt;p&gt;&lt;u&gt;&lt;strong&gt;CONCEPT&lt;/strong&gt;&lt;/u&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Acid Rain and pH&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Acid rain refers to rainwater that has been made acidic due to the absorption of sulfur dioxide (SO&lt;sub&gt;2&lt;/sub&gt;) and nitrogen oxides (NO&lt;sub&gt;x&lt;/sub&gt;) from the atmosphere.&lt;/li&gt;
+	&lt;li&gt;The pH scale ranges from 0 to 14, where a pH of 7.0 is neutral, values below 7.0 are acidic, and values above 7.0 are basic.&lt;/li&gt;
+	&lt;li&gt;Natural, unpolluted rainwater has a slightly acidic pH of around 5.6 due to the presence of dissolved carbon dioxide (CO&lt;sub&gt;2&lt;/sub&gt;) forming carbonic acid (H&lt;sub&gt;2&lt;/sub&gt;CO&lt;sub&gt;3&lt;/sub&gt;).&lt;/li&gt;
+	&lt;li&gt;For rainwater to be classified as acid rain, its pH must be less than 5.6, which indicates the presence of stronger acids such as sulfuric acid (H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;) and nitric acid (HNO&lt;sub&gt;3&lt;/sub&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;EXPLANATION&lt;/strong&gt;&lt;/u&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;A pH of 7.0 indicates neutral water, which is not acidic.&lt;/li&gt;
+	&lt;li&gt;A pH of 6.6 is slightly acidic but does not qualify as acid rain since it is higher than the threshold of 5.6.&lt;/li&gt;
+	&lt;li&gt;A pH of 5.6 is the natural pH of unpolluted rainwater and marks the upper limit for acid rain.&lt;/li&gt;
+	&lt;li&gt;A pH of 8.0 is basic, which is opposite to acidic conditions.&lt;/li&gt;
+	&lt;li&gt;To classify rainwater as acid rain, its pH must be less than 5.6.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Therefore, the correct answer is&amp;nbsp;5.6.&lt;/strong&gt;&lt;/p&gt;<br><br><p><u><strong>ধারণা</strong></u>:</p>
+
+<p><strong>অ্যাসিড বৃষ্টি এবং pH</strong></p>
+
+<ul>
+	<li>অ্যাসিড বৃষ্টি বলতে বৃষ্টির জলকে বোঝায় যা বায়ুমণ্ডল থেকে সালফার ডাই অক্সাইড (SO2) এবং নাইট্রোজেন অক্সাইড (NOx) শোষণের কারণে অ্যাসিডিক হয়ে গেছে।</li>
+	<li>pH স্কেল 0 থেকে 14 পর্যন্ত বিস্তৃত, যেখানে 7.0 এর pH নিরপেক্ষ, 7.0 এর নিচে মানগুলি আম্লিক এবং 7.0 এর উপরে মানগুলি ক্ষারীয়।</li>
+	<li>প্রাকৃতিক, দূষণহীন বৃষ্টির জলের pH প্রায় 5.6 হয়, যা দ্রবীভূত কার্বন ডাই অক্সাইড (CO2) দ্বারা কার্বনিক অ্যাসিড (H2CO3) গঠনের কারণে সামান্য আম্লিক&nbsp;হয়।</li>
+	<li>বৃষ্টির জলকে অ্যাসিড বৃষ্টি হিসাবে শ্রেণীবদ্ধ করার জন্য, এর pH অবশ্যই 5.6-এর কম হতে হবে, যা সালফিউরিক অ্যাসিড (H2SO4) এবং নাইট্রিক অ্যাসিড (HNO3) এর মতো শক্তিশালী অ্যাসিডের উপস্থিতি নির্দেশ করে।</li>
+</ul>
+
+<p><u><strong>ব্যাখ্যা</strong></u>:</p>
+
+<ul>
+	<li>7.0 এর pH নিরপেক্ষ জল নির্দেশ করে, যা আম্লিক নয়।</li>
+	<li>6.6 এর pH সামান্য আম্লিক&nbsp;কিন্তু অ্যাসিড বৃষ্টি হিসাবে যোগ্যতা অর্জন করে না কারণ এটি 5.6 এর থ্রেশহোল্ডের চেয়ে বেশি।</li>
+	<li>5.6 এর pH হল দূষণহীন বৃষ্টির জলের প্রাকৃতিক pH এবং অ্যাসিড বৃষ্টির জন্য উপরের সীমা চিহ্নিত করে।</li>
+	<li>8.0 এর pH মৌলিক, যা আম্লিক&nbsp;অবস্থার বিপরীত।</li>
+	<li>বৃষ্টির জলকে অ্যাসিড বৃষ্টি হিসাবে শ্রেণীবদ্ধ করার জন্য, এর pH অবশ্যই 5.6-এর কম হতে হবে।</li>
+</ul>
+
+<p><strong>সুতরাং, সঠিক উত্তর হল 5.6</strong></p>",https://mock-test-new.vercel.app?test=gs-railways-quiz-12th-march-2026
+GS Railways Quiz 12th March 2026,Hooke&amp;#39;s law establishes the relationship between which two physical quantities in elastic materials?<br>স্থিতিস্থাপক পদার্থে হুকের সূত্র কোন দুটি ভৌত রাশির মধ্যে সম্পর্ক স্থাপন করে?,Stress and strain / পীড়ন এবং বিকৃতি,Force and velocity / বল এবং বেগ,Pressure and volume / চাপ এবং আয়তন,Temperature and resistance / তাপমাত্রা এবং রোধ,1,1.0,0.33,10,"&lt;p&gt;The correct answer is &lt;u&gt;&lt;strong&gt;Stress and Strain&lt;/strong&gt;&lt;/u&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;display: flex;gap: 6px;align-items: center;&quot;&gt;&lt;img height=&quot;26px&quot; src=&quot;//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png&quot; width=&quot;26px&quot; /&gt;&lt;u style=&quot;font-size: 21px; font-weight: bolder; font-family: var(--bs-body-font-family); text-align: var(--bs-body-text-align);&quot;&gt;Key Points&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Hooke&amp;#39;s law states that, within the elastic limit, the deformation (strain) of an elastic material is proportional to the applied force (stress).&lt;/li&gt;
+	&lt;li&gt;The law is mathematically expressed as &lt;strong&gt;&amp;sigma; = E&amp;epsilon;&lt;/strong&gt;, where &amp;sigma; is stress, &amp;epsilon; is strain, and E is the material&amp;#39;s modulus of elasticity.&lt;/li&gt;
+	&lt;li&gt;This principle is fundamental to understanding the behavior of materials under elastic deformation and is crucial in fields like material science and engineering.&lt;/li&gt;
+	&lt;li&gt;Stress refers to the force per unit area applied to a material, while strain is the relative deformation or change in shape/size of the material.&lt;/li&gt;
+	&lt;li&gt;Hooke&amp;#39;s law applies only within the elastic limit, beyond which permanent deformation occurs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;display: flex;gap: 6px;align-items: center;&quot;&gt;&lt;img height=&quot;26px&quot; src=&quot;//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png&quot; width=&quot;26px&quot; /&gt;&lt;strong&gt;&lt;span style=&quot;vertical-align: middle;font-size: 21px;&quot;&gt;&lt;u&gt;Additional Information&lt;/u&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Elastic Limit:&lt;/strong&gt; The maximum stress that a material can withstand without undergoing permanent deformation.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Young&amp;rsquo;s Modulus:&lt;/strong&gt; A measure of the stiffness of a material, defined as the ratio of stress to strain in the linear region of the stress-strain curve.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Stress Types:&lt;/strong&gt; Stress can be classified as tensile, compressive, or shear based on the direction of the applied force.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Applications:&lt;/strong&gt; Hooke&amp;#39;s law is widely applied in designing springs, calculating material properties, and analyzing mechanical systems.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Limitations:&lt;/strong&gt; Hooke&amp;#39;s law is valid only for elastic materials and does not account for plastic deformation or non-linear stress-strain behavior.&lt;/li&gt;
+&lt;/ul&gt;<br><br><p>সঠিক উত্তর হল <u><strong>পীড়ন এবং বিকৃতি</strong></u>।</p>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"" width=""26px"" /><u style=""font-size: 20px; font-weight: bolder;"">Key Points</u></span></p>
+
+<ul>
+	<li>হুকের সূত্র বলে যে, স্থিতিস্থাপক সীমার মধ্যে, একটি স্থিতিস্থাপক উপাদানের বিকৃতি প্রয়োগকৃত বলের (পীড়ন)&nbsp;সমানুপাতিক।</li>
+	<li>সূত্রটি গাণিতিকভাবে <strong>&sigma; = E&epsilon;</strong> হিসাবে প্রকাশ করা হয়, যেখানে &sigma; হল পীড়ন, &epsilon; হল বিকৃতি এবং E হল উপাদানটির স্থিতিস্থাপকতার গুণাঙ্ক।</li>
+	<li>এই নীতিটি স্থিতিস্থাপক বিকৃতির অধীনে পদার্থের আচরণ বোঝার জন্য মৌলিক এবং উপাদান বিজ্ঞান ও প্রকৌশলের মতো ক্ষেত্রে গুরুত্বপূর্ণ।</li>
+	<li>পীড়ন বলতে একটি উপাদানে প্রতি একক ক্ষেত্রফলে প্রয়োগকৃত বলকে বোঝায়, যেখানে বিকৃতি হল উপাদানের আপেক্ষিক বিকৃতি বা আকৃতি/আকারে পরিবর্তন।</li>
+	<li>হুকের সূত্র শুধুমাত্র স্থিতিস্থাপক সীমার মধ্যে প্রযোজ্য, যার বাইরে স্থায়ী বিকৃতি ঘটে।</li>
+</ul>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"" width=""26px"" /><u style=""font-size: 20px; font-weight: 700;"">Additional Information</u></span></p>
+
+<ul>
+	<li><strong>স্থিতিস্থাপক সীমা:</strong> সর্বোচ্চ পীড়ন যা একটি উপাদান স্থায়ী বিকৃতি ছাড়াই সহ্য করতে পারে।</li>
+	<li><strong>ইয়ং-এর গুণাঙ্ক:</strong> একটি উপাদানের দৃঢ়তার একটি পরিমাপ, যা পীড়ন-বিকৃতি বক্ররেখার রৈখিক অঞ্চলে পীড়ন এবং বিকৃতির অনুপাত হিসাবে সংজ্ঞায়িত।</li>
+	<li><strong>পীড়নের প্রকারভেদ:</strong> প্রয়োগকৃত বলের দিকের উপর ভিত্তি করে পীড়নকে টান, সংকোচন বা কৃন্তন হিসাবে শ্রেণীবদ্ধ করা যেতে পারে।</li>
+	<li><strong>প্রয়োগ:</strong> হুকের সূত্র স্প্রিং ডিজাইন, উপাদানের বৈশিষ্ট্য গণনা এবং যান্ত্রিক সিস্টেম বিশ্লেষণে ব্যাপকভাবে প্রয়োগ করা হয়।</li>
+	<li><strong>সীমাবদ্ধতা:</strong> হুকের সূত্র শুধুমাত্র স্থিতিস্থাপক পদার্থের জন্য বৈধ এবং প্লাস্টিক বিকৃতি বা অ-রৈখিক পীড়ন-বিকৃতি আচরণের জন্য দায়ী নয়।</li>
+</ul>",https://mock-test-new.vercel.app?test=gs-railways-quiz-12th-march-2026
+GS Railways Quiz 12th March 2026,Which gland secretes the growth hormone (GH) in humans?<br/><br>মানবদেহে কোন গ্রন্থি গ্রোথ হরমোন (GH) নিঃসরণ করে?<br/>,Pancreas / অগ্ন্যাশয়,Pituitary gland / পিটুইটারি গ্রন্থি,Thyroid gland / থাইরয়েড গ্রন্থি,Adrenal gland / অ্যাড্রিনাল গ্রন্থি,2,1.0,0.33,10,"<p>The correct answer is <u><strong>Pituitary gland</strong></u>.</p>  
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"" width=""26px"" /><u style=""font-size: 21px; font-weight: bolder; font-family: var(--bs-body-font-family); text-align: var(--bs-body-text-align);"">Key Points</u></span></p>  
+<ul>  
+<li>The <strong>pituitary gland</strong>, often referred to as the ""master gland,"" is a small, pea-shaped gland located at the base of the brain. It plays a crucial role in regulating vital body functions and general well-being.</li>  
+<li>The growth hormone (GH), also called <strong>somatotropin</strong>, is secreted by the anterior lobe of the pituitary gland. This hormone is responsible for stimulating growth, cell reproduction, and cell regeneration in humans.</li>  
+<li>GH is essential during childhood and adolescence as it helps in the growth of bones and muscles. In adults, it supports the maintenance of tissues and organs and regulates metabolism.</li>  
+<li>The secretion of growth hormone is controlled by two hypothalamic hormones: <strong>growth hormone-releasing hormone (GHRH)</strong>, which stimulates its release, and <strong>somatostatin</strong>, which inhibits its release.</li>  
+<li>Disorders related to GH include <strong>gigantism</strong> or <strong>acromegaly</strong> (excess GH production) and <strong>growth hormone deficiency</strong>, which can result in stunted growth or delayed development in children.</li>  
+</ul>  
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>Additional Information</u></span></strong></span></p>  
+<ul>  
+<li><strong>Location and Structure of the Pituitary Gland:</strong>  
+<ul>  
+<li>The pituitary gland is located in a small bony cavity called the <strong>sella turcica</strong>, part of the sphenoid bone in the skull.</li>  
+<li>It is connected to the hypothalamus by a thin stalk called the <strong>infundibulum</strong>.</li>  
+<li>The gland is divided into two main parts: the <strong>anterior lobe</strong> (adenohypophysis) and the <strong>posterior lobe</strong> (neurohypophysis).</li>  
+</ul>  
+</li>  
+<li><strong>Functions of Growth Hormone (GH):</strong>  
+<ul>  
+<li>Stimulates the growth of bones and cartilage during childhood and adolescence.</li>  
+<li>Enhances protein synthesis and increases the breakdown of fats, leading to energy production.</li>  
+<li>Promotes the growth and repair of tissues, including skin, muscles, and organs.</li>  
+<li>Regulates body composition, fluid balance, and metabolism of sugars and fats.</li>  
+</ul>  
+</li>  
+<li><strong>Disorders Related to Growth Hormone:</strong>  
+<ul>  
+<li><strong>Gigantism:</strong> Caused by excessive GH secretion during childhood, leading to abnormally tall stature.</li>  
+<li><strong>Acromegaly:</strong> Excess GH in adulthood, resulting in enlarged hands, feet, and facial features.</li>  
+<li><strong>Growth Hormone Deficiency:</strong> Can result in stunted growth in children and reduced muscle mass and energy levels in adults.</li>  
+</ul>  
+</li>  
+<li><strong>Other Hormones Secreted by the Pituitary Gland:</strong>  
+<ul>  
+<li><strong>Prolactin (PRL):</strong> Stimulates milk production in females.</li>  
+<li><strong>Adrenocorticotropic Hormone (ACTH):</strong> Stimulates the adrenal glands to produce cortisol.</li>  
+<li><strong>Thyroid-Stimulating Hormone (TSH):</strong> Regulates the thyroid gland.</li>  
+<li><strong>Follicle-Stimulating Hormone (FSH) and Luteinizing Hormone (LH):</strong> Control reproductive processes in males and females.</li>  
+</ul>  
+</li>  
+<li><strong>Role of the Hypothalamus:</strong>  
+<ul>  
+<li>The hypothalamus, located just above the pituitary gland, plays a critical role in regulating its hormone secretion.</li>  
+<li>It produces releasing and inhibiting hormones, such as GHRH and somatostatin, that control the release of GH and other pituitary hormones.</li>  
+</ul>  
+</li>  
+</ul><br><br><p>সঠিক উত্তর হল <u><strong>পিটুইটারি গ্রন্থি</strong></u>।</p>
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"" width=""26px"" /><u style=""font-size: 21px; font-weight: bolder; font-family: var(--bs-body-font-family); text-align: var(--bs-body-text-align);"">গুরুত্বপূর্ণ বিষয়সমূহ</u></span></p>
+<ul>
+<li><strong>পিটুইটারি গ্রন্থি</strong>, প্রায়শই ""মাস্টার গ্রন্থি"" হিসাবে উল্লেখ করা হয়, মস্তিষ্কের গোড়ায় অবস্থিত একটি ছোট, মটরশুঁটি আকারের গ্রন্থি। এটি অত্যাবশ্যকীয় শারীরিক কার্যাবলী এবং সাধারণ সুস্থতার নিয়ন্ত্রণে একটি গুরুত্বপূর্ণ ভূমিকা পালন করে।</li>
+<li>গ্রোথ হরমোন (GH), যা <strong>সোমাটোট্রপিন</strong> নামেও পরিচিত, পিটুইটারি গ্রন্থির অগ্রবর্তী লোব দ্বারা নিঃসৃত হয়। এই হরমোন মানুষের মধ্যে বৃদ্ধি, কোষের প্রজনন এবং কোষের পুনর্জন্মকে উদ্দীপিত করার জন্য দায়ী।</li>
+<li>GH শৈশব এবং কৈশোরে অপরিহার্য, কারণ এটি হাড় এবং পেশী বৃদ্ধিতে সহায়তা করে। প্রাপ্তবয়স্কদের মধ্যে, এটি টিস্যু এবং অঙ্গগুলির রক্ষণাবেক্ষণকে সমর্থন করে এবং বিপাক নিয়ন্ত্রণ করে।</li>
+<li>গ্রোথ হরমোনের নিঃসরণ দুটি হাইপোথ্যালামিক হরমোন দ্বারা নিয়ন্ত্রিত হয়: <strong>গ্রোথ হরমোন-রিলিজিং হরমোন (GHRH)</strong>, যা এর নিঃসরণকে উদ্দীপিত করে এবং <strong>সোমাটোস্ট্যাটিন</strong>, যা এর নিঃসরণকে বাধা দেয়।</li>
+<li>GH সম্পর্কিত রোগগুলির মধ্যে রয়েছে <strong>দৈত্যতা</strong> বা <strong>অ্যাক্রোমেগালি</strong> (অতিরিক্ত GH উৎপাদন) এবং <strong>গ্রোথ হরমোনের অভাব</strong>, যা শিশুদের মধ্যে বামনত্ব বা বিলম্বিত বিকাশের কারণ হতে পারে।</li>
+</ul>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>অতিরিক্ত তথ্য</u></span></strong></span></p>
+<ul>
+<li><strong>পিটুইটারি গ্রন্থির অবস্থান এবং গঠন:</strong>
+<ul>
+<li>পিটুইটারি গ্রন্থিটি খুলির স্ফেনয়েড হাড়ের একটি অংশ, <strong>সেলা টারসিকা</strong> নামক একটি ছোট হাড়ের গহ্বরে অবস্থিত।</li>
+<li>এটি <strong>ইনফান্ডিবুলাম</strong> নামক একটি পাতলা ডাঁটা দ্বারা হাইপোথ্যালামাসের সাথে সংযুক্ত।</li>
+<li>গ্রন্থিটি দুটি প্রধান অংশে বিভক্ত: <strong>সম্মুখবর্তী লোব</strong> (অ্যাডেনোহাইপোফাইসিস) এবং <strong>পশ্চাৎবর্তী লোব</strong> (নিউরোহাইপোফাইসিস)।</li>
+</ul>
+</li>
+<li><strong>গ্রোথ হরমোনের (GH) কার্যাবলী:</strong>
+<ul>
+<li>শৈশব এবং কৈশোরে হাড় এবং তরুণাস্থির বৃদ্ধিকে উদ্দীপিত করে।</li>
+<li>প্রোটিন সংশ্লেষণ বাড়ায় এবং চর্বি ভাঙন বৃদ্ধি করে, যা শক্তি উৎপাদনে সহায়তা করে।</li>
+<li>ত্বক, পেশী এবং অঙ্গ সহ টিস্যুগুলির বৃদ্ধি এবং মেরামতকে উৎসাহিত করে।</li>
+<li>শরীরের গঠন, তরল ভারসাম্য এবং শর্করা ও চর্বির বিপাক নিয়ন্ত্রণ করে।</li>
+</ul>
+</li>
+<li><strong>গ্রোথ হরমোন সম্পর্কিত রোগ:</strong>
+<ul>
+<li><strong>দৈত্যতা:</strong> শৈশবে অতিরিক্ত GH নিঃসরণের কারণে হয়, যা অস্বাভাবিকভাবে লম্বা stature এর দিকে পরিচালিত করে।</li>
+<li><strong>অ্যাক্রোমেগালি:</strong> প্রাপ্তবয়স্কদের মধ্যে অতিরিক্ত GH, যার ফলে হাত, পা এবং মুখের বৈশিষ্ট্যগুলি বড় হয়ে যায়।</li>
+<li><strong>গ্রোথ হরমোনের অভাব:</strong> শিশুদের মধ্যে বামনত্বের কারণ হতে পারে এবং প্রাপ্তবয়স্কদের মধ্যে পেশী ভর এবং শক্তির মাত্রা হ্রাস করতে পারে।</li>
+</ul>
+</li>
+<li><strong>পিটুইটারি গ্রন্থি দ্বারা নিঃসৃত অন্যান্য হরমোন:</strong>
+<ul>
+<li><strong>প্রোল্যাকটিন (PRL):</strong> মহিলাদের মধ্যে দুধ উৎপাদনকে উদ্দীপিত করে।</li>
+<li><strong>অ্যাড্রেনোকোর্টিকোট্রপিক হরমোন (ACTH):</strong> অ্যাড্রিনাল গ্রন্থিগুলিকে কর্টিসল তৈরি করতে উদ্দীপিত করে।</li>
+<li><strong>থাইরয়েড-স্টিমুলেটিং হরমোন (TSH):</strong> থাইরয়েড গ্রন্থিকে নিয়ন্ত্রণ করে।</li>
+<li><strong>ফলিকল-স্টিমুলেটিং হরমোন (FSH) এবং লিউটিনাইজিং হরমোন (LH):</strong> পুরুষ এবং মহিলাদের মধ্যে প্রজনন প্রক্রিয়া নিয়ন্ত্রণ করে।</li>
+</ul>
+</li>
+<li><strong>হাইপোথ্যালামাসের ভূমিকা:</strong>
+<ul>
+<li>হাইপোথ্যালামাস, পিটুইটারি গ্রন্থির ঠিক উপরে অবস্থিত, এর হরমোন নিঃসরণ নিয়ন্ত্রণে একটি গুরুত্বপূর্ণ ভূমিকা পালন করে।</li>
+<li>এটি রিলিজিং এবং ইনহিবিটিং হরমোন তৈরি করে, যেমন GHRH এবং সোমাটোস্ট্যাটিন, যা GH এবং অন্যান্য পিটুইটারি হরমোনের নিঃসরণ নিয়ন্ত্রণ করে।</li>
+</ul>
+</li>
+</ul>",https://mock-test-new.vercel.app?test=gs-railways-quiz-12th-march-2026
