@@ -280,8 +280,33 @@
     "count": 10
   },
   {
-    "title": "Indian Climate & Vegetation Quiz",
-    "slug": "indian-climate-vegetation-quiz",
+    "title": "Reasoning Practice",
+    "slug": "reasoning-practice",
+    "count": 10
+  },
+  {
+    "title": "English Practice Set",
+    "slug": "english-practice-set",
+    "count": 10
+  },
+  {
+    "title": "Maths Practice Set 13th Morning",
+    "slug": "maths-practice-set-13th-morning",
+    "count": 10
+  },
+  {
+    "title": "Current Affairs 13th Morning",
+    "slug": "current-affairs-13th-morning",
+    "count": 10
+  },
+  {
+    "title": "Indian Climate & Vegetation",
+    "slug": "indian-climate-vegetation",
+    "count": 10
+  },
+  {
+    "title": "Railway Maths Quiz",
+    "slug": "railway-maths-quiz",
     "count": 10
   }
 ]
