@@ -20,7 +20,7 @@
             }
         };
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
     <style>
         :root {
             --primary-color: #4361ee;
@@ -3396,7 +3396,7 @@
     <div class="app-container">
 
         <div id="testPickerScreen" class="card instructions-card hidden"></div>
-        <div id="instructionsScreen" class="card instructions-card"></div>
+        <div id="instructionsScreen" class="card instructions-card hidden"></div>
         <div id="secondInstructionsScreen" class="card instructions-card hidden"></div>
         <div id="quizScreen" class="card quiz-container hidden"></div>
         <div id="resultsScreen" class="card results-card hidden"></div>
@@ -3581,7 +3581,7 @@
             let manifestData = [];
 
             async function loadManifest() {
-                const resp = await fetch('data/manifest.json');
+                const resp = await fetch('/data/manifest.json');
                 if (!resp.ok) throw new Error('Could not load test manifest (data/manifest.json).');
                 manifestData = await resp.json();
             }
@@ -3593,7 +3593,7 @@
             }
 
             async function loadQuestionsForTest(testSlug) {
-                const resp = await fetch('data/' + testSlug + '.json');
+                const resp = await fetch('/data/' + testSlug + '.json');
                 if (!resp.ok) return null;
                 const data = await resp.json();
 
@@ -4317,7 +4317,8 @@
 
                 // Re-typeset MathJax for dynamically loaded content
                 if (window.MathJax && MathJax.typesetPromise) {
-                    MathJax.typesetPromise().catch(function (err) {
+                    const el = document.getElementById('quizScreen');
+                    MathJax.typesetPromise(el ? [el] : []).catch(function (err) {
                         console.warn('MathJax typeset error:', err);
                     });
                 }
@@ -4619,7 +4620,8 @@
 
                 // Re-typeset MathJax for review content
                 if (window.MathJax && MathJax.typesetPromise) {
-                    MathJax.typesetPromise().catch(function (err) {
+                    const el = document.getElementById('reviewScreen');
+                    MathJax.typesetPromise(el ? [el] : []).catch(function (err) {
                         console.warn('MathJax typeset error:', err);
                     });
                 }

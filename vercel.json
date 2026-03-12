@@ -4,5 +4,13 @@
       "source": "/test/:slug",
       "destination": "/index.html?test=:slug"
     }
+  ],
+  "headers": [
+    {
+      "source": "/data/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=3600, s-maxage=86400" }
+      ]
+    }
   ]
 }

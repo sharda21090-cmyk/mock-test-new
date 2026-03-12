@@ -62,6 +62,7 @@ LMS_QUESTIONS_URL = "https://lms-api.testbook.com/api/v2/questions/get?language=
 INDEX_PATH  = os.path.join(SCRIPT_DIR, "index.html")
 CSV_PATH    = os.path.join(SCRIPT_DIR, "Questions.csv")
 CACHE_PATH  = os.path.join(SCRIPT_DIR, ".qid_cache.json")
+DATA_DIR    = os.path.join(SCRIPT_DIR, "data")
 
 # Language keys are now read per-row from the sheet (Col C)
 
@@ -325,6 +326,56 @@ def analyze_tests(csv_text: str):
     return tests, total
 
 
+# ── WRITE PER-TEST JSON FILES ───────────────────────────────────────
+
+def write_data_files(all_rows: list, tests: dict):
+    """Write data/manifest.json and data/{slug}.json for every test."""
+    os.makedirs(DATA_DIR, exist_ok=True)
+
+    # Build a lookup: test_id -> list of question rows (skip header at index 0)
+    test_rows: dict[str, list] = {}
+    for row in all_rows[1:]:
+        if not row or not row[0].strip():
+            continue
+        tid = row[0].strip()
+        test_rows.setdefault(tid, []).append(row)
+
+    manifest = []
+    for test_id, info in tests.items():
+        slug = info["slug"]
+        rows = test_rows.get(test_id, [])
+
+        questions = []
+        for row in rows:
+            questions.append({
+                "statement":   row[1] if len(row) > 1 else "",
+                "options":     [row[i] if len(row) > i else "" for i in range(2, 6)],
+                "answer":      row[6] if len(row) > 6 else "1",
+                "explanation": row[10] if len(row) > 10 else "",
+            })
+
+        test_data = {
+            "title":           test_id,
+            "slug":            slug,
+            "positiveMarking": info["positive"],
+            "negativeMarking": info["negative"],
+            "timeMinutes":     info["time_min"],
+            "questions":       questions,
+        }
+
+        out_path = os.path.join(DATA_DIR, f"{slug}.json")
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(test_data, f, ensure_ascii=False, separators=(",", ":"))
+
+        manifest.append({"title": test_id, "slug": slug, "count": info["count"]})
+
+    manifest_path = os.path.join(DATA_DIR, "manifest.json")
+    with open(manifest_path, "w", encoding="utf-8") as f:
+        json.dump(manifest, f, ensure_ascii=False, indent=2)
+
+    return len(tests)
+
+
 # ── UPDATE index.html ────────────────────────────────────────────────
 
 def update_index_html(csv_text: str, tests: dict, total_q: int):
@@ -338,12 +389,10 @@ def update_index_html(csv_text: str, tests: dict, total_q: int):
     if tp.search(html):
         html = tp.sub(lambda m: m.group(1) + f"Testbook | {page_title}" + m.group(3), html)
 
-    # inline CSV
+    # Empty the inline CSV (data is now served via data/{slug}.json)
     csv_pat = re.compile(r'(<script\s+id="csv-data"\s+type="text/csv">)(.*?)(</script>)', re.DOTALL)
     if csv_pat.search(html):
-        html = csv_pat.sub(
-            lambda m: m.group(1) + "\n" + csv_text.strip() + "\n    " + m.group(3), html
-        )
+        html = csv_pat.sub(lambda m: m.group(1) + m.group(3), html)
     else:
         print("[WARNING] Could not find <script id=\"csv-data\"> in index.html.")
 
@@ -555,6 +604,9 @@ def main():
     else:
         print("  [WARNING] index.html not found. Only Questions.csv was saved.\n")
 
+    n_tests = write_data_files(all_rows, tests)
+    print(f"  Written -> data/ ({n_tests} test JSON file(s) + manifest.json)\n")
+
     # Summary table
     print(f"  {'#':<4} {'Test Name':<35} {'Qs':<5} {'+':<6} {'-':<6} {'Time':<8}")
     print("  " + "-" * 70)
@@ -603,19 +655,19 @@ def main():
             return True
 
         print()
-        if (run_git("add", "Questions.csv", "index.html") and
+        if (run_git("add", "Questions.csv", "index.html", "data/") and
                 run_git("commit", "-m", msg) and
                 run_git("push", "new-origin", "main")):
             print(f"  ✓ Pushed to GitHub — commit: \"{msg}\"")
             print(f"  ✓ Vercel will auto-deploy in ~30 seconds.")
         else:
             print("  ✗ Push failed. Run manually (PowerShell compatible):")
-            print(f'    git add Questions.csv index.html; git commit -m "{msg}"; git push new-origin main')
+            print(f'    git add Questions.csv index.html data/; git commit -m "{msg}"; git push new-origin main')
     else:
         print("  Skipped. Run when ready (PowerShell compatible):")
         names = ", ".join(tests.keys())
         today = __import__("datetime").date.today().strftime("%d %b %Y")
-        print(f'    git add Questions.csv index.html; git commit -m "sync: {names} ({today})"; git push new-origin main')
+        print(f'    git add Questions.csv index.html data/; git commit -m "sync: {names} ({today})"; git push new-origin main')
 
 
 if __name__ == "__main__":
