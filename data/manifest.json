@@ -322,6 +322,36 @@
   {
     "title": "SSC Maths Practice Set Evening 13th March",
     "slug": "ssc-maths-practice-set-evening-13th-march",
-    "count": 1
+    "count": 10
+  },
+  {
+    "title": "SSC English Practice Set 13th March",
+    "slug": "ssc-english-practice-set-13th-march",
+    "count": 10
+  },
+  {
+    "title": "Railway Computer Quiz 13th March",
+    "slug": "railway-computer-quiz-13th-march",
+    "count": 10
+  },
+  {
+    "title": "Railway Reasoning Quiz 13th March",
+    "slug": "railway-reasoning-quiz-13th-march",
+    "count": 10
+  },
+  {
+    "title": "Railway GK-GS Quiz 13th March",
+    "slug": "railway-gk-gs-quiz-13th-march",
+    "count": 10
+  },
+  {
+    "title": "Railway Maths Quiz 13th March",
+    "slug": "railway-maths-quiz-13th-march",
+    "count": 10
+  },
+  {
+    "title": "Railway Science Quiz 13th March",
+    "slug": "railway-science-quiz-13th-march",
+    "count": 10
   }
 ]
