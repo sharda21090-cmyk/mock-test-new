@@ -4613,7 +4613,7 @@
                 });
                 document.getElementById('explanationText').innerHTML = q.explanation || '';
                 document.getElementById('prevReviewBtn').disabled = S.reviewIndex === 0;
-                document.getElementById('nextRevin').disabled = S.reviewIndex === S.questions.length - 1;
+                document.getElementById('nextReviewBtn').disabled = S.reviewIndex === S.questions.length - 1;
 
          // Update sidebar stats
                 document.getElementById('review-sidebar-stats').innerHTML = `<ul class="summary-list text-sm"><li><span>Status:</span> <span class="font-semibold" style="color: ${statusInfo.color};">${statusInfo.text}</span></li></ul>`;
