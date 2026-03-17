@@ -44,9 +44,9 @@ LMS_EMAIL    = os.getenv("LMS_EMAIL", "")
 LMS_PASSWORD = os.getenv("LMS_PASSWORD", "")
 
 # ── CONFIG ───────────────────────────────────────────────────────────
-# New sheet: Col A = Test Name, Col B = comma-separated QIDs, Col D = test_link
-QID_SHEET_ID  = "1yZAwshv5r5m-sK1JRyGXb0xWlMKcS219rzU7qWpPPN8"
-QID_SHEET_GID = "0"
+# New sheet: Task Id = Test Name, Qids = comma-separated QIDs
+QID_SHEET_ID  = "1bJ1Jf__z2mGqTlBISnkd8Sf2iKNBNp8s1OhmpeoAc5A"
+QID_SHEET_GID = "849894123"
 
 VERCEL_DOMAIN = "https://mock-test-new.vercel.app"
 
@@ -242,12 +242,13 @@ def extract_multilang_row(test_id: str, q: dict, test_link: str,
 
 def parse_qid_sheet(csv_text: str) -> list[dict]:
     """
-    Parse the QID sheet.
-    Columns: A=Test Name, B=QIDs, C=Lang, D=Positive Marks, E=Negative Marks, F=Test Duration
-    Test link is auto-generated from the Test Name slug — not read from sheet.
+    Parse the QID sheet dynamically based on headers.
+    Headers expected: 'Task Id', 'Qids', 'Paid or YT/Master class'.
+    Filters out rows where 'Paid or YT/Master class' != 'YT/Master class'.
+    Selects a slice of QIDs from the end based on total count.
+    Test link is auto-generated from the Test Name slug.
     """
-    reader = csv.reader(io.StringIO(csv_text))
-    rows   = list(reader)
+    reader = csv.DictReader(io.StringIO(csv_text))
     result = []
 
     def _float(val):
@@ -258,25 +259,46 @@ def parse_qid_sheet(csv_text: str) -> list[dict]:
         try:    return int(float(val.strip()))
         except: return None
 
-    for row in rows[1:]:          # skip header
-        if not row or not row[0].strip():
+    for row in reader:
+        task_id = row.get("Task Id", "").strip()
+        qids_raw = row.get("Qids", "").strip()
+        category = row.get("Paid or YT/Master class", "").strip()
+        
+        if not task_id or not qids_raw:
             continue
-        test_name = row[0].strip()
-        qids_raw  = row[1].strip() if len(row) > 1 else ""
-        lang      = row[2].strip() if len(row) > 2 else "en,hi"
-        positive  = _float(row[3]) if len(row) > 3 else None
-        negative  = _float(row[4]) if len(row) > 4 else None
-        duration  = _int(row[5])   if len(row) > 5 else None   # total minutes
+            
+        if category != "YT/Master class":
+            continue
 
-        qids = [q.strip() for q in qids_raw.split(",") if q.strip()]
-        if not qids:
+        all_qids = [q.strip() for q in qids_raw.split(",") if q.strip()]
+        if not all_qids:
             continue
+            
+        n = len(all_qids)
+        if n < 30:
+            keep = 5
+        elif 30 <= n <= 50:
+            keep = 10
+        elif 51 <= n <= 150:
+            keep = 25
+        elif 151 <= n <= 200:
+            keep = 5
+        else:
+            keep = 5  # Default fallback if > 200
+
+        qids = all_qids[-keep:] if keep > 0 else all_qids
+
+        # Read optional columns if they happen to exist in new sheet, else use defaults
+        lang      = row.get("Lang", "en,hi").strip() or "en,hi"
+        positive  = _float(row.get("Positive Marks", ""))
+        negative  = _float(row.get("Negative Marks", ""))
+        duration  = _int(row.get("Test Duration", ""))
 
         # Auto-generate test link from slug
-        test_link = f"{VERCEL_DOMAIN}?test={slugify(test_name)}"
+        test_link = f"{VERCEL_DOMAIN}?test={slugify(task_id)}"
 
         result.append({
-            "test_name": test_name,
+            "test_name": task_id,
             "qids":      qids,
             "lang":      lang,
             "positive":  positive,  # None = use default
@@ -441,6 +463,12 @@ def update_index_html(csv_text: str, tests: dict, total_q: int):
 # ── MAIN ─────────────────────────────────────────────────────────────
 
 def main():
+    # Force UTF-8 for stdout/stderr to avoid charmap errors on Windows terminals
+    if sys.stdout.encoding != 'utf-8':
+        import io
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+        sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+
     print("=" * 60)
     print("  Mock Test — LMS Question Sync")
     print("=" * 60)
@@ -524,7 +552,7 @@ def main():
         pos_disp = f"{positive:g}" if t["positive"] is not None else f"{positive:g}*"
         neg_disp = f"{negative:g}" if t["negative"] is not None else f"{negative:g}*"
         dur_disp = f"{time_val}m"  if t["duration"] is not None else f"{time_val}m*"
-        print(f"  ▸ [{test_name}] — {len(qids)} QID(s)  +{pos_disp} -{neg_disp} {dur_disp}")
+        print(f"  > [{test_name}] - {len(qids)} QID(s)  +{pos_disp} -{neg_disp} {dur_disp}")
         print(f"    link: {test_link}")
 
         for qid in qids:
@@ -542,13 +570,13 @@ def main():
                 all_rows.append(cached_row)
                 total_fetched += 1
                 cache_hits    += 1
-                print(f"    ↩ QID {qid}  (cached)")
+                print(f"    [cached] QID {qid}")
                 continue
 
             # ── Cache miss: fetch from LMS ───────────────────────────
             q = fetch_question(qid, token)
             if q is None:
-                print(f"    ✗ QID {qid} — no data returned, skipping.")
+                print(f"    [SKIP] QID {qid} - no data returned.")
                 continue
 
             row = extract_multilang_row(
@@ -562,14 +590,14 @@ def main():
                 lang_secondary = lang_secondary,
             )
             if row is None:
-                print(f"    ✗ QID {qid} — could not extract question data, skipping.")
+                print(f"    [SKIP] QID {qid} - could not extract data.")
                 continue
 
             cache[qid] = row        # store in cache
             all_rows.append(row)
             total_fetched += 1
             newly_fetched += 1
-            print(f"    ✓ QID {qid}  (fetched)")
+            print(f"    [OK] QID {qid}")
 
         print()
 
