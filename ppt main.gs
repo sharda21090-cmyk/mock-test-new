@@ -6,6 +6,7 @@ function onOpen() {
     .addItem('Update', 'all')
     .addItem('Task Rejected', 'taskrejected')
     .addItem('File Update', 'fetchfilefromdrive')
+    //.addItem('Completion mail', 'taskcompletionmail')
     .addItem('Completion Mail', 'taskcompletionmail_2')
     .addItem('Publish to Vercel', 'triggerPublish')
     .addToUi();
@@ -156,6 +157,104 @@ function fetchfilefromdrive() {
   }
 }
 
+// function taskcompletionmail() {
+//   const ss = SpreadsheetApp.getActiveSpreadsheet();
+//   const sheet1 = ss.getSheetByName("Main sheet");
+//   const lastRow1 = sheet1.getLastRow();
+
+//   // Get all headers from the first row
+//   const headers = sheet1.getRange(1, 1, 1, sheet1.getLastColumn()).getValues()[0];
+
+//   // Map headers to their column indices
+//   const getColumnIndex = (header) => {
+//     const index = headers.indexOf(header) + 1;
+//     if (index <= 0) {
+//       console.error(`Column not found: ${header}`);
+//     }
+//     return index;
+//   };
+
+//   const taskIDCol = getColumnIndex('Task Id');
+//   const createdByCol = getColumnIndex('Created By');
+//   const taskTitleCol = getColumnIndex('Task Name');
+//   const pptCol = getColumnIndex('PPT');
+//   const genpdfCol = getColumnIndex('GenPdf');
+//   const facultiesNameCol = getColumnIndex('Faculties Name');
+//   const sentStatusCol = getColumnIndex('Mail Sent TimeStamp');
+//   const recipientCol = getColumnIndex('Email Address');
+//   const recipient1Col = getColumnIndex('Faculties Mail');
+//   const recipient2Col = getColumnIndex('Category Manager Mail');
+//   const approvalCheckboxCol = getColumnIndex('Check & Approve'); 
+
+//   const ccRecipients = [
+//     'daman.dtp@testbook.com',
+//     'narender.choudhary@testbook.com',
+//     'surbhi.jain@testbook.com'
+//   ];
+
+//   for (let i = 2; i <= lastRow1; i++) {
+//     try {
+//       // Ensure all required columns are valid
+//       if (taskIDCol <= 0 || createdByCol <= 0 || taskTitleCol <= 0 || pptCol <= 0 || genpdfCol <= 0 || facultiesNameCol <= 0 || sentStatusCol <= 0 || recipientCol <= 0 || approvalCheckboxCol <= 0) {
+//         console.error(`Invalid column index at row ${i}`);
+//         continue;  // Skip this row if column indices are invalid
+//       }
+
+//       const taskID = sheet1.getRange(i, taskIDCol).getValue();
+//       const createdBy = sheet1.getRange(i, createdByCol).getValue();
+//       const taskTitle = sheet1.getRange(i, taskTitleCol).getValue();
+//       const fileLinks = sheet1.getRange(i, pptCol).getValue();
+//       const facultiesName = sheet1.getRange(i, facultiesNameCol).getValue();
+//       const sentStatus = sheet1.getRange(i, sentStatusCol).getValue();
+//       const recipient = sheet1.getRange(i, recipientCol).getValue();
+//       const recipient1 = sheet1.getRange(i, recipient1Col).getValue();
+//       const recipient2 = sheet1.getRange(i, recipient2Col).getValue();
+//       const vfile = sheet1.getRange(i, genpdfCol).getValue();
+//       const approvalCheckbox = sheet1.getRange(i, approvalCheckboxCol).getValue(); // Get the checkbox value
+//       const currentDateTime = new Date();
+
+//       // Skip this row if the checkbox is not TRUE (unchecked)
+//       if (approvalCheckbox !== true) {
+//         console.log(`Skipping row ${i} because approval checkbox is not TRUE.`);
+//         continue; // Do not send email if checkbox is not checked
+//       }
+
+//       const subject = `Task ID: ${taskID} || Completed || Task Title: ${taskTitle}_ ${facultiesName}`;
+//       let finalMsg = `
+//         <p>Hello ${createdBy},</p>
+//         <p>Your Task <b>${taskID}</b> is Completed. Please find attached by clicking the below link:</p>
+//       `;
+
+//       if (fileLinks) {
+//         finalMsg += `<p>PPT: <b><a href="${fileLinks}">${taskTitle}</a></b></p>`;
+//       }
+
+//       if (vfile) {
+//         finalMsg += `<p>GEN-PDF: <b><a href="${vfile}">${taskTitle}</a></b></p>`;
+//       }
+
+//       finalMsg += '<p>Kindly acknowledge receipt of the same.</p>';
+//       finalMsg += '<p>With regards,<br>DTP TEAM</p>';
+
+//       if (fileLinks && vfile && !sentStatus) {
+//         const message = {
+//           to: recipient,
+//           cc: [...ccRecipients, recipient1, recipient2].join(', '),
+//           subject: subject,
+//           htmlBody: finalMsg
+//         };
+
+//         MailApp.sendEmail(message);
+
+//         // Log the email sending details
+//         sheet1.getRange(i, sentStatusCol).setValue(Utilities.formatDate(currentDateTime, Session.getScriptTimeZone(), "yyyy-MM-dd HH:mm:ss"));
+//       }
+//     } catch (error) {
+//       console.error(`Error processing row ${i}: ${error.message}`);
+//     }
+//   }
+// } 
+
 function getNameFromEmail(email) {
   if (!email) return "Faculty";
   const namePart = email.split("@")[0];
@@ -183,7 +282,7 @@ function taskcompletionmail_2() {
   const recipientCol = getColumnIndex('Email Address');
   const recipient1Col = getColumnIndex('Faculties Mail');
   const recipient2Col = getColumnIndex('Category Manager Mail');
-  const mockTestCol = getColumnIndex('HTML Link'); // Added HTML Link column
+  const mockTestCol = getColumnIndex('HTML Link'); // ← NEW: Picks mock test link from sheet column
   const approvalCheckboxCol = getColumnIndex('Check & Approve');
 
   const ccRecipients = [
@@ -202,7 +301,7 @@ function taskcompletionmail_2() {
       const taskTitle = sheet1.getRange(i, taskTitleCol).getValue();
       const pptLink = sheet1.getRange(i, pptCol).getValue();
       const pdfLink = sheet1.getRange(i, genpdfCol).getValue();
-      const mockTestLink = sheet1.getRange(i, mockTestCol).getValue(); // Pulls link from Sheet directly
+      const mockTestLink = sheet1.getRange(i, mockTestCol).getValue(); // ← NEW: Read from 'HTML Link' column
       const facultiesName = sheet1.getRange(i, facultiesNameCol).getValue();
       const sentStatus = sheet1.getRange(i, sentStatusCol).getValue();
 
@@ -233,13 +332,6 @@ function taskcompletionmail_2() {
             <b>Class PPT:</b>  <a href="${pptLink}">${taskTitle}</a><br>
             <br>
             <b>Reference PDF:</b>  <a href="${pdfLink}">${taskTitle}</a><br>
-        `;
-        
-        if (mockTestLink) {
-            htmlBody += `<br><b>Mock Test Link:</b> <a href="${mockTestLink}">Click here to attempt</a>`;
-        }
-        
-        htmlBody += `
           </p>
           <br>
         `;
@@ -250,14 +342,15 @@ function taskcompletionmail_2() {
 
           <p>
             <b>Class PPT:</b> <a href="${pptLink}">${taskTitle}</a><br>
-        `;
-        
-        if (mockTestLink) {
-            htmlBody += `<br><b>Mock Test Link:</b> <a href="${mockTestLink}">Click here to attempt</a>`;
-        }
-3
-        htmlBody += `
           </p>
+          <br>
+        `;
+      }
+
+      // ← NEW: Add mock test link if available in 'HTML Link' column
+      if (mockTestLink) {
+        htmlBody += `
+          <p><b>Mock Test Link:</b> <a href="${mockTestLink}">Click here to attempt</a></p>
           <br>
         `;
       }
@@ -403,36 +496,27 @@ function removeDuplicateRows() {
   Logger.log("Duplicates removed based on column B while considering AY and AZ.");
 }
 
+
 /**
- * Triggers the GitHub Actions workflow "Sync LMS Questions"
- * Uses GitHub API (repository_dispatch or workflow_dispatch)
+ * ── NEW: Trigger GitHub Actions workflow to sync & publish tests to Vercel ──
+ * Reads GITHUB_PAT from Script Properties (Project Settings → Script properties).
  */
 function triggerPublish() {
   const GITHUB_OWNER = 'sharda21090-cmyk';
-  const GITHUB_REPO = 'mock-test-new';
-  const WORKFLOW_ID = 'sync-lms.yml';
-  const REF = 'main';
+  const GITHUB_REPO  = 'mock-test-new';  // ← The repo connected to Vercel
+  const WORKFLOW_ID  = 'sync-lms.yml';
+  const REF          = 'main';
 
   const scriptProperties = PropertiesService.getScriptProperties();
-  const githubToken = scriptProperties.getProperty('GITHUB_PAT');
-  const lmsEmail = scriptProperties.getProperty('LMS_EMAIL') || 'manjot.surjit.singh@testbook.com';
-  const lmsPassword = scriptProperties.getProperty('LMS_PASSWORD') || 'Manjot_123';
+  const githubToken  = scriptProperties.getProperty('GITHUB_PAT');
 
   if (!githubToken) {
-    ui.alert('Error', 'GitHub Token (GITHUB_PAT) not found in Script Properties. Please check your Project Settings.', ui.ButtonSet.OK);
+    ui.alert('Error', 'GITHUB_PAT not found in Script Properties (Project Settings → Script properties).', ui.ButtonSet.OK);
     return;
   }
 
-  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${WORKFLOW_ID}/dispatches`;
-  
-  const payload = {
-    "ref": REF,
-    "inputs": {
-      "LMS_EMAIL": lmsEmail,
-      "LMS_PASSWORD": lmsPassword
-    }
-  };
-
+  const url     = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${WORKFLOW_ID}/dispatches`;
+  const payload = { "ref": REF };
   const options = {
     "method": "post",
     "contentType": "application/json",
@@ -446,21 +530,13 @@ function triggerPublish() {
 
   try {
     const response = UrlFetchApp.fetch(url, options);
-    const code = response.getResponseCode();
+    const code     = response.getResponseCode();
     if (code === 204) {
-      ui.alert('Success', 'Publishing triggered successfully! Your changes will be live on Vercel in ~1 minute.', ui.ButtonSet.OK);
+      ui.alert('Success', 'Publishing triggered! Tests will be live on Vercel in ~1 minute.', ui.ButtonSet.OK);
     } else {
-      ui.alert('Publish Failed', 'GitHub error ' + code + ': ' + response.getContentText(), ui.ButtonSet.OK);
+      ui.alert('Publish Failed', 'GitHub error ' + code + ':\n' + response.getContentText(), ui.ButtonSet.OK);
     }
   } catch (e) {
-    ui.alert('Technical Error', 'Failed to connect to GitHub: ' + e.toString(), ui.ButtonSet.OK);
+    ui.alert('Technical Error', 'Failed to reach GitHub: ' + e.toString(), ui.ButtonSet.OK);
   }
-}
-
-/**
- * Utility to reset stored credentials if needed
- */
-function resetStoredCredentials() {
-  PropertiesService.getScriptProperties().deleteAllProperties();
-  ui.alert('Credentials Cleared', 'All stored GitHub and LMS credentials have been removed.', ui.ButtonSet.OK);
 }

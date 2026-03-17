@@ -2,15 +2,6 @@ name: Sync LMS Questions
 
 on:
   workflow_dispatch:
-    inputs:
-      LMS_EMAIL:
-        description: 'LMS Email'
-        required: true
-        type: string
-      LMS_PASSWORD:
-        description: 'LMS Password'
-        required: true
-        type: string
 
 jobs:
   sync_and_deploy:
@@ -35,13 +26,21 @@ jobs:
 
       - name: Run Fetch Script
         env:
-          LMS_EMAIL: ${{ github.event.inputs.LMS_EMAIL }}
-          LMS_PASSWORD: ${{ github.event.inputs.LMS_PASSWORD }}
+          LMS_EMAIL: ${{ secrets.LMS_EMAIL }}
+          LMS_PASSWORD: ${{ secrets.LMS_PASSWORD }}
           CI: true
         run: python run.py
 
       - name: Commit and Push Changes
+        id: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Automated Sync from Google Sheet"
           file_pattern: 'Questions.csv index.html data/ .qid_cache.json'
+
+      - name: Deploy to Vercel
+        if: always()
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: npx vercel --prod --token=${{ secrets.VERCEL_TOKEN }} --yes
