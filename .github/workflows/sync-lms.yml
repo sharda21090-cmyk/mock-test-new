@@ -38,9 +38,10 @@ jobs:
           commit_message: "Automated Sync from Google Sheet"
           file_pattern: 'Questions.csv index.html data/ .qid_cache.json'
 
-      - name: Deploy to Vercel
-        if: always()
-        env:
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-        run: npx vercel --prod --token=${{ secrets.VERCEL_TOKEN }} --yes
+      - name: Force push to trigger Vercel (if no data changed)
+        if: steps.commit.outputs.changes_detected == 'false'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "chore: trigger Vercel redeploy [skip ci]"
+          git push
