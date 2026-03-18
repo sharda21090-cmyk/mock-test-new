@@ -33888,3 +33888,201 @@ D-69550,The math object method cos (x) represents _________.,Returns the absolut
 	&lt;/ul&gt;
 	&lt;/li&gt;
 &lt;/ul&gt;",https://mock-test-new.vercel.app?test=d-69550
+D-69563,What is the maximum attachment size limit for Gmail emails?,50 MB / ,25 MB / ,100 MB / ,10 MB / ,2,2.0,0.5,10,"<p>The correct answer is <u><strong>25 MB</strong></u>.</p>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>Key Points</u></span></strong></span></p>
+
+<ul>
+        <li>Gmail allows users to attach files up to a maximum size of <strong>25 MB</strong> per email.</li>
+        <li>If the attachment exceeds this limit, Gmail provides the option to upload the file to <strong>Google Drive</strong> and share the link instead.</li>
+        <li>This size limit applies to both the email body and attachments combined, ensuring emails are manageable in size for recipients.</li>
+        <li>For recipients using non-Gmail services, large emails may still be rejected if their service provider has stricter limits.</li>
+        <li>Compressing files into <strong>.zip</strong> or <strong>.rar</strong> formats can help reduce file size and meet the 25 MB limit.</li>
+</ul>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>Additional Information</u></span></strong></span></p>
+
+<ul>
+        <li><strong>Alternatives for Sending Large Files:</strong>
+        <ul>
+                <li><strong>Google Drive:</strong> Files larger than 25 MB can be uploaded to Google Drive, and a link can be shared via email.</li>
+                <li><strong>Third-party Services:</strong> Platforms like <strong>WeTransfer</strong> or <strong>Dropbox</strong> can be used to share larger files.</li>
+                <li><strong>File Compression:</strong> Compressing files into smaller formats can help in meeting attachment size requirements.</li>
+        </ul>
+        </li>
+        <li><strong>Tips for Efficient Email Management:</strong>
+        <ul>
+                <li>Regularly clean up your Gmail inbox to free up space and avoid running out of storage.</li>
+                <li>Organize emails using labels and filters for better management of attachments and messages.</li>
+                <li>Use cloud storage solutions for archiving large files instead of keeping them in your inbox.</li>
+        </ul>
+        </li>
+</ul>",https://mock-test-new.vercel.app?test=d-69563
+D-69563,Select the _____ to see all the slides in your presentation and to quickly jump to another slide.&amp;nbsp;,annotations pen icon / ,thumbnail icon / ,magnifying glass icon / ,screen icon / ,2,2.0,0.5,10,"<p>The correct answer is <u><strong>thumbnail icon</strong></u>.</p>
+
+<p><span style=""""display: flex;gap: 6px;align-items: center;""""><img height=""""26px"""" src=""""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"""" width=""""26px"""" /><strong><span style=""""vertical-align: middle;font-size: 21px;""""><u>Key Points</u></span></strong></span></p>
+
+<ul>
+        <li>The <strong>thumbnail icon</strong> is used to display all the slides in a presentation in a compact visual format.</li>
+        <li>It allows users to quickly navigate between different slides without scrolling through the entire presentation.</li>
+        <li>This feature is especially useful during presentations, enabling seamless transitions to specific slides as needed.</li>
+        <li>The thumbnail view provides an overview of the slide order and content, assisting in better organization and navigation.</li>
+        <li>In most presentation software, the thumbnail icon is located in the toolbar or sidebar, making it easily accessible.</li>
+</ul>
+
+<p><span style=""""display: flex;gap: 6px;align-items: center;""""><img height=""""26px"""" src=""""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"""" width=""""26px"""" /><strong><span style=""""vertical-align: middle;font-size: 21px;""""><u>Additional Information</u></span></strong></span></p>
+
+<ul>
+        <li><strong>Other Common Icons in Presentation Software:</strong>
+        <ul>
+                <li><strong>Annotations Pen Icon:</strong> Used to draw or write on slides during a presentation to emphasize specific points.</li>
+                <li><strong>Magnifying Glass Icon:</strong> Allows users to zoom in or out on specific parts of a slide for better visibility.</li>
+                <li><strong>Screen Icon:</strong> Typically used to switch between presentation modes, such as full-screen or split-screen view.</li>
+        </ul>
+        </li>
+        <li><strong>Best Practices for Presentations:</strong>
+        <ul>
+                <li>Organize slides in a logical sequence to ensure smooth flow of information.</li>
+                <li>Use the thumbnail view to review the overall structure of the presentation before delivering it.</li>
+                <li>Practice navigating between slides using the thumbnail icon to avoid delays during the presentation.</li>
+        </ul>
+        </li>
+        <li><strong>Tips for Effective Slide Design:</strong>
+        <ul>
+                <li>Keep slide content concise and visually appealing to maintain audience engagement.</li>
+                <li>Use high-quality images and graphics to support the information being presented.</li>
+                <li>Choose fonts and color schemes that are easy to read and professional in appearance.</li>
+        </ul>
+        </li>
+</ul>",https://mock-test-new.vercel.app?test=d-69563
+D-69563,Which of the following features in MS Word allows you to quickly replace a specific word or phrase throughout a document?,Track Changes / ,AutoCorrect / ,Spell Check / ,Find and Replace / ,4,2.0,0.5,10,"<p>The correct answer is <u><strong>Find and Replace</strong></u>.</p>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>Key Points</u></span></strong></span></p>
+
+<ul>
+        <li><strong>Find and Replace</strong> is a feature in MS Word that allows users to locate specific words or phrases in a document and replace them with another word or phrase quickly.</li>
+        <li>This tool is especially useful for editing large documents where manual changes would be time-consuming.</li>
+        <li>The <strong>Find</strong> option searches for a specific string of text, while the <strong>Replace</strong> option substitutes it with new content.</li>
+        <li>It supports advanced search options like matching case, whole words only, and using wildcards for more precise operations.</li>
+        <li>The <strong>Find and Replace</strong> feature significantly enhances productivity by streamlining repetitive text editing tasks.</li>
+</ul>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>Additional Information</u></span></strong></span></p>
+
+<ul>
+        <li><strong>Steps to Use Find and Replace:</strong>
+        <ul>
+                <li>Open the document in MS Word.</li>
+                <li>Press <strong>Ctrl + H</strong> to open the <strong>Find and Replace</strong> dialog box.</li>
+                <li>Enter the word or phrase to find in the <strong>Find what</strong> field.</li>
+                <li>Enter the replacement text in the <strong>Replace with</strong> field.</li>
+                <li>Click <strong>Find Next</strong> to locate the text, and then click <strong>Replace</strong> to substitute it. Use <strong>Replace All</strong> to update all occurrences at once.</li>
+        </ul>
+        </li>
+        <li><strong>Other Features in MS Word:</strong>
+        <ul>
+                <li><strong>Track Changes:</strong> Used to monitor edits in a document, showing who made changes and when.</li>
+                <li><strong>AutoCorrect:</strong> Automatically corrects common spelling and formatting errors as you type.</li>
+                <li><strong>Spell Check:</strong> Identifies and suggests corrections for spelling and grammatical errors in the document.</li>
+        </ul>
+        </li>
+        <li><strong>Advantages of Using Find and Replace:</strong>
+        <ul>
+                <li>Saves time by automating repetitive text editing tasks.</li>
+                <li>Reduces the risk of missing instances of text that need to be updated.</li>
+                <li>Provides advanced search options for greater flexibility and precision.</li>
+        </ul>
+        </li>
+        <li><strong>Important Tips:</strong>
+        <ul>
+                <li>Always review changes made using <strong>Replace All</strong> to ensure accuracy.</li>
+                <li>Use the <strong>Match case</strong> and <strong>Find whole words only</strong> options for more specific results.</li>
+                <li>Back up your document before making extensive changes to avoid accidental data loss.</li>
+        </ul>
+        </li>
+</ul>",https://mock-test-new.vercel.app?test=d-69563
+D-69563,Which of the following applications of computers has significantly impacted the field of personalised medicine?&amp;nbsp;,Computer-Aided Manufacturing (CAM) for industrial production / ,Analysis of individual patient genomic data to tailor treatments / ,Geographic Information Systems (GIS) for mapping environmental data / ,Automated Teller Machines (ATMs) for financial transactions / ,2,2.0,0.5,10,"<p>The correct answer is <u><strong>Analysis of individual patient genomic data to tailor treatments</strong></u>.</p>
+
+<p><span style=""""display: flex;gap: 6px;align-items: center;""""><img height=""""26px"""" src=""""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"""" width=""""26px"""" /><strong><span style=""""vertical-align: middle;font-size: 21px;""""><u>Key Points</u></span></strong></span></p>
+
+<ul>
+        <li><strong>Personalised medicine</strong> leverages computer technologies to analyze individual genomic data, enabling tailored treatments for patients.</li>
+        <li>This approach helps in identifying <strong>specific genetic mutations</strong> or markers that may influence the effectiveness of drugs or therapies.</li>
+        <li>Advanced computational tools are used to process vast amounts of genomic data, providing insights into <strong>patient-specific treatment plans</strong>.</li>
+        <li>It has led to significant breakthroughs in treating diseases such as <strong>cancer, rare genetic disorders, and chronic illnesses</strong>.</li>
+        <li>By integrating computer applications, personalised medicine enhances the precision, efficiency, and outcomes of healthcare treatments.</li>
+</ul>
+
+<p><span style=""""display: flex;gap: 6px;align-items: center;""""><img height=""""26px"""" src=""""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"""" width=""""26px"""" /><strong><span style=""""vertical-align: middle;font-size: 21px;""""><u>Additional Information</u></span></strong></span></p>
+
+<ul>
+        <li><strong>Applications of Personalised Medicine:</strong>
+        <ul>
+                <li><strong>Pharmacogenomics:</strong> Tailoring drug treatments based on individual genetic variations to enhance efficacy and reduce side effects.</li>
+                <li><strong>Genetic Testing:</strong> Identifying predispositions to specific diseases, enabling early interventions and preventive measures.</li>
+                <li><strong>Targeted Therapies:</strong> Developing treatments that specifically target the genetic mutations causing a disease.</li>
+                <li><strong>Companion Diagnostics:</strong> Using diagnostic tests to determine the suitability of a particular treatment for a patient.</li>
+        </ul>
+        </li>
+        <li><strong>Role of Computers in Personalised Medicine:</strong>
+        <ul>
+                <li>High-speed data analysis for processing large genomic datasets efficiently.</li>
+                <li>Integration of <strong>Artificial Intelligence (AI)</strong> and Machine Learning (ML) to identify patterns and predict treatment outcomes.</li>
+                <li>Development of <strong>bioinformatics tools</strong> for genome sequencing and annotation.</li>
+                <li>Facilitating real-time monitoring of patients through wearable devices and health apps.</li>
+        </ul>
+        </li>
+        <li><strong>Advantages of Personalised Medicine:</strong>
+        <ul>
+                <li>Improved treatment accuracy and reduced trial-and-error prescribing.</li>
+                <li>Minimization of adverse drug reactions and side effects.</li>
+                <li>Better patient outcomes and quality of life through customized care.</li>
+                <li>Cost-effectiveness by avoiding ineffective treatments and hospitalizations.</li>
+        </ul>
+        </li>
+        <li><strong>Challenges in Personalised Medicine:</strong>
+        <ul>
+                <li>High costs associated with genomic sequencing and data analysis.</li>
+                <li>Ethical and privacy concerns related to the use of genetic data.</li>
+                <li>Need for specialized training and resources in healthcare systems.</li>
+                <li>Limited accessibility in low-resource settings due to infrastructure constraints.</li>
+        </ul>
+        </li>
+</ul>",https://mock-test-new.vercel.app?test=d-69563
+D-69563,"In modern CPUs, what is the role of cache memory?",To serve as an alternative to RAM / ,To store frequently accessed instructions for faster processing / ,To provide permanent data storage / ,To process and execute instructions directly / ,2,2.0,0.5,10,"<p>The correct answer is <u><strong>To store frequently accessed instructions for faster processing</strong></u>.</p>
+
+<p><span style=""""display: flex;gap: 6px;align-items: center;""""><img height=""""26px"""" src=""""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"""" width=""""26px"""" /><strong><span style=""""vertical-align: middle;font-size: 21px;""""><u>Key Points</u></span></strong></span></p>
+
+<ul>
+        <li><strong>Cache memory</strong> is a small-sized type of volatile computer memory that provides high-speed data access to the processor.</li>
+        <li>Its primary role is to store frequently accessed instructions and data to reduce the time required for CPU processing.</li>
+        <li>By holding these frequently used instructions closer to the processor, cache memory significantly improves the overall system performance and speed.</li>
+        <li>There are different levels of cache memory, such as <strong>L1, L2, and L3</strong>, which vary in size and proximity to the CPU. L1 is the fastest and closest to the processor.</li>
+        <li>Cache memory operates faster than RAM and is critical for modern CPUs to handle complex tasks efficiently.</li>
+</ul>
+
+<p><span style=""""display: flex;gap: 6px;align-items: center;""""><img height=""""26px"""" src=""""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"""" width=""""26px"""" /><strong><span style=""""vertical-align: middle;font-size: 21px;""""><u>Additional Information</u></span></strong></span></p>
+
+<ul>
+        <li><strong>Types of Cache Memory:</strong>
+        <ul>
+                <li><strong>Instruction Cache:</strong> Stores instructions that the processor is likely to execute next, speeding up the execution process.</li>
+                <li><strong>Data Cache:</strong> Holds data that the CPU frequently accesses during program execution.</li>
+                <li><strong>Unified Cache:</strong> Combines both instruction and data caches into a single cache, optimizing usage.</li>
+        </ul>
+        </li>
+        <li><strong>Benefits of Cache Memory:</strong>
+        <ul>
+                <li>Reduces latency by minimizing the time required to access data.</li>
+                <li>Improves CPU performance and efficiency by avoiding frequent access to slower main memory.</li>
+                <li>Enables faster execution of applications and multitasking processes.</li>
+        </ul>
+        </li>
+        <li><strong>Important Points:</strong>
+        <ul>
+                <li>Cache memory is limited in size compared to RAM but is much faster.</li>
+                <li>Effective cache management is crucial to ensure optimal CPU performance.</li>
+                <li>Modern processors use advanced algorithms to manage cache memory dynamically.</li>
+        </ul>
+        </li>
+</ul>",https://mock-test-new.vercel.app?test=d-69563
