@@ -1,16 +1,23 @@
 """
-run.py — Fetch questions from Testbook LMS and update the mock-test app.
+run.py — Fetch questions from Testbook LMS and publish to Vercel.
 
-Google Sheet columns:
-  A: Test Name
-  B: QID (comma separated)
-  C: Lang  (e.g. "en,hi")
-  D: Positive Marks  (optional — uses default if blank)
-  E: Negative Marks  (optional — uses default if blank)
-  F: Test Duration   (minutes, optional — computed from question count if blank)
-  G: Test link       (auto-generated from Test Name slug — not read from sheet)
+Reads test config from Google Sheet (private, via service account):
+  Sheet ID : 1EkDmE_F2_owUGNOZGkFIa7nNAxFPbeVbn6rsMJAhA2U
+  Sub-sheet: Main
 
-Create a .env file in the same directory with:
+Expected columns (header names, order doesn't matter):
+  Task Id          — test name / identifier
+  Qids             — comma-separated LMS question IDs
+  Paid or YT/Master class — filter: only rows with "YT/Master class" are published
+  Lang             — (optional) e.g. "en,hi"  default: en,hi
+  Positive Marks   — (optional) default 2.0
+  Negative Marks   — (optional) default 0.5
+  Test Duration    — (optional) minutes; default = question_count × 2
+
+Place your Google service account JSON at:
+  service_account.json  (same folder as run.py)
+
+Create a .env file with:
   LMS_EMAIL=your_email@testbook.com
   LMS_PASSWORD=your_password
 """
@@ -27,13 +34,20 @@ import urllib.error
 try:
     import requests
 except ImportError:
-    print("[ERROR] 'requests' not installed. Run: python -m pip install requests python-dotenv")
+    print("[ERROR] 'requests' not installed. Run: pip install requests python-dotenv gspread google-auth")
     sys.exit(1)
 
 try:
     from dotenv import load_dotenv
 except ImportError:
-    print("[ERROR] 'python-dotenv' not installed. Run: python -m pip install requests python-dotenv")
+    print("[ERROR] 'python-dotenv' not installed. Run: pip install requests python-dotenv gspread google-auth")
+    sys.exit(1)
+
+try:
+    from google.oauth2.service_account import Credentials as SACredentials
+    from googleapiclient.discovery import build as google_build
+except ImportError:
+    print("[ERROR] 'google-auth' / 'google-api-python-client' not installed. Run: pip install google-auth google-api-python-client")
     sys.exit(1)
 
 # ── Load .env ────────────────────────────────────────────────────────
@@ -44,9 +58,9 @@ LMS_EMAIL    = os.getenv("LMS_EMAIL", "")
 LMS_PASSWORD = os.getenv("LMS_PASSWORD", "")
 
 # ── CONFIG ───────────────────────────────────────────────────────────
-# New sheet: Task Id = Test Name, Qids = comma-separated QIDs
-QID_SHEET_ID  = "1bJ1Jf__z2mGqTlBISnkd8Sf2iKNBNp8s1OhmpeoAc5A"
-QID_SHEET_GID = "849894123"
+SHEET_ID       = "1EkDmE_F2_owUGNOZGkFIa7nNAxFPbeVbn6rsMJAhA2U"
+SHEET_TAB      = "Main sheet"
+SA_CREDS_PATH  = os.path.join(SCRIPT_DIR, "service_account.json")
 
 VERCEL_DOMAIN = "https://mock-test-new.vercel.app"
 
@@ -64,7 +78,7 @@ CSV_PATH    = os.path.join(SCRIPT_DIR, "Questions.csv")
 CACHE_PATH  = os.path.join(SCRIPT_DIR, ".qid_cache.json")
 DATA_DIR    = os.path.join(SCRIPT_DIR, "data")
 
-# Language keys are now read per-row from the sheet (Col C)
+# Language keys are read per-row from the sheet
 
 # ── CACHE ─────────────────────────────────────────────────────────────
 
@@ -87,24 +101,32 @@ def save_cache(cache: dict):
 
 # ── HELPERS ──────────────────────────────────────────────────────────
 
-def build_csv_export_url(sheet_id: str, gid: str = "0") -> str:
-    return f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv&gid={gid}"
-
-
-def download_csv(url: str) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            return resp.read().decode("utf-8-sig")
-    except urllib.error.HTTPError as e:
-        if e.code == 403:
-            raise RuntimeError(
-                "Access denied (HTTP 403). Make sure the Google Sheet sharing is "
-                '"Anyone with the link" → view.'
-            )
-        raise RuntimeError(f"HTTP error {e.code} when fetching the sheet.")
-    except urllib.error.URLError as e:
-        raise RuntimeError(f"Network error: {e.reason}")
+def open_sheet() -> list[dict]:
+    """Open the private Google Sheet using service account credentials.
+    Returns all rows as a list of dicts keyed by header name.
+    """
+    if not os.path.exists(SA_CREDS_PATH):
+        raise RuntimeError(
+            f"Service account credentials not found at: {SA_CREDS_PATH}\n"
+            "  1. Create a service account in Google Cloud Console.\n"
+            "  2. Download the JSON key and save it as service_account.json\n"
+            "  3. Share the Google Sheet with the service account email (client_email in the JSON)."
+        )
+    scopes  = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
+    creds   = SACredentials.from_service_account_file(SA_CREDS_PATH, scopes=scopes)
+    service = google_build("sheets", "v4", credentials=creds)
+    result  = service.spreadsheets().values().get(
+        spreadsheetId=SHEET_ID, range=f"{SHEET_TAB}!A:Z"
+    ).execute()
+    values  = result.get("values", [])
+    if not values:
+        return []
+    headers = values[0]
+    rows = []
+    for row in values[1:]:
+        padded = row + [""] * (len(headers) - len(row))
+        rows.append(dict(zip(headers, padded)))
+    return rows
 
 
 def slugify(text: str) -> str:
@@ -113,6 +135,77 @@ def slugify(text: str) -> str:
     s = re.sub(r'[^a-z0-9-]', '', s)
     s = re.sub(r'-+', '-', s)
     return s.strip('-')
+
+
+# ── LANGUAGE NORMALIZATION ─────────────────────────────────────────
+LANGUAGE_MAP = {
+    # codes
+    "en": "en", "hi": "hi", "hn": "hi",  # accept common typo 'hn' → 'hi'
+    "te": "te", "mr": "mr", "bn": "bn", "gu": "gu",
+    "kn": "kn", "ta": "ta", "or": "or", "pa": "pa",
+    # full names
+    "english": "en", "hindi": "hi", "telugu": "te",
+    "marathi": "mr", "bengali": "bn", "gujarati": "gu",
+    "kannada": "kn", "tamil": "ta", "odia": "or", "oriya": "or",
+    "punjabi": "pa",
+}
+
+
+def normalize_lang_token(tok: str) -> str | None:
+    """Convert a single token (code or name) into an LMS language code.
+
+    Returns None if token is empty or unrecognized.
+    """
+    if not tok:
+        return None
+    t = tok.strip().lower()
+    # direct map
+    if t in LANGUAGE_MAP:
+        return LANGUAGE_MAP[t]
+    # try stripping non-letters and map again
+    t2 = re.sub(r'[^a-z]', '', t)
+    return LANGUAGE_MAP.get(t2)
+
+
+def extract_langs_from_row(row: dict) -> list:
+    """Find a language field in `row` and return a list of LMS language codes.
+
+    Looks for common header names ('Languages', 'Lang', 'Language', case-insensitive).
+    If nothing is found or parsed, returns default ['en','hi'].
+    """
+    candidates = [
+        "Languages", "Languages ", "Lang", "Language", "language", "languages",
+    ]
+    raw = None
+    # prefer explicit keys if present
+    for k in candidates:
+        if k in row and str(row.get(k, "")).strip():
+            raw = str(row.get(k, "") or "").strip()
+            break
+
+    # fallback: try to find any header with 'lang' or 'language' in its name (case-insensitive)
+    if not raw:
+        for k in row.keys():
+            if "lang" in k.lower() or "language" in k.lower():
+                v = str(row.get(k, "") or "").strip()
+                if v:
+                    raw = v
+                    break
+
+    if not raw:
+        return ["en", "hi"]
+
+    # Split on common separators
+    parts = re.split(r"[,/|;+]", raw)
+    codes = []
+    for p in parts:
+        c = normalize_lang_token(p)
+        if c and c not in codes:
+            codes.append(c)
+
+    if not codes:
+        return ["en", "hi"]
+    return codes
 
 
 # ── LMS AUTH ─────────────────────────────────────────────────────────
@@ -173,10 +266,12 @@ def combine(val_en: str, val_hi: str) -> str:
     return f"{en} / {hi}"
 
 
+
+
 def extract_multilang_row(test_id: str, q: dict, test_link: str,
                            positive: float, negative: float, time_val: int,
                            lang_primary: str = "en",
-                           lang_secondary: str | None = "hn") -> list | None:
+                           lang_secondary: str | None = "hi") -> list | None:
     """
     Mirror of the JS multiLang function.
     Returns a CSV row list or None if data is missing.
@@ -238,42 +333,152 @@ def extract_multilang_row(test_id: str, q: dict, test_link: str,
     ]
 
 
+# ── WRITE HTML LINKS BACK TO SHEET ───────────────────────────────────
+
+def _col_letter(idx: int) -> str:
+    """Convert 0-based column index to A1 column letter (supports up to ZZ)."""
+    result = ""
+    n = idx + 1
+    while n > 0:
+        n, rem = divmod(n - 1, 26)
+        result = chr(ord("A") + rem) + result
+    return result
+
+
+ALLOWED_CATEGORIES_FOR_LINKS = {
+    "Teaching Exams",
+    "State Exams",
+    "Banking Exams",
+    "SSC Exams",
+    "Railway Exams",
+    "Defence Exams",
+}
+
+
+def write_html_links_to_sheet(sheet_rows: list[dict]):
+    """Write generated test URLs into the 'HTML Link' column of the Google Sheet.
+
+    Applies the same two filters used in parse_sheet_rows:
+      • 'Paid or YT/Master class' == 'YT/Master class'
+      • 'Category Name'  in ALLOWED_CATEGORIES_FOR_LINKS
+    The link is computed directly from the Task Id slug — no current-run
+    dependency, so it works for all matching rows in one shot.
+    """
+    if not os.path.exists(SA_CREDS_PATH):
+        print("  [WARN] Service account credentials not found — skipping HTML Link update.")
+        return
+
+    scopes  = ["https://www.googleapis.com/auth/spreadsheets"]
+    creds   = SACredentials.from_service_account_file(SA_CREDS_PATH, scopes=scopes)
+    service = google_build("sheets", "v4", credentials=creds)
+
+    # Read current sheet to locate column positions
+    result = service.spreadsheets().values().get(
+        spreadsheetId=SHEET_ID, range=f"{SHEET_TAB}!A:ZZ"
+    ).execute()
+    values = result.get("values", [])
+    if not values:
+        print("  [WARN] Sheet is empty — skipping HTML Link update.")
+        return
+
+    headers = list(values[0])
+
+    def _col(name):
+        return headers.index(name) if name in headers else None
+
+    task_id_col   = _col("Task Id")
+    category_col  = _col("Paid or YT/Master class")
+    cat_name_col  = _col("Category Name")
+
+    if task_id_col is None:
+        print("  [WARN] 'Task Id' column not found in sheet — skipping HTML Link update.")
+        return
+
+    if "HTML Link" in headers:
+        link_col_idx = headers.index("HTML Link")
+    else:
+        # Column doesn't exist yet — append it to the header row
+        link_col_idx = len(headers)
+        header_col = _col_letter(link_col_idx)
+        service.spreadsheets().values().update(
+            spreadsheetId=SHEET_ID,
+            range=f"{SHEET_TAB}!{header_col}1",
+            valueInputOption="RAW",
+            body={"values": [["HTML Link"]]},
+        ).execute()
+
+    link_col = _col_letter(link_col_idx)
+
+    def _cell(row, idx):
+        return row[idx].strip() if idx is not None and idx < len(row) else ""
+
+    updates = []
+    for row_idx, row in enumerate(values[1:], start=2):   # row 1 is the header
+        task_id       = _cell(row, task_id_col)
+        category      = _cell(row, category_col)
+        category_name = _cell(row, cat_name_col)
+
+        if not task_id:
+            continue
+        if category != "YT/Master class":
+            continue
+        if category_name not in ALLOWED_CATEGORIES_FOR_LINKS:
+            continue
+
+        link = f"{VERCEL_DOMAIN}?test={slugify(task_id)}"
+        updates.append({
+            "range":  f"{SHEET_TAB}!{link_col}{row_idx}",
+            "values": [[link]],
+        })
+
+    if not updates:
+        print("  [WARN] No rows matched the filters for 'HTML Link' update.")
+        return
+
+    service.spreadsheets().values().batchUpdate(
+        spreadsheetId=SHEET_ID,
+        body={"valueInputOption": "RAW", "data": updates},
+    ).execute()
+    print(f"  Updated 'HTML Link' column for {len(updates)} row(s) in Google Sheet.")
+
+
 # ── PARSE QID SHEET ──────────────────────────────────────────────────
 
-def parse_qid_sheet(csv_text: str) -> list[dict]:
+def parse_sheet_rows(rows: list[dict]) -> list[dict]:
     """
-    Parse the QID sheet dynamically based on headers.
-    Headers expected: 'Task Id', 'Qids', 'Paid or YT/Master class'.
-    Filters out rows where 'Paid or YT/Master class' != 'YT/Master class'.
-    Selects a slice of QIDs from the end based on total count.
-    Test link is auto-generated from the Test Name slug.
+    Parse rows from the Google Sheet (list of dicts from gspread).
+    Filters to rows where 'Paid or YT/Master class' == 'YT/Master class'.
+    Selects a sample of QIDs from the end based on total count.
     """
-    reader = csv.DictReader(io.StringIO(csv_text))
     result = []
 
     def _float(val):
-        try:    return float(val.strip())
+        try:    return float(str(val).strip())
         except: return None
 
     def _int(val):
-        try:    return int(float(val.strip()))
+        try:    return int(float(str(val).strip()))
         except: return None
 
-    for row in reader:
-        task_id = row.get("Task Id", "").strip()
-        qids_raw = row.get("Qids", "").strip()
-        category = row.get("Paid or YT/Master class", "").strip()
-        
+    for row in rows:
+        task_id       = str(row.get("Task Id", "")).strip()
+        qids_raw      = str(row.get("Qids", "")).strip()
+        category      = str(row.get("Paid or YT/Master class", "")).strip()
+        category_name = str(row.get("Category Name", "")).strip()
+
         if not task_id or not qids_raw:
             continue
-            
+
         if category != "YT/Master class":
+            continue
+
+        if category_name not in ALLOWED_CATEGORIES_FOR_LINKS:
             continue
 
         all_qids = [q.strip() for q in qids_raw.split(",") if q.strip()]
         if not all_qids:
             continue
-            
+
         n = len(all_qids)
         if n < 30:
             keep = 5
@@ -284,26 +489,26 @@ def parse_qid_sheet(csv_text: str) -> list[dict]:
         elif 151 <= n <= 200:
             keep = 5
         else:
-            keep = 5  # Default fallback if > 200
+            keep = 5
 
         qids = all_qids[-keep:] if keep > 0 else all_qids
 
-        # Read optional columns if they happen to exist in new sheet, else use defaults
-        lang      = row.get("Lang", "en,hi").strip() or "en,hi"
-        positive  = _float(row.get("Positive Marks", ""))
-        negative  = _float(row.get("Negative Marks", ""))
-        duration  = _int(row.get("Test Duration", ""))
+        # Normalize language field: accept 'Lang' or 'Languages' (or similar)
+        lang_list = extract_langs_from_row(row)
+        lang = ",".join(lang_list)
+        positive = _float(row.get("Positive Marks", ""))
+        negative = _float(row.get("Negative Marks", ""))
+        duration = _int(row.get("Test Duration", ""))
 
-        # Auto-generate test link from slug
         test_link = f"{VERCEL_DOMAIN}?test={slugify(task_id)}"
 
         result.append({
             "test_name": task_id,
             "qids":      qids,
             "lang":      lang,
-            "positive":  positive,  # None = use default
-            "negative":  negative,  # None = use default
-            "duration":  duration,  # None = count * DEFAULT_TIME_PER_Q
+            "positive":  positive,
+            "negative":  negative,
+            "duration":  duration,
             "test_link": test_link,
         })
 
@@ -465,7 +670,6 @@ def update_index_html(csv_text: str, tests: dict, total_q: int):
 def main():
     # Force UTF-8 for stdout/stderr to avoid charmap errors on Windows terminals
     if sys.stdout.encoding != 'utf-8':
-        import io
         sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
         sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
@@ -482,17 +686,22 @@ def main():
         print("    LMS_PASSWORD=your_password")
         sys.exit(1)
 
-    # Step 1 – Download QID sheet
-    print("  [1/4] Downloading QID sheet...")
+    # Step 1 – Read Google Sheet via service account
+    print("  [1/4] Reading Google Sheet via service account...")
     try:
-        qid_csv = download_csv(build_csv_export_url(QID_SHEET_ID, QID_SHEET_GID))
+        sheet_rows  = open_sheet()
+        tests_input = parse_sheet_rows(sheet_rows)
     except RuntimeError as e:
         print(f"\n  [ERROR] {e}")
         sys.exit(1)
+    except Exception as e:
+        print(f"\n  [ERROR] Could not read Google Sheet: {e}")
+        sys.exit(1)
 
-    tests_input = parse_qid_sheet(qid_csv)
     if not tests_input:
-        print("\n  [ERROR] No rows found in the QID sheet. Check its format.")
+        print("\n  [ERROR] No 'YT/Master class' rows with QIDs found in the sheet.")
+        print("  Make sure the 'Paid or YT/Master class' column contains 'YT/Master class'")
+        print("  and the 'Qids' column has comma-separated question IDs.")
         sys.exit(1)
 
     total_qids = sum(len(t["qids"]) for t in tests_input)
@@ -635,6 +844,13 @@ def main():
     n_tests = write_data_files(all_rows, tests)
     print(f"  Written -> data/ ({n_tests} test JSON file(s) + manifest.json)\n")
 
+    # Write test links back to the Google Sheet (all filtered rows, not just current run)
+    print("  Writing HTML links back to Google Sheet...")
+    try:
+        write_html_links_to_sheet(sheet_rows)
+    except Exception as e:
+        print(f"  [WARN] Could not update 'HTML Link' column in sheet: {e}")
+
     # Summary table
     print(f"  {'#':<4} {'Test Name':<35} {'Qs':<5} {'+':<6} {'-':<6} {'Time':<8}")
     print("  " + "-" * 70)
@@ -677,20 +893,33 @@ def main():
                 capture_output=True,
                 text=True,
             )
+            combined = (result.stdout + result.stderr).lower()
             if result.returncode != 0:
-                print(f"  [git error] {result.stderr.strip()}")
+                # These are non-error informational states from git on Windows
+                if any(s in combined for s in (
+                    "everything up-to-date", "up to date", "nothing to commit"
+                )):
+                    return True
+                out = (result.stderr or result.stdout).strip()
+                print(f"  [git error] {out}")
                 return False
             return True
 
         print()
-        if (run_git("add", "Questions.csv", "index.html", "data/") and
-                run_git("commit", "-m", msg) and
-                run_git("push", "new-origin", "main")):
-            print(f"  ✓ Pushed to GitHub — commit: \"{msg}\"")
-            print(f"  ✓ Vercel will auto-deploy in ~30 seconds.")
+        if not run_git("add", "Questions.csv", "index.html", "data/"):
+            print("  ✗ git add failed.")
         else:
-            print("  ✗ Push failed. Run manually (PowerShell compatible):")
-            print(f'    git add Questions.csv index.html data/; git commit -m "{msg}"; git push new-origin main')
+            committed = run_git("commit", "-m", msg)
+            pushed    = run_git("push", "new-origin", "main")
+            if pushed:
+                if committed:
+                    print(f"  ✓ Pushed to GitHub — commit: \"{msg}\"")
+                else:
+                    print(f"  ✓ Pushed to GitHub (no new changes to commit).")
+                print(f"  ✓ Vercel will auto-deploy in ~30 seconds.")
+            else:
+                print("  ✗ Push failed. Run manually (PowerShell compatible):")
+                print(f'    git add Questions.csv index.html data/; git commit -m "{msg}"; git push new-origin main')
     else:
         print("  Skipped. Run when ready (PowerShell compatible):")
         names = ", ".join(tests.keys())
