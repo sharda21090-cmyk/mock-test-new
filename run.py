@@ -140,11 +140,11 @@ def slugify(text: str) -> str:
 # ── LANGUAGE NORMALIZATION ─────────────────────────────────────────
 LANGUAGE_MAP = {
     # codes
-    "en": "en", "hi": "hi", "hn": "hi",  # accept common typo 'hn' → 'hi'
+    "en": "en", "hi": "hn", "hn": "hn",
     "te": "te", "mr": "mr", "bn": "bn", "gu": "gu",
     "kn": "kn", "ta": "ta", "or": "or", "pa": "pa",
     # full names
-    "english": "en", "hindi": "hi", "telugu": "te",
+    "english": "en", "hindi": "hn", "telugu": "te",
     "marathi": "mr", "bengali": "bn", "gujarati": "gu",
     "kannada": "kn", "tamil": "ta", "odia": "or", "oriya": "or",
     "punjabi": "pa",
@@ -171,7 +171,7 @@ def extract_langs_from_row(row: dict) -> list:
     """Find a language field in `row` and return a list of LMS language codes.
 
     Looks for common header names ('Languages', 'Lang', 'Language', case-insensitive).
-    If nothing is found or parsed, returns default ['en','hi'].
+    If nothing is found or parsed, returns default ['en','hn'].
     """
     candidates = [
         "Languages", "Languages ", "Lang", "Language", "language", "languages",
@@ -193,7 +193,7 @@ def extract_langs_from_row(row: dict) -> list:
                     break
 
     if not raw:
-        return ["en", "hi"]
+        return ["en", "hn"]
 
     # Split on common separators
     parts = re.split(r"[,/|;+]", raw)
@@ -204,7 +204,7 @@ def extract_langs_from_row(row: dict) -> list:
             codes.append(c)
 
     if not codes:
-        return ["en", "hi"]
+        return ["en", "hn"]
     return codes
 
 
@@ -271,7 +271,7 @@ def combine(val_en: str, val_hi: str) -> str:
 def extract_multilang_row(test_id: str, q: dict, test_link: str,
                            positive: float, negative: float, time_val: int,
                            lang_primary: str = "en",
-                           lang_secondary: str | None = "hi") -> list | None:
+                           lang_secondary: str | None = "hn") -> list | None:
     """
     Mirror of the JS multiLang function.
     Returns a CSV row list or None if data is missing.
@@ -746,7 +746,7 @@ def main():
         test_name = t["test_name"]
         test_link = t["test_link"]
         qids      = t["qids"]
-        lang      = t.get("lang", "en,hi")
+        lang      = t.get("lang", "en,hn")
 
         # Use per-row values from sheet, fall back to defaults
         positive = t["positive"] if t["positive"] is not None else DEFAULT_POSITIVE
