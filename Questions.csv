@@ -31291,3 +31291,903 @@ D-70083,&lt;span style=&quot;&quot;&gt;A bus is accelerating uniformly as it pas
 &lt;p style=&quot;&quot;&gt;&amp;rArr; वी = 20 - 16 = 4 एमएस &lt;span style=&quot;line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;&quot;&gt;-1&lt;/span&gt;&lt;/p&gt;
 
 &lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;अतः सही उत्तर विकल्प (1) है।&lt;/span&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70089,Evaluate:&amp;nbsp;&lt;span class=&quot;math-tex&quot;&gt;\(7 \frac{1}{4} - \left[ \frac{5}{6} \div \left\{ \frac{1}{3} - \left( \frac{1}{2} \times \left( \frac{3}{4} - \frac{1}{2} \right) \right) \right\} \right]\)&lt;/span&gt;<br>&lt;span class=&quot;math-tex&quot;&gt;\(7 \frac{1}{4} - \left[ \frac{5}{6} \div \left\{ \frac{1}{3} - \left( \frac{1}{2} \times \left( \frac{3}{4} - \frac{1}{2} \right) \right) \right\} \right]\)&lt;/span&gt; का मूल्यांकन करें।&amp;nbsp;,&lt;span class=&quot;math-tex&quot;&gt;\(-3\frac{1}4\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(3\frac{1}4\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(-2\frac{3}4\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(2\frac{3}4\)&lt;/span&gt;,2,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(7 \frac{1}{4} - \left[ \frac{5}{6} \div \left\{ \frac{1}{3} - \left( \frac{1}{2} \times \left( \frac{3}{4} - \frac{1}{2} \right) \right) \right\} \right]\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculations:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; &lt;span class=&quot;math-tex&quot;&gt;\(7 \frac{1}{4} - \left[ \frac{5}{6} \div \left\{ \frac{1}{3} - \left( \frac{1}{2} \times \left( \frac{3}{4} - \frac{1}{2} \right) \right) \right\} \right]\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr;&amp;nbsp;&lt;span class=&quot;math-tex&quot;&gt;\(\frac{29}{4} - \left[ \frac{5}{6} \div \left\{ \frac{1}{3} - \left( \frac{1}{2} \times \left( \frac{3}{4} - \frac{2}{4} \right) \right) \right\} \right]\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;math-tex&quot;&gt;\(\frac{29}{4} - \left[ \frac{5}{6} \div \left\{ \frac{1}{3} - \left( \frac{1}{2} \times \left( \frac{1}{4} \right) \right) \right\} \right]\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;math-tex&quot;&gt;\(\frac{29}{4} - \left[ \frac{5}{6} \div \left\{ \frac{1}{3} - \left( \frac{1}{8} \right) \right\} \right]\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr;&amp;nbsp;&lt;span class=&quot;math-tex&quot; style=&quot;outline: yellow solid 2px; cursor: default; ;&quot;&gt;\(\frac{29}{4} - \left[ \frac{5}{6} \div \left\{ \frac{8-3}{24} \right\} \right]\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr;&amp;nbsp;&lt;span class=&quot;math-tex&quot; style=&quot;outline: yellow solid 2px; cursor: default; ;&quot;&gt;\(\frac{29}{4} - \left[ \frac{5}{6} \times \left\{ \frac{24}{5} \right\} \right]\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 29/4 &amp;minus; 4&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 29/4 &amp;minus; 16/4&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 13/4 =&amp;nbsp;&lt;span class=&quot;math-tex&quot;&gt;\(3\frac{1}4\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The value of the expression is &lt;span class=&quot;math-tex&quot;&gt;\(3\frac{1}4\)&lt;/span&gt;.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(7 \frac{1}{4} - \left[ \frac{5}{6} \div \left\{ \frac{1}{3} - \left( \frac{1}{2} \times \left( \frac{3}{4} - \frac{1}{2} \right) \right) \right\} \right]\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; &lt;span class=&quot;math-tex&quot;&gt;\(7 \frac{1}{4} - \left[ \frac{5}{6} \div \left\{ \frac{1}{3} - \left( \frac{1}{2} \times \left( \frac{3}{4} - \frac{1}{2} \right) \right) \right\} \right]\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; &lt;span class=&quot;math-tex&quot;&gt;\(\frac{29}{4} - \left[ \frac{5}{6} \div \left\{ \frac{1}{3} - \left( \frac{1}{2} \times \left( \frac{3}{4} - \frac{2}{4} \right) \right) \right\} \right]\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; &lt;/span&gt;&lt;span class=&quot;math-tex&quot;&gt;\(\frac{29}{4} - \left[ \frac{5}{6} \div \left\{ \frac{1}{3} - \left( \frac{1}{2} \times \left( \frac{1}{4} \right) \right) \right\} \right]\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; &lt;/span&gt;&lt;span class=&quot;math-tex&quot;&gt;\(\frac{29}{4} - \left[ \frac{5}{6} \div \left\{ \frac{1}{3} - \left( \frac{1}{8} \right) \right\} \right]\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; &lt;span class=&quot;math-tex&quot; style=&quot;outline: yellow solid 2px; cursor: default; ;&quot;&gt;\(\frac{29}{4} - \left[ \frac{5}{6} \div \left\{ \frac{8-3}{24} \right\} \right]\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; &lt;span class=&quot;math-tex&quot; style=&quot;outline: yellow solid 2px; cursor: default; ;&quot;&gt;\(\frac{29}{4} - \left[ \frac{5}{6} \times \left\{ \frac{24}{5} \right\} \right]\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 29/4 &amp;minus; 4&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 29/4 &amp;minus; 16/4&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 13/4 = &lt;span class=&quot;math-tex&quot;&gt;\(3\frac{1}4\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; व्यंजक का मान &lt;span class=&quot;math-tex&quot;&gt;\(3\frac{1}4\)&lt;/span&gt; है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70089
+D-70089,"A bullet train covers a fixed distance in 30 minutes at an average speed of 240 km/h. Due to track maintenance, it needs to be diverted, increasing the distance by 20%. If the train needs to arrive at its destination on time (i.e., in 30 minutes), what should its new average speed be in km/h?<br>एक बुलेट ट्रेन 240 किमी/घंटा की औसत गति से 30 मिनट में एक निश्चित दूरी तय करती है। ट्रैक रखरखाव के कारण, इसे डायवर्ट करने की आवश्यकता है, जिससे दूरी 20% बढ़ जाती है। यदि ट्रेन को समय पर (अर्थात, 30 मिनट में) अपने गंतव्य पर पहुँचना है, तो इसकी नई औसत गति किमी/घंटा में क्या होनी चाहिए?",280 km/h / 280 किमी/घंटा,300 km/h / 300किमी/घंटा,288 km/h / 288किमी/घंटा,320 km/h / 320 किमी/घंटा,3,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Time = 30 minutes = 1/2 hour&lt;/p&gt;
+
+&lt;p&gt;Initial speed = 240 km/h&lt;/p&gt;
+
+&lt;p&gt;Distance increased by 20%&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formula used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Distance = Speed &amp;times; Time&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculations:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Original distance = 240 &amp;times; 1/2&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Original distance = 120 km&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; New distance = 120 &amp;times; 120 / 100&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; New distance = 144 km&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Required speed = Distance / Time&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Required speed = 144 &amp;divide; 1/2&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Required speed = 144 &amp;times; 2&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Required speed = 288 km/h&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The new average speed should be 288 km/h.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;समय = 30 मिनट = 1/2 घंटा&lt;/p&gt;
+
+&lt;p&gt;प्रारंभिक गति = 240 किमी/घंटा&lt;/p&gt;
+
+&lt;p&gt;दूरी में 20% की वृद्धि हुई है&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;प्रयुक्त सूत्र:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;दूरी = गति &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; समय&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; मूल दूरी = 240 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; 1/2&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; मूल दूरी = 120 किमी&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; नई दूरी = 120 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; 120 / 100&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; नई दूरी = 144 किमी&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; आवश्यक गति = दूरी / समय&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; आवश्यक गति = 144 &amp;divide; 1/2&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; आवश्यक गति = 144 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; 2&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; आवश्यक गति = 288 किमी/घंटा&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; नई औसत गति 288 किमी/घंटा होनी चाहिए।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70089
+D-70089,"Two cars, X and Y, start from points 360 km apart and travel at constant speeds. If they move towards each other, they meet in 4 hours. If they move in the same direction, they meet in 12 hours. What is the speed of car X? (Assume X is the faster car).<br>दो कारें, X और Y, 360 किमी दूर स्थित बिंदुओं से चलना शुरू करती हैं और समान गति से यात्रा करती हैं। यदि वे एक-दूसरे की ओर बढ़ती हैं, तो वे 4 घंटे में मिलती हैं। यदि वे एक ही दिशा में चलती हैं, तो वे 12 घंटे में मिलती हैं। कार X की गति क्या है? (मान लें कि X तेज कार है)।",60 km/h / 60 किमी/घंटा,75 km/h / 75 किमी/घंटा,45 km/h / 45 किमी/घंटा,90 km/h / 90 किमी/घंटा,1,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Distance = 360 km&lt;/p&gt;
+
+&lt;p&gt;Time when moving towards each other = 4 hours&lt;/p&gt;
+
+&lt;p&gt;Time when moving in same direction = 12 hours&lt;/p&gt;
+
+&lt;p&gt;X is faster car&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formula used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Relative speed (opposite) = x + y&lt;/p&gt;
+
+&lt;p&gt;Relative speed (same direction) = x &amp;minus; y&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculations:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; x + y = 360 / 4&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; x + y = 90&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; x &amp;minus; y = 360 / 12&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; x &amp;minus; y = 30&lt;/p&gt;
+
+&lt;p&gt;Add equations:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; (x + y) + (x &amp;minus; y) = 90 + 30&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 2x = 120&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; x = 60 km/h&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The speed of car X is 60 km/h.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;दूरी = 360 किमी&lt;/p&gt;
+
+&lt;p&gt;एक दूसरे की ओर चलते समय समय = 4 घंटे&lt;/p&gt;
+
+&lt;p&gt;समान दिशा में चलते समय समय = 12 घंटे&lt;/p&gt;
+
+&lt;p&gt;X तेज चलने वाली कार है&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;प्रयुक्त सूत्र:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;सापेक्ष गति (विपरीत) = x + y&lt;/p&gt;
+
+&lt;p&gt;सापेक्ष गति (समान दिशा) = x &amp;minus; y&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; x + y = 360 / 4&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; x + y = 90&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; x &amp;minus; y = 360 / 12&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; x &amp;minus; y = 30&lt;/p&gt;
+
+&lt;p&gt;समीकरणों को जोड़ें:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; (x + y) + (x &amp;minus; y) = 90 + 30&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 2x = 120&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; x = 60 किमी/घंटा&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; कार X की गति 60 किमी/घंटा है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70089
+D-70089,"Three pipes, A, B, and C are capable of filling a tank in 6, 8, and 12 hours, respectively. When all three pipes are opened together, they operate for 2 hours before pipe C is closed. How much additional time will it take to completely fill the tank after that?<br>तीन पाइप, A, B और C एक टैंक को क्रमशः: 6, 8 और 12 घंटे में भरने में सक्षम हैं। जब तीनों पाइप एक साथ खोले जाते हैं, तो वे पाइप C बंद होने से पहले 2 घंटे तक काम करते हैं। उसके बाद टैंक को पूरी तरह से भरने में कितना अतिरिक्त समय लगेगा?",&lt;span class=&quot;math-tex&quot;&gt;\(\frac{6}7\)&lt;/span&gt;&amp;nbsp;hours / &lt;span class=&quot;math-tex&quot;&gt;\(\frac{6}7\)&lt;/span&gt; घंटे,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{2}6\)&lt;/span&gt; hours / &lt;span class=&quot;math-tex&quot;&gt;\(\frac{2}6\)&lt;/span&gt; घंटे,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{3}5\)&lt;/span&gt; hours / &lt;span class=&quot;math-tex&quot;&gt;\(\frac{3}5\)&lt;/span&gt; घंटे,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{9}2\)&lt;/span&gt; hours / &lt;span class=&quot;math-tex&quot;&gt;\(\frac{9}2\)&lt;/span&gt; घंटे,1,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Pipe A fills in 6 hours&lt;/p&gt;
+
+&lt;p&gt;Pipe B fills in 8 hours&lt;/p&gt;
+
+&lt;p&gt;Pipe C fills in 12 hours&lt;/p&gt;
+
+&lt;p&gt;All three work for 2 hours, then C is closed&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculations:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; LCM of 6, 8, 12 = 24&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Total Work = 24 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Efficiency of A = 24 / 6 = 4 units/hr&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Efficiency of B = 24 / 8 = 3 units/hr&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Efficiency of C = 24 / 12 = 2 units/hr&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Combined efficiency (A + B + C) = 4 + 3 + 2 = 9 units/hr&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Work done in 2 hours = 9 &amp;times; 2 = 18 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Remaining work = 24 &amp;minus; 18 = 6 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; After C is closed, efficiency of A + B = 4 + 3 = 7 units/hr&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Required time = 6 / 7 hours&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; Additional time required is 6/7 hours.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;पाइप A, 6 घंटे में भरता है&lt;/p&gt;
+
+&lt;p&gt;पाइप B, 8 घंटे में भरता है&lt;/p&gt;
+
+&lt;p&gt;पाइप C, 12 घंटे में भरता है&lt;/p&gt;
+
+&lt;p&gt;तीनों 2 घंटे तक काम करते हैं, फिर C बंद हो जाता है&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 6, 8, 12 का लघुत्तम समापवर्त्य = 24&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; कुल कार्य = 24 इकाई&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; A की दक्षता = 24 / 6 = 4 इकाई/घंटा&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; B की दक्षता = 24 / 8 = 3 इकाई/घंटा&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; C की दक्षता = 24 / 12 = 2 इकाई/घंटा&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; संयुक्त दक्षता (A + B + C) = 4 + 3 + 2 = 9 इकाई/घंटा&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 2 घंटे में किया गया कार्य = 9 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; 2 = 18 इकाई&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; शेष कार्य = 24 &amp;minus; 18 = 6 इकाई&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; C के बंद होने के बाद, A + B की दक्षता = 4 + 3 = 7 इकाई/घंटा&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; अभीष्ट&amp;nbsp;समय = 6 / 7 घंटे&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; अभीष्ट&amp;nbsp;अतिरिक्त समय 6/7 घंटे है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70089
+D-70089,"A is able to complete a task in 15 days, while B takes 20 days to finish the same task. If they collaborate and work together for 4 days, what fraction of the work will still remain?<br>A किसी कार्य को 15 दिन में पूरा कर सकता है, जबकि B को उस कार्य में 20 दिन लगते हैं। यदि वे मिलकर 4 दिन कार्य करें, तो कार्य का कितना भाग शेष रह जाएगा?",&lt;span class=&quot;math-tex&quot;&gt;\(\frac{1}4\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{7}{15}\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{8}{15}\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{11}{15}\)&lt;/span&gt;,3,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A completes work in 15 days&lt;/p&gt;
+
+&lt;p&gt;B completes work in 20 days&lt;/p&gt;
+
+&lt;p&gt;They work together for 4 days&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculations:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; LCM of 15 and 20 = 60&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Total Work = 60 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Efficiency of A = 60 / 15 = 4 units/day&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Efficiency of B = 60 / 20 = 3 units/day&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Combined efficiency = 4 + 3 = 7 units/day&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Work done in 4 days = 7 &amp;times; 4 = 28 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Work remaining = 60 &amp;minus; 28 = 32 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Fraction remaining = 32 / 60&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Fraction remaining = 8 / 15&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The fraction of work remaining is 8/15.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A एक कार्य को 15 दिनों में पूरा करता है&lt;/p&gt;
+
+&lt;p&gt;B एक कार्य को 20 दिनों में पूरा करता है&lt;/p&gt;
+
+&lt;p&gt;वे 4 दिनों तक एक साथ कार्य करते हैं&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 15 और 20 का लघुत्तम समापवर्त्य = 60&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; कुल कार्य = 60 इकाई&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; A की दक्षता = 60 / 15 = 4 इकाई/दिन&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; B की दक्षता = 60 / 20 = 3 इकाई/दिन&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; संयुक्त दक्षता = 4 + 3 = 7 इकाई/दिन&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 4 दिनों में किया गया कार्य = 7 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; 4 = 28 इकाई&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; शेष कार्य = 60 &amp;minus; 28 = 32 इकाई&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; शेष भाग = 32 / 60&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; शेष भाग = 8 / 15&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; शेष कार्य का भाग 8/15 है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70089
+D-70090,"The ratio of the efficiencies of two workers, P and Q, is 5 : 2. If P can complete a project in 12 days, how many days will Q take to complete the same project alone?<br>दो श्रमिकों, P और Q की कार्यक्षमता का अनुपात 5: 2 है। यदि P एक परियोजना को 12 दिनों में पूरा कर सकता है, तो Q को अकेले उसी परियोजना को पूरा करने में कितने दिन लगेंगे?",24 days / 24 दिन,30 days / 30 दिन,35 days / 35 दिन,40 days / 40 दिन,2,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Efficiency ratio of P and Q = 5:2&lt;/p&gt;
+
+&lt;p&gt;Time taken by P to complete the project = 12 days&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formula Used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Efficiency &amp;times; Time = Work&lt;/p&gt;
+
+&lt;p&gt;Total work = Efficiency of P &amp;times; Time taken by P&lt;/p&gt;
+
+&lt;p&gt;Time taken by Q = Total work &amp;divide; Efficiency of Q&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Total work = 5 &amp;times; 12 = 60 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Time taken by Q = 60 &amp;divide; 2 = 30 days&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The correct answer is 30 days.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;P और Q की दक्षता का अनुपात = 5:2&lt;/p&gt;
+
+&lt;p&gt;P द्वारा परियोजना को पूरा करने में लिया गया समय = 12 दिन&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;प्रयुक्त सूत्र:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;दक्षता &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; समय = कार्य&lt;/p&gt;
+
+&lt;p&gt;कुल कार्य = P की दक्षता &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; P द्वारा लिया गया समय&lt;/p&gt;
+
+&lt;p&gt;Q द्वारा लिया गया समय = कुल कार्य &amp;divide; Q की दक्षता&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; कुल कार्य = 5 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; 12 = 60 इकाई&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Q द्वारा लिया गया समय = 60 &amp;divide; 2 = 30 दिन&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; सही उत्तर 30 दिन है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70090
+D-70090,"A, B, and C are capable of completing a job in 30, 45, and 90 days, respectively. A works every day, while B and C join A every fifth day. How long will it take to finish the task?<br>A, B और C किसी कार्य को क्रमशः 30, 45 और 90 दिनों में पूरा कर सकते हैं। A प्रत्येक दिन कार्य करता है, जबकि B और C हर पांचवें दिन A के साथ शामिल होते हैं। कार्य पूरा करने में कितना समय लगेगा?",25 days / 25 दिन,18 days / 18 दिन,16 days / 16 दिन,12 days / 12 दिन,1,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A can complete work in 30 days&lt;/p&gt;
+
+&lt;p&gt;B can complete work in 45 days&lt;/p&gt;
+
+&lt;p&gt;C can complete work in 90 days&lt;/p&gt;
+
+&lt;p&gt;B and C work with A every 5th day&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formula Used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Work = LCM of given days&lt;/p&gt;
+
+&lt;p&gt;Efficiency = Total work &amp;divide; Days&lt;/p&gt;
+
+&lt;p&gt;Time = Total work &amp;divide; Total efficiency&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; LCM of 30, 45, 90 = 90&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Total work = 90 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Efficiency of A = 90 &amp;divide; 30&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Efficiency of A = 3 units per day&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Efficiency of B = 90 &amp;divide; 45&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Efficiency of B = 2 units per day&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Efficiency of C = 90 &amp;divide; 90&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Efficiency of C = 1 unit per day&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; On normal day work done = 3 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; On every 5th day work done = 3 + 2 + 1&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; On every 5th day work done = 6 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Work done in 4 normal days = 4 &amp;times; 3&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Work done in 4 normal days = 12 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Work done on 5th day = 6 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Work done in 5 days = 12 + 6&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Work done in 5 days = 18 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Total work = 90 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Number of 5-day cycles = 90 &amp;divide; 18&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Number of 5-day cycles = 5&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Total days = 5 &amp;times; 5&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Total days = 25 days&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The correct answer is 25 days.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A किसी कार्य&amp;nbsp;को 30 दिनों में पूरा कर सकता है&lt;/p&gt;
+
+&lt;p&gt;B &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;किसी कार्य&lt;/span&gt; को 45 दिनों में पूरा कर सकता है&lt;/p&gt;
+
+&lt;p&gt;C &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;किसी कार्य&lt;/span&gt; को 90 दिनों में पूरा कर सकता है&lt;/p&gt;
+
+&lt;p&gt;B और C प्रत्येक 5वें दिन A के साथ कार्य&amp;nbsp;करते हैं&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;प्रयुक्त सूत्र:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;कार्य = दिए गए दिनों का LCM&lt;/p&gt;
+
+&lt;p&gt;दक्षता = कुल कार्य &amp;divide; दिन&lt;/p&gt;
+
+&lt;p&gt;समय = कुल कार्य &amp;divide; कुल दक्षता&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 30, 45, 90 का LCM = 90&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; कुल कार्य = 90 इकाई&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; A की दक्षता = 90 &amp;divide; 30&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; A की दक्षता = 3 इकाई प्रति दिन&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; B की दक्षता = 90 &amp;divide; 45&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; B की दक्षता = 2 इकाई प्रति दिन&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; C की दक्षता = 90 &amp;divide; 90&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; C की दक्षता = 1 इकाई प्रति दिन&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; सामान्य दिन में किया गया कार्य = 3 इकाई&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; प्रत्येक 5वें दिन किया गया कार्य = 3 + 2 + 1&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; प्रत्येक 5वें दिन किया गया कार्य = 6 इकाई&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 4 सामान्य दिनों में किया गया कार्य = 4 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; 3&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 4 सामान्य दिनों में किया गया कार्य = 12 इकाई&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 5वें दिन किया गया कार्य = 6 इकाई&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 5 दिनों में किया गया कार्य = 12 + 6&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 5 दिनों में किया गया कार्य = 18 इकाई&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; कुल कार्य = 90 इकाई&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 5-दिन के चक्रों की संख्या = 90 &amp;divide; 18&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 5-दिन के चक्रों की संख्या = 5&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; कुल दिन = 5 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; 5&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; कुल दिन = 25 दिन&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; सही उत्तर 25 दिन है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70090
+D-70090,"If &lt;span class=&quot;math-tex&quot;&gt;\(secA = \frac{13}{5}\)&lt;/span&gt;and A is acute, find &lt;span class=&quot;math-tex&quot;&gt;\(sinA\)&lt;/span&gt;<br>&lt;span class=&quot;math-tex&quot;&gt;\(secA = \frac{13}{5}\)&lt;/span&gt; और A न्यूनकोण है, तो&amp;nbsp;&lt;span class=&quot;math-tex&quot;&gt;\(sinA\)&lt;/span&gt;&amp;nbsp;ज्ञात कीजिए&amp;nbsp;",&lt;span class=&quot;math-tex&quot;&gt;\(\frac{5}{13}\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{12}{13}\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{13}{12}\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{13}{5}\)&lt;/span&gt;,2,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;secA = 13/5&lt;/p&gt;
+
+&lt;p&gt;A is acute&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formula Used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;secA = hypotenuse/adjacent&lt;/p&gt;
+
+&lt;p&gt;sinA = opposite/hypotenuse&lt;/p&gt;
+
+&lt;p&gt;Pythagoras theorem: hypotenuse&lt;sup&gt;2&lt;/sup&gt; = adjacent&lt;sup&gt;2&lt;/sup&gt; + opposite&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; secA = 13/5 implies hypotenuse = 13 and adjacent = 5&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Using Pythagoras theorem: 13&lt;sup&gt;2&lt;/sup&gt; = 5&lt;sup&gt;2&lt;/sup&gt; + opposite&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 169 = 25 + opposite&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; opposite&lt;sup&gt;2&lt;/sup&gt; = 144&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; opposite = &amp;radic;144 = 12&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; sinA = opposite/hypotenuse = 12/13&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The correct answer is 12/13.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;secA = 13/5&lt;/p&gt;
+
+&lt;p&gt;A न्यून कोण है&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;प्रयुक्त सूत्र:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;secA = कर्ण/आसन्न भुजा&lt;/p&gt;
+
+&lt;p&gt;sinA = लंब/कर्ण&lt;/p&gt;
+
+&lt;p&gt;पाइथागोरस प्रमेय: कर्ण&lt;sup&gt;2&lt;/sup&gt; = आसन्न भुजा&lt;sup&gt;2&lt;/sup&gt; + लंब&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; secA = 13/5 का अर्थ है कर्ण = 13 और आसन्न भुजा = 5&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; पाइथागोरस प्रमेय का उपयोग करके: 13&lt;sup&gt;2&lt;/sup&gt; = 5&lt;sup&gt;2&lt;/sup&gt; + लंब&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 169 = 25 + लंब&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; लंब&lt;sup&gt;2&lt;/sup&gt; = 144&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; लंब = &amp;radic;144 = 12&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; sinA = लंब/कर्ण = 12/13&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; सही उत्तर 12/13 है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70090
+D-70090,"If tan(90&amp;deg; &amp;ndash; A) = &amp;radic;3, what is sin A?<br>यदि tan(90&amp;deg; - A) = &amp;radic;3, तो sin A क्या है?",&lt;span class=&quot;math-tex&quot;&gt;\(\frac{1}{2}\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{\sqrt{3}}{2}\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{\sqrt{2}}{2}\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{3}{4}\)&lt;/span&gt;,1,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;tan(90&amp;deg; &amp;minus; A) = &amp;radic;3&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formula Used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;tan(90&amp;deg; &amp;minus; A) = cot A&lt;/p&gt;
+
+&lt;p&gt;cot A = 1 &amp;divide; tan A&lt;/p&gt;
+
+&lt;p&gt;sin A = Opposite &amp;divide; Hypotenuse&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; tan(90&amp;deg; &amp;minus; A) = cot A&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; cot A = &amp;radic;3&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; A = 30&amp;deg;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; sin A = sin 30&amp;deg;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; sin A = 1/2&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The correct answer is 1/2.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;tan(90&amp;deg; &amp;minus; A) = &amp;radic;3&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;प्रयुक्त सूत्र:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;tan(90&amp;deg; &amp;minus; A) = cot A&lt;/p&gt;
+
+&lt;p&gt;cot A = 1 &amp;divide; tan A&lt;/p&gt;
+
+&lt;p&gt;sin A = लंब &amp;divide; कर्ण&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; tan(90&amp;deg; &amp;minus; A) = cot A&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; cot A = &amp;radic;3&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; A = 30&amp;deg;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; sin A = sin 30&amp;deg;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; sin A = 1/2&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; सही उत्तर 1/2 है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70090
+D-70090,What is &lt;span class=&quot;math-tex&quot;&gt;\(\frac{5\pi}{4}\)&lt;/span&gt; radians in degrees?<br>&lt;strong&gt;&lt;span class=&quot;math-tex&quot;&gt;\(\frac{5\pi}{4}\)&lt;/span&gt;&lt;/strong&gt; रेडियन कितने डिग्री में है?,225&amp;deg;,180&amp;deg;,240&amp;deg;,360&amp;deg;,1,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Radian value = (5&amp;pi;)/(4)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formula Used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Degrees = Radians &amp;times; 180/&amp;pi;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Degrees = (5&amp;pi;)/(4) &amp;times; 180/&amp;pi;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Degrees = (5 &amp;times; 180)/(4)&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Degrees = 225&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The correct answer is 225&amp;deg;.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;रेडियन मान = (5&amp;pi;)/(4)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;प्रयुक्त सूत्र:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;डिग्री = रेडियन &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; 180/&amp;pi;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; डिग्री = (5&amp;pi;)/(4) &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; 180/&amp;pi;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; डिग्री = (5 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; 180)/(4)&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; डिग्री = 225&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; सही उत्तर 225&amp;deg; है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70090
+D-70092,A and B together can complete a work in 12 days. B and C together can complete the same work in 15 days. C and A together can do it in 20 days. In how many days can A alone complete the job?<br>A और B मिलकर किसी कार्य को 12 दिनों में पूरा कर सकते हैं। B और C मिलकर उसी कार्य को 15 दिनों में पूरा कर सकते हैं। C और A मिलकर उसी कार्य को 20 दिनों में पूरा कर सकते हैं। A अकेले उस कार्य को कितने दिनों में पूरा कर सकता है?,30 days / 30 दिन,20 days / 20 दिन,50 days / 50 दिन,15 days / 15 दिन,1,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;(A + B) = 12 days&lt;/p&gt;
+
+&lt;p&gt;(B + C) = 15 days&lt;/p&gt;
+
+&lt;p&gt;(C + A) = 20 days&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formula Used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If a person completes work in n days, then 1 day work = 1 &amp;divide; n&lt;/p&gt;
+
+&lt;p&gt;Total work = LCM of given days&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; LCM of 12, 15 and 20 = 60 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; (A + B) 1 day work = 60 &amp;divide; 12 = 5 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; (B + C) 1 day work = 60 &amp;divide; 15 = 4 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; (C + A) 1 day work = 60 &amp;divide; 20 = 3 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; (A + B) + (B + C) + (C + A) = 5 + 4 + 3 = 12 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 2(A + B + C) = 12 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; A + B + C = 12 &amp;divide; 2 = 6 units&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; A = (A + B + C) &amp;minus; (B + C)&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; A = 6 &amp;minus; 4 = 2 units per day&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Days taken by A alone = 60 &amp;divide; 2 = 30 days&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The correct answer is 30 days.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;(A + B) = 12 दिन&lt;/p&gt;
+
+&lt;p&gt;(B + C) = 15 दिन&lt;/p&gt;
+
+&lt;p&gt;(C + A) = 20 दिन&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;प्रयुक्त सूत्र:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;यदि कोई व्यक्ति किसी कार्य को n दिनों में पूरा करता है, तो 1 दिन का कार्य = 1 &amp;divide; n&lt;/p&gt;
+
+&lt;p&gt;कुल कार्य = दिए गए दिनों का LCM&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 12, 15 और 20 का LCM = 60 यूनिट&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; (A + B) का 1 दिन का कार्य = 60 &amp;divide; 12 = 5 यूनिट&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; (B + C) का 1 दिन का कार्य = 60 &amp;divide; 15 = 4 यूनिट&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; (C + A) का 1 दिन का कार्य = 60 &amp;divide; 20 = 3 यूनिट&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; (A + B) + (B + C) + (C + A) = 5 + 4 + 3 = 12 यूनिट&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 2(A + B + C) = 12 यूनिट&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; A + B + C = 12 &amp;divide; 2 = 6 यूनिट&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; A = (A + B + C) &amp;minus; (B + C)&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; A = 6 &amp;minus; 4 = 2 यूनिट प्रति दिन&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; A द्वारा अकेले लिया गया समय = 60 &amp;divide; 2 = 30 दिन&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; सही उत्तर 30 दिन है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70092
+D-70092,What is the radian measure of 150&amp;deg;?<br>150&amp;deg; का रेडियन माप क्या है?,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{5\pi}{6}\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{2\pi}{3}\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{3\pi}{4}\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{\pi}{3}\)&lt;/span&gt;,1,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Angle in degree = 150&amp;deg;&lt;/p&gt;
+
+&lt;p&gt;&amp;pi; radians = 180&amp;deg;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formula Used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Radian = Degree &amp;times; (&amp;pi; &amp;divide; 180)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Radian = 150 &amp;times; (&amp;pi; &amp;divide; 180)&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; = 150&amp;pi; &amp;divide; 180&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Divide numerator and denominator by 30&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; = 5&amp;pi; &amp;divide; 6&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The correct answer is 5&amp;pi; &amp;divide; 6.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;डिग्री में कोण = 150&amp;deg;&lt;/p&gt;
+
+&lt;p&gt;&amp;pi; रेडियन = 180&amp;deg;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;प्रयुक्त सूत्र:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;रेडियन = डिग्री &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; (&amp;pi; &amp;divide; 180)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; रेडियन = 150 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; (&amp;pi; &amp;divide; 180)&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; = 150&amp;pi; &amp;divide; 180&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; अंश और हर को 30 से विभाजित कीजिए&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; = 5&amp;pi; &amp;divide; 6&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; सही उत्तर 5&amp;pi; &amp;divide; 6 है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70092
+D-70092,"If sin(90&amp;deg; - x) = cos(2x), then what is x?<br>यदि sin(90&amp;deg; - x) = cos(2x) है, तो x क्या है?",0&amp;deg;,30&amp;deg;,25&amp;deg;,15&amp;deg;,1,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;sin(90&amp;deg; &amp;minus; x) = cos(2x)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formula Used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;sin(90&amp;deg; &amp;minus; &amp;theta;) = cos &amp;theta;&lt;/p&gt;
+
+&lt;p&gt;If cos A = cos B, then A = B&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; sin(90&amp;deg; &amp;minus; x) = cos x&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; cos x = cos(2x)&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; x = 2x&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 2x &amp;minus; x = 0&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; x = 0&amp;deg;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The correct answer is 0&amp;deg;.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;sin(90&amp;deg; &amp;minus; x) = cos(2x)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;प्रयुक्त सूत्र:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;sin(90&amp;deg; &amp;minus; &amp;theta;) = cos &amp;theta;&lt;/p&gt;
+
+&lt;p&gt;यदि cos A = cos B है, तो A = B&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; sin(90&amp;deg; &amp;minus; x) = cos x&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; cos x = cos(2x)&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; x = 2x&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 2x &amp;minus; x = 0&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; x = 0&amp;deg;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; सही उत्तर 0&amp;deg; है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70092
+D-70092,"Given, A and B are complementary angles, and sinA = &lt;span class=&quot;math-tex&quot;&gt;\(\frac{3}{5}\)&lt;/span&gt;, what is tanB?<br>दिया गया है कि A और B पूरक कोण हैं, और sinA = &lt;span class=&quot;math-tex&quot;&gt;\(\frac{3}{5}\)&lt;/span&gt;, तो tanB क्या है ?",&lt;span class=&quot;math-tex&quot;&gt;\(\frac{4}{3}\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{3}{4}\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{5}{4}\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{5}{3}\)&lt;/span&gt;,1,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A + B = 90&amp;deg;&lt;/p&gt;
+
+&lt;p&gt;sin A = 3 &amp;divide; 5&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formula Used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;sin &amp;theta; = Opposite &amp;divide; Hypotenuse&lt;/p&gt;
+
+&lt;p&gt;cos &amp;theta; = Adjacent &amp;divide; Hypotenuse&lt;/p&gt;
+
+&lt;p&gt;tan &amp;theta; = Opposite &amp;divide; Adjacent&lt;/p&gt;
+
+&lt;p&gt;If A + B = 90&amp;deg;, then B = 90&amp;deg; &amp;minus; A&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; sin A = 3 &amp;divide; 5&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Opposite = 3, Hypotenuse = 5&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Adjacent = &amp;radic;(5&lt;sup&gt;2&lt;/sup&gt; &amp;minus; 3&lt;sup&gt;2&lt;/sup&gt;)&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; &amp;radic;(25 &amp;minus; 9)&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; &amp;radic;16&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Adjacent = 4&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; tan B = tan(90&amp;deg; &amp;minus; A)&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; tan B = cot A&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; cot A = Adjacent &amp;divide; Opposite&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; cot A = 4 &amp;divide; 3&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; tan B = 4 &amp;divide; 3&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The correct answer is 4 &amp;divide; 3.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A + B = 90&amp;deg;&lt;/p&gt;
+
+&lt;p&gt;sin A = 3 &amp;divide; 5&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;प्रयुक्त सूत्र:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;sin &amp;theta; = लंब &amp;divide; कर्ण&lt;/p&gt;
+
+&lt;p&gt;cos &amp;theta; = आधार &amp;divide; कर्ण&lt;/p&gt;
+
+&lt;p&gt;tan &amp;theta; = लंब &amp;divide; आधार&lt;/p&gt;
+
+&lt;p&gt;यदि A + B = 90&amp;deg;, तो B = 90&amp;deg; &amp;minus; A&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; sin A = 3 &amp;divide; 5&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; लंब = 3, कर्ण = 5&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; आधार = &amp;radic;(5&lt;sup&gt;2&lt;/sup&gt; &amp;minus; 3&lt;sup&gt;2&lt;/sup&gt;)&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; &amp;radic;(25 &amp;minus; 9)&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; &amp;radic;16&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; आधार = 4&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; tan B = tan(90&amp;deg; &amp;minus; A)&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; tan B = cot A&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; cot A = आधार &amp;divide; लंब&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; cot A = 4 &amp;divide; 3&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; tan B = 4 &amp;divide; 3&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; सही उत्तर 4 &amp;divide; 3 है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70092
+D-70092,"If &lt;span class=&quot;math-tex&quot;&gt;\(sin²A – cos²A = \frac{1}{4}\)&lt;/span&gt;, find the value of cos&amp;sup2;A.<br>यदि, &lt;span class=&quot;math-tex&quot;&gt;\(sin²A – cos²A = \frac{1}{4}\)&lt;/span&gt;, तो cos&amp;sup2;A का मान ज्ञात कीजिए।",&lt;span class=&quot;math-tex&quot;&gt;\(\frac{5}{8}\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{3}{8}\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{1}{2}\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{1}{4}\)&lt;/span&gt;,2,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;sin&lt;sup&gt;2&lt;/sup&gt;A &amp;minus; cos&lt;sup&gt;2&lt;/sup&gt;A = 1/4&lt;/p&gt;
+
+&lt;p&gt;sin&lt;sup&gt;2&lt;/sup&gt;A + cos&lt;sup&gt;2&lt;/sup&gt;A = 1&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formula Used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;sin&lt;sup&gt;2&lt;/sup&gt;A + cos&lt;sup&gt;2&lt;/sup&gt;A = 1&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; sin&lt;sup&gt;2&lt;/sup&gt;A = 1 &amp;minus; cos&lt;sup&gt;2&lt;/sup&gt;A&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; (1 &amp;minus; cos&lt;sup&gt;2&lt;/sup&gt;A) &amp;minus; cos&lt;sup&gt;2&lt;/sup&gt;A = 1/4&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 1 &amp;minus; 2cos&lt;sup&gt;2&lt;/sup&gt;A = 1/4&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 1 &amp;minus; 1/4 = 2cos&lt;sup&gt;2&lt;/sup&gt;A&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 3/4 = 2cos&lt;sup&gt;2&lt;/sup&gt;A&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; cos&lt;sup&gt;2&lt;/sup&gt;A = 3/4 &amp;divide; 2&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; cos&lt;sup&gt;2&lt;/sup&gt;A = 3/8&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The correct answer is 3/8.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;sin&lt;sup&gt;2&lt;/sup&gt;A &amp;minus; cos&lt;sup&gt;2&lt;/sup&gt;A = 1/4&lt;/p&gt;
+
+&lt;p&gt;sin&lt;sup&gt;2&lt;/sup&gt;A + cos&lt;sup&gt;2&lt;/sup&gt;A = 1&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;प्रयुक्त सूत्र:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;sin&lt;sup&gt;2&lt;/sup&gt;A + cos&lt;sup&gt;2&lt;/sup&gt;A = 1&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; sin&lt;sup&gt;2&lt;/sup&gt;A = 1 &amp;minus; cos&lt;sup&gt;2&lt;/sup&gt;A&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; (1 &amp;minus; cos&lt;sup&gt;2&lt;/sup&gt;A) &amp;minus; cos&lt;sup&gt;2&lt;/sup&gt;A = 1/4&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 1 &amp;minus; 2cos&lt;sup&gt;2&lt;/sup&gt;A = 1/4&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 1 &amp;minus; 1/4 = 2cos&lt;sup&gt;2&lt;/sup&gt;A&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 3/4 = 2cos&lt;sup&gt;2&lt;/sup&gt;A&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; cos&lt;sup&gt;2&lt;/sup&gt;A = 3/4 &amp;divide; 2&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; cos&lt;sup&gt;2&lt;/sup&gt;A = 3/8&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; सही उत्तर 3/8 है।&lt;/strong&gt;&lt;/p&gt;
+`",https://mock-test-new.vercel.app?test=d-70092
