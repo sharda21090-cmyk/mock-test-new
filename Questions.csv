@@ -30046,3 +30046,1248 @@ D-70080,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70080
 D-70080,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70080
 D-70080,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70080
 D-70080,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70080
+D-70082,,,,,,1,2.0,0.5,10,,https://mock-test-new.vercel.app?test=d-70082
+D-70082,,,,,,1,2.0,0.5,10,,https://mock-test-new.vercel.app?test=d-70082
+D-70082,,,,,,1,2.0,0.5,10,,https://mock-test-new.vercel.app?test=d-70082
+D-70082,,,,,,1,2.0,0.5,10,,https://mock-test-new.vercel.app?test=d-70082
+D-70082,,,,,,1,2.0,0.5,10,,https://mock-test-new.vercel.app?test=d-70082
+D-70083,"A ball is thrown vertically upward with a velocity of 20 m/s from the top of a building. If g = 10 m/s &lt;sup&gt;2&lt;/sup&gt; , then how high will the ball rise?<br>&lt;div&gt;&lt;span style=&quot;&quot;&gt;एक बिल्डिंग की छत से एक गेंद ऊर्ध्वाधर रूप से ऊपर की ओर 20 &lt;/span&gt;m/s&lt;span style=&quot;&quot;&gt; के वेग से फेंकी जाती है। यदि g = 10 &lt;/span&gt;m/s&amp;nbsp;&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;&quot;&gt; हो, तो गेंद कितनी ऊँचाई तक जाएगी?&lt;/span&gt;&lt;/div&gt;","20 m / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;20 m&lt;/span&gt;",2 m,"200 m / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;200&amp;nbsp;&lt;/span&gt;m","More than one of the above / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;उपर्युक्त में से एक से अधिक&lt;/span&gt;",1,2.0,0.5,50,"&lt;p&gt;&lt;strong&gt;Calculation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The initial velocity of the ball is u = 20 m/s and acceleration due to gravity is g = 10 m/s&lt;sup&gt;2&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;At the maximum height, the final velocity becomes zero.&lt;/p&gt;
+
+&lt;p&gt;The relation between velocity and height is:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; v&lt;sup&gt;2&lt;/sup&gt; = u&lt;sup&gt;2&lt;/sup&gt; &amp;minus; 2gh&lt;/p&gt;
+
+&lt;p&gt;Substituting the values:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 0 = (20)&lt;sup&gt;2&lt;/sup&gt; &amp;minus; 2 &amp;times; 10 &amp;times; h&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 0 = 400 &amp;minus; 20h&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; h = 20 m&lt;/p&gt;
+
+&lt;p&gt;This is the maximum height reached by the ball.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Therefore, the correct answer is Option 1.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;गणना&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;गेंद का प्रारंभिक वेग u = 20 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;m/s&lt;/span&gt; है और गुरुत्वीय&amp;nbsp;त्वरण g = &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;10 m/s&lt;/span&gt;&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;&quot;&gt;2&lt;/span&gt; है।&lt;/p&gt;
+
+&lt;p&gt;अधिकतम ऊँचाई पर, अंतिम वेग शून्य हो जाता है।&lt;/p&gt;
+
+&lt;p&gt;वेग और ऊँचाई के बीच संबंध है:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; v&lt;sup&gt;2&lt;/sup&gt; = u&lt;sup&gt;2&lt;/sup&gt; &amp;minus; 2gh&lt;/p&gt;
+
+&lt;p&gt;मानों को प्रतिस्थापित करने पर:&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; 0 = (20)&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;&quot;&gt;2&lt;/span&gt;&amp;nbsp;&amp;minus; 2 &amp;times; 10 &amp;times; h&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; 0 = 400 &amp;minus; 20h&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; h = 20 m&lt;/p&gt;
+
+&lt;p&gt;यह गेंद द्वारा प्राप्त अधिकतम ऊँचाई है।&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;इसलिए, सही उत्तर विकल्प 1 है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,The angular speed of a motor wheel is increased from 1200 r.p.m. to 3120 r.p.m. in 16 seconds. Its uniform angular acceleration would be<br>&lt;div&gt;एक मोटर के पहिये की कोणीय चाल 16 सेकंड में 1200 r.p.m. से बढ़कर 3120 r.p.m. हो जाती है। इसका एकसमान कोणीय त्वरण क्या होगा?&lt;/div&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(4\pi \text{ rad/s}^2\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(0.4\pi \text{ rad/s}^2\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(40\pi \text{ rad/s}^2\)&lt;/span&gt;,"&amp;nbsp;More than one of the above / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;उपर्युक्त में से एक से अधिक&lt;/span&gt;",1,2.0,0.5,50,"&lt;p&gt;&lt;strong&gt;Calculation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The initial angular speed is 1200 rpm &amp;rArr; &amp;omega;&lt;sub&gt;1&lt;/sub&gt; = (1200 &amp;times; 2&amp;pi;) / 60 = 40&amp;pi; rad/s.&lt;/p&gt;
+
+&lt;p&gt;The final angular speed is 3120 rpm &amp;rArr; &amp;omega;&lt;sub&gt;2&lt;/sub&gt; = (3120 &amp;times; 2&amp;pi;) / 60 = 104&amp;pi; rad/s.&lt;/p&gt;
+
+&lt;p&gt;The time taken is t = 16 s.&lt;/p&gt;
+
+&lt;p&gt;Uniform angular acceleration is given by:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; &amp;alpha; = (&amp;omega;&lt;sub&gt;2&lt;/sub&gt; &amp;minus; &amp;omega;&lt;sub&gt;1&lt;/sub&gt;) / t&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; &amp;alpha; = (104&amp;pi; &amp;minus; 40&amp;pi;) / 16&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; &amp;alpha; = 64&amp;pi; / 16 = 4&amp;pi; rad/s&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Therefore, the correct answer is Option 1.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;गणना&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;प्रारंभिक कोणीय चाल 1200 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;rpm&lt;/span&gt;&amp;nbsp;&amp;rArr; &amp;omega;&lt;sub&gt;1&lt;/sub&gt; = (1200 &amp;times; 2&amp;pi;) / 60 = 40&amp;pi; rad/s&lt;/p&gt;
+
+&lt;p&gt;अंतिम कोणीय चाल&amp;nbsp;3120 rpm&amp;nbsp;&amp;rArr; &amp;omega;&lt;sub&gt;2&lt;/sub&gt; = (3120 &amp;times; 2&amp;pi;) / 60 = 104&amp;pi; rad/s&lt;/p&gt;
+
+&lt;p&gt;लिया गया समय t = 16 s&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;एकसमान कोणीय त्वरण निम्न द्वारा दिया गया है:&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; &amp;alpha; = (&amp;omega;&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;2&lt;/span&gt;&amp;nbsp;&amp;minus; &amp;omega;&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;1&lt;/span&gt;) / t&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; &amp;alpha; = (104&amp;pi; &amp;minus; 40&amp;pi;) / 16&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; &amp;alpha; = 64&amp;pi; / 16 = 4&amp;pi; rad/s&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;&quot;&gt;2&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;इसलिए, सही उत्तर विकल्प 1 है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,"Two trains, each having a speed of 30 km/hr are headed at each other on the same track. A bird that can fly 60 km/hr, flies off the front of one train, when they were 60 km apart and heads directly to the other train. On reaching the train, the bird flies back to the first train. The total distance the bird travels before the train collides would be<br>&lt;div&gt;दो ट्रेनें, जिनमें से प्रत्येक की चाल 30 km/hr है, एक ही पटरी पर एक दूसरे की ओर बढ़ रही हैं।&amp;nbsp;एक पक्षी जो 60 km/hr की चाल से उड़ सकता है, एक ट्रेन के आगे से उड़ जाता है, जबकि दोनों ट्रेनें 60 km की दूरी पर थीं, और सीधे दूसरी ट्रेन की ओर बढ़ जाता है।​&lt;span style=&quot;&quot;&gt; &lt;/span&gt;ट्रेन के पास पहुँचने पर पक्षी वापस पहली ट्रेन की ओर उड़ जाता है। ट्रेन से टकराने से पहले पक्षी द्वारा तय की गई कुल दूरी होगी।&lt;/div&gt;",60 km,30 km,90 km / 90&amp;nbsp;km,"&amp;nbsp;More than one of the above / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;उपर्युक्त में से एक से अधिक&lt;/span&gt;",1,2.0,0.5,50,"&lt;p&gt;&lt;strong&gt;Calculation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Speed of each train = 30 km/hr and speed of the bird = 60 km/hr. The initial distance between the two trains is 60 km.&lt;/p&gt;
+
+&lt;p&gt;Since both trains move towards each other, their relative speed is:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Relative speed = 30 + 30 = 60 km/hr&lt;/p&gt;
+
+&lt;p&gt;The time taken for the trains to collide is:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Time = Distance / Relative speed = 60 / 60 = 1 hour&lt;/p&gt;
+
+&lt;p&gt;The bird keeps flying during this entire time. Hence, the distance covered by the bird is:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Distance = 60 &amp;times; 1 = 60 km&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Therefore, the correct answer is Option 1.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;गणना&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;प्रत्येक ट्रेन की चाल = 30 km/hr और पक्षी की चाल = 60 km/hr,&amp;nbsp;दोनों ट्रेनों के बीच प्रारंभिक दूरी 60 km है।&lt;/p&gt;
+
+&lt;p&gt;चूँकि दोनों ट्रेनें एक दूसरे की ओर बढ़ती हैं, इसलिए उनकी सापेक्ष चाल&amp;nbsp;है:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; सापेक्ष चाल&amp;nbsp;= 30 + 30 = 60 km/hr&lt;/p&gt;
+
+&lt;p&gt;ट्रेनों को टकराने में लगने वाला समय है:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; समय = दूरी / सापेक्ष चाल = 60 / 60 = 1 घंटा&lt;/p&gt;
+
+&lt;p&gt;पक्षी इस पूरे समय उड़ता रहता है। इसलिए, पक्षी द्वारा तय की गई दूरी है:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; दूरी = &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;60 &amp;times; 1 = 60 km&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;इसलिए, सही उत्तर विकल्प 1 है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,The displacement of a particle moving along x-axis is given as X = 18t+15t&lt;sup&gt;2&lt;/sup&gt; . The instantaneous velocity at t = 25 s would be<br>&lt;div&gt;&lt;span style=&quot;&quot;&gt;x-दिशा की ओर गतिमान&amp;nbsp;कण के विस्थापन को समीकरण &lt;/span&gt; X = 18t+15t&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;&quot;&gt;2 &lt;/span&gt;&lt;span style=&quot;&quot;&gt;द्वारा व्यक्त किया जाता है। समय t = 25 &lt;/span&gt;s&amp;nbsp;&lt;span style=&quot;&quot;&gt;पर तात्कालिक वेग का मान क्या होगा?&lt;/span&gt;&lt;/div&gt;,"18 m/s / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;18 &lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;m/s&lt;/span&gt;","&amp;nbsp;28 m/s / 28 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;m/s&lt;/span&gt;","78 m/s / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;78 &lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;m/s&lt;/span&gt;","More than one of the above / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;उपर्युक्त में से एक से अधिक&lt;/span&gt;",5,2.0,0.5,50,"&lt;p&gt;&lt;strong&gt;Calculation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The displacement of the particle is given by X = 18t + 15t&lt;sup&gt;2&lt;/sup&gt;, where t is in seconds.&lt;/p&gt;
+
+&lt;p&gt;Instantaneous velocity is obtained as the rate of change of displacement with time:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; v(t) = dX/dt = 18 + 30t&lt;/p&gt;
+
+&lt;p&gt;At t = 25 s, the velocity becomes:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; v(25) = 18 + 30 &amp;times; 25&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; v(25) = 18 + 750 = 768 m/s&lt;/p&gt;
+
+&lt;p&gt;This represents the instantaneous velocity of the particle at the given time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Therefore, the correct answer is Option 5.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;गणना&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;कण का विस्थापन X = 18t + 15t&lt;sup&gt;2&lt;/sup&gt; द्वारा दिया गया है, जहाँ t सेकंड में है।&lt;/p&gt;
+
+&lt;p&gt;तात्क्षणिक वेग समय के साथ विस्थापन की परिवर्तन दर के रूप में प्राप्त किया जाता है:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; v(t) = dX/dt = 18 + 30t&lt;/p&gt;
+
+&lt;p&gt;t = 25 s पर, वेग बन जाता है:&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; v(25) = 18 + 30 &amp;times; 25&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; v(25) = 18 + 750 = 768 m/s&lt;/p&gt;
+
+&lt;p&gt;यह दिए गए समय पर कण के तात्क्षणिक वेग को निरूपित करता है।&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;इसलिए, सही उत्तर विकल्प 5 है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,A child of mass 20 kg takes a ride on a curved slide of height 6 meters. The child starts from rest at the top. The speed of the child at the bottom would be<br>&lt;div&gt;&lt;span style=&quot;&quot;&gt;20 &lt;/span&gt;kg&lt;span style=&quot;&quot;&gt;&amp;nbsp;भार का एक बच्चा 6 m&amp;nbsp;ऊँचाई की वक्रीय &lt;/span&gt;स्लाइड&amp;nbsp;&lt;span style=&quot;&quot;&gt;पर फिसलता है। &lt;/span&gt;बच्चा शीर्ष बिंदु पर विरामावस्था से शुरू करता है। नीचे पहुँचने पर बच्चे की चाल कितनी होगी?&lt;/div&gt;,"11 m/s / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;11 &lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;m/s&lt;/span&gt;","&amp;nbsp;10 km/s / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;10 &lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;m/s&lt;/span&gt;","1 m/s / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;1 &lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;m/s&lt;/span&gt;","More than one of the above / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;उपर्युक्त में से एक से अधिक&lt;/span&gt;",1,2.0,0.5,50,"&lt;p&gt;&lt;strong&gt;Calculation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The child starts from rest at a height of 6 m.&lt;/p&gt;
+
+&lt;p&gt;Using conservation of mechanical energy:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; mgh = (1/2)mv&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Mass cancels out from both sides:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; v&lt;sup&gt;2&lt;/sup&gt; = 2gh&lt;/p&gt;
+
+&lt;p&gt;Substituting g = 9.8 m/s&lt;sup&gt;2&lt;/sup&gt; and h = 6 m:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; v = &amp;radic;(2 &amp;times; 9.8 &amp;times; 6)&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; v = &amp;radic;117.6 &amp;asymp; 10.84 m/s&lt;/p&gt;
+
+&lt;p&gt;This is approximately 11 m/s.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Therefore, the correct answer is Option 1.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;गणना&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;बच्चा 6 m की ऊँचाई से विरामावस्था से शुरू होता है।&lt;/p&gt;
+
+&lt;p&gt;यांत्रिक ऊर्जा के संरक्षण का उपयोग करने पर:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; mgh = (1/2)mv&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;दोनों पक्षों से द्रव्यमान निरस्त हो जाता है:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; v&lt;sup&gt;2&lt;/sup&gt; = 2gh&lt;/p&gt;
+
+&lt;p&gt;g = 9.8 m/s&lt;sup&gt;2&lt;/sup&gt; और h = 6 m प्रतिस्थापित करने पर:&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; v = &amp;radic;(2 &amp;times; 9.8 &amp;times; 6)&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; v = &amp;radic;117.6 &amp;asymp; 10.84 m/s&lt;/p&gt;
+
+&lt;p&gt;यह लगभग 11 m/s है।&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;इसलिए, सही उत्तर विकल्प 1 है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,The position of an object is given by&amp;nbsp;x = 2t&lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;&quot;&gt;2&lt;/span&gt;&amp;nbsp;+ 3t. Its motion would be<br>&lt;div&gt;&lt;span style=&quot;&quot;&gt;एक पदार्थ की स्थिति को समीकरण &lt;/span&gt;x = 2t&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;&quot;&gt;2&lt;/span&gt; + 3t द्वारा व्यक्त किया जाता है। उसकी चाल होगी:&lt;/div&gt;,"&amp;nbsp;uniform / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;समान&lt;/span&gt;","non-uniform / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;असमान&lt;/span&gt;","&amp;nbsp;partial uniform / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;आंशिक रूप से समान&lt;/span&gt;","More than one of the above / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;उपर्युक्त में से एक से अधिक&lt;/span&gt;",2,2.0,0.5,50,"&lt;p&gt;&lt;strong&gt;Calculation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The position of the object is given by x = 2t&lt;sup&gt;2&lt;/sup&gt; + 3t.&lt;/p&gt;
+
+&lt;p&gt;The velocity is obtained by differentiating position with respect to time:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; v = dx/dt = 4t + 3&lt;/p&gt;
+
+&lt;p&gt;Since velocity depends on time, it is not constant.&lt;/p&gt;
+
+&lt;p&gt;The acceleration is the rate of change of velocity:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; a = dv/dt = 4&lt;/p&gt;
+
+&lt;p&gt;The acceleration remains constant throughout the motion, while velocity changes with time.&lt;/p&gt;
+
+&lt;p&gt;This indicates uniformly accelerated motion with non-uniform velocity.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Therefore, the correct answer is Option 2.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;गणना&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;वस्तु की स्थिति x = 2t&lt;sup&gt;2&lt;/sup&gt; + 3t द्वारा दी गई है।&lt;/p&gt;
+
+&lt;p&gt;समय के सापेक्ष स्थिति को विभेदित करके वेग प्राप्त किया जाता है:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; v = dx/dt = 4t + 3&lt;/p&gt;
+
+&lt;p&gt;चूँकि वेग समय पर निर्भर करता है, इसलिए यह स्थिर नहीं है।&lt;/p&gt;
+
+&lt;p&gt;त्वरण वेग के परिवर्तन की दर है:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; a = dv/dt = 4&lt;/p&gt;
+
+&lt;p&gt;त्वरण पूरी गति के दौरान स्थिर रहता है, जबकि वेग समय के साथ बदलता है।&lt;/p&gt;
+
+&lt;p&gt;यह असमान वेग के साथ समान रूप से त्वरित गति को इंगित करता है।&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;इसलिए, सही उत्तर विकल्प 2 है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,"If the change in velocity of a body is equal for equal interval of time, it is said to move with<br>&lt;div&gt;&lt;span style=&quot;&quot;&gt;किसी &lt;/span&gt;पिंड&amp;nbsp;&lt;span style=&quot;&quot;&gt;के वेग में परिवर्तन&amp;nbsp;समय के समान अंतराल के लिए समान हो, तो &lt;/span&gt;पिंड किसके साथ&lt;span style=&quot;&quot;&gt;&amp;nbsp;गतिमान है?&lt;/span&gt;&lt;/div&gt;","uniform acceleration / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;समान त्वरण&lt;/span&gt;","&amp;nbsp;non-uniform acceleration / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;असमान त्वरण&lt;/span&gt;","&amp;nbsp;exponential acceleration / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;चरघातांकी त्वरण&lt;/span&gt;","More than one of the above / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;उपर्युक्त में से एक से अधिक&lt;/span&gt;",1,2.0,0.5,50,"&lt;p&gt;&lt;strong&gt;Explanation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If a body shows equal changes in velocity during equal intervals of time, its motion follows a consistent pattern.&lt;/p&gt;
+
+&lt;p&gt;Acceleration is defined as the change in velocity per unit time:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; a = &amp;Delta;v / &amp;Delta;t&lt;/p&gt;
+
+&lt;p&gt;When &amp;Delta;v remains the same for equal values of &amp;Delta;t, the acceleration does not vary with time.&lt;/p&gt;
+
+&lt;p&gt;This condition corresponds to uniform acceleration, not non-uniform or exponential acceleration.&lt;/p&gt;
+
+&lt;p&gt;Hence, the given situation describes motion with uniform acceleration.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Therefore, the correct answer is Option 1.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;स्पष्टीकरण&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;यदि कोई पिंड समान समय अंतराल में वेग में समान परिवर्तन दिखाता है, तो उसकी गति एक सुसंगत पैटर्न का पालन करती है।&lt;/p&gt;
+
+&lt;p&gt;त्वरण को प्रति इकाई समय में वेग में परिवर्तन के रूप में परिभाषित किया गया है:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; a = &amp;Delta;v / &amp;Delta;t&lt;/p&gt;
+
+&lt;p&gt;जब &amp;Delta;v, &amp;Delta;t के समान मानों के लिए समान रहता है, तो त्वरण समय के साथ नहीं बदलता है।&lt;/p&gt;
+
+&lt;p&gt;यह स्थिति समान त्वरण से संगत है, न कि असमान या चरघातांकी त्वरण से।&lt;/p&gt;
+
+&lt;p&gt;इसलिए, दी गई स्थिति समान त्वरण के साथ गति का वर्णन करती है।&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;इसलिए, सही उत्तर विकल्प 1 है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,"If a particle moving in straight line, has displacement x = 10t + 15t&lt;sup&gt;2&lt;/sup&gt; (here x is in meters and time t is in second) the average acceleration would be<br>&lt;div&gt;&lt;span style=&quot;&quot;&gt;सरल रेखा में गति कर रहे किसी कण का विस्थापन &lt;/span&gt;x = 10t + 15t&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;&quot;&gt; है, जहाँ x का मान मीटर में तथा t का मान &lt;/span&gt;सेकंड&amp;nbsp;&lt;span style=&quot;&quot;&gt;में है। औसत त्वरण का मान होगा&lt;/span&gt;&lt;/div&gt;","90 m/s&lt;sup&gt; 2&lt;/sup&gt; / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;90&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;m/s&lt;/span&gt;&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;&quot;&gt;2&lt;/span&gt;","9 m/s&lt;sup&gt; 2&lt;/sup&gt; / &lt;div style=&quot;color: rgb(88, 89, 91);&quot;&gt;9 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;m/s&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41); position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;&quot;&gt;2&lt;/span&gt;&lt;/div&gt;","900 m/s&lt;sup&gt; 2&lt;/sup&gt; / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;900 &lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;m/s&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41); position: relative; line-height: 0; vertical-align: baseline; top: -0.5em; font-size:10.5px;&quot;&gt;2&lt;/span&gt;","More than one of the above / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;उपर्युक्त में से एक से अधिक&lt;/span&gt;",5,2.0,0.5,50,"&lt;p&gt;&lt;strong&gt;Calculation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The displacement of the body is given by x = 10t + 15t&lt;sup&gt;2&lt;/sup&gt;, where t is in seconds.&lt;/p&gt;
+
+&lt;p&gt;Velocity is obtained by differentiating displacement with respect to time:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; v = dx/dt = 10 + 30t&lt;/p&gt;
+
+&lt;p&gt;Acceleration is the rate of change of velocity:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; a = dv/dt = 30 m/s&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;To find average acceleration from t = 0 s to t = 3 s:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; v&lt;sub&gt;i&lt;/sub&gt; = 10 + 30(0) = 10 m/s&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; v&lt;sub&gt;f&lt;/sub&gt; = 10 + 30(3) = 100 m/s&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Average acceleration = (100 &amp;minus; 10) / 3 = 30 m/s&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Therefore, the correct answer is Option 5.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;गणना&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;वस्तु का विस्थापन x = 10t + 15t&lt;sup&gt;2&lt;/sup&gt; द्वारा दिया गया है, जहाँ t सेकंड में है।&lt;/p&gt;
+
+&lt;p&gt;वेग, समय के सापेक्ष विस्थापन को अवकलित करके प्राप्त किया जाता है:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; v = dx/dt = 10 + 30t&lt;/p&gt;
+
+&lt;p&gt;त्वरण, वेग के परिवर्तन की दर है:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; a = dv/dt = 30 m/s&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;t = 0 s से t = 3 s तक औसत त्वरण ज्ञात करने के लिए:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; v&lt;sub&gt;i&lt;/sub&gt; = 10 + 30(0) = 10 m/s&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; v&lt;sub&gt;f&lt;/sub&gt; = 10 + 30(3) = 100 m/s&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; औसत त्वरण = (100 &amp;minus; 10) / 3 = 30 m/s&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;इसलिए, सही उत्तर विकल्प 5 है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,"When moving object covers equal distance in equal time, the object is said to have acceleration<br>&lt;div&gt;&lt;span style=&quot;&quot;&gt;अगर गतिमान वस्तु द्वारा समान समय अंतराल में समान दूरी तय की जाती है, तो &lt;/span&gt;वस्तु&amp;nbsp;&lt;span style=&quot;&quot;&gt;पर आरोपित त्वरण का मान होगा&lt;/span&gt;&lt;/div&gt;","zero / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;शून्य&lt;/span&gt;",&amp;nbsp;infinite / अनंत,"finite / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;सीमित&lt;/span&gt;","More than one of the above / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;उपर्युक्त में से एक से अधिक&lt;/span&gt;",1,2.0,0.5,50,"&lt;p&gt;&lt;strong&gt;Explanation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If a moving object covers equal distances in equal intervals of time, its velocity remains constant.&lt;/p&gt;
+
+&lt;p&gt;Acceleration is defined as the rate of change of velocity with respect to time.&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; When velocity does not change, the rate of change of velocity is zero.&lt;/p&gt;
+
+&lt;p&gt;Hence, such motion corresponds to zero acceleration, not accelerated motion.&lt;/p&gt;
+
+&lt;p&gt;This represents uniform motion with constant velocity.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Therefore, the correct answer is Option 1.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;व्याख्या&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;यदि कोई गतिमान वस्तु समान समय अंतराल में समान दूरी तय करती है, तो उसका वेग स्थिर रहता है।&lt;/p&gt;
+
+&lt;p&gt;त्वरण को समय के सापेक्ष वेग में परिवर्तन की दर के रूप में परिभाषित किया गया है।&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; जब वेग नहीं बदलता है, तो वेग में परिवर्तन की दर शून्य होती है।&lt;/p&gt;
+
+&lt;p&gt;इसलिए, ऐसी गति शून्य त्वरण के संगत&amp;nbsp;है, त्वरित गति से नहीं।&lt;/p&gt;
+
+&lt;p&gt;यह स्थिर वेग के साथ एकसमान गति का प्रतिनिधित्व करता है।&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;इसलिए, सही उत्तर विकल्प 1 है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,A cricket ball is thrown at a speed of 28 m/s in a direction 30&amp;ordm; above horizontal. The maximum height attained by the ball would be<br>&lt;div&gt;&lt;span style=&quot;&quot;&gt;क्रिकेट की एक गेंद क्षितिज से &lt;/span&gt;30&amp;ordm;&lt;span style=&quot;&quot;&gt; कोण बनाते हुए &lt;/span&gt;28 m/s&lt;span style=&quot;&quot;&gt; की चाल से फेंकी जाती है। गेंद द्वारा तय की जाने वाली अधिकतम ऊँचाई होगी&lt;/span&gt;&lt;/div&gt;,"10 m / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;10 m&lt;/span&gt;","100 m / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;100 &lt;/span&gt;m","1000 m / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;1000 m&lt;/span&gt;","More than one of the above / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;उपर्युक्त में से एक से अधिक&lt;/span&gt;",1,2.0,0.5,50,"&lt;p&gt;&lt;strong&gt;Calculation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The initial velocity of the ball is u = 28 m/s and the angle of projection is 30&amp;deg;. The acceleration due to gravity is g = 9.8 m/s&lt;sup&gt;2&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;The maximum height attained is given by:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; H = (u&lt;sup&gt;2&lt;/sup&gt; sin&lt;sup&gt;2&lt;/sup&gt;&amp;theta;) / (2g)&lt;/p&gt;
+
+&lt;p&gt;Since sin 30&amp;deg; = 0.5, substituting the values:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; H = (28&lt;sup&gt;2&lt;/sup&gt; &amp;times; 0.5&lt;sup&gt;2&lt;/sup&gt;) / (2 &amp;times; 9.8)&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; H = (784 &amp;times; 0.25) / 19.6&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; H = 196 / 19.6 = 10 m&lt;/p&gt;
+
+&lt;p&gt;This is the maximum height reached by the ball.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Therefore, the correct answer is Option 1.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;गणना&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;गेंद का प्रारंभिक वेग u = 28 m/s है और प्रक्षेपण कोण 30&amp;deg; है। गुरुत्वीय&amp;nbsp;त्वरण g = 9.8 m/s&lt;sup&gt;2&lt;/sup&gt; है।&lt;/p&gt;
+
+&lt;p&gt;अधिकतम ऊँचाई इस प्रकार दी गई है:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; H = (u&lt;sup&gt;2&lt;/sup&gt; sin&lt;sup&gt;2&lt;/sup&gt;&amp;theta;) / (2g)&lt;/p&gt;
+
+&lt;p&gt;चूँकि sin 30&amp;deg; = 0.5, मानों को प्रतिस्थापित करने पर:&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; H = (28&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;&quot;&gt;2&lt;/span&gt;&amp;nbsp;&amp;times; 0.5&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;&quot;&gt;2&lt;/span&gt;) / (2 &amp;times; 9.8)&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; H = (784 &amp;times; 0.25) / 19.6&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; H = 196 / 19.6 = 10 m&lt;/p&gt;
+
+&lt;p&gt;यह गेंद द्वारा प्राप्त अधिकतम ऊँचाई है।&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;इसलिए, सही उत्तर विकल्प 1 है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,"A car moving with a speed of 50 km/hr can be stopped by brakes after covering 6 m. What would be the minimum stopping distance, if the car is moving at a speed of 100 km/hr?<br>&lt;div&gt;&lt;span style=&quot;&quot;&gt;एक कार, जो 50 &lt;/span&gt;km/hr&lt;span style=&quot;&quot;&gt; की चाल से चल रही है, ब्रेक लगाने पर 6 &lt;/span&gt;m&lt;span style=&quot;&quot;&gt; की दूरी पर जाकर रुक जाती है। &lt;/span&gt;यदि कार 100 km/hr की चाल&amp;nbsp;से चल रही हो, तो रुकने की न्यूनतम&amp;nbsp;दूरी क्या होगी?&lt;/div&gt;","24 m / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;24 &lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;m&lt;/span&gt;","2&amp;middot;4 m / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;2.4&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;m&lt;/span&gt;","240 m / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;240&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;m&lt;/span&gt;","More than one of the above / &lt;span style=&quot;color: rgb(88, 89, 91);&quot;&gt;उपर्युक्त में से एक से अधिक&lt;/span&gt;",1,2.0,0.5,50,"&lt;p&gt;&lt;strong&gt;Calculation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The initial speed of the car is v&lt;sub&gt;1&lt;/sub&gt; = 50 km/hr and the corresponding stopping distance is d&lt;sub&gt;1&lt;/sub&gt; = 6 m.&lt;/p&gt;
+
+&lt;p&gt;The new speed is v&lt;sub&gt;2&lt;/sub&gt; = 100 km/hr.&lt;/p&gt;
+
+&lt;p&gt;Stopping distance varies as the square of speed:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; d&lt;sub&gt;2&lt;/sub&gt; = d&lt;sub&gt;1&lt;/sub&gt; &amp;times; (v&lt;sub&gt;2&lt;/sub&gt; / v&lt;sub&gt;1&lt;/sub&gt;)&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Substituting the values:&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; d&lt;sub&gt;2&lt;/sub&gt; = 6 &amp;times; (100 / 50)&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; d&lt;sub&gt;2&lt;/sub&gt; = 6 &amp;times; 2&lt;sup&gt;2&lt;/sup&gt; = 24 m&lt;/p&gt;
+
+&lt;p&gt;Thus, the minimum stopping distance at 100 km/hr is 24 m.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Therefore, the correct answer is Option 1.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;गणना&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;कार की प्रारंभिक चाल v&lt;sub&gt;1&lt;/sub&gt; = 50 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;km/hr&lt;/span&gt; है और संगत रोकने की दूरी d&lt;sub&gt;1&lt;/sub&gt; = 6 m है।&lt;/p&gt;
+
+&lt;p&gt;नई चाल v&lt;sub&gt;2&lt;/sub&gt; = 100 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;km/hr&lt;/span&gt; है।&lt;/p&gt;
+
+&lt;p&gt;रुकने&amp;nbsp;की दूरी गति के वर्ग के रूप में बदलती है:&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; d&lt;/span&gt;&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;nbsp;= d&lt;/span&gt;&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;nbsp;&amp;times; (v&lt;/span&gt;&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;nbsp;/ v&lt;/span&gt;&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;&quot;&gt;2&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;मानों को प्रतिस्थापित करने पर:&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; d&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;2&lt;/span&gt;&amp;nbsp;= 6 &amp;times; (100 / 50)&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;&quot;&gt;2&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; d&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;2&lt;/span&gt;&amp;nbsp;= 6 &amp;times; 2&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;&quot;&gt;2&lt;/span&gt;&amp;nbsp;= 24 m&lt;/p&gt;
+
+&lt;p&gt;इस प्रकार, 100 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;km/hr&lt;/span&gt; पर रुकने की न्यूनतम दूरी 24 m है।&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;इसलिए, सही उत्तर विकल्प 1 है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,"A projectile is fired with a speed u at an angle &amp;theta;, with the horizontal. Its speed when its direction of motion makes an angle&amp;nbsp;&amp;alpha; with the horizontal will be<br>एक प्रक्षेप्य क्षैतिज के साथ &amp;theta; कोण पर u चाल से दागा जाता है। जब इसकी गति की दिशा क्षैतिज के साथ &amp;alpha; कोण बनाती है तो इसकी चाल होगी:",&lt;span class=&quot;math-tex&quot;&gt;\(\frac{u \cos \theta}{\cos \alpha}\)&lt;/span&gt;,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{u \cos \alpha}{\cos \theta}\)&lt;/span&gt;,u cos&amp;nbsp;&amp;theta; / u cos &amp;theta;,More than one of the above / उपर्युक्त में से एक से अधिक,1,2.0,0.5,50,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A projectile is fired with a speed u at an angle&lt;span class=&quot;math-tex&quot;&gt;\( \theta\)&lt;/span&gt; with the horizontal. We are asked to find its speed when its direction of motion makes an angle &lt;span class=&quot;math-tex&quot;&gt;\(α\)&lt;/span&gt; with the horizontal.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;Concept:&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;The velocity of the projectile can be split into two components: horizontal and vertical.&lt;/li&gt;
+	&lt;li&gt;At any point in the projectile&amp;#39;s path, the horizontal velocity is &lt;span class=&quot;math-tex&quot;&gt;\(u \cos \theta \)&lt;/span&gt; , and the vertical velocity is&lt;span class=&quot;math-tex&quot;&gt;\( u \sin \theta - g t\)&lt;/span&gt; , where g is the acceleration due to gravity and t is the time.&lt;/li&gt;
+	&lt;li&gt;When the direction of motion makes an angle &amp;alpha;&amp;nbsp;with the horizontal, the ratio of the vertical to the horizontal velocity is given by &lt;span class=&quot;math-tex&quot;&gt;\(\tan α = \frac{u \sin \theta - g t}{u \cos \theta} \)&lt;/span&gt; .&lt;/li&gt;
+	&lt;li&gt;The speed of the projectile at any point is the resultant of the horizontal and vertical components of velocity. The magnitude of the velocity v is:&lt;/li&gt;
+	&lt;li&gt;&lt;span class=&quot;math-tex&quot;&gt;\( v = \frac{u \cos \theta}{\cos α} \)&lt;/span&gt;, where &amp;alpha; is the angle made by the direction of motion with the horizontal.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;The speed when the direction of motion makes an angle &amp;alpha; with the horizontal is:&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(⇒ v = \frac{u \cos \theta}{\cos α}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The correct answer is option 1.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;एक प्रक्षेप्य को क्षैतिज से &lt;span class=&quot;math-tex&quot;&gt;\( \theta\)&lt;/span&gt; कोण पर u चाल से प्रक्षेपित किया जाता है। हमें इसकी चाल ज्ञात करनी है जब इसकी गति की दिशा क्षैतिज के साथ &lt;span class=&quot;math-tex&quot;&gt;\(α\)&lt;/span&gt; कोण बनाती है।&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;संप्रत्यय:&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;प्रक्षेप्य के वेग को दो घटकों: क्षैतिज और ऊर्ध्वाधर &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;में विभाजित किया जा सकता है&lt;/span&gt;।&lt;/li&gt;
+	&lt;li&gt;प्रक्षेप्य के पथ में किसी भी बिंदु पर, क्षैतिज वेग &lt;span class=&quot;math-tex&quot;&gt;\(u \cos \theta \)&lt;/span&gt; है, और ऊर्ध्वाधर वेग &lt;span class=&quot;math-tex&quot;&gt;\( u \sin \theta - g t\)&lt;/span&gt; है, जहाँ g गुरुत्वीय&amp;nbsp;त्वरण है और t समय है।&lt;/li&gt;
+	&lt;li&gt;जब गति की दिशा क्षैतिज के साथ &amp;alpha; कोण बनाती है, तो ऊर्ध्वाधर से क्षैतिज वेग के अनुपात को &lt;span class=&quot;math-tex&quot;&gt;\(\tan α = \frac{u \sin \theta - g t}{u \cos \theta} \)&lt;/span&gt; द्वारा दिया जाता है।&lt;/li&gt;
+	&lt;li&gt;किसी भी बिंदु पर प्रक्षेप्य की चाल वेग के क्षैतिज और ऊर्ध्वाधर घटकों का परिणामी है। वेग v का परिमाण है:&lt;/li&gt;
+	&lt;li&gt;&lt;span class=&quot;math-tex&quot;&gt;\( v = \frac{u \cos \theta}{\cos α} \)&lt;/span&gt;, जहाँ &amp;alpha; क्षैतिज के साथ गति की दिशा द्वारा बनाया गया कोण है।&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;जब गति की दिशा क्षैतिज के साथ &amp;alpha; कोण बनाती है, तो चाल है:&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(⇒ v = \frac{u \cos \theta}{\cos α}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; सही उत्तर विकल्प 1 है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,"A truck initially at rest travels a distance of 70 m in 7 seconds and the motion continues in the same manner. If the body executes a uniformly accelerated motion, then acceleration (a) is (approx.)<br>एक ट्रक शुरू में विराम अवस्था से 7 सेकंड में 70 m की दूरी तय करता है और यह गति &lt;span style=&quot;color: rgb(37, 37, 37);  &quot;&gt;उसी तरह&amp;nbsp;&lt;/span&gt;जारी रहती है। यदि निकाय एकसमान त्वरित गति में है तो त्वरण (a) कितना होगा? (लगभग)",0 m/s&lt;sup&gt;2&lt;/sup&gt;,3 m/s&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;&quot;&gt;2&lt;/span&gt;,5 m/s&lt;sup&gt;2&lt;/sup&gt;,More than one of the above / उपर्युक्त में से एक से अधिक,2,2.0,0.5,50,"&lt;p&gt;&lt;strong&gt;&lt;u&gt;CONCEPT:&amp;nbsp;&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;The e&lt;strong&gt;quations of motion are used to characterize&lt;/strong&gt; the &lt;strong&gt;movement of&lt;/strong&gt; the &lt;strong&gt;body &lt;/strong&gt;and are given by&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(S = ut+ \frac{1}{2}a t^{2}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;V = u + at&lt;/p&gt;
+
+&lt;p&gt;V&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;= U&lt;sup&gt;2&amp;nbsp;&lt;/sup&gt;+ 2as&lt;/p&gt;
+
+&lt;p&gt;Where S = Displacement, t = time a =&amp;nbsp; acceleration, V = Final velocity, U = Initial velocity&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;CALCULATION:&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;Given&amp;nbsp; S = 70 m, t = 7 sec u = 0m/s&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;The equation of motion connecting displacement, initial velocity, and time is given by&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(⇒ S = ut+ \frac{1}{2}a t^{2}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;substituting the given values the above equation becomes&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(\Rightarrow 70 = 0\times 7+ \frac{1}{2}a \times 7^{2}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(\Rightarrow a = \frac{70\times 2}{7\times 7} = \frac{20}{7} = 2.85m/s^{2}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Hence, &lt;strong&gt;option 2 is the answer&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;<br><br>&lt;p&gt;&lt;u&gt;&lt;strong&gt;अवधारणा:&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;गति के समीकरणों का उपयोग निकाय की गति को वर्णित करने के लिए किया जाता है और यह इस प्रकार है-&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(S = ut+ \frac{1}{2}a t^{2}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;V = u + at&lt;/p&gt;
+
+&lt;p&gt;V&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;= U&lt;sup&gt;2&amp;nbsp;&lt;/sup&gt;+ 2as&lt;/p&gt;
+
+&lt;p&gt;जहाँ S = विस्थापन, t = समय a = त्वरण, V = अंतिम वेग,U = प्रारंभिक वेग&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;गणना&lt;/strong&gt;&lt;/u&gt;&lt;u&gt;&lt;strong&gt;:&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;दिया गया है: S = 70 m, t = 7 सेकंड u = 0m/s&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;विस्थापन, प्रारंभिक वेग और समय में सम्बन्ध स्थापित करने वाला गति का समीकरण है-&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(⇒ S = ut+ \frac{1}{2}a t^{2}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;दिए गए मानों के प्रतिस्थापन पर उपरोक्त समीकरण होगा-&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(\Rightarrow 70 = 0\times 7+ \frac{1}{2}a \times 7^{2}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(\Rightarrow a = \frac{70\times 2}{7\times 7} = \frac{20}{7} = 2.85m/s^{2}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;इसलिए, विकल्प 2 उत्तर है।&lt;/li&gt;
+&lt;/ul&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,The slope of the velocity &amp;ndash; time graph for retarded motion is<br>मंदित गति के लिए वेग-समय आरेख की प्रवणता क्या है?,zero / शून्य,positive / धनात्मक,negative / ऋणात्मक,More than one of the above / उपर्युक्त में से एक से अधिक,3,2.0,0.5,50,"&lt;p&gt;&lt;u&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;CONCEPT&lt;/span&gt;&lt;/u&gt;:&lt;/p&gt;
+
+&lt;ul style=&quot;list-style-type: disc;&quot;&gt;
+	&lt;li&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Velocity&lt;/span&gt;: The rate of change of displacement of a body is called the velocity of that body.
+
+	&lt;ul&gt;
+		&lt;li&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Velocity&lt;/span&gt;&amp;nbsp;is a&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;vector quantity&amp;nbsp;&lt;/span&gt;that has both magnitudes as well as direction.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Acceleration&lt;/span&gt;: The rate of change of velocity is called the&amp;nbsp;acceleration of the body.
+	&lt;ul&gt;
+		&lt;li&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Acceleration&lt;/span&gt;&amp;nbsp;is also a&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;vector quantity&lt;/span&gt;.&lt;/li&gt;
+		&lt;li&gt;The&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;slope&lt;/span&gt;&amp;nbsp;of any velocity-time&amp;nbsp;graph gives an acceleration&amp;nbsp;of the body.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Displacement&lt;/span&gt;: The minimum path length between two points is called displacement.&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Distance&lt;/span&gt;: The total path length between two points is called distance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;&lt;u&gt;EXPLANATION&lt;/u&gt;&lt;/span&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/20/05/F1_P.Y_21.5.20_Pallavi_D1.png&quot; style=&quot;width: 241px; height: 220px;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;The&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;slope of any graph&lt;/span&gt;&amp;nbsp;is the ratio of the&amp;nbsp;vertical change between two points to the horizontal change between the same points.&lt;/li&gt;
+	&lt;li&gt;In a&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;velocity-time graph&lt;/span&gt;, the&amp;nbsp;velocity&amp;nbsp;(v) is present on the vertical axis&amp;nbsp;while&amp;nbsp;time (t)&amp;nbsp;on the&amp;nbsp;horizontal axis, so the slope of the graph is given by:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\({\rm{Slope}} = \frac{{{\rm{\Delta }}v}}{{{\rm{\Delta }}t}}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Since the&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;rate of change of&amp;nbsp;velocity&amp;nbsp;is termed as acceleration&lt;/span&gt;, the&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;slope of a&amp;nbsp;velocity-time graph&amp;nbsp;&lt;/span&gt;gives the&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;acceleration&lt;/span&gt;.&lt;/li&gt;
+	&lt;li&gt;Therefore the &lt;strong&gt;slope of the velocity-time graph for retarded motion &lt;/strong&gt;is&lt;strong&gt; negative&lt;/strong&gt;. Therefore option 3 is correct.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;display: flex;gap: 6px;align-items: center;&quot;&gt;&lt;img height=&quot;26px&quot; src=&quot;//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png&quot; width=&quot;26px&quot; /&gt;&lt;strong&gt;&lt;span style=&quot;vertical-align: middle;font-size: 21px;&quot;&gt;&lt;u&gt;Additional Information&lt;/u&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Similarly, the slope of&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;displacement - time graph gives velocity&lt;/span&gt;.&lt;/li&gt;
+	&lt;li&gt;The area under the velocity-time graph gives displacement and the area under the acceleration - time graph gives the change in velocity.&lt;/li&gt;
+&lt;/ul&gt;<br><br>&lt;p&gt;&lt;u&gt;&lt;strong&gt;अवधारणा:&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;ul style=&quot;list-style-type: disc;&quot;&gt;
+	&lt;li&gt;&lt;strong&gt;वेग:&lt;/strong&gt; किसी पिंड के विस्थापन के परिवर्तन की दर को उस पिंड का वेग कहा जाता है।
+
+	&lt;ul&gt;
+		&lt;li&gt;&lt;strong&gt;वेग&lt;/strong&gt; एक &lt;strong&gt;सदिश राशि&lt;/strong&gt; है जिसमें दिशा के साथ-साथ परिमाण दोनों&amp;nbsp;होते हैं।&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;त्वरण:&lt;/strong&gt; वेग के परिवर्तन की दर को निकाय का त्वरण कहा जाता है।
+	&lt;ul&gt;
+		&lt;li&gt;&lt;strong&gt;त्वरण&lt;/strong&gt; भी एक &lt;span style=&quot;font-weight: 700;&quot;&gt;सदिश राशि&lt;/span&gt; है।&lt;/li&gt;
+		&lt;li&gt;किसी भी वेग-समय आरेख का ढलान निकाय का त्वरण देता है।&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;विस्थापन:&lt;/strong&gt; दो बिंदुओं के बीच न्यूनतम पथ लंबाई को विस्थापन कहा जाता है।&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;दूरी: &lt;/strong&gt;दो बिंदुओं के बीच की कुल पथ लंबाई को दूरी कहा जाता है।&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;व्याख्या:&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/20/05/F1_P.Y_21.5.20_Pallavi_D1.png&quot; style=&quot;width: 241px; height: 220px;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;किसी भी &lt;strong&gt;आरेख की प्रवणता&lt;/strong&gt;&amp;nbsp;दो बिंदुओं के बीच एक ही बिंदु के बीच क्षैतिज परिवर्तन के ऊर्ध्वाधर परिवर्तन का अनुपात है।&lt;/li&gt;
+	&lt;li&gt;एक &lt;strong&gt;वेग-समय &lt;/strong&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;आरेख&amp;nbsp;&lt;/span&gt;में, वेग (v) क्षैतिज अक्ष पर समय (t) पर ऊर्ध्वाधर अक्ष पर मौजूद है, इसलिए आरेख&amp;nbsp;की प्रवणता&amp;nbsp;निम्न द्वारा दी गई&amp;nbsp;है:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\({\rm{Slope}} = \frac{{{\rm{\Delta }}v}}{{{\rm{\Delta }}t}}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;चूंकि वेग के परिवर्तन की दर को त्वरण के रूप में कहा जाता है, इसलिए वेग-समय &lt;/strong&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;आरेख&amp;nbsp;&lt;/span&gt;&lt;strong&gt;की प्रवणता&amp;nbsp;त्वरण देती&amp;nbsp;है।&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;इसलिए मंदित गति के लिए वेग-समय &lt;/strong&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;आरेख&amp;nbsp;&lt;/span&gt;&lt;strong&gt;की प्रवणता&amp;nbsp;ऋणात्मक&lt;/strong&gt; है। इसलिए विकल्प 3 सही है।&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;display: flex;gap: 6px;align-items: center;&quot;&gt;&lt;img height=&quot;26px&quot; src=&quot;//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png&quot; width=&quot;26px&quot; /&gt;&lt;strong&gt;&lt;span style=&quot;vertical-align: middle;font-size: 21px;&quot;&gt;&lt;u&gt;Additional Information&lt;/u&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;इसी प्रकार, &lt;strong&gt;विस्थापन-समय &lt;/strong&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;आरेख&amp;nbsp;&lt;/span&gt;&lt;strong&gt;की प्रवणता&amp;nbsp;वेग देती&amp;nbsp;है।&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;वेग-समय आरेख&amp;nbsp;के तहत क्षेत्र विस्थापन देता है और त्वरण-समय आरेख&amp;nbsp;के तहत क्षेत्र वेग में परिवर्तन देता है।&lt;/li&gt;
+&lt;/ul&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,"If the displacement-time graph of a moving object is not straight, then the object will move with&amp;nbsp;<br>यदि किसी गतिशील वस्तु का विस्थापन-समय आलेख सीधा नहीं है, तो वस्तु ______ से गति करेगी।&amp;nbsp;",Uniform acceleration / एकसमान त्वरण,Non-uniform velocity / असमान वेग,Uniform velocity / एकसमान वेग,More than one of the above. / उपर्युक्त में से एक से अधिक,2,2.0,0.5,50,"&lt;p&gt;Correct option-&lt;b&gt;2&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Concept:-&lt;/span&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;span style=&quot;line-height: 16.1px; letter-spacing: -0.3pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;&quot;&gt;Displacement-time graph is nothing but a plot between&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;displacement&amp;nbsp;&lt;/span&gt;and&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;time&lt;/span&gt;.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;line-height: 16.1px; letter-spacing: -0.3pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;&quot;&gt;Displacement of a moving object is&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;vector quantity&lt;/span&gt;&amp;nbsp;so it can be both&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;positive&amp;nbsp;&lt;/span&gt;and&lt;span style=&quot;font-weight: 700;&quot;&gt;&amp;nbsp;negative&lt;/span&gt;.&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;The graph between displacement&amp;nbsp;and time (x-t) is very useful in the numerical analysis.&lt;/li&gt;
+	&lt;li&gt;The x-t graph gives us the idea of&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;velocity&lt;/span&gt;&amp;nbsp;and&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;acceleration&lt;/span&gt;.&lt;/li&gt;
+	&lt;li&gt;By the slope of x-t graph, we can find the&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;velocity.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Explanation:-&lt;/span&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;The slope of the tangent in a graph plotted between two physical quantities is the rate of change of that quantity represented by Y-axis with respect to the change in the quantity represented by x-axis.&lt;/li&gt;
+	&lt;li&gt;For displacement- time graph , slope of x-t&amp;nbsp;graph determines the instantaneous velocity and its unit is m/s.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/21/04/xt%20slope%20-%20Copy.png&quot; style=&quot;width: 312px; height: 282px;&quot; /&gt;​&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;If the&amp;nbsp;displacement-time graph of a moving object is not straight&amp;nbsp;then it will covers unequal distances in equal interval of time.&lt;/li&gt;
+	&lt;li&gt;So, we can say that the object is moving with non-uniform velocity.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;Hence, option-&lt;b&gt;2&lt;/b&gt;&amp;nbsp;is the correct answer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/quesImage7575.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/21/04/x-t%20graph.png&quot; style=&quot;width: 535px; height: 167px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;span style=&quot;color: rgb(0, 0, 0); letter-spacing: -0.4px;&quot;&gt;Displacement time graph for an object at&amp;nbsp;rest is a&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;straight line&lt;/span&gt;&amp;nbsp;with&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;zero slope&lt;/span&gt;.&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;color: rgb(0, 0, 0); letter-spacing: -0.4px;&quot;&gt;Displacement time graph for an object having uniform motion&amp;nbsp;is a&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;straight line&lt;/span&gt;&amp;nbsp;with&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;non-zero slope.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;color: rgb(0, 0, 0); letter-spacing: -0.4px;&quot;&gt;Displacement time graph for&amp;nbsp;an object with&lt;span style=&quot;font-weight: 700;&quot;&gt;&amp;nbsp;uniform acceleration&lt;/span&gt;&amp;nbsp;is a&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;parabola.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;<br><br>&lt;p&gt;सही विकल्प- &lt;b&gt;2&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;अवधारणा:-&lt;/span&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;span style=&quot;line-height: 16.1px; letter-spacing: -0.3pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;&quot;&gt;विस्थापन-समय ग्राफ़ &lt;span style=&quot;font-weight: 700;&quot;&gt;विस्थापन&lt;/span&gt; और &lt;span style=&quot;font-weight: 700;&quot;&gt;समय&lt;/span&gt; के बीच एक साजिश के अलावा और कुछ नहीं है।&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;line-height: 16.1px; letter-spacing: -0.3pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;&quot;&gt;किसी गतिशील वस्तु का विस्थापन &lt;span style=&quot;font-weight: 700;&quot;&gt;सदिश राशि&lt;/span&gt; है इसलिए यह &lt;span style=&quot;font-weight: 700;&quot;&gt;धनात्मक&lt;/span&gt; और &lt;span style=&quot;font-weight: 700;&quot;&gt;ऋणात्मक&lt;/span&gt; दोनों हो सकता है।&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;विस्थापन और समय (xt) के बीच का ग्राफ संख्यात्मक विश्लेषण में बहुत उपयोगी है।&lt;/li&gt;
+	&lt;li&gt;xt ग्राफ़ हमें &lt;span style=&quot;font-weight: 700;&quot;&gt;वेग&lt;/span&gt; और &lt;span style=&quot;font-weight: 700;&quot;&gt;त्वरण&lt;/span&gt; का विचार देता है।&lt;/li&gt;
+	&lt;li&gt;xt ग्राफ़ की ढलान से, हम &lt;span style=&quot;font-weight: 700;&quot;&gt;वेग ज्ञात कर सकते हैं।&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;स्पष्टीकरण:-&lt;/span&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;दो भौतिक राशियों के बीच खींचे गए ग्राफ़ में स्पर्श रेखा का ढलान, x-अक्ष द्वारा दर्शाई गई मात्रा में परिवर्तन के संबंध में Y-अक्ष द्वारा दर्शाई गई मात्रा के परिवर्तन की दर है।&lt;/li&gt;
+	&lt;li&gt;विस्थापन-समय ग्राफ के लिए, xt ग्राफ का ढलान तात्कालिक वेग निर्धारित करता है और इसकी इकाई m/s है।&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/21/04/xt%20slope%20-%20Copy.png&quot; style=&quot;width: 312px; height: 282px;&quot; /&gt;​&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;यदि किसी गतिशील वस्तु का विस्थापन-समय ग्राफ सीधा नहीं है तो वह समान समय अंतराल में असमान दूरियाँ तय करेगी।&lt;/li&gt;
+	&lt;li&gt;तो, हम कह सकते हैं कि वस्तु असमान वेग से घूम रही है।&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;अतः, विकल्प- &lt;b&gt;2&lt;/b&gt; सही उत्तर है।&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/quesImage7575.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/21/04/x-t%20graph.png&quot; style=&quot;width: 535px; height: 167px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;span style=&quot;color: rgb(0, 0, 0); letter-spacing: -0.4px;&quot;&gt;आराम की स्थिति में किसी वस्तु के लिए विस्थापन समय ग्राफ &lt;span style=&quot;font-weight: 700;&quot;&gt;शून्य ढलान&lt;/span&gt; वाली एक &lt;span style=&quot;font-weight: 700;&quot;&gt;सीधी रेखा&lt;/span&gt; है।&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;color: rgb(0, 0, 0); letter-spacing: -0.4px;&quot;&gt;एकसमान गति वाली वस्तु के लिए विस्थापन समय ग्राफ &lt;span style=&quot;font-weight: 700;&quot;&gt;शून्येतर ढलान&lt;/span&gt; वाली एक &lt;span style=&quot;font-weight: 700;&quot;&gt;सीधी रेखा&lt;/span&gt; है।&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;color: rgb(0, 0, 0); letter-spacing: -0.4px;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;एकसमान त्वरण वाली&lt;/span&gt; वस्तु के लिए विस्थापन समय ग्राफ एक &lt;span style=&quot;font-weight: 700;&quot;&gt;परवलय है।&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,"&lt;span style=&quot;&quot;&gt;A plane is travelling at&amp;nbsp;velocity 300 km/h, in the southward direction. Passenger sitting inside the plane encounters a bird is travelling in the northward direction at a rate of 60 km/h.The velocity of the bird is&lt;/span&gt;<br>&lt;span style=&quot;&quot;&gt;एक विमान दक्षिण दिशा में 300 &lt;/span&gt;km/h&lt;span style=&quot;&quot;&gt; के वेग से यात्रा कर रहा है। विमान के अंदर बैठे यात्री का सामना एक पक्षी से होता है, जो 60 &lt;/span&gt;km/h&lt;span style=&quot;&quot;&gt; की चाल से उत्तर दिशा में यात्रा कर रहा है। पक्षी का वेग है:&lt;/span&gt;",160 km/h,200 km/h,"&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;240 km/h&lt;/span&gt;","More than one of the above / &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;उपर्युक्त में से एक से अधिक&lt;/span&gt;",3,2.0,0.5,50,"&lt;p&gt;Correct option-&lt;b&gt;3&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Concept:-&lt;/span&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;Relative velocity&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Velocity of a moving object with respect to another object either moving or in rest is termed as&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;Relative motion&lt;/span&gt;.&lt;/li&gt;
+	&lt;li&gt;The term relative is actually applied to&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;physical, non-physical, scalar or vector quantities&lt;/span&gt;. In fact, all the&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;measurements&lt;/span&gt;&amp;nbsp;are&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;relative&lt;/span&gt;&amp;nbsp;in physics.&lt;/li&gt;
+	&lt;li&gt;In relative motion, question are not so complicated as the objects moving with&lt;span style=&quot;font-weight: 700;&quot;&gt;&amp;nbsp;uniform velocities&lt;/span&gt;&amp;nbsp;and It is very important to understand many day today events based on it like- Rain man, Boat man problems, velocity of approach, velocity of separation etc.&lt;/li&gt;
+	&lt;li&gt;In this topic we will consider the velocity with respect to&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;the frame of reference attached to the ground&lt;/span&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;For example-&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Let us consider two objects, X and Y are moving with velocities V&lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;1&lt;/span&gt;&amp;nbsp;and V&lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;2&lt;/span&gt;&amp;nbsp;with respect to a common stationary frame of reference, say the ground, a tree or a fixed platform.&lt;/p&gt;
+
+&lt;p&gt;The velocity of the object X relative to the object Y can be given as,&lt;/p&gt;
+
+&lt;p&gt;V&lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;12&lt;/span&gt;&amp;nbsp;= V&lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;1&amp;nbsp;&lt;/span&gt;- V&lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;2&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Similarly, the velocity of the object Y relative to that of object X is given by,&lt;/p&gt;
+
+&lt;p&gt;V&lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;21&lt;/span&gt;&amp;nbsp;= V&lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;2&amp;nbsp;&lt;/span&gt;-V&lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;1&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;From the above two expressions, we can see that&lt;/p&gt;
+
+&lt;p&gt;V&lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;12&lt;/span&gt;&amp;nbsp;= -V&lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;21&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Although the magnitude of both the relative velocities is equal to each other.&lt;/p&gt;
+
+&lt;p&gt;Mathematically, it is written as-&lt;/p&gt;
+
+&lt;p&gt;|V&lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;12&lt;/span&gt;| = |V&lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;21&lt;/span&gt;|&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Calculation:-&lt;/span&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;Let south&amp;nbsp;to north&amp;nbsp;direction be the positive direction of Y-axis.&lt;/p&gt;
+
+&lt;p&gt;Given-&lt;/p&gt;
+
+&lt;p&gt;Velocity of plane, V&lt;sub&gt;p&lt;/sub&gt;&amp;nbsp;= -300 km/h&lt;/p&gt;
+
+&lt;p&gt;AS the passenger is sitting inside the plane.&lt;/p&gt;
+
+&lt;p&gt;So, the velocity of plane, V&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;p&lt;/span&gt;&amp;nbsp;=&amp;nbsp;Velocity of the&amp;nbsp;passenger&amp;nbsp;= -300 km/h&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;The relative velocity of the bird&amp;nbsp;with respect to the passenger, V&lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;BP&amp;nbsp;&lt;/span&gt;= +60 km/h&lt;/p&gt;
+
+&lt;p&gt;Since, V&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;BP&lt;/span&gt;&amp;nbsp;= V&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;B&lt;/span&gt;&amp;nbsp;- V&lt;sub&gt;P&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; V&lt;sub&gt;B&lt;/sub&gt;&amp;nbsp;= V&lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;BP&lt;/span&gt; + V&lt;sub&gt;P&lt;/sub&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;...i)&lt;/p&gt;
+
+&lt;p&gt;On substituting the given values in equation (i), we get&lt;/p&gt;
+
+&lt;p&gt;V&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;B&amp;nbsp;&lt;/span&gt;= [60 + (-300)] km/h = -240 km/h&lt;/p&gt;
+
+&lt;p&gt;Therefore, the required velocity of the bird&amp;nbsp;is 240&amp;nbsp;km/h&amp;nbsp;from north&amp;nbsp;to south.&lt;/p&gt;
+
+&lt;p&gt;Hence, option-&lt;b&gt;3&lt;/b&gt;&amp;nbsp;is the correct answer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/21/09/608148941089f8e6dc64b483_16316220623651.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Relative velocity concept is used to calculate the velocities of stars and asteroids with respect to earth&amp;rsquo;s velocity.&lt;/p&gt;
+
+&lt;p&gt;The distance between any two&amp;nbsp;things in space can be&amp;nbsp;calculated by the concept of relative velocity.&lt;/p&gt;
+
+&lt;p&gt;Some of the engineering applications of relative velocity are&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Mid air fueling of fighter jets&lt;/li&gt;
+	&lt;li&gt;Launching rockets.&lt;/li&gt;
+	&lt;li&gt;Speed Detectors.&lt;/li&gt;
+&lt;/ul&gt;<br><br>&lt;p&gt;सही विकल्प- &lt;b&gt;3&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;अवधारणा:-&lt;/span&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;सापेक्ष वेग&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;किसी गतिमान वस्तु के गतिमान या विश्राम अवस्था में स्थित किसी अन्य वस्तु के सापेक्ष वेग को &lt;span style=&quot;font-weight: 700;&quot;&gt;सापेक्ष गति&lt;/span&gt; कहा जाता है।&lt;/li&gt;
+	&lt;li&gt;सापेक्ष शब्द वास्तव में &lt;span style=&quot;font-weight: 700;&quot;&gt;भौतिक, गैर-भौतिक, अदिश या सदिश राशियों&lt;/span&gt; पर लागू होता है। वस्तुतः भौतिकी में सभी &lt;span style=&quot;font-weight: 700;&quot;&gt;माप&lt;/span&gt; &lt;span style=&quot;font-weight: 700;&quot;&gt;सापेक्ष&lt;/span&gt; हैं।&lt;/li&gt;
+	&lt;li&gt;सापेक्ष गति में, प्रश्न उतने जटिल नहीं होते जितने &lt;span style=&quot;font-weight: 700;&quot;&gt;एकसमान वेग&lt;/span&gt; से चलने वाली वस्तुएँ और इसके आधार पर आज की कई घटनाओं को समझना बहुत महत्वपूर्ण है जैसे- वर्षा मानव, नाव मानव समस्याएँ, दृष्टिकोण का वेग, पृथक्करण का वेग आदि।&lt;/li&gt;
+	&lt;li&gt;इस विषय में हम &lt;span style=&quot;font-weight: 700;&quot;&gt;जमीन से जुड़े संदर्भ फ्रेम के&lt;/span&gt; संबंध में वेग पर विचार करेंगे।&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;उदाहरण के लिए-&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;आइए दो वस्तुओं पर विचार करें, एक्स और वाई एक सामान्य स्थिर संदर्भ प्रणाली, जैसे कि जमीन, एक पेड़ या एक निश्चित मंच के संबंध में वेग वी &lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;1&lt;/span&gt; और वी &lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;2&lt;/span&gt; के साथ आगे बढ़ रहे हैं।&lt;/p&gt;
+
+&lt;p&gt;वस्तु Y के सापेक्ष वस्तु X का वेग इस प्रकार दिया जा सकता है,&lt;/p&gt;
+
+&lt;p&gt;वी &lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;12&lt;/span&gt; = वी &lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;1&lt;/span&gt; - वी &lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;2&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;इसी प्रकार, वस्तु X के सापेक्ष वस्तु Y का वेग इस प्रकार दिया गया है,&lt;/p&gt;
+
+&lt;p&gt;वी &lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;21&lt;/span&gt; = वी &lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;2&lt;/span&gt; -वी &lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;1&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;उपरोक्त दो भावों से हम यह देख सकते हैं&lt;/p&gt;
+
+&lt;p&gt;वी &lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;12&lt;/span&gt; = -वी &lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;21&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;यद्यपि दोनों के सापेक्ष वेगों का परिमाण एक दूसरे के बराबर है।&lt;/p&gt;
+
+&lt;p&gt;गणितीय रूप से इसे इस प्रकार लिखा जाता है-&lt;/p&gt;
+
+&lt;p&gt;|वी &lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;12&lt;/span&gt; | = |वी &lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;21&lt;/span&gt; |&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;गणना:-&lt;/span&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;माना कि दक्षिण से उत्तर दिशा Y-अक्ष की धनात्मक दिशा है।&lt;/p&gt;
+
+&lt;p&gt;दिया गया-&lt;/p&gt;
+
+&lt;p&gt;विमान का वेग, V &lt;sub&gt;p&lt;/sub&gt; = -300 किमी/घंटा&lt;/p&gt;
+
+&lt;p&gt;जैसे ही यात्री विमान के अंदर बैठा हो.&lt;/p&gt;
+
+&lt;p&gt;तो, विमान का वेग, वी &lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;पी&lt;/span&gt; = यात्री का वेग = -300 किमी/घंटा&lt;/p&gt;
+
+&lt;p&gt;यात्री के सापेक्ष पक्षी का सापेक्ष वेग, वी &lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;बीपी&lt;/span&gt; = +60 किमी/घंटा&lt;/p&gt;
+
+&lt;p&gt;चूंकि, वी &lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;बीपी&lt;/span&gt; = वी &lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;बी&lt;/span&gt; - वी &lt;sub&gt;पी&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; वी &lt;sub&gt;बी&lt;/sub&gt; = वी &lt;span style=&quot;position: relative; line-height: 0; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;बीपी&lt;/span&gt; + वी &lt;sub&gt;पी&lt;/sub&gt; ...i)&lt;/p&gt;
+
+&lt;p&gt;समीकरण (i) में दिए गए मानों को प्रतिस्थापित करने पर, हमें मिलता है&lt;/p&gt;
+
+&lt;p&gt;वी &lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;बी&lt;/span&gt; = [60 + (-300)] किमी/घंटा = -240 किमी/घंटा&lt;/p&gt;
+
+&lt;p&gt;इसलिए, पक्षी का आवश्यक वेग उत्तर से दक्षिण तक 240 किमी/घंटा है।&lt;/p&gt;
+
+&lt;p&gt;अतः, विकल्प- &lt;b&gt;3&lt;/b&gt;&amp;nbsp;सही उत्तर है।&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/21/09/608148941089f8e6dc64b483_16316220623651.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;सापेक्ष वेग अवधारणा का उपयोग पृथ्वी के वेग के संबंध में तारों और क्षुद्रग्रहों के वेगों की गणना करने के लिए किया जाता है।&lt;/p&gt;
+
+&lt;p&gt;अंतरिक्ष में किन्हीं दो चीज़ों के बीच की दूरी की गणना सापेक्ष वेग की अवधारणा से की जा सकती है।&lt;/p&gt;
+
+&lt;p&gt;सापेक्ष वेग के कुछ इंजीनियरिंग अनुप्रयोग हैं&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;लड़ाकू विमानों का मध्य हवा में ईंधन भरना&lt;/li&gt;
+	&lt;li&gt;रॉकेट लॉन्च करना.&lt;/li&gt;
+	&lt;li&gt;स्पीड डिटेक्टर.&lt;/li&gt;
+&lt;/ul&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,A projectile is projected with velocity u and angle&amp;nbsp;&amp;theta; with the horizontal. What will be maximum height attained by the projectile?,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{{{u^2}{{\sin }^2}θ }}{{2g}}\)&lt;/span&gt; / ,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{{{u^2}{{\sin }^2}θ }}{{g}}\)&lt;/span&gt; / ,&lt;span class=&quot;math-tex&quot;&gt;\(\frac{{{u}{{\sin }}2θ }}{{g}}\)&lt;/span&gt; / ,"&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;More than one of the above&lt;/span&gt; / ",1,2.0,0.5,50,"&lt;p&gt;&lt;u&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;CONCEPT&lt;/span&gt;&lt;/u&gt;:&amp;nbsp;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Projectile motion:&amp;nbsp; &lt;/span&gt;A&amp;nbsp;kind of&amp;nbsp;motion that is&amp;nbsp;experienced by an object when it&amp;nbsp;is projected near the Earth&amp;#39;s surface and it moves along a curved path under the action of gravitational force.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The&lt;span style=&quot;font-weight: 700;&quot;&gt;&amp;nbsp;maximum height a projectile&lt;/span&gt;&amp;nbsp;can attain:&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(H = \frac{{u_y^2}}{{2g}} = \frac{{{u^2}{{\sin }^2}θ }}{{2g}}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;where u is the&amp;nbsp;velocity that makes an angle &amp;#39;&amp;theta;&amp;#39; with the x-axis, and g is the gravitational acceleration.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;EXPLANATION&lt;/strong&gt;&lt;/u&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;When a particle&amp;nbsp;moves in projectile motion, its&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;velocity has two components.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol style=&quot;margin-left: 40px;&quot;&gt;
+	&lt;li&gt;​​vertical component (u sin&amp;theta;) = u&lt;sub&gt;x&lt;/sub&gt;&lt;/li&gt;
+	&lt;li&gt;horizontal component (u cos&amp;theta;) = u&lt;sub&gt;y&lt;/sub&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/20/05/F2_J.K_Madhu_04.05.20__D3.png&quot; style=&quot;width: 413px; height: 238px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Let the maximum height attained by the projectile is H,&lt;/p&gt;
+
+&lt;p&gt;At the maximum height, the ball will have zero velocity in vertical&amp;nbsp;direction i.e. v&lt;sub&gt;y&lt;/sub&gt; = 0;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The ball can not go above this point because vertical velocity is zero at this point.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;By the third equation of motion in the y-direction&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;v&lt;sub&gt;y&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt; = u&lt;sub&gt;y&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt; - 2 g H&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;0 = (u sin&amp;theta;)&lt;sup&gt;2&lt;/sup&gt; - 2 g H&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(H = \frac{{{u^2}{{\sin }^2}θ }}{{2g}}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;So the correct answer is&lt;strong&gt; option 4.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;&lt;span style=&quot;display: flex;gap: 6px;align-items: center;&quot;&gt;&lt;img height=&quot;26px&quot; src=&quot;//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png&quot; width=&quot;26px&quot; /&gt;&lt;strong&gt;&lt;span style=&quot;vertical-align: middle;font-size: 21px;&quot;&gt;&lt;u&gt;Additional Information&lt;/u&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;time of flight of projectile&lt;/span&gt;&amp;nbsp;is given by:&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;&lt;span class=&quot;math-tex&quot;&gt;\(T = \frac{2usinθ}{g}\)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;where u is the&amp;nbsp;velocity, makes an angle &amp;#39;&amp;theta;&amp;#39; with the x-axis, and g is the gravitational acceleration.&lt;/p&gt;
+
+&lt;p&gt;The&lt;span style=&quot;font-weight: 700;&quot;&gt;&amp;nbsp;range of flight&amp;nbsp;&lt;/span&gt;is given by:&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(R = \frac{u^2sin2θ}{g}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;where u is the&amp;nbsp;velocity,&amp;nbsp;makes an angle &amp;#39;&amp;theta;&amp;#39; with the x-axis, and g is the gravitational acceleration.&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,A projectile can have the same range R for two angles of projection. If t&lt;sub&gt;1&lt;/sub&gt; and t&lt;sub&gt;2&lt;/sub&gt; can be the times of flight in the two cases then what is the product of the two times of flight?,t&lt;sub&gt;1&lt;/sub&gt; t&lt;sub&gt;2&lt;/sub&gt; &amp;prop; R&lt;sub&gt;2&lt;/sub&gt;&amp;nbsp; / ,"t&lt;sub&gt;1&lt;/sub&gt; t&lt;sub&gt;2&lt;/sub&gt; &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;prop;&amp;nbsp;&lt;/span&gt;R&amp;nbsp; / ","t&lt;sub&gt;1&lt;/sub&gt; t&lt;sub&gt;2&lt;/sub&gt; &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;prop;&amp;nbsp;&lt;/span&gt;1/R / ",More than one of the above / ,2,2.0,0.5,50,"&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A projectile can have the same range if the angles of projection are complementary, i.e., &amp;theta; and (90&amp;deg; &amp;minus; &amp;theta;).&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/25/08/f132bf860ed77243f8f03cfbff6b5a81-.png&quot; style=&quot;width: 326px; height: 197px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In both cases, the time of flight is:&lt;/p&gt;
+
+&lt;p&gt;t&lt;sub&gt;1&lt;/sub&gt; = 2u sin&amp;theta; / g ... (i)&lt;/p&gt;
+
+&lt;p&gt;t&lt;sub&gt;2&lt;/sub&gt; = 2u sin(90&amp;deg; &amp;minus; &amp;theta;) / g = 2u cos&amp;theta; / g ... (ii)&lt;/p&gt;
+
+&lt;p&gt;From Eqs. (i) and (ii):&lt;/p&gt;
+
+&lt;p&gt;t&lt;sub&gt;1&lt;/sub&gt; &amp;times; t&lt;sub&gt;2&lt;/sub&gt; = (2u sin&amp;theta; / g) &amp;times; (2u cos&amp;theta; / g) = 4u&lt;sup&gt;2&lt;/sup&gt; sin&amp;theta; cos&amp;theta; / g&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Using the trigonometric identity 2 sin&amp;theta; cos&amp;theta; = sin2&amp;theta;, we get:&lt;/p&gt;
+
+&lt;p&gt;t&lt;sub&gt;1&lt;/sub&gt; &amp;times; t&lt;sub&gt;2&lt;/sub&gt; = 2u&lt;sup&gt;2&lt;/sup&gt; sin2&amp;theta; / g&lt;/p&gt;
+
+&lt;p&gt;Since the range R = u&lt;sup&gt;2&lt;/sup&gt; sin2&amp;theta; / g, we have:&lt;/p&gt;
+
+&lt;p&gt;t&lt;sub&gt;1&lt;/sub&gt; &amp;times; t&lt;sub&gt;2&lt;/sub&gt; = 2R / g&lt;/p&gt;
+
+&lt;p&gt;Hence, the product of the times of flight for complementary angles is directly proportional to the range R.&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,"The x - t graph shown in figure represents&lt;br /&gt;
+&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/26/02/02%2819%29.png&quot; style=&quot;width: 316px; height: 224px;&quot; /&gt;<br>चित्र में दिखाया गया x - t आलेख निम्न में से किसका प्रतिनिधित्व करता है?&lt;br /&gt;
+&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/26/02/02%2819%29.png&quot; style=&quot;width: 316px; height: 224px;&quot; /&gt;",Constant velocity / नियत वेग,Velocity of the body is continuously changing / पिंड का वेग लगातार परिवर्तित हो&amp;nbsp;रहा है।&amp;nbsp;,Instantaneous velocity / तात्क्षणिक वेग,The body travels with constant speed up to time &lt;span class=&quot;math-tex&quot;&gt;\( t_1 \)&lt;/span&gt; and then stops / पिंड &lt;span class=&quot;math-tex&quot;&gt;\( t_1 \)&lt;/span&gt; समय तक नियत चाल से गति करता है और फिर रुक जाता है।&amp;nbsp;,4,2.0,0.5,50,Up to time &lt;span class=&quot;math-tex&quot;&gt;\( t_1 \)&lt;/span&gt; slope of the graph is constant and after &lt;span class=&quot;math-tex&quot;&gt;\( t_1 \)&lt;/span&gt; slope is zero i.e. the body travels with constant speed up to time &lt;span class=&quot;math-tex&quot;&gt;\( t_1 \)&lt;/span&gt; and then stops.<br><br>&lt;span class=&quot;math-tex&quot;&gt;\( t_1 \)&lt;/span&gt; समय तक आलेख का ढाल नियत है और &lt;span class=&quot;math-tex&quot;&gt;\( t_1 \)&lt;/span&gt; के बाद ढाल शून्य है अर्थात पिंड &lt;span class=&quot;math-tex&quot;&gt;\( t_1 \)&lt;/span&gt; समय तक नियत चाल से गति करता है और फिर रुक जाता है।,https://mock-test-new.vercel.app?test=d-70083
+D-70083,A ball rolls off the top of stair Way with a horizontal velocity of magnitude 1.8 m/s. The steps are&amp;nbsp;0.20 m high and 0.20 M wide. Which step the ball hit first?&amp;nbsp;<br>एक गेंद 1.8 m/s के क्षैतिज वेग से सीढ़ी के शीर्ष से लुढ़कती है। सीढ़ियाँ 0.20 m ऊँची और 0.20 m चौड़ी हैं। गेंद सबसे पहले किस सीढ़ी से टकराती है?,&lt;span style=&quot;&quot;&gt;First&amp;nbsp;&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;पहली&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;Second&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;दूसरी&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;Third&amp;nbsp;&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;तीसरी&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;Fourth&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;चौथी&lt;/span&gt;,4,2.0,0.5,50,"&lt;p&gt;&lt;u&gt;&lt;strong&gt;Concept:&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;When an object is made to fall from a higher level the potential energy converts it into kinetic energy of the motion.&lt;/li&gt;
+	&lt;li&gt;The energy possessed by the body due to its motion is termed as Kinetic energy.
+	&lt;ul&gt;
+		&lt;li&gt;Kinetic Energy is given by the formula, &lt;strong&gt;K.E = 0.5mv&lt;sup&gt;2&lt;/sup&gt;&lt;/strong&gt;&lt;/li&gt;
+		&lt;li&gt;Potential Energy is given by the formula, &lt;strong&gt;P&lt;/strong&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;&lt;strong&gt;.&lt;/strong&gt;E = mgh&lt;/span&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;&lt;u&gt;​Calculations&lt;/u&gt;:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Applying the formula to find a place where horizontal and vertical distance becomes equal. Then we can obtain the distance traveled by the ball.&lt;/p&gt;
+
+&lt;p&gt;The ball will roll off the top of the stairway with horizontal velocity u = 1.8 m/s.&lt;/p&gt;
+
+&lt;p&gt;Here the staircase has the same width and height hence, we have to find a place where horizontal and vertical distance becomes equal.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(ut = {1 \over 2}gt^2\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(t = {2u \over g} = {2× 1.8\over 10} = 0.36 s\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, Horizontal distance covered,&lt;/p&gt;
+
+&lt;p&gt;ut = 1.8 &amp;times; 0.36&lt;/p&gt;
+
+&lt;p&gt;ut = 0.648 m&lt;/p&gt;
+
+&lt;p&gt;Then the ball will reach in,&amp;nbsp;&lt;span class=&quot;math-tex&quot;&gt;\( {0.648 \over 0.2} = 3.24\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hence the ball will hit on the fourth step.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;u&gt;&lt;strong&gt;अवधारणा:&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;जब किसी वस्तु को ऊँचे स्तर से गिराया जाता है तो स्थितिज ऊर्जा उसे गतिज ऊर्जा में परिवर्तित कर देती है।&lt;/li&gt;
+	&lt;li&gt;किसी पिंड की गति के कारण उसमें जो ऊर्जा होती है उसे गतिज ऊर्जा कहते हैं।
+	&lt;ul&gt;
+		&lt;li&gt;गतिज ऊर्जा निम्न&amp;nbsp;सूत्र द्वारा दी जाती है, &lt;span style=&quot;font-weight: bolder;&quot;&gt;K.E = 0.5mv&lt;span style=&quot;position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;&quot;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+		&lt;li&gt;स्थितिज ऊर्जा सूत्र &lt;span style=&quot;font-weight: bolder;&quot;&gt;P&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41); font-weight: 700;&quot;&gt;&lt;span style=&quot;font-weight: bolder;&quot;&gt;.&lt;/span&gt;E = mgh&lt;/span&gt; द्वारा दी जाती है&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;।&lt;/span&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;&lt;u&gt;गणना&lt;/u&gt;:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;सूत्र का प्रयोग करके वह स्थान ज्ञात करें जहाँ क्षैतिज और ऊर्ध्वाधर दूरी बराबर हो जाए। तब हम गेंद द्वारा तय की गई दूरी प्राप्त कर सकते हैं।&lt;/p&gt;
+
+&lt;p&gt;गेंद क्षैतिज वेग u = 1.8 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;m/s&lt;/span&gt; से सीढ़ी के शीर्ष से लुढ़केगी।&lt;/p&gt;
+
+&lt;p&gt;यहां सीढ़ी की चौड़ाई और ऊंचाई समान है, इसलिए हमें एक ऐसा स्थान ढूंढना होगा जहां क्षैतिज और ऊर्ध्वाधर दूरी बराबर हो जाए।&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(ut = {1 \over 2}gt^2\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(t = {2u \over g} = {2× 1.8\over 10} = 0.36 s\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;अब, तय की गई क्षैतिज दूरी,&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;ut = 1.8 &amp;times; 0.36&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;ut = 0.648 m&lt;/p&gt;
+
+&lt;p&gt;तब गेंद अंदर पहुँच जाएगी, &lt;span class=&quot;math-tex&quot;&gt;\( {0.648 \over 0.2} = 3.24\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;अतः गेंद &lt;span style=&quot;&quot;&gt;चौथी&lt;/span&gt; &lt;span style=&quot;&quot;&gt;सीढ़ी&lt;/span&gt; से टकराएगी।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,Which statement is true when a body moves with a constant speed along a circle?<br><!-- x-tinymce/html -->जब कोई पिंड एक वृत्त के अनुदिश स्थिर गति से गति करता है तो कौन-सा कथन सत्य है ?,There is no acceleration produced in the body / शरीर में कोई त्वरण उत्पन्न नहीं होता है,No work is done on it / इस पर कोई काम नहीं किया गया है,The body has constant velocity / शरीर में निरंतर वेग है,More than one of the above / उपर्युक्त में से एक से अधिक,2,2.0,0.5,50,"&lt;title&gt;&lt;/title&gt;
+&lt;p&gt;&lt;strong&gt;CONCEPT:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Motion of a body along a circular path with constant speed:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;When a body moves along a circular path with constant speed, the direction of its velocity changes continuously.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;Even though the speed remains constant, the changing direction means the velocity is not constant.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;An acceleration is produced in the body because the velocity is changing due to the change in direction. This acceleration is called centripetal acceleration.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;Centripetal acceleration always acts towards the center of the circle, perpendicular to the velocity of the body.&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;EXPLANATION:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;No work is done on it&lt;/i&gt; is correct because work can be done if there is a force acting on the body. However, in circular motion at constant speed, the force (centripetal force) is perpendicular to the displacement, so no work is done.&lt;/p&gt;
+
+&lt;p&gt;W = F&amp;sdot; ds&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; F ds cos&amp;theta; = F ds cos90 = 0&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;F1 J.K Madhu 19.05.20 D1&quot; src=&quot;https://storage.googleapis.com/tb-img/production/20/05/F1_J.K_Madhu_19.05.20_D1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;​Therefore, the correct answer is &lt;b&gt;Option 2: &lt;/b&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;No work is done on it.&lt;/span&gt;&lt;/p&gt;<br><br><title></title>
+<p><strong>अवधारणा:</strong></p>
+
+<p>एकसमान गति के साथ एक वृत्ताकार पथ पर एक पिंड की गति:</p>
+
+<ul>
+	<li>
+	<p>जब कोई पिंड एकसमान गति के साथ एक वृत्ताकार पथ पर चलता है, तो उसके वेग की दिशा लगातार बदलती रहती है।</p>
+	</li>
+	<li>
+	<p>भले ही गति स्थिर रहती है, लेकिन दिशा बदलने का मतलब है कि वेग स्थिर नहीं है।</p>
+	</li>
+	<li>
+	<p>पिंड में एक त्वरण उत्पन्न होता है क्योंकि दिशा में परिवर्तन के कारण वेग बदल रहा है। इस त्वरण को अभिकेन्द्रीय त्वरण कहा जाता है।</p>
+	</li>
+	<li>
+	<p>अभिकेन्द्रीय त्वरण हमेशा वृत्त के केंद्र की ओर कार्य करता है, जो पिंड के वेग के लंबवत होता है।</p>
+	</li>
+</ul>
+
+<p><strong>व्याख्या:</strong></p>
+
+<p><i>इस पर कोई कार्य नहीं किया जाता है</i> सही है क्योंकि कार्य तब किया जा सकता है जब शरीर पर कोई बल लग रहा हो। हालाँकि, स्थिर गति पर वृत्ताकार गति में, बल (अभिकेन्द्रीय बल) विस्थापन के लंबवत होता है, इसलिए कोई कार्य नहीं किया जाता है।</p>
+
+<p>W = F&sdot; ds</p>
+
+<p>&rArr; F ds cos&theta; = F ds cos90 = 0 </p>
+
+<p><img alt=""F1 J.K Madhu 19.05.20 D1"" src=""https://storage.googleapis.com/tb-img/production/20/05/F1_J.K_Madhu_19.05.20_D1.png"" /></p>
+
+<p>इसलिए, सही उत्तर है <b>विकल्प 2: </b><span style=""color: rgb(33, 37, 41);"">इस पर कोई कार्य नहीं किया जाता है।</span></p>",https://mock-test-new.vercel.app?test=d-70083
+D-70083,"In a distance-time graph, which variable is plotted on the Y-axis?<br><!-- x-tinymce/html -->दूरी-समय ग्राफ में, कौन-सा चर Y-अक्ष पर आलेखित किया जाता है?",Velocity / वेग,Time / समय,Distance / दूरी,More than one of the above / उपर्युक्त में से एक से अधिक,3,2.0,0.5,50,"&lt;title&gt;&lt;/title&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;EXPLANATION:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Distance-Time Graph:&lt;/strong&gt;&lt;br /&gt;
+A distance-time graph is used to represent the motion of an object graphically. It plots the distance traveled by an object along the Y-axis (vertical axis) and the time taken along the X-axis (horizontal axis). Distance is the dependent variable, while time is the independent variable.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;distance - time graph for the motion ...&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/qImage6912c4d7e1dc9052fe814de3.png&quot; /&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;Reasoning:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;Time is always plotted on the X-axis as it is the independent variable.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;Distance, being the dependent variable, is plotted on the Y-axis.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;Velocity is not represented in a standard distance-time graph; it is derived from the slope of the graph.&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;<br><br><title></title>
+<p><strong><span style=""color: rgb(33, 37, 41);"">स्पष्टीकरण:</span></strong></p>
+
+<p><strong>दूरी-समय ग्राफ:</strong><br />
+दूरी-समय ग्राफ का उपयोग किसी वस्तु की गति को ग्राफिक रूप से दर्शाने के लिए किया जाता है। यह Y-अक्ष (ऊर्ध्वाधर अक्ष) के साथ किसी वस्तु द्वारा तय की गई दूरी और X-अक्ष (क्षैतिज अक्ष) के साथ लिए गए समय को प्लॉट करता है। दूरी आश्रित चर है, जबकि समय स्वतंत्र चर है।</p>
+
+<p><img alt=""गति के लिए दूरी - समय ग्राफ ..."" src=""//cdn.testbook.com/images/production/quesImages/qImage6912c4d7e1dc9052fe814de3.png"" /><br />
+<br />
+<strong>तर्क:</strong></p>
+
+<ul>
+	<li>
+	<p>समय को हमेशा X-अक्ष पर प्लॉट किया जाता है क्योंकि यह स्वतंत्र चर है।</p>
+	</li>
+	<li>
+	<p>दूरी, आश्रित चर होने के कारण, Y-अक्ष पर प्लॉट की जाती है।</p>
+	</li>
+	<li>
+	<p>वेग को एक मानक दूरी-समय ग्राफ में नहीं दर्शाया जाता है; यह ग्राफ के ढलान से प्राप्त होता है।</p>
+	</li>
+</ul>
+
+<p> </p>",https://mock-test-new.vercel.app?test=d-70083
+D-70083,Which quantity among the following has neither units nor dimensions?<br>निम्नलिखित में से किस राशि का न तो मात्रक हैं और न ही विमा?,Relative velocity / सापेक्ष वेग,Relative density / सापेक्ष घनत्व,Angle / कोण,More than one of the above. / उपर्युक्त में से एक से अधिक,2,2.0,0.5,50,"&lt;p&gt;&lt;u&gt;&lt;strong&gt;Concept:&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Relative velocity is the&amp;nbsp;velocity of an object with respect to another observer or another moving object and the SI unit is ms&lt;sup&gt;-1&lt;/sup&gt;
+
+	&lt;ul&gt;
+		&lt;li&gt;​The velocity of the object B relative to that of object a is given by, &lt;strong&gt;V&lt;sub&gt;ba&lt;/sub&gt; = V&lt;sub&gt;b&lt;/sub&gt; &amp;minus; V&lt;sub&gt;a&lt;/sub&gt;&lt;/strong&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Relative density is the ratio of the density of the object to the density of water.
+	&lt;ul&gt;
+		&lt;li&gt;For liquids, we take water as a standard fluid with a density of &amp;rho;=1000 kg/m&lt;sup&gt;3&lt;/sup&gt;.&lt;/li&gt;
+		&lt;li&gt;For gases, we take air or O&lt;sub&gt;2&lt;/sub&gt; as a standard fluid with a density, of &amp;rho;=1.293 kg/m&lt;sup&gt;3&lt;/sup&gt;.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Angle is&amp;nbsp;measured in degrees or radians.&lt;/li&gt;
+	&lt;li&gt;Energy is measured in Joule or Calories.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Clearly, we can say that &lt;strong&gt;relative density is the ratio of two densities &amp;amp; hence, it has neither dimensions nor units.&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p style=&quot;&quot;&gt;&lt;u&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;संकल्पना:&lt;/span&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;ul style=&quot;&quot;&gt;
+	&lt;li&gt;सापेक्ष वेग किसी अन्य पर्यवेक्षक या किसी अन्य गतिमान वस्तु के संबंध में किसी वस्तु का वेग है और SI इकाई ms&lt;sup&gt;&lt;sub&gt;-1&lt;/sub&gt;&lt;/sup&gt; है
+
+	&lt;ul&gt;
+		&lt;li&gt;वस्तु A के सापेक्ष वस्तु B का वेग निम्न&amp;nbsp;द्वारा दिया गया है,&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;V&lt;span style=&quot; line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;ba&lt;/span&gt;&amp;nbsp;= V&lt;span style=&quot; line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;b&lt;/span&gt;&amp;nbsp;&amp;minus; V&lt;span style=&quot; line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;a&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;सापेक्ष घनत्व वस्तु के घनत्व और जल&amp;nbsp;के घनत्व का अनुपात है।
+	&lt;ul&gt;
+		&lt;li&gt;द्रवों के लिए, हम &lt;span style=&quot;&quot;&gt;जल&lt;/span&gt; को &amp;rho;=1000 kg/m&lt;span style=&quot; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;&quot;&gt;3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;के घनत्व वाले मानक द्रव के रूप में लेते हैं।&lt;/span&gt;&lt;/li&gt;
+		&lt;li&gt;गैसों के लिए, हम वायु या O, को &amp;rho;=1.293 kg/m&lt;span style=&quot; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;&quot;&gt;3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;के घनत्व वाले मानक द्रव के रूप में लेते हैं&lt;/span&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;कोण को डिग्री या रेडियन में मापा जाता है।&lt;/li&gt;
+	&lt;li&gt;ऊर्जा को जूल या कैलोरी में मापा जाता है।&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;strong&gt;स्पष्ट रूप से, हम कह सकते हैं कि सापेक्ष घनत्व दो घनत्वों का अनुपात है और इसलिए, इसका न तो विमा&amp;nbsp;है और न ही मात्रक।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,If the graph of velocity time of a moving object is parallel to time axis. Then the value of instantaneous acceleration will be<br>यदि किसी गतिमान वस्तु के वेग-समय आलेख समय अक्ष के समानांतर है। तब तात्क्षणिक त्वरण का मान ________ होगा।&amp;nbsp;,zero / शून्य,negative / ऋणात्मक,1,More than one of the above. / उपर्युक्त में से एक से अधिक,1,2.0,0.5,50,"&lt;p&gt;Correct option-&lt;b&gt;1&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;u&gt;Concept:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;INSTANTANEOUS VELOCITY&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;The velocity&amp;nbsp;of a moving object at a particular instant of time is called&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;instantaneous velocity&lt;/span&gt;.&lt;/li&gt;
+	&lt;li&gt;We can define velocity at a particular instant as the limiting value of average velocity when time interval ∆t approaches zero.&lt;/li&gt;
+	&lt;li&gt;Mathematically we can write the same as follows:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span class=&quot;math-tex&quot;&gt;\(v=\underset{\Delta t\to 0}{\mathop{\lim }}\,\frac{\Delta x}{\Delta t}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;When we calculate average velocity or speed the selected time interval can be large or small.&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;But when the time interval selected is&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;infinitesimally small&lt;/span&gt;&amp;nbsp;then&amp;nbsp;it is known as&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;instantaneous velocity&lt;/span&gt;&amp;nbsp;or&amp;nbsp;&lt;span style=&quot;font-weight: 700;&quot;&gt;speed.&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;For a moving object, the instantaneous speed at any point is equal to the magnitude of instantaneous velocity,&lt;/li&gt;
+	&lt;li&gt;but the average speed in a given time interval is always greater or equal to the magnitude of average velocity in that interval.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;u&gt;Explanation:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In the graph of the velocity-time plot of a moving object is parallel to the time axis,&lt;/p&gt;
+
+&lt;p&gt;Then the slope of the velocity-time graph will be zero.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/21/06/c16.png&quot; style=&quot;width: 253px; height: 163px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So, the acceleration of the motion also is zero.&lt;/p&gt;
+
+&lt;p&gt;Hence, option-&lt;b&gt;1&lt;/b&gt;&amp;nbsp;is correct&lt;/p&gt;<br><br>&lt;p&gt;सही विकल्प- &lt;b&gt;1&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;u&gt;अवधारणा:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;तात्कालिक वेग&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;किसी निश्चित समय पर किसी गतिमान वस्तु के वेग को &lt;span style=&quot;font-weight: 700;&quot;&gt;तात्क्षणिक वेग&lt;/span&gt; कहा जाता है।&lt;/li&gt;
+	&lt;li&gt;हम किसी विशेष क्षण में वेग को औसत वेग के सीमित मान के रूप में परिभाषित कर सकते हैं जब समय अंतराल ∆t शून्य के करीब पहुंचता है।&lt;/li&gt;
+	&lt;li&gt;गणितीय रूप से हम इसे इस प्रकार लिख सकते हैं:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class=&quot;math-tex&quot;&gt;\(v=\underset{\Delta t\to 0}{\mathop{\lim }}\,\frac{\Delta x}{\Delta t}\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;जब हम औसत वेग या गति की गणना करते हैं तो चयनित समय अंतराल बड़ा या छोटा हो सकता है।&lt;/li&gt;
+	&lt;li&gt;लेकिन जब चयनित समय अंतराल &lt;span style=&quot;font-weight: 700;&quot;&gt;अनंत रूप से छोटा होता&lt;/span&gt; है तो इसे &lt;span style=&quot;font-weight: 700;&quot;&gt;तात्कालिक वेग&lt;/span&gt; या &lt;span style=&quot;font-weight: 700;&quot;&gt;गति के रूप में जाना जाता है।&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;किसी गतिमान वस्तु के लिए, किसी भी बिंदु पर तात्कालिक गति तात्कालिक वेग के परिमाण के बराबर होती है,&lt;/li&gt;
+	&lt;li&gt;लेकिन किसी निश्चित समय अंतराल में औसत गति हमेशा उस अंतराल में औसत वेग के परिमाण से अधिक या उसके बराबर होती है।&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;u&gt;स्पष्टीकरण:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;किसी गतिमान वस्तु का वेग-समय का ग्राफ समय अक्ष के समानांतर होता है,&lt;/p&gt;
+
+&lt;p&gt;तब वेग-समय ग्राफ का ढलान शून्य होगा।&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/21/06/c16.png&quot; style=&quot;width: 253px; height: 163px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;अत: गति का त्वरण भी शून्य है।&lt;/p&gt;
+
+&lt;p&gt;अतः विकल्प &lt;b&gt;-1&lt;/b&gt; सही है&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
+D-70083,&lt;span style=&quot;&quot;&gt;A bus is accelerating uniformly as it passes two checkpoints that are 60 m apart. The time taken between the checkpoint is 6 s and the speed of the bus at the second checkpoint is 16 ms&lt;sup&gt;-1&lt;/sup&gt;. The speed of the bus at the first checkpoint is :&amp;nbsp;&lt;/span&gt;<br>&lt;span style=&quot;&quot;&gt;60 m&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;दूरी पर स्थित दो जाँच चौकियों के मध्य कोई बस एकसमान त्वरण से गति कर रही है। दोनों जाँच चौकियों के मध्य&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;समयांतराल 6 s है तथा दूसरी जाँच चौकी पर बस की चाल 16 ms&lt;/span&gt;&lt;span style=&quot; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;&quot;&gt;-1&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;है। पहली जाँच चौकी पर बस की चाल क्या है&lt;/span&gt;&lt;span style=&quot;&quot;&gt;?&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;4 ms&lt;/span&gt;&lt;span style=&quot; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;&quot;&gt;-1&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;8 ms&lt;/span&gt;&lt;span style=&quot; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;&quot;&gt;-1&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;12 ms&lt;/span&gt;&lt;span style=&quot; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;&quot;&gt;-1&lt;/span&gt;,More than one of the above / उपर्युक्त में से एक से अधिक,1,2.0,0.5,50,"&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;&lt;u&gt;CONCEPT&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Average velocity:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;The average of all the velocities of a body in a particular path is called the average velocity of the body.&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;If the velocity at point A and point B is V and V&amp;#39; then the average velocity over the path AB&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;rarr;V&lt;span style=&quot; line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;avg&lt;/span&gt;&amp;nbsp;= (V+V&amp;#39;)/2 ---- (1)&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;Also, &lt;strong&gt;the average velocity &lt;/strong&gt;can be defined as the total distance divided by the total time.&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;rarr;V&lt;span style=&quot; line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;avg&lt;/span&gt;&amp;nbsp;= Total distance/Total time taken.&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;&lt;u&gt;EXPLANATION:&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;In the question given above,&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;The final velocity is V&amp;#39; =&amp;nbsp;16 ms&lt;span style=&quot;line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;&quot;&gt;-1&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;The average velocity = Total distance/Total time = 60/6 = 10&amp;nbsp;ms&lt;span style=&quot;line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;&quot;&gt;-1&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;From equation (1) we get,&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;rArr;&amp;nbsp;V&lt;span style=&quot;line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;avg&lt;/span&gt;&amp;nbsp;= (V+V&amp;#39;)/2&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;rArr; 10&amp;nbsp;= (V+16)/2&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;rArr; 20&amp;nbsp;=&amp;nbsp;V+16&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;rArr;&amp;nbsp;V&amp;nbsp;= 20 - 16 = 4&amp;nbsp;ms&lt;span style=&quot;line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;&quot;&gt;-1&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Hence the correct answer is option (1).&amp;nbsp;&lt;/span&gt;&lt;/p&gt;<br><br>&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;&lt;u&gt;अवधारणा&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;औसत वेग:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;किसी विशेष पथ में किसी पिंड के सभी वेगों के औसत को पिंड का औसत वेग कहा जाता है।&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;यदि बिंदु A और बिंदु B पर वेग V और V&amp;#39; है तो पथ AB पर औसत वेग है&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;rarr;V &lt;span style=&quot; line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;औसत&lt;/span&gt; = (V+V&amp;#39;)/2 ---- (1)&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;साथ ही, &lt;strong&gt;औसत वेग को&lt;/strong&gt; कुल दूरी को कुल समय से विभाजित करने के रूप में परिभाषित किया जा सकता है।&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;rarr;V &lt;span style=&quot; line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em;font-size:10.5px;&quot;&gt;औसत&lt;/span&gt; = कुल दूरी/कुल लिया गया समय।&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;&lt;u&gt;स्पष्टीकरण:&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;ऊपर दिए गए प्रश्न में,&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;अंतिम वेग V&amp;#39; = 16 ms &lt;span style=&quot;line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;&quot;&gt;-1&lt;/span&gt; है।&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;औसत वेग = कुल दूरी/कुल समय = 60/6 = 10 एमएस &lt;span style=&quot;line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;&quot;&gt;-1&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;समीकरण (1) से हम पाते हैं,&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;rArr; वी &lt;span style=&quot;line-height: 0; position: relative; vertical-align: baseline; bottom: -0.25em; font-size:10.5px;&quot;&gt;औसत&lt;/span&gt; = (वी+वी&amp;#39;)/2&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;rArr; 10 = (वी+16)/2&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;rArr; 20 = वी+16&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;rArr; वी = 20 - 16 = 4 एमएस &lt;span style=&quot;line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;&quot;&gt;-1&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;अतः सही उत्तर विकल्प (1) है।&lt;/span&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70083
