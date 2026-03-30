@@ -20006,3 +20006,700 @@ D-70243,माहिती आणि प्रसारण मंत्राल
 	</ul>
 	</li>
 </ul>",https://mock-test-new.vercel.app?test=d-70243
+D-70245,,,,,,1,2.0,0.5,10,,https://mock-test-new.vercel.app?test=d-70245
+D-70245,,,,,,1,2.0,0.5,10,,https://mock-test-new.vercel.app?test=d-70245
+D-70245,,,,,,1,2.0,0.5,10,,https://mock-test-new.vercel.app?test=d-70245
+D-70245,,,,,,1,2.0,0.5,10,,https://mock-test-new.vercel.app?test=d-70245
+D-70245,,,,,,1,2.0,0.5,10,,https://mock-test-new.vercel.app?test=d-70245
+D-70248,,,,,,1,2.0,0.5,10,,https://mock-test-new.vercel.app?test=d-70248
+D-70248,,,,,,1,2.0,0.5,10,,https://mock-test-new.vercel.app?test=d-70248
+D-70248,,,,,,1,2.0,0.5,10,,https://mock-test-new.vercel.app?test=d-70248
+D-70248,,,,,,1,2.0,0.5,10,,https://mock-test-new.vercel.app?test=d-70248
+D-70248,,,,,,1,2.0,0.5,10,,https://mock-test-new.vercel.app?test=d-70248
+D-70252,"&lt;span style=&quot;&quot;&gt;The difference between the simple interest and&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;the compound interest on a certain amount at 5% for two years is ₹25, what is the principal&lt;/span&gt;&lt;span style=&quot;&quot;&gt;?&lt;/span&gt;<br>&lt;span style=&quot;&quot;&gt;एक निश्चित मूलधन पर 5% की दर से दो वर्षों के लिए साधारण ब्याज और चक्रवृद्धि ब्याज के बीच का&amp;nbsp;अंतर 25 रुपये है, मूलधन कितना है?&lt;/span&gt;","&lt;span style=&quot;&quot;&gt;₹15,000&amp;nbsp;&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;15,000&amp;nbsp;रुपये&lt;/span&gt;",&lt;span style=&quot;&quot;&gt;₹9000&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;9000&amp;nbsp;रुपये&lt;/span&gt;,"&lt;span style=&quot;&quot;&gt;₹10,000&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;10,000&amp;nbsp;रुपये&lt;/span&gt;",&lt;span style=&quot;&quot;&gt;₹8000&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;8000&amp;nbsp;रुपये&lt;/span&gt;,3,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The difference between simple interest and compound interest on a certain amount at 5% for two years is ₹25&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formula used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The difference between the simple interest and&amp;nbsp;the compound interest on a certain amount at R% for T years = P(R/100)&lt;sup&gt;T&lt;/sup&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;R = 5%&lt;/p&gt;
+
+&lt;p&gt;T = 2 years&lt;/p&gt;
+
+&lt;p&gt;SI - CI =&amp;nbsp;P(R/100)&lt;span style=&quot; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;&quot;&gt;T&lt;/span&gt;​&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;rArr; P(R/100)&lt;span style=&quot;line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size: 10.5px;&quot;&gt;T&lt;/span&gt;​&amp;nbsp;= 25&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;&amp;rArr;&amp;nbsp;P x 5&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;/ 10000 = 25&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;&amp;rArr;&amp;nbsp;&lt;/span&gt;P = Rs. 10,000&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The amount is Rs. 10,000.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;एक निश्चित मूलधन पर 5% की दर से दो वर्ष&amp;nbsp;के लिए साधारण ब्याज और चक्रवृद्धि ब्याज के बीच का अंतर 25 रुपये है।&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;प्रयुक्त सूत्र:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;T वर्ष&amp;nbsp;के लिए R% वार्षिक दर पर एक निश्चित मूलधन के साधारण ब्याज और चक्रवृद्धि ब्याज के बीच&amp;nbsp;अंतर =&amp;nbsp;P(R/100)&lt;span style=&quot;line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size:10.5px;&quot;&gt;T&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;हल:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;दर (R) = 5%&lt;/p&gt;
+
+&lt;p&gt;समय (T) = 2 वर्ष&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;साधारण ब्याज (&lt;/span&gt;SI) - &lt;span style=&quot;&quot;&gt;चक्रवृद्धि ब्याज (&lt;/span&gt;CI) =&amp;nbsp;P(R/100)&lt;span style=&quot; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;font-size:10.5px;&quot;&gt;T&lt;/span&gt;​&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&amp;rArr; P(R/100)&lt;span style=&quot;line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; font-size: 10.5px;&quot;&gt;T&lt;/span&gt;​&amp;nbsp;= 25&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;&amp;rArr;&amp;nbsp;P x 5&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;/ 10000 = 25&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;&amp;rArr; मूलधन (&lt;/span&gt;P) = 10,000 रुपये&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; मूलधन 10,000 रुपये है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70252
+D-70252,"&lt;p&gt;The following pie chart shows the study time of different subjects of a student in a day. Study the pie chart and answer the question.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/24/12/F1_Savita_SSC_24-12-24_D1.png&quot; style=&quot;height: 299px; width: 251px;&quot; /&gt;&lt;br /&gt;
+&lt;br /&gt;
+If the student studied English for 3 hours, then he studied Mathematics for:&lt;/p&gt;<br>&lt;p&gt;निम्नलिखित पाई आलेख एक छात्र द्वारा एक दिन में विभिन्न विषयों के अध्ययन के समय को दर्शाता है। पाई आलेख का अध्ययन कीजिए और प्रश्न का उत्तर दीजिए।&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/24/12/F1_Savita_SSC_24-12-24_D1.png&quot; style=&quot;height: 299px; width: 251px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;यदि छात्र ने अंग्रेजी 3 घंटे पढ़ी, तो उसने गणित कितने घंटे पढ़ा?&lt;/p&gt;",2 hours / 2 घंटे,1 hour / 1 घंटे,7 hours / 7 घंटे,5 hours / 5 घंटे,3,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Percentage of study time for English = 15%&lt;/p&gt;
+
+&lt;p&gt;Actual study time for English = 3 hours&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formula used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Actual study time = (Percentage study time &amp;times; Total study time) &amp;divide; 100&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculations:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;3 = (15 &amp;times; Total study time) &amp;divide; 100&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; Total study time = (3 &amp;times; 100) &amp;divide; 15 = 20 hours&lt;/p&gt;
+
+&lt;p&gt;Actual study time for Mathematics = (35 &amp;times; 20) &amp;divide; 100 = 7 hours&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Therefore, the student studied Mathematics for 7 hours.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;अंग्रेजी के लिए अध्ययन समय का प्रतिशत = 15%&lt;/p&gt;
+
+&lt;p&gt;अंग्रेजी के लिए वास्तविक अध्ययन समय = 3 घंटे&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;प्रयुक्त सूत्र:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;वास्तविक अध्ययन समय = (अध्ययन समय का प्रतिशत &lt;span style=&quot;color:  (33, 37, 41);&quot;&gt;&amp;times;&amp;nbsp;&lt;/span&gt;कुल अध्ययन समय) &amp;divide; 100&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;3 = (15 &lt;span style=&quot;color:  (33, 37, 41);&quot;&gt;&amp;times;&amp;nbsp;&lt;/span&gt;कुल अध्ययन समय) &amp;divide; 100&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; कुल अध्ययन समय = (3 &lt;span style=&quot;color:  (33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt;&amp;nbsp;100) &amp;divide; 15 = 20 घंटे&lt;/p&gt;
+
+&lt;p&gt;गणित के लिए वास्तविक अध्ययन समय = (35 &lt;span style=&quot;color:  (33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt;&amp;nbsp;20) &amp;divide; 100 = 7 घंटे&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;इसलिए, छात्र ने गणित के लिए 7 घंटे अध्ययन किया।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70252
+D-70252,"&lt;p&gt;The given table shows the marks obtained by a student in class 9.&lt;/p&gt;
+
+&lt;p&gt;What is the percentage of marks obtained by the student?&lt;/p&gt;
+
+&lt;table border=&quot;1&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; style=&quot;width:350px;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;strong&gt;Subjects&lt;/strong&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;strong&gt;Marks(out of 100)&lt;/strong&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Social Science&lt;/td&gt;
+			&lt;td&gt;93&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Science&lt;/td&gt;
+			&lt;td&gt;90&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Hindi&lt;/td&gt;
+			&lt;td&gt;90&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;English&lt;/td&gt;
+			&lt;td&gt;95&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Mathematics&lt;/td&gt;
+			&lt;td&gt;78&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;<br>&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;दी गई तालिका में कक्षा 9 में एक छात्र द्वारा प्राप्त अंकों को दर्शाया गया है।&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;छात्र द्वारा प्राप्त अंकों का प्रतिशत कितना है?&lt;/p&gt;
+
+&lt;table border=&quot;1&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; style=&quot;width:350px;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;विषयों&lt;/td&gt;
+			&lt;td&gt;अंक(100 में से)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;सामाजिक विज्ञान&lt;/td&gt;
+			&lt;td&gt;93&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;विज्ञान&lt;/td&gt;
+			&lt;td&gt;90&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;हिन्दी&lt;/td&gt;
+			&lt;td&gt;90&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;अंग्रेज़ी&lt;/td&gt;
+			&lt;td&gt;95&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;गणित&lt;/td&gt;
+			&lt;td&gt;78&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;",89.2%,88.8%,90%,88%,1,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Marks obtained by the student:&lt;/p&gt;
+
+&lt;p&gt;Social Science = 93&lt;/p&gt;
+
+&lt;p&gt;Science = 90&lt;/p&gt;
+
+&lt;p&gt;Hindi = 90&lt;/p&gt;
+
+&lt;p&gt;English = 95&lt;/p&gt;
+
+&lt;p&gt;Mathematics = 78&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formula Used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Percentage of marks = (Total marks obtained / Total maximum marks) &amp;times; 100&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Total marks obtained = 93 + 90 + 90 + 95 + 78&lt;/p&gt;
+
+&lt;p&gt;Total marks obtained = 446&lt;/p&gt;
+
+&lt;p&gt;Assume the maximum marks per subject = 100.&lt;/p&gt;
+
+&lt;p&gt;Total maximum marks = 5 &amp;times; 100 = 500&lt;/p&gt;
+
+&lt;p&gt;Percentage of marks = (446 / 500) &amp;times; 100&lt;/p&gt;
+
+&lt;p&gt;Percentage of marks = 89.2%&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The percentage of marks obtained by the student is 89.2%.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;छात्र द्वारा प्राप्त अंक:&lt;/p&gt;
+
+&lt;p&gt;सामाजिक विज्ञान = 93&lt;/p&gt;
+
+&lt;p&gt;विज्ञान = 90&lt;/p&gt;
+
+&lt;p&gt;हिंदी = 90&lt;/p&gt;
+
+&lt;p&gt;अंग्रेजी = 95&lt;/p&gt;
+
+&lt;p&gt;गणित = 78&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;प्रयुक्त सूत्र:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;प्राप्तांक प्रतिशत = (प्राप्त कुल अंक / कुल अधिकतम अंक) &lt;span style=&quot;color:  (33, 37, 41);&quot;&gt;&amp;times;&amp;nbsp;&lt;/span&gt;100&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;प्राप्त कुल अंक = 93 + 90 + 90 + 95 + 78&lt;/p&gt;
+
+&lt;p&gt;प्राप्त कुल अंक = 446&lt;/p&gt;
+
+&lt;p&gt;मान लीजिए&amp;nbsp;कि प्रत्येक विषय के अधिकतम अंक = 100 हैं।&lt;/p&gt;
+
+&lt;p&gt;कुल अधिकतम अंक = 5 &lt;span style=&quot;color:  (33, 37, 41);&quot;&gt;&amp;times;&amp;nbsp;&lt;/span&gt;100 = 500&lt;/p&gt;
+
+&lt;p&gt;प्राप्तांक प्रतिशत = (446 / 500) &lt;span style=&quot;color:  (33, 37, 41);&quot;&gt;&amp;times;&amp;nbsp;&lt;/span&gt;100&lt;/p&gt;
+
+&lt;p&gt;प्राप्तांक प्रतिशत = 89.2%&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;छात्र द्वारा प्राप्त अंकों का प्रतिशत 89.2% है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70252
+D-70252,"&lt;p&gt;A shopkeeper sold the following items to Arushi earning profit on it. How much total profit (in ₹) did he earn on the basis of the given data?&lt;/p&gt;
+
+&lt;table border=&quot;1&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; style=&quot;width:350px;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Item&lt;/td&gt;
+			&lt;td&gt;Cost Price per unit (&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;₹&lt;/span&gt;)&lt;/td&gt;
+			&lt;td&gt;Profit on cost(%)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Mobile&lt;/td&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;10&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Laptop&lt;/td&gt;
+			&lt;td&gt;72,000&lt;/td&gt;
+			&lt;td&gt;20&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Mobile covers&lt;/td&gt;
+			&lt;td&gt;300&lt;/td&gt;
+			&lt;td&gt;12&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;<br>&lt;p&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;एक दुकानदार लाभ अर्जित करते हुए आरुषि को निम्नलिखित वस्तुएँ बेचता है। दिए गए आँकड़ों के आधार पर उसने कुल कितना लाभ (₹ में) अर्जित किया है?&lt;/span&gt;&lt;/p&gt;
+
+&lt;table border=&quot;1&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; style=&quot;width:350px;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;वस्तु&lt;/td&gt;
+			&lt;td&gt;प्रति इकाई लागत मूल्य (&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;₹&lt;/span&gt;)&lt;/td&gt;
+			&lt;td&gt;लागत पर लाभ(%)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;गतिमान&lt;/td&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;10&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;लैपटॉप&lt;/td&gt;
+			&lt;td&gt;72,000&lt;/td&gt;
+			&lt;td&gt;20&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;मोबाइल कवर&lt;/td&gt;
+			&lt;td&gt;300&lt;/td&gt;
+			&lt;td&gt;12&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;","16,436","34,760","16,760","16,636",1,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The cost price per unit and profit percentage for each item:&lt;/p&gt;
+
+&lt;table border=&quot;1&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Item&lt;/th&gt;
+			&lt;th&gt;Cost Price (₹)&lt;/th&gt;
+			&lt;th&gt;Profit Percentage (%)&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Mobile&lt;/td&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;10%&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Laptop&lt;/td&gt;
+			&lt;td&gt;72,000&lt;/td&gt;
+			&lt;td&gt;20%&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Mobile Covers&lt;/td&gt;
+			&lt;td&gt;300&lt;/td&gt;
+			&lt;td&gt;12%&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Formula used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Profit = (Profit Percentage / 100) &amp;times; Cost Price&lt;/p&gt;
+
+&lt;p&gt;Total Profit = Sum of profits for all items&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculations:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Step 1: Calculate profit for each item:&lt;/p&gt;
+
+&lt;p&gt;Profit on Mobile = (10 / 100) &amp;times; 20,000 = 2,000&lt;/p&gt;
+
+&lt;p&gt;Profit on Laptop = (20 / 100) &amp;times; 72,000 = 14,400&lt;/p&gt;
+
+&lt;p&gt;Profit on Mobile Covers = (12 / 100) &amp;times; 300 = 36&lt;/p&gt;
+
+&lt;p&gt;Step 2: Add up the profits:&lt;/p&gt;
+
+&lt;p&gt;Total Profit = 2,000 + 14,400 + 36 = 16,436&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The total profit earned by the shopkeeper is ₹16,436.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;प्रत्येक वस्तु का क्रय&amp;nbsp;मूल्य प्रति इकाई और लाभ प्रतिशत:&lt;/p&gt;
+
+&lt;table border=&quot;1&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th&gt;वस्तु&lt;/th&gt;
+			&lt;th&gt;क्रय मूल्य (₹)&lt;/th&gt;
+			&lt;th&gt;लाभ प्रतिशत (%)&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;मोबाइल&lt;/td&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;10%&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;लैपटॉप&lt;/td&gt;
+			&lt;td&gt;72,000&lt;/td&gt;
+			&lt;td&gt;20%&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;मोबाइल कवर&lt;/td&gt;
+			&lt;td&gt;300&lt;/td&gt;
+			&lt;td&gt;12%&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;प्रयुक्त सूत्र:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;लाभ = (लाभ प्रतिशत / 100) &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; क्रय&amp;nbsp;मूल्य&lt;/p&gt;
+
+&lt;p&gt;कुल लाभ = सभी वस्तुओं के लाभों का योग&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणनाएँ:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;चरण 1: प्रत्येक वस्तु पर लाभ की गणना कीजिए:&lt;/p&gt;
+
+&lt;p&gt;मोबाइल पर लाभ = (10 / 100) &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; 20,000 = 2,000&lt;/p&gt;
+
+&lt;p&gt;लैपटॉप पर लाभ = (20 / 100) &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; 72,000 = 14,400&lt;/p&gt;
+
+&lt;p&gt;मोबाइल कवर पर लाभ = (12 / 100) &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; 300 = 36&lt;/p&gt;
+
+&lt;p&gt;चरण 2: लाभों को जोडिए:&lt;/p&gt;
+
+&lt;p&gt;कुल लाभ = 2,000 + 14,400 + 36 = 16,436&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;दुकानदार द्वारा अर्जित कुल लाभ ₹16,436 है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70252
+D-70252,"The table shows the sales (in units) of a company for different cities in the months of June and July, 2022. Study the table and answer the question that follows.
+&lt;div&gt;
+&lt;div data-message-author-role=&quot;assistant&quot; data-message-id=&quot;a182cb01-57a2-4323-990c-8de1f0f7e30b&quot; data-message-model-slug=&quot;gpt-4o&quot; dir=&quot;auto&quot;&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;table border=&quot;1&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;City&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/th&gt;
+			&lt;th&gt;June&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/th&gt;
+			&lt;th&gt;July&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Delhi&lt;/td&gt;
+			&lt;td&gt;252&lt;/td&gt;
+			&lt;td&gt;332&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Mumbai&lt;/td&gt;
+			&lt;td&gt;325&lt;/td&gt;
+			&lt;td&gt;248&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Chennai&lt;/td&gt;
+			&lt;td&gt;362&lt;/td&gt;
+			&lt;td&gt;247&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Kolkata&lt;/td&gt;
+			&lt;td&gt;245&lt;/td&gt;
+			&lt;td&gt;195&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Pune&lt;/td&gt;
+			&lt;td&gt;218&lt;/td&gt;
+			&lt;td&gt;284&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+What is the difference between Delhi&amp;rsquo;s sales for the month of June and Chennai&amp;rsquo;s sales for the month of July?<br>तालिका जून और जुलाई, 2022 के महीनों में विभिन्न शहरों के लिए एक कंपनी की बिक्री (इकाइयों में) दर्शाती है। तालिका का अध्ययन कीजिए और निम्नलिखित प्रश्न का उत्तर दीजिए।
+&lt;div&gt;
+&lt;div data-message-author-role=&quot;assistant&quot; data-message-id=&quot;a182cb01-57a2-4323-990c-8de1f0f7e30b&quot; data-message-model-slug=&quot;gpt-4o&quot; dir=&quot;auto&quot;&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;table border=&quot;1&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;शहर&lt;/th&gt;
+			&lt;th&gt;जून&lt;/th&gt;
+			&lt;th&gt;जुलाई&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;दिल्ली&lt;/td&gt;
+			&lt;td&gt;252&lt;/td&gt;
+			&lt;td&gt;332&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;मुंबई&lt;/td&gt;
+			&lt;td&gt;325&lt;/td&gt;
+			&lt;td&gt;248&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;चेन्नई&lt;/td&gt;
+			&lt;td&gt;362&lt;/td&gt;
+			&lt;td&gt;247&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;कोलकाता&lt;/td&gt;
+			&lt;td&gt;245&lt;/td&gt;
+			&lt;td&gt;195&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;पुणे&lt;/td&gt;
+			&lt;td&gt;218&lt;/td&gt;
+			&lt;td&gt;284&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+जून के महीने में दिल्ली की बिक्री और जुलाई के महीने में चेन्नई की बिक्री में कितना अंतर है?",5,155,80,30,1,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The table shows the sales of a company for different cities in the months of June and July, 2022.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Delhi&amp;#39;s sales for June = 252&lt;/p&gt;
+
+&lt;p&gt;Chennai&amp;#39;s sales for July = 247&lt;/p&gt;
+
+&lt;p&gt;Difference = 252 - 247 = 5&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The difference between Delhi&amp;#39;s sales for the month of June and Chennai&amp;#39;s sales for the month of July is 5.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;तालिका जून और जुलाई, 2022 के महीनों में विभिन्न शहरों के लिए एक कंपनी की बिक्री दर्शाती है।&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;जून में दिल्ली की बिक्री = 252&lt;/p&gt;
+
+&lt;p&gt;जुलाई में चेन्नई की बिक्री = 247&lt;/p&gt;
+
+&lt;p&gt;अंतर = 252 - 247 = 5&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;इसलिए, जून के महीने में दिल्ली की बिक्री और जुलाई के महीने में चेन्नई की बिक्री के बीच अंतर 5 है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70252
+D-70253,A train is running at a speed of 72 km per hour. Find the distance it covers in 10 minutes.&amp;nbsp;<br>एक ट्रेन 72 किमी प्रति घंटे की चाल से चल रही है। 10 मिनट में तय की गई दूरी ज्ञात कीजिए।&amp;nbsp;,7.2 km / 7.2 किमी,10 km / 10 किमी,20 km / 20 किमी,12 km / 12 किमी,4,2.0,0.5,10,"&lt;p style=&quot;color:  (30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;&lt;span style=&quot;font-weight: bolder;  line-height: 20px; user-select: text !important; pointer-events: initial !important;&quot;&gt;GIVEN:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color:  (30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;Speed of train = 72 km/hr and Time taken = 10 min&lt;/p&gt;
+
+&lt;p style=&quot;color:  (30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;&lt;span style=&quot;font-weight: bolder;  line-height: 20px; user-select: text !important; pointer-events: initial !important;&quot;&gt;FORMULA USED:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color:  (30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;Distance = Speed&amp;nbsp;&amp;times; Time&lt;/p&gt;
+
+&lt;p style=&quot;color:  (30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;&lt;span style=&quot;font-weight: bolder;  line-height: 20px; user-select: text !important; pointer-events: initial !important;&quot;&gt;CALCULATION:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color:  (30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;Speed = 72 km/hr&amp;nbsp; and Time = 10 min = 10/60 = 1/6 hr&lt;/p&gt;
+
+&lt;p style=&quot;color:  (30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;&amp;rArr;&amp;nbsp;Distance = Speed&amp;nbsp;&amp;times; Time&lt;/p&gt;
+
+&lt;p style=&quot;color:  (30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;&amp;rArr; Distance = 72&amp;nbsp;&amp;times; 1/6 = 12 km&lt;/p&gt;
+
+&lt;p style=&quot;color:  (30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;&lt;span style=&quot;font-weight: bolder;  line-height: 20px; user-select: text !important; pointer-events: initial !important;&quot;&gt;&amp;there4; Distance covered = 12 km&lt;/span&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ट्रेन की चाल&amp;nbsp;= 72 किमी/घंटा और लिया गया समय = 10 मिनट&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;प्रयुक्त सूत्र:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;दूरी = चाल&amp;nbsp;&amp;times; समय&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;चाल&amp;nbsp;= 72 किमी/घंटा और समय = 10 मिनट = 10/60 = 1/6 घंटा&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; दूरी = &lt;span style=&quot;color:  (33, 37, 41);&quot;&gt;चाल&lt;/span&gt; &amp;times; समय&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; दूरी = 72 &amp;times; 1/6 = 12 किमी&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; तय की गई दूरी = 12 किमी&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70253
+D-70253,"The average age of 5 people is 42 years. The second group consists of 8 people whose average age is 81 years. When both the groups are mixed, what is the average age of all the people?<br>5 व्यक्तियों की औसत आयु 42 वर्ष है। दूसरे समूह में 8 व्यक्ति हैं जिनकी औसत आयु 81 वर्ष है। जब दोनों समूहों को मिलाया जाता है, तो सभी व्यक्तियों की औसत आयु कितनी होती है?","64 years / 64 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;वर्ष&lt;/span&gt;",66 years / 66 वर्ष,"61.5 years / 61.5 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;वर्ष&lt;/span&gt;","70 years / 70 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;वर्ष&lt;/span&gt;",2,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&amp;nbsp;&lt;br /&gt;
+The average age of the first group = 42 years.&lt;br /&gt;
+The average age of the second group = 81 years.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Formula:&amp;nbsp;&lt;/b&gt;&lt;br /&gt;
+Average age = sum of ages of all the people/ number of people&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Calculation:&amp;nbsp;&lt;/b&gt;&lt;br /&gt;
+Sum of ages of 5 people&amp;nbsp;&amp;rArr; 42 &amp;times;&amp;nbsp; 5 = 210 years.&lt;br /&gt;
+Sum of ages of 8 people&amp;nbsp;&lt;span style=&quot;color: rgb(33, 37, 41);   &quot;&gt;&amp;rArr; 81 &amp;times; 8 = 648 years.&amp;nbsp;&lt;br /&gt;
+&amp;rArr;&amp;nbsp;&lt;/span&gt;&amp;nbsp;Average Age = Total age of both groups/ number of &lt;span style=&quot;font-size:14px;&quot;&gt;people&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr;&amp;nbsp;&lt;span style=&quot;font-size:18px;&quot;&gt;&lt;span class=&quot;math-tex&quot;&gt;\( {210+648 \over 5+8}\)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr;&amp;nbsp;&lt;span style=&quot;font-size:18px;&quot;&gt;&lt;span class=&quot;math-tex&quot;&gt;\( {858 \over 13}\)&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 66 years&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; The average age of all the people is 66 years.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;पहले समूह की औसत आयु = 42 वर्ष&lt;br /&gt;
+दूसरे समूह की औसत आयु = 81 वर्ष&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;प्रयुक्त सूत्र:&amp;nbsp;&lt;/b&gt;औसत आयु = सभी व्यक्तियों&amp;nbsp;की आयु का योग/व्यक्तियों&amp;nbsp;की संख्या&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;गणना:&amp;nbsp;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;5 व्यक्तियों की आयु का योग &amp;rArr; 42 &amp;times; 5 = 210 वर्ष&lt;br /&gt;
+8 व्यक्तियों की आयु का योग &amp;rArr; 81 &amp;times; 8 = 648 वर्ष&lt;br /&gt;
+&amp;rArr; औसत आयु = दोनों समूहों की कुल आयु/&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;व्यक्तियों&amp;nbsp;&lt;/span&gt;की संख्या&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr;&amp;nbsp;&lt;span style=&quot;font-size:18px;&quot;&gt;&lt;span class=&quot;math-tex&quot;&gt;\( {210+648 \over 5+8}\)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr;&amp;nbsp;&lt;span style=&quot;font-size:18px;&quot;&gt;&lt;span class=&quot;math-tex&quot;&gt;\( {858 \over 13}\)&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 66 वर्ष&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;there4; सभी व्यक्तियों की औसत आयु 66 वर्ष है।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70253
+D-70253,"If the length and breadth of a rectangle are 18 mm and 16 mm, then find its area.<br>यदि एक आयत की लम्बाई और चौड़ाई 18 मिमी तथा 16 मिमी है, तो उसका क्षेत्रफल ज्ञात कीजिए।&amp;nbsp;",288 sqr. mm&amp;nbsp; / 288&amp;nbsp;वर्ग मिमी&amp;nbsp;,289 sqr. mm&amp;nbsp; / 289&amp;nbsp;वर्ग मिमी&amp;nbsp;,280 sqr. mm&amp;nbsp; / 280&amp;nbsp;वर्ग मिमी&amp;nbsp;,268 sqr. mm&amp;nbsp;&amp;nbsp; / 268&amp;nbsp;वर्ग मिमी&amp;nbsp;,1,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Concept -&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The formula to find the area of a rectangle is:&lt;/p&gt;
+
+&lt;p&gt;Area = Length x Breath&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Explanation -&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Given that the length of the rectangle is 18 mm and the breadth is 16 mm:&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Area = 18 x 16 = 288 mm&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;So, the area of the rectangle is &amp;nbsp;288 mm&lt;sup&gt;2&lt;/sup&gt;.&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;अवधारणा -&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;एक आयत का क्षेत्रफल ज्ञात करने का सूत्र है:&lt;/p&gt;
+
+&lt;p&gt;क्षेत्रफल = लंबाई x चौड़ाई&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;स्पष्टीकरण -&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;दिया गया है कि आयत की लंबाई 18 मिमी और चौड़ाई 16 मिमी है:&lt;/p&gt;
+
+&lt;p&gt;क्षेत्रफल = 18 x 16 = 288 मिमी&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;अतः, आयत का क्षेत्रफल 288 मिमी&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;है।&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70253
+D-70253,A has an amount which is 120% of what B has. What percent of the money should A give to B so that they have equal amounts?&amp;nbsp;<br>&amp;quot;A&amp;quot; के पास एक राशि है जो &amp;quot;B&amp;quot; की राशि का 120% है । &amp;quot;A&amp;quot; को कितनी प्रतिशत राशि &amp;quot;B&amp;quot; को देनी चाहिए कि दोनों के पास राशि एक समान हो जाए?&amp;nbsp;,10%,12.5%,8.33%,6%,3,2.0,0.5,10,"&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A has 120% of B&amp;#39;s amount.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;#39;s say B has x. Then A has 1.2x. They need to have the same amount.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Let y be the amount A needs to give B.&lt;/p&gt;
+
+&lt;p&gt;So, 1.2x - y = x + y (Because when A gives y to B, A&amp;#39;s amount decreases by y, and B&amp;#39;s amount increases by y.)&lt;/p&gt;
+
+&lt;p&gt;Solving for y gives:&lt;/p&gt;
+
+&lt;p&gt;1.2x - x = 2y 0.2x = 2y y = 0.1x&lt;/p&gt;
+
+&lt;p&gt;So, A needs to give 0.1x of their money for them to have equal amounts.&lt;/p&gt;
+
+&lt;p&gt;To express this as a percentage of A&amp;#39;s amount:&lt;/p&gt;
+
+&lt;p&gt;0.1x / 1.2x = 8.33%&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hence, A should give about 8.33% of their money to B for both to have equal amounts.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A के पास B की राशि का 120% है।&lt;/p&gt;
+
+&lt;p&gt;मान लीजिए कि B के पास x है। तब A के पास 1.2x है। उनके पास समान राशि होनी चाहिए.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;मान लीजिए y वह राशि है जो A को B को देने की आवश्यकता है।&lt;/p&gt;
+
+&lt;p&gt;तो, 1.2x - y = x + y (क्योंकि जब A, B को y देता है, तो A की राशि y से कम हो जाती है और B की राशि y से बढ़ जाती है।)&lt;/p&gt;
+
+&lt;p&gt;Y के लिए समाधान देता है:&lt;/p&gt;
+
+&lt;p&gt;1.2x - x = 2y 0.2x = 2y y = 0.1x&lt;/p&gt;
+
+&lt;p&gt;इसलिए, A को समान राशि प्राप्त करने के लिए अपने पैसे का 0.1x देना होगा।&lt;/p&gt;
+
+&lt;p&gt;इसे A की राशि के प्रतिशत के रूप में व्यक्त करने के लिए:&lt;/p&gt;
+
+&lt;p&gt;0.1x / 1.2x = 8.33%&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;इसलिए, A को अपने धन का लगभग 8.33% B को देना चाहिए ताकि दोनों के पास समान राशि हो।&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70253
+D-70253,The average age of 20 men is 45 years. 10 new men of average age 30 years join them. Find the new average age of the men.&amp;nbsp;<br>20 पुरुषों की औसत आयु 45 वर्ष है। 30 वर्ष की औसत आयु के 10 नए पुरुष उनमें शामिल होते हैं। पुरुषों की नई औसत आयु ज्ञात कीजिए।&amp;nbsp;,42&amp;nbsp;,40&amp;nbsp;,55&amp;nbsp;,45&amp;nbsp;,2,2.0,0.5,10,"&lt;p style=&quot;color: rgb(30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;&lt;span style=&quot;font-weight: bolder;  line-height: 20px; user-select: text !important; pointer-events: initial !important;&quot;&gt;Given:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;The average age of 20 men is 45 years.&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;&lt;span style=&quot;font-weight: bolder;  line-height: 20px; user-select: text !important; pointer-events: initial !important;&quot;&gt;Formula Used:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;Average = Sum of all observations/Total number of all observations&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;&lt;span style=&quot;font-weight: bolder;  line-height: 20px; user-select: text !important; pointer-events: initial !important;&quot;&gt;Calculation:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;Sum of age of 20 men = 20&amp;nbsp;&amp;times; 45 = 900&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;If 10 men of average age of 30 years joined them,&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;Sum of age of 10 men = 10 &amp;times; 30 = 300 years&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;Now,&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;Sum of age of 30 men = 900 + 300 = 1200 years&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;&amp;rArr; Average age of 30 men = 1200/30 = 40 years&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(30, 43, 51);   user-select: text !important; pointer-events: initial !important;&quot;&gt;&lt;strong&gt;The answer is 40 years.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;20 पुरुषों की औसत आयु 45 वर्ष है।&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;प्रयुक्त सूत्र:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;औसत = सभी प्रेक्षणों का योग/सभी प्रेक्षणों की कुल संख्या&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;गणना:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;20 पुरुषों की आयु का योग = 20 &amp;times; 45 = 900&lt;/p&gt;
+
+&lt;p&gt;यदि 30 वर्ष की औसत आयु के 10 पुरुष उनमें शामिल होते हैं,&lt;/p&gt;
+
+&lt;p&gt;10 पुरुषों की आयु का योग = 10 &amp;times; 30 = 300 वर्ष&lt;/p&gt;
+
+&lt;p&gt;अब,&lt;/p&gt;
+
+&lt;p&gt;30 पुरुषों की आयु का योग = 900 + 300 = 1200 वर्ष&lt;/p&gt;
+
+&lt;p&gt;&amp;rArr; 30 पुरुषों की औसत आयु = 1200/30 = 40 वर्ष&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;उत्तर 40 वर्ष&amp;nbsp;है।&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70253
+D-70256,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70256
+D-70256,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70256
+D-70256,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70256
+D-70256,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70256
+D-70256,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70256
+D-70256,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70256
+D-70256,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70256
+D-70256,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70256
+D-70256,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70256
+D-70256,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70256
+D-70257,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70257
+D-70257,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70257
+D-70257,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70257
+D-70257,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70257
+D-70257,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70257
+D-70257,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70257
+D-70257,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70257
+D-70257,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70257
+D-70257,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70257
+D-70257,,,,,,1,2.0,0.5,20,,https://mock-test-new.vercel.app?test=d-70257
