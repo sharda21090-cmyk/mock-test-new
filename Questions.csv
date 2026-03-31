@@ -20894,3 +20894,681 @@ D-70296,"&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;",https://mock-test-new.vercel.app?test=d-70296
+D-70308,"Eight girls A, B, C, D, E, F, G and&amp;nbsp;H&amp;nbsp;are sitting around a circular table facing towards the centre (not necessarily in the same order). A is second to the left of D. D is third to the left of E. C is third to the right of G. G is not the immediate neighbour of&amp;nbsp;E.&amp;nbsp;H&amp;nbsp;is third to the right of&amp;nbsp;B.&amp;nbsp;B&amp;nbsp;is second to the right of&amp;nbsp;G. Who is sitting on the immediate left of&amp;nbsp;G&amp;nbsp;?&amp;nbsp;<br>आठ लड़कियाँ A, B, C, D, E, F, G और H एक गोल मेज के चारों ओर केंद्र के सम्मुख बैठी हैं (जरूरी नहीं कि उसी क्रम में)। A, D के बायें से दूसरी है। D, E के बायें से तीसरी है। C, G के दायें से तीसरी है। G, E की निकटतम पड़ोसी नहीं है। H, B के दायें ओर से तीसरी है। B, G के दायें से दूसरी है। G के निकटतम बायें कौन बैठा है?",F,C,E,A,4,2.0,0.5,20,"&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&lt;span style=&quot;font-weight: bolder;&quot;&gt;Given:&lt;/span&gt;&amp;nbsp;Eight girls A, B, C, D, E, F, G and&amp;nbsp;H&amp;nbsp;are sitting around a circular table facing towards the centre.&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;1)&amp;nbsp;A is second to the left of D.&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;2)&amp;nbsp;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;D is third to the left of E.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/26/03/IMG-2115-VISHAL-1-A.png&quot; style=&quot;height: 191px; width: 189px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;3) G is not the immediate neighbour of&amp;nbsp;E.&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;4)&amp;nbsp;C is third to the right of G.&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;5) B&amp;nbsp;is second to the right of&amp;nbsp;G.&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/26/03/IMG-2115-VISHAL-2.png&quot; style=&quot;width: 203px; height: 191px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;6)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;H&amp;nbsp;is third to the right of&amp;nbsp;B.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;After positioning H only one position is left which will be occupied by the only girl left i.e F.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/26/03/IMG-2115-VISHAL-1.png&quot; style=&quot;width: 218px; height: 221px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;Thus, according to the final arrangement A&amp;nbsp;is sitting on the immediate left of&amp;nbsp;G.&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;Hence,&amp;nbsp;&lt;span style=&quot;font-weight: bolder;&quot;&gt;&amp;quot;Option 4&amp;quot;&lt;/span&gt;&amp;nbsp;is the correct answer.&lt;/p&gt;<br><br>&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&lt;span style=&quot;font-weight: bolder;&quot;&gt;दिया गया है:&lt;/span&gt; आठ लड़कियाँ A, B, C, D, E, F, G और H एक गोल मेज के चारों ओर केंद्र के सम्मुख बैठी हैं।&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;1) A, D के बायें&amp;nbsp;से दूसरी है।&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;2) &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;D, E के बायें&amp;nbsp;से तीसरी है।&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/26/03/IMG-2115-VISHAL-1-A.png&quot; style=&quot;color: rgb(33, 37, 41); height: 191px; width: 189px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;3) G, E की तत्काल पड़ोसी नहीं है।&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;4) C, G के दायें&amp;nbsp;से तीसरी है।&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;5) B, G के दायें&amp;nbsp;से दूसरी है।&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/26/03/IMG-2115-VISHAL-2.png&quot; style=&quot;color: rgb(33, 37, 41); width: 203px; height: 191px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;6) &lt;/span&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;H, B के दायें&amp;nbsp;से तीसरी है। &lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;H को रखने के बाद केवल एक स्थान बचा है जिस पर शेष लड़की अर्थात&amp;nbsp;F स्थापित होगी।&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/26/03/IMG-2115-VISHAL-1.png&quot; style=&quot;color: rgb(33, 37, 41); width: 218px; height: 221px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;इस प्रकार, अंतिम व्यवस्था के अनुसार A, G के तत्काल बायें&amp;nbsp;बैठी है।&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;इसलिए,&amp;nbsp;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;सही उत्तर&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;font-weight: bolder;&quot;&gt;&amp;quot;विकल्प 4&amp;quot;&lt;/span&gt;&amp;nbsp;है।&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70308
+D-70308,"A is the spouse of B who has no female child. C is the brother of D and E who is the son of B. A is not the mother of D. How is D related to B?&amp;nbsp;<br>A, B का / की जीवनसाथी है, जिसकी कोई बच्ची नहीं है। C, D और E का भाई है जो B का पुत्र है। A, D की &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;माँ&lt;/span&gt; नहीं है। D का B से क्या संबंध है?",Son / पुत्र,Mother / माँ,Daughter / पुत्री,Either 1 or 3 / या तो 1 या 3,1,2.0,0.5,20,"&lt;p style=&quot;color:  (33, 37, 41);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/22/12/br%20testbook%20%281%29.png&quot; style=&quot;width: 243px; height: 356px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color:  (33, 37, 41);&quot;&gt;Given:&lt;/p&gt;
+
+&lt;p style=&quot;color:  (33, 37, 41);&quot;&gt;1)&amp;nbsp;A is the spouse of B who has no female child.&lt;/p&gt;
+
+&lt;p style=&quot;color:  (33, 37, 41);&quot;&gt;2) C is the brother of D and E who is the son of B.&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;color:  (33, 37, 41);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/22/12/F3_Vinanti_State%20Govt._14.12.22_D32.png&quot; style=&quot;width: 238px; height: 96px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color:  (33, 37, 41);&quot;&gt;3)&amp;nbsp;A is not the mother of D.&lt;/p&gt;
+
+&lt;p style=&quot;color:  (33, 37, 41);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/22/12/F3_Vinanti_State%20Govt._14.12.22_D33.png&quot; style=&quot;width: 251px; height: 109px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color:  (33, 37, 41);&quot;&gt;So, D is the son of B.&lt;/p&gt;
+
+&lt;p style=&quot;color:  (33, 37, 41);&quot;&gt;Hence, the correct answer is&amp;nbsp;&lt;span style=&quot;font-weight: bolder;&quot;&gt;&amp;quot;Option 1&amp;quot;.&lt;/span&gt;&lt;/p&gt;<br><br>&lt;p style=&quot;color:  (33, 37, 41);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/22/12/br%20testbook%20%281%29.png&quot; style=&quot;width: 243px; height: 356px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color:  (33, 37, 41);&quot;&gt;दिया गया है:&lt;/p&gt;
+
+&lt;p style=&quot;color:  (33, 37, 41);&quot;&gt;1) A, B का जीवनसाथी है जिसकी कोई लड़की नहीं है।&lt;/p&gt;
+
+&lt;p style=&quot;color:  (33, 37, 41);&quot;&gt;2) C, D और E का भाई है जो B का पुत्र है।&lt;/p&gt;
+
+&lt;p style=&quot;color:  (33, 37, 41);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/22/12/F3_Vinanti_State%20Govt._14.12.22_D32.png&quot; style=&quot;width: 238px; height: 96px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color:  (33, 37, 41);&quot;&gt;3) A, D की &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;माँ&lt;/span&gt;&amp;nbsp;नहीं है।&lt;/p&gt;
+
+&lt;p style=&quot;color:  (33, 37, 41);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/22/12/F3_Vinanti_State%20Govt._14.12.22_D33.png&quot; style=&quot;width: 251px; height: 109px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color:  (33, 37, 41);&quot;&gt;अतः D, B का पुत्र है।&lt;/p&gt;
+
+&lt;p style=&quot;color:  (33, 37, 41);&quot;&gt;अतः, सही उत्तर &lt;span style=&quot;font-weight: bolder;&quot;&gt;&amp;quot;विकल्प 1&amp;quot; &lt;/span&gt;&lt;span style=&quot;color:  (33, 37, 41);&quot;&gt;है।&lt;/span&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70308
+D-70308,"Four letter-cluster pairs have been given, out of which three are alike in some manner and one is different. Select the one that is different.<br>चार अक्षर-समूह युग्म दिए गए हैं, जिनमें से तीन किसी न किसी प्रकार से एक जैसे हैं और एक भिन्न है। भिन्न का चयन करें।&amp;nbsp;",IGECA : NLJHF,YWUSQ : DBZXV,HFDBZ : MKIGE,PRTVX : UWYAC,4,2.0,0.5,20,"&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/qImage6800c48003e0556726df16e3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The logic followed here is:&lt;/p&gt;
+
+&lt;p&gt;Option 1)&amp;nbsp;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;IGECA : NLJHF&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/qImage6800c48103e0556726df16e4.png&quot; /&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/25/09/IMG-1277-Arpit-36.png&quot; style=&quot;width: 152px; height: 76px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Option 2)&amp;nbsp;YWUSQ : DBZXV&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/qImage6800c48103e0556726df16e5.png&quot; /&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/25/09/IMG-1277-Arpit-37.png&quot; style=&quot;width: 152px; height: 77px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Option 3)&amp;nbsp;HFDBZ : MKIGE&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/qImage6800c48203e0556726df16e6.png&quot; /&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/25/09/IMG-1277-Arpit-38.png&quot; style=&quot;width: 152px; height: 76px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;Option 4)&amp;nbsp;PRTVX : UWYAC&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/qImage6800c48203e0556726df16e7.png&quot; /&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/25/09/IMG-1277-Arpit-39.png&quot; style=&quot;width: 152px; height: 76px;&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here, doesn&amp;#39;t follow the pattern.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Hence, the correct answer is &lt;strong&gt;&amp;quot;Option 4&amp;quot;.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/qImage6800c48003e0556726df16e3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;यहाँ अनुसरित तर्क निम्न है:&lt;/p&gt;
+
+&lt;p&gt;विकल्प 1) &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;IGECA : NLJHF&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/25/09/IMG-1277-Arpit-36.png&quot; style=&quot;color: rgb(33, 37, 41); width: 152px; height: 76px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;विकल्प 2) YWUSQ : DBZXV&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/25/09/IMG-1277-Arpit-37.png&quot; style=&quot;color: rgb(33, 37, 41); width: 152px; height: 77px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;विकल्प 3) HFDBZ : MKIGE&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/25/09/IMG-1277-Arpit-38.png&quot; style=&quot;color: rgb(33, 37, 41); width: 152px; height: 76px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;विकल्प 4) PRTVX : UWYAC&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: bolder;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/25/09/IMG-1277-Arpit-39.png&quot; style=&quot;width: 152px; height: 76px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;यहाँ, पैटर्न का अनुसरण नहीं&amp;nbsp;होता है।&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;इसलिए, सही उत्तर &lt;strong&gt;&amp;quot;विकल्प 4&amp;quot;&lt;/strong&gt; है।&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70308
+D-70308,"&lt;p&gt;Select the figure from the options that can replace the question mark (?) and complete the given pattern.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/04/F2_Madhuri_Engineering_14.04.2023_D13.png&quot; style=&quot;width: 396px; height: 81px;&quot; /&gt;&lt;/p&gt;<br>&lt;p&gt;विकल्पों में से उस आकृति का चयन करें जो प्रश्न चिह्न (?) को प्रतिस्थापित कर सकती है और दिए गए पैटर्न को पूरा कर सकती है।&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/04/F2_Madhuri_Engineering_14.04.2023_D13.png&quot; style=&quot;width: 396px; height: 81px;&quot; /&gt;&lt;/p&gt;",&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/04/F2_Madhuri_Engineering_14.04.2023_D14.png&quot; style=&quot;width: 81px; height: 81px;&quot; /&gt;,&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/04/F2_Madhuri_Engineering_14.04.2023_D15.png&quot; style=&quot;width: 81px; height: 81px;&quot; /&gt;,&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/04/F2_Madhuri_Engineering_14.04.2023_D16.png&quot; style=&quot;width: 81px; height: 81px;&quot; /&gt;,&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/04/F2_Madhuri_Engineering_14.04.2023_D17.png&quot; style=&quot;width: 81px; height: 81px;&quot; /&gt;,2,2.0,0.5,20,"&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Given:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/qImage64380ad16b84d8d5afc6f00b.png&quot; /&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/04/F2_Madhuri_Engineering_14.04.2023_D13.png&quot; style=&quot; width: 396px; height: 81px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Logic:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;Figure (1) to figure (2)&amp;nbsp;&amp;rarr;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/04/F2_Madhuri_Engineering_14.04.2023_D19.png&quot; style=&quot;width: 205px; height: 110px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;Figure (2) to figure (3)&amp;nbsp;&amp;rarr;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/04/F2_Madhuri_Engineering_14.04.2023_D20.png&quot; style=&quot;width: 205px; height: 123px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;Figure (3) to figure (4)&amp;nbsp;&amp;rarr;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/04/F2_Madhuri_Engineering_14.04.2023_D21.png&quot; style=&quot;width: 207px; height: 111px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;Figure (4) to figure (5)&amp;nbsp;&amp;rarr;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/04/F2_Madhuri_Engineering_14.04.2023_D22.png&quot; style=&quot;width: 207px; height: 136px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;Here, &amp;#39;Option (2)&amp;#39; is the correct answer as per logic.&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;Hence, the correct answer is&lt;span style=&quot;font-weight: 700;&quot;&gt;&amp;nbsp;&amp;quot;Option (2)&amp;quot;.&lt;/span&gt;&lt;/p&gt;<br><br>&lt;p style=&quot;&quot;&gt;&lt;strong&gt;दिया गया​ है&lt;span style=&quot;font-weight: 700;&quot;&gt;:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/qImage64380ad16b84d8d5afc6f00b.png&quot; /&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/04/F2_Madhuri_Engineering_14.04.2023_D13.png&quot; style=&quot; width: 396px; height: 81px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;तर्क:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;आकृति&lt;/span&gt; (1) से &lt;span style=&quot;&quot;&gt;आकृति&lt;/span&gt; (2) &amp;rarr;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/04/F2_Madhuri_Engineering_14.04.2023_D19.png&quot; style=&quot;width: 205px; height: 110px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;आकृति&lt;/span&gt; (2) से&amp;nbsp;&lt;span style=&quot;&quot;&gt;आकृति&lt;/span&gt; (3)&amp;nbsp;&amp;rarr;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/04/F2_Madhuri_Engineering_14.04.2023_D20.png&quot; style=&quot;width: 205px; height: 123px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;आकृति&lt;/span&gt; (3) से&amp;nbsp;&lt;span style=&quot;&quot;&gt;आकृति&lt;/span&gt; (4)&amp;nbsp;&amp;rarr;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/04/F2_Madhuri_Engineering_14.04.2023_D21.png&quot; style=&quot;width: 207px; height: 111px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;आकृति&lt;/span&gt; (4) से&amp;nbsp;&lt;span style=&quot;&quot;&gt;आकृति&lt;/span&gt; (5)&amp;nbsp;&amp;rarr;&lt;/p&gt;
+
+&lt;p style=&quot;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/04/F2_Madhuri_Engineering_14.04.2023_D22.png&quot; style=&quot;width: 207px; height: 136px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;यहाँ, &amp;#39;विकल्प (2)&amp;#39; तर्क के अनुसार सही उत्तर है।&lt;/p&gt;
+
+&lt;p&gt;अतः, सही उत्तर &lt;strong&gt;&amp;quot;विकल्प (2)&amp;quot; &lt;/strong&gt;है।&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70308
+D-70308,"&lt;p&gt;Select the option figure that will replace the question mark (?) in the figure given below and complete the pattern.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/qImage67739f4ad26723dcdbf914f0.png&quot; /&gt;&lt;/p&gt;<br>&lt;p&gt;उस विकल्प आकृति का चयन कीजिए जो नीचे दिए गए चित्र में प्रश्न चिह्न (?) को प्रतिस्थापित करेगी और पैटर्न को पूरा करेगी।&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/qImage67739f4ad26723dcdbf914f0.png&quot; /&gt;&lt;/p&gt;",&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/qImage67739f4bd26723dcdbf914f1.png&quot; /&gt;,&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/qImage67739f4cd26723dcdbf914f3.png&quot; /&gt;,&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/qImage67739f4cd26723dcdbf914f6.png&quot; /&gt;,&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/qImage67739f4cd26723dcdbf914f9.png&quot; /&gt;,2,2.0,0.5,20,"&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;The figure which when put in place of &amp;#39;?&amp;#39; will logically complete the pattern is shown below:&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/qImage678bdc00bae5311367a9c96b.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;Thus, option Figure 2&amp;nbsp;will logically complete the pattern given.&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;Hence,&amp;nbsp;&lt;span style=&quot;font-weight: bolder;&quot;&gt;&amp;quot;Option 2&amp;quot;&lt;/span&gt;&amp;nbsp;is the correct answer.&lt;/p&gt;<br><br>&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;वह चित्र जो &amp;#39;?&amp;#39; के स्थान पर रखने पर तार्किक रूप से पैटर्न को पूरा करेगा, नीचे दिखाया गया है:&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/qImage678bdc00bae5311367a9c96b.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;इस प्रकार, विकल्प चित्र 2 तार्किक रूप से दिए गए पैटर्न को पूरा करेगा।&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;इसलिए, &lt;span style=&quot;font-weight: bolder;&quot;&gt;&amp;quot;विकल्प 2&amp;quot;&lt;/span&gt; सही उत्तर है।&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70308
+D-70308,"&lt;p&gt;Select one of the following four options that will make the second pair analogous to the first pair given as:&lt;/p&gt;
+
+&lt;p&gt;Seismology : Earthquakes :: Occultism : ____________ .&amp;nbsp;&lt;/p&gt;<br>&lt;p&gt;निम्नलिखित चार विकल्पों में से एक का चयन कीजिए जो कि दूसरी जोड़ी को पहली जोड़ी के अनुरूप बना देगा:&lt;/p&gt;
+
+&lt;p&gt;भूकंप विज्ञान : भूकंप :: तंत्रविद्या : _____&amp;nbsp;&lt;/p&gt;",Supernatural&amp;nbsp; / अलौकिक शक्ति,Silk / रेशम,Astronomy / खगोल विद्या,Eggs / अंडा&amp;nbsp;,1,2.0,0.5,20,"&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;Given:&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;Seismology : Earthquakes :: Occultism : ____________ .&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;Logic: Study&amp;nbsp;: Object or topic of study.&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;Seismology : Earthquakes&amp;nbsp;&amp;rarr; Seismology is the study of earthquakes.&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;Similarly, occultism is the study of supernatural elements.&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;Therefore, Occultism&amp;nbsp;is related to Supernatural&amp;nbsp;by the same logic.&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;Hence, the correct answer is &amp;quot;&lt;span style=&quot;font-weight: bolder;&quot;&gt;Option 1&lt;/span&gt;&amp;quot;.&lt;/p&gt;<br><br>&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;दिया गया है:&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;भूकंप विज्ञान : भूकंप :: तंत्रविद्या&amp;nbsp;: ____________ .&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;तर्क: अध्ययन: अध्ययन की वस्तु या विषय।&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;भूकंप विज्ञान : भूकंप &amp;rarr; भूकंप विज्ञान, भूकंप का अध्ययन है।&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;इसी प्रकार, तंत्रविद्या, अलौकिक तत्वों का अध्ययन है।&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;इसलिए, तंत्रविद्या&amp;nbsp;उसी तर्क से अलौकिकता से संबंधित है।&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;अतः, सही उत्तर &amp;quot;&lt;span style=&quot;font-weight: bolder;&quot;&gt;विकल्प 1&lt;/span&gt;&amp;quot; है।&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70308
+D-70308,"Six people, A, B, C, K, X, and Z are standing in a single line. X is somewhere ahead of K. C and Z are standing adjacent to each other. A is immediately ahead of K. There is one person between A and B. If K and C are at the fourth and the fifth place respectively, then who is behind &amp;#39;C&amp;#39; in the line?<br>छह व्यक्ति, A, B, C, K, X और Z एक पंक्ति में खड़े हैं। X, K से आगे कहीं खड़ा है। C और Z एक दूसरे के आसन्न खड़े हैं। A, K के ठीक आगे है। A और B के बीच एक व्यक्ति है। यदि K और C क्रमशः चौथे और पाँचवें स्थान पर हैं, तो पंक्ति में &amp;#39;C&amp;#39; के पीछे कौन है?",Z,X,C,B,1,2.0,0.5,20,"&lt;p&gt;&lt;span style=&quot;&quot;&gt;According to the given information:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;Six people, A, B, C, K, X, and Z are standing in a single line.&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;span style=&quot;&quot;&gt;K and C are at the fourth and the fifth place respectively.&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;&quot;&gt;A is immediately ahead of K.&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;T&lt;span style=&quot;&quot;&gt;here is one person between A and B.&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;&quot;&gt;C and Z are standing adjacent to each other.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;​&lt;/span&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/22/09/F1_Madhuri_State%20Govt._20.09.2022_D7.png&quot; style=&quot;width: 211px; height: 86px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;Thus, the final arrangement is :&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/22/09/F1_Madhuri_State%20Govt._20.09.2022_D8.png&quot; style=&quot;width: 211px; height: 86px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Clearly,&lt;strong&gt; &amp;#39;Z&amp;#39;&amp;nbsp;&lt;span style=&quot;&quot;&gt;is behind &amp;#39;C&amp;#39; in the line&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Hence, the correct answer is&lt;strong&gt; &amp;quot;Z&amp;quot;.&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;दी गई जानकारी के अनुसार&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;छह व्यक्ति, A, B, C, K, X और Z एक पंक्ति में खड़े हैं।&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;K और C क्रमशः चौथे और &lt;span style=&quot;&quot;&gt;पाँचवें&lt;/span&gt; स्थान पर हैं।&lt;/li&gt;
+	&lt;li&gt;A, K के निकटतम आगे है।&lt;/li&gt;
+	&lt;li&gt;A और B के बीच एक व्यक्ति है।&lt;/li&gt;
+	&lt;li&gt;C और Z एक दूसरे के आसन्न खड़े हैं।&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;​&lt;/span&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/22/09/F1_Madhuri_State%20Govt._20.09.2022_D7.png&quot; style=&quot; width: 211px; height: 86px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;इस प्रकार, अंतिम व्यवस्था है&lt;span style=&quot;&quot;&gt; :&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/22/09/F1_Madhuri_State%20Govt._20.09.2022_D8.png&quot; style=&quot; width: 211px; height: 86px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;स्पष्ट रूप से, &lt;strong&gt;&amp;#39;Z&amp;#39; पंक्ति में &amp;#39;C&amp;#39; के पीछे है&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;अत: सही उत्तर &lt;strong&gt;&amp;quot;Z&amp;quot;&lt;/strong&gt; है।&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70308
+D-70308,"&lt;p&gt;Select the option that has the same relationship with the third word as it exists between the first and second word.&lt;/p&gt;
+
+&lt;p&gt;Slave: Master :: Machine: ________&lt;/p&gt;<br>&lt;p&gt;उस विकल्प का चयन कीजिये जिसका तीसरे शब्द के साथ वही संबंध है जो पहले और दूसरे शब्द के बीच है।&lt;/p&gt;
+
+&lt;p&gt;दास : मालिक :: मशीन : ________&lt;/p&gt;",&lt;span style=&quot;&quot;&gt;Work&amp;nbsp;&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;कार्य&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;House&amp;nbsp;&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;घर&amp;nbsp;&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;Labour&amp;nbsp;&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;श्रमिक&lt;/span&gt;,&lt;span style=&quot;&quot;&gt;Manager&lt;/span&gt; / &lt;span style=&quot;&quot;&gt;प्रबन्धक&lt;/span&gt;,3,2.0,0.5,20,"&lt;p&gt;&lt;strong&gt;Given :&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;Slave: Master :: Machine: ________&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;&lt;strong&gt;Solution :&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;The pattern followed here is :&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;Slave : Master&amp;nbsp;&amp;rarr;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;strong&gt;Slave&lt;/strong&gt; worked by being given instructions from &lt;strong&gt;Master&lt;span style=&quot;color: rgb(32, 33, 36);   &quot;&gt;.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: rgb(32, 33, 36);   &quot;&gt;Similarly,&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;Machine : Labour&amp;nbsp;&amp;rarr;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32, 33, 36);   &quot;&gt;&lt;strong&gt;Machine&lt;/strong&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;worked by being given instructions from&lt;/span&gt;&lt;span style=&quot;color: rgb(32, 33, 36);   &quot;&gt; &lt;strong&gt;Labour&lt;/strong&gt; (Man).&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: rgb(32, 33, 36);   &quot;&gt;Hence, the correct answer is &lt;strong&gt;&amp;quot;Labour&amp;quot;.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;strong&gt;दिया गया है :&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;दास : मालिक :: मशीन : ________&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;&lt;strong&gt;हल:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;यहाँ अनुसरण किया गया पैटर्न इस प्रकार&amp;nbsp;है&lt;span style=&quot;&quot;&gt; :&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;दास : मालिक&amp;nbsp;&amp;rarr;&lt;strong&gt;&amp;nbsp;दास&lt;/strong&gt;,&amp;nbsp;&lt;strong&gt;मालिक&lt;/strong&gt;&lt;/span&gt;&lt;strong&gt; &lt;/strong&gt;के निर्देश पर कार्य करता है।&lt;/p&gt;
+
+&lt;p&gt;इसी प्रकार,&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;मशीन : श्रमिक&amp;nbsp;&amp;rarr;&amp;nbsp;&lt;strong&gt;मशीन&lt;/strong&gt;,&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;&quot;&gt;श्रमिक&lt;/span&gt;&lt;/strong&gt; के&amp;nbsp;दिए गए निर्देश पर कार्य करती है।&lt;/p&gt;
+
+&lt;p&gt;अतः, सही उत्तर &lt;span style=&quot;font-weight: 700; &quot;&gt;&amp;quot;श्रमिक&amp;quot;&lt;/span&gt; है।&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70308
+D-70308,"&lt;p&gt;&amp;lsquo;P @ Q&amp;rsquo; means &amp;lsquo;P is the husband of Q&amp;rsquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;lsquo;P &amp;amp; Q&amp;rsquo; means &amp;lsquo;P is the mother of Q&amp;rsquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;lsquo;P # Q&amp;rsquo; means &amp;lsquo;P is the wife of Q&amp;rsquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;lsquo;P &amp;times; Q&amp;rsquo; means &amp;lsquo;P is the brother of Q&amp;rsquo;&lt;/p&gt;
+
+&lt;p&gt;If &amp;lsquo;A @ B &amp;amp; C &amp;times; D # E&amp;rsquo;, then how is E related to A?&lt;/p&gt;<br>&lt;p&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&amp;#39;P @ Q&amp;#39; का अर्थ है, &amp;#39;P, Q का पति है&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(77, 81, 86);  &quot;&gt;।&lt;/span&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&amp;#39;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;&quot;&gt;&amp;#39;P &amp;amp; Q&lt;/span&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&amp;#39; का अर्थ है, &lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;&quot;&gt;&amp;#39;P, Q&lt;/span&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt; की मां है&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(77, 81, 86);  &quot;&gt;।&lt;/span&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&amp;#39;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&amp;#39;P # Q&amp;#39; का अर्थ है, &amp;#39;P, Q की पत्नी है&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(77, 81, 86);  &quot;&gt;।&lt;/span&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&amp;#39;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&amp;#39;P &amp;times; Q&amp;#39; का अर्थ है, &amp;#39;P, Q का भाई है&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(77, 81, 86); &quot;&gt;।&lt;/span&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&amp;#39;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;यदि &amp;#39;A @ B &amp;amp; C &amp;times; D # E&amp;#39; है, तो E, A से किस प्रकार संबंधित है?&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;",Son / &lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;बेटा&lt;/font&gt;&lt;/font&gt;,Wife&amp;rsquo;s brother&amp;nbsp; / &lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;पत्नी का भाई&amp;nbsp;&lt;/font&gt;&lt;/font&gt;,Daughter&amp;rsquo;s husband&amp;nbsp; / &lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;बेटी का पति&amp;nbsp;&lt;/font&gt;&lt;/font&gt;,Wife&amp;rsquo;s father / &lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;पत्नी के पिता&lt;/font&gt;&lt;/font&gt;,3,2.0,0.5,20,"&lt;p&gt;From the given information we draw a chart using the following symbols:&lt;br /&gt;
+&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/qImage14358.png&quot; /&gt;&lt;br /&gt;
+&lt;span style=&quot;&quot;&gt;A @ B &amp;amp; C &amp;times; D # E means,&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;&quot;&gt;A is the husband of B, B is the mother of C, C is the brother of D, and D&amp;nbsp;is the wife of E.&lt;/span&gt;&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/02/F1_Madhuri_SSC_10.02.2023_D18.png&quot; style=&quot;width: 173px; height: 104px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From the diagram, we can see that &lt;strong&gt;E is A&amp;#39;s daughter&amp;#39;s husband.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Hence&amp;nbsp;&lt;strong&gt;the correct answer is option 3)&lt;/strong&gt;&lt;/p&gt;<br><br>&lt;p&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;दी गई जानकारी से हम निम्नलिखित प्रतीकों का उपयोग करके एक सारणी बनाते हैं: &lt;/font&gt;&lt;/font&gt;&lt;br /&gt;
+&lt;img alt=&quot;&quot; src=&quot;//cdn.testbook.com/images/production/quesImages/qImage14358.png&quot; /&gt;&lt;br /&gt;
+&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;A @ B &amp;amp; C &amp;times; D # E का अर्थ है, &lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;A, B का पति है, B, C की माँ है, C, D का भाई है, और D,&lt;/font&gt;&lt;/font&gt;&amp;nbsp;E&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&amp;nbsp;की पत्नी है।&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;img alt=&quot;&quot; src=&quot;//storage.googleapis.com/tb-img/production/23/02/F1_Madhuri_SSC_10.02.2023_D18.png&quot; style=&quot; width: 173px; height: 104px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;आरेख से, हम देख सकते हैं कि &lt;/font&gt;&lt;/font&gt;&lt;strong&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;E, A की पुत्री का पति है।&lt;/font&gt;&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;अतः,&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;strong&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;सही उत्तर विकल्प 3) है&lt;/font&gt;&lt;/font&gt;&lt;/strong&gt;&lt;span style=&quot;color: rgb(77, 81, 86);  &quot;&gt;।&lt;/span&gt;&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70308
+D-70308,"&lt;p&gt;In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Which numbers should replace X and Y so that the pattern followed by the two numbers on the left side of :: is same as that on the right side of ::?&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 &amp;ndash; Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)&lt;/p&gt;
+
+&lt;p&gt;X : 49 :: 17 : Y&amp;nbsp;&lt;/p&gt;<br>&lt;p&gt;निम्नलिखित संख्या-युग्मों में, दूसरी संख्या, पहली संख्या पर कुछ गणितीय संक्रियाएँ लागू करके प्राप्त की जाती है। X और Y के स्थान पर कौन-सी संख्याएँ आनी चाहिए ताकि :: के बाईं ओर की दो संख्याओं द्वारा अनुसरित&amp;nbsp;पैटर्न :: के दाईं ओर के समान हो?&lt;/p&gt;
+
+&lt;p&gt;(नोट: संख्याओं को उनके घटकीय अंकों में तोड़े बिना, पूर्ण संख्याओं पर संक्रियाएँ की जानी चाहिए। उदाहरण के लिए 13 - 13 पर संक्रियाएँ जैसे कि 13 को जोड़ना/घटाना/गुणा करना आदि किया जा सकता है। 13 को 1 और 3 में तोड़ना और फिर 1 और 3 पर गणितीय संक्रियाएँ करने की अनुमति नहीं है।)&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;X : 49 :: 17 : Y&lt;/p&gt;","X = 23, Y = 37","X = 25, Y = 39","X = 21, Y = 37","X = 31, Y = 34",1,2.0,0.5,20,"&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;The logic followed here is:&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;Logic: 1st number&amp;nbsp;&amp;times; 2 + 3&amp;nbsp;= 2nd number.&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&lt;span style=&quot;font-weight: bolder;&quot;&gt;For&lt;/span&gt;,&amp;nbsp;X : 49&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; X &amp;times; 2 + 3&amp;nbsp;= 49&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; X = (49 - 3)&amp;nbsp;&amp;divide; 2 = 46 &amp;divide; 2 = 23.&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;Similarly,&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&lt;span style=&quot;font-weight: bolder;&quot;&gt;For&lt;/span&gt;,&amp;nbsp;17 : Y&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; 17 &amp;times; 2 + 3&amp;nbsp;= 34 + 3 = 37.&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;Hence, the correct answer is&amp;nbsp;&lt;span style=&quot;font-weight: bolder;&quot;&gt;&amp;quot;Option 1&amp;quot;.&lt;/span&gt;&lt;/p&gt;<br><br>&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;यहाँ अनुसरित तर्क निम्न है:&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;तर्क: पहली संख्या &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; 2 + 3 = दूसरी संख्या।&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;X : 49 के लिए,&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; X &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; 2 + 3 = 49&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; X = (49 - 3) &amp;divide; 2 = 46 &amp;divide; 2 = 23&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;इसी प्रकार,&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;17 : Y के लिए,&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;rArr; 17 &lt;span style=&quot;color: rgb(33, 37, 41);&quot;&gt;&amp;times;&lt;/span&gt; 2 + 3 = 34 + 3 = 37&lt;/p&gt;
+
+&lt;p style=&quot;color: rgb(33, 37, 41);&quot;&gt;इसलिए, सही उत्तर &lt;span style=&quot;font-weight: bolder;&quot;&gt;&amp;quot;विकल्प 1&amp;quot;&lt;/span&gt; है।&lt;/p&gt;",https://mock-test-new.vercel.app?test=d-70308
+D-70309,अदानी पोर्ट्स अँड स्पेशल इकॉनॉमिक झोन लिमिटेड (APSEZ) ने खालीलपैकी कोणत्या सामरिक ठिकाणी भारताचे पहिले पोर्ट ऑफ रिफ्यूज (PoR) कार्यान्वित केले आहे?,मुंद्रा आणि पिपावाव / ,दिघी आणि गोपालपूर / ,विशाखापट्टणम आणि कांडला / ,पारादीप आणि हल्दिया / ,2,2.0,0.5,10,"<p>योग्य उत्तर <u><strong>दिघी आणि गोपालपूर</strong></u> हे आहे.</p>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/in_news.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>In News</u></span></strong></span>&nbsp;</span></p>
+
+<ul>
+	<li><strong>समुद्री आपत्कालीन पायाभूत सुविधांमधील एक महत्त्वाची उणीव भरून काढण्यासाठी APSEZ ने दिघी पोर्ट (पश्चिम किनारा) आणि गोपालपूर पोर्ट (पूर्व किनारा) येथे भारताचे पहिले पोर्ट ऑफ रिफ्यूज (PoR) कार्यान्वित केले आहे.</strong></li>
+</ul>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>Key Points</u></span></strong></span>&nbsp;</span></p>
+
+<ul>
+	<li><strong>दिघी पोर्ट:</strong> अरबी समुद्र आणि पर्शियन गल्फकडे जाणाऱ्या मार्गावरील वाहतुकीस मदत करते.</li>
+	<li><strong>गोपालपूर पोर्ट:</strong> बंगालच्या उपसागरातील जहाजे आणि मलाक्का सामुद्रधुनीकडे जाणाऱ्या मार्गासाठी उपयुक्त आहे.</li>
+	<li><strong>व्याख्या:</strong> IMO नुसार, पोर्ट ऑफ रिफ्यूज हे असे ठिकाण आहे जिथे संकटग्रस्त जहाज आपली स्थिती स्थिर करू शकते आणि पर्यावरणाचे संरक्षण करू शकते.</li>
+	<li><strong>भागीदारी:</strong> हा उपक्रम APSEZ, <strong>SMIT साल्वेज</strong> आणि <strong>मरीन इमर्जन्सी रिस्पॉन्स सेंटर (MERC)</strong> यांच्यातील त्रिपक्षीय सामंजस्य कराराद्वारे समर्थित आहे.</li>
+</ul>
+
+<p><span style=""color: rgb(0, 0, 0); ""><span style=""display: flex;gap: 6px;align-items: center;""><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>Additional Information</u></span></strong></span>&nbsp;</span></span></p>
+
+<ul>
+	<li><u><span style=""font-weight: bolder;"">MERC (विश्वकर्मा समूह):</span></u> 1935 मध्ये पोरबंदर येथे स्थापित, हे सागरी आपत्कालीन समन्वयात माहिर आहे.</li>
+	<li><u><span style=""font-weight: bolder;"">SMIT साल्वेज:</span></u> बोस्कालिसचा एक विभाग, हे जहाजांचे अवशेष काढण्यात आणि आपत्कालीन प्रतिसादात जागतिक स्तरावर अग्रणी आहे.</li>
+	<li><u><span style=""font-weight: bolder;"">पर्यावरण संरक्षण:</span></u> ही सुविधा हायड्रोकार्बन्स आणि दूषित पाण्याचा सुरक्षित विल्हेवाट लावून भारताच्या 11,000 किमी लांबीच्या किनारपट्टीचे संरक्षण करण्यास मदत करते.</li>
+</ul>",https://mock-test-new.vercel.app?test=d-70309
+D-70309,"विस्तारित PM ई-ड्राइव्ह योजनेअंतर्गत, इलेक्ट्रिक दुचाकी वाहनांसाठी (e2w) नवीन अनुदान समाप्तीची तारीख काय आहे?",31 मार्च 2026 / ,31 जुलै 2026 / ,26 डिसेंबर 2025 / ,31 मार्च 2028 / ,2,2.0,0.5,10,"<p>योग्य उत्तर <u><strong>31 जुलै 2026</strong></u> आहे.</p>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/in_news.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>In News</u></span></strong></span>&nbsp;</span></p>
+
+<ul>
+	<li><strong>अवजड उद्योग मंत्रालयाने (MHI) 27 मार्च 2026 रोजीच्या अधिसूचनेद्वारे PM E-DRIVE योजनेंतर्गत इलेक्ट्रिक वाहनांसाठी अनुदानाची अधिकृतपणे मुदतवाढ दिली आहे.</strong></li>
+</ul>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>Key Points</u></span></strong></span>&nbsp;</span></p>
+
+<ul>
+	<li><strong>सुधारित वेळापत्रक:</strong>
+
+	<ul>
+		<li><strong>इलेक्ट्रिक दुचाकी (e2w):</strong> <strong>31 जुलै 2026</strong> पर्यंत मुदतवाढ.</li>
+		<li><strong>ई-रिक्षा आणि ई-कार्ट्स:</strong> <strong>31 मार्च 2028</strong> पर्यंत मुदतवाढ.</li>
+	</ul>
+	</li>
+	<li><strong>लक्ष्य अद्यतने:</strong> e2ws साठीचे लक्ष्य 14 लाख वरून <strong>24,79,120 युनिट्स</strong> (सुमारे 24.8 लाख) पर्यंत जवळजवळ दुप्पट करण्यात आले आहे.</li>
+	<li><strong>L5 श्रेणी:</strong> नोंदणीकृत इलेक्ट्रिक तीनचाकी वाहनांसाठी (L5) उप-घटक <strong>26 डिसेंबर 2025</strong> रोजी बंद करण्यात आला, कारण लक्ष्य साध्य झाले होते.</li>
+	<li><strong>प्रोत्साहन रचना:</strong> <strong>प्रति kWh ₹2,500</strong> चे समर्थन, <strong>प्रति वाहन ₹5,000</strong> (किंवा एक्स-फॅक्टरी किमतीच्या 15%, यापैकी जे कमी असेल ते) ची कमाल मर्यादा.</li>
+	<li><strong>किंमत मर्यादा:</strong>
+	<ul>
+		<li>e2w: ₹1.5 लाख</li>
+		<li>ई-रिक्षा/कार्ट्स: ₹2.5 लाख</li>
+	</ul>
+	</li>
+</ul>
+
+<p><span style=""color: rgb(0, 0, 0); ""><span style=""display: flex;gap: 6px;align-items: center;""><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>Additional Information</u></span></strong></span>&nbsp;</span></span></p>
+
+<ul>
+	<li><u><strong>PM E-DRIVE योजना:</strong></u> सप्टेंबर 2024 मध्ये FAME-II बदलण्यासाठी <strong>₹10,900 कोटी</strong> च्या खर्चाने सुरू करण्यात आली.</li>
+	<li><u><strong>अर्थसंकल्प:</strong></u> इलेक्ट्रिक दुचाकी विभागासाठी अंदाजे <strong>₹1,259.91 कोटी</strong> मंजूर केले आहेत.</li>
+	<li><u><strong>उद्योग विनंती:</strong></u> SIAM आणि बजाज ऑटो, हिरो मोटोकॉर्प आणि TVS सारख्या उत्पादकांनी पूर्ण निधीचा वापर सुनिश्चित करण्यासाठी केलेल्या विनंतीनंतर मुदतवाढ देण्यात आली आहे.</li>
+</ul>",https://mock-test-new.vercel.app?test=d-70309
+D-70309,बँकॉक येथे झालेल्या आशिया कप आर्चरी वर्ल्ड रँकिंग टूर्नामेंट स्टेज 1 मध्ये पुरुषांच्या वैयक्तिक कम्पाऊंड प्रकारात सुवर्णपदक कोणी जिंकले?,प्रथमेश जावकर / ,रजत चौहान / ,उदय कंबोज / ,ऋषभ यादव / ,3,2.0,0.5,10,"<p>योग्य उत्तर <u><strong>उदय कंबोज</strong></u> आहे.</p>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/in_news.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>In News</u></span></strong></span>&nbsp;</span></p>
+
+<ul>
+	<li><strong>बँकॉक, थायलंड येथे झालेल्या आशिया कप 2026 आर्चरी स्टेज I मध्ये भारताने 10 पदके (2 सुवर्ण, 4 रौप्य, 4 कांस्य) जिंकून आपले अभियान पूर्ण केले.</strong></li>
+</ul>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>Key Points</u></span></strong></span>&nbsp;</span></p>
+
+<ul>
+	<li><strong><span style=""color: rgb(0, 0, 0); "">उदय कंबोजने पुरुषांच्या वैयक्तिक कम्पाऊंड प्रकारात सुवर्णपदक जिंकले, या प्रकारात सर्व-भारतीय पोडियममध्ये आघाडी घेतली.</span></strong></li>
+	<li><span style=""color: rgb(0, 0, 0); "">याच प्रकारात <strong>प्रथमेश जावकर</strong> आणि <strong>रजत चौहान</strong> यांनी अनुक्रमे रौप्य व कांस्यपदक जिंकले.</span></li>
+	<li><span style=""color: rgb(0, 0, 0); "">भारतासाठी दुसरे सुवर्णपदक <strong>मिश्र कम्पाऊंड टीम</strong> जोडी <strong>चिकिता तनिपर्थी आणि रजत चौहान</strong> यांनी जिंकले.</span></li>
+	<li><span style=""color: rgb(0, 0, 0); "">ही स्पर्धा 21 ते 28 मार्च 2026 पर्यंत बँकॉक येथे आयोजित करण्यात आली होती.</span></li>
+	<li><span style=""color: rgb(0, 0, 0);""><u><span style=""font-weight: bolder;"">इतर रौप्यपदक विजेते:</span></u></span>
+	<ul>
+		<li>रिधी (महिला वैयक्तिक रिकर्व्ह)</li>
+		<li>पुरुष रिकर्व्ह टीम (देवांग गुप्ता, सुखचैन सिंग, जुएल सिंग)</li>
+		<li>महिला टीम कम्पाऊंड (चिकिता तनिपर्थी, राज कौर, तेजल साळवे)</li>
+	</ul>
+	</li>
+</ul>
+
+<p><span style=""color: rgb(0, 0, 0); ""><span style=""display: flex;gap: 6px;align-items: center;""><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>Additional Information</u></span></strong></span>&nbsp;</span></span></p>
+
+<ul>
+	<li><u><span style=""font-weight: bolder;"">ऑलिंपिक पदार्पण</span></u>
+
+	<ul>
+		<li><strong>मिश्र कम्पाऊंड टीम</strong> प्रकाराचे <strong>LA 2028 खेळांमध्ये</strong> ऑलिंपिक पदार्पण होणार आहे.</li>
+	</ul>
+	</li>
+	<li><u><span style=""font-weight: bolder;"">आशिया कप स्टेज II</span></u>
+	<ul>
+		<li>मूळतः एप्रिलमध्ये इराकसाठी नियोजित असलेला, दुसरा टप्पा <strong>ऑक्टोबर 2026</strong> पर्यंत पुनर्निर्धारित करण्यात आला आहे.</li>
+	</ul>
+	</li>
+</ul>",https://mock-test-new.vercel.app?test=d-70309
+D-70309,"मार्च 2026 मध्ये, भारत आणि __________ यांनी औद्योगिक विमान निर्मितीच्या क्षेत्रात औपचारिक कार्यव्यवस्थेवर स्वाक्षरी केली.",युनायटेड स्टेट्स / ,युरोपियन युनियन (EU) / ,रशिया / ,जपान / ,2,2.0,0.5,10,"<p>योग्य उत्तर <u><strong>युरोपियन युनियन (EU)</strong></u> आहे.<span style=""display: flex;gap: 6px;align-items: center;""><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/in_news.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>In News</u></span></strong></span>&nbsp;</span></p>
+
+<ul>
+	<li><strong>भारत आणि युरोपियन युनियन (EU) ने नागरी विमान वाहतूक महासंचालनालय (DGCA) आणि युरोपियन युनियन एव्हिएशन सेफ्टी एजन्सी (EASA) यांच्यात औपचारिक कार्यव्यवस्थेवर स्वाक्षरी केली आहे.</strong></li>
+</ul>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>Key Points</u></span></strong></span>&nbsp;</span></p>
+
+<ul>
+	<li><strong>हा करार औद्योगिक विमान निर्मितीवर केंद्रित आहे, ज्याचा उद्देश भारतीय उत्पादनांना जागतिक सुरक्षा मानकांनुसार संरेखित करणे आहे.</strong></li>
+	<li><span style=""color: rgb(0, 0, 0); "">यामुळे <strong>कर्नाटकात एअरबस हेलिकॉप्टर H125/AS350 च्या असेंब्लीसारख्या मोठ्या प्रकल्पांना</strong> मदत होईल.</span></li>
+	<li><span style=""color: rgb(0, 0, 0); "">हा करार युरोपातील बाजारपेठांमध्ये भारतीय एरोस्पेस घटकांसाठी प्रमाणीकरण प्रक्रियेचे सुसंवाद साधून <strong>'मेक इन इंडिया'</strong> उपक्रमास समर्थन देतो.</span></li>
+	<li><span style=""color: rgb(0, 0, 0); "">ही घडामोड <strong>जानेवारी 2026 मध्ये झालेल्या EU-भारत शिखर परिषदेनंतर</strong> झाली आहे, जिथे नागरी विमान वाहतूक सुरक्षा हे सर्वोच्च प्राधान्य होते.</span></li>
+	<li><span style=""color: rgb(0, 0, 0);""><u><span style=""font-weight: bolder;"">सहभागी एजन्सी:</span></u></span>
+	<ul>
+		<li>भारत: DGCA (नागरी विमान वाहतूक महासंचालनालय)</li>
+		<li>EU: EASA (युरोपियन युनियन एव्हिएशन सेफ्टी एजन्सी)</li>
+	</ul>
+	</li>
+</ul>
+
+<p><span style=""color: rgb(0, 0, 0); ""><span style=""display: flex;gap: 6px;align-items: center;""><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>Additional Information</u></span></strong></span>&nbsp;</span></span></p>
+
+<ul>
+	<li><u><span style=""font-weight: bolder;"">हवाई योग्यतेची स्थिती:</span></u>
+
+	<ul>
+		<li>विमानाची सुरक्षित उड्डाणासाठी योग्यतेचे माप. हा करार या मानकांची देखभाल करण्यासाठी तांत्रिक डेटाच्या देवाणघेवाणीची खात्री देतो.</li>
+	</ul>
+	</li>
+	<li><u><span style=""font-weight: bolder;"">सामरिक केंद्र:</span></u>
+	<ul>
+		<li>यामुळे <strong>कर्नाटक</strong> हे इंडो-पॅसिफिकमधील युरोपियन एरोस्पेस उत्पादनाचे प्राथमिक केंद्र बनेल अशी अपेक्षा आहे.</li>
+	</ul>
+	</li>
+</ul>",https://mock-test-new.vercel.app?test=d-70309
+D-70309,"खालीलपैकी कोणी मार्च 2026 मध्ये कारगिल येथील नव्याने बांधलेल्या, हवामान-प्रतिरोधक जिल्हा न्यायालय संकुलाचे आभासी पद्धतीने उद्घाटन केले?",न्यायमूर्ती डी.वाय. चंद्रचूड / ,न्यायमूर्ती सूर्यकांत / ,न्यायमूर्ती संजीव खन्ना / ,न्यायमूर्ती बी.आर. गवई / ,2,2.0,0.5,10,"<p>योग्य उत्तर <u><strong>न्यायमूर्ती सूर्यकांत</strong></u> आहे.</p>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/in_news.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>In News</u></span></strong></span>&nbsp;</span></p>
+
+<ul>
+	<li><strong>29 मार्च 2026 रोजी भारताचे सरन्यायाधीश (CJI), न्यायमूर्ती सूर्यकांत यांनी कारगिल येथील अत्याधुनिक जिल्हा न्यायालय संकुलाचे उद्घाटन केले.</strong></li>
+</ul>
+
+<p><span style=""display: flex;gap: 6px;align-items: center;""><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>Key Points</u></span></strong></span>&nbsp;</span></p>
+
+<ul>
+	<li><strong>पायाभूत सुविधा:</strong> नवीन संकुल <strong>कुरबथांग</strong> येथे स्थित आहे आणि त्यात लडाखच्या अति-शून्य तापमानाला तोंड देण्यासाठी खास डिझाइन केलेली <strong>हवामान-प्रतिरोधक रचना</strong> आहे.</li>
+	<li><strong>आभासी समारंभ:</strong> प्रतिकूल हवामानामुळे, CJI ने <strong>लेह येथून आभासी पद्धतीने</strong> उद्घाटन समारंभ आयोजित केला.</li>
+	<li><strong>न्यायिक विस्तार:</strong> हा कार्यक्रम CJI च्या केंद्रशासित प्रदेशाच्या भेटीचे एक वैशिष्ट्य होते, ज्यात लेह येथे नवीन न्यायालयीन इमारत आणि <strong>लडाख कायदेशीर सेवा प्राधिकरणाच्या</strong> कार्यालयाचे उद्घाटन देखील करण्यात आले.</li>
+	<li><strong>परिणाम:</strong> या सुविधेचा उद्देश सीमावर्ती जिल्ह्यातील रहिवाशांना अखंड न्यायिक सेवा प्रदान करणे आहे, ज्यामुळे दुर्गम उंच प्रदेशातून त्रासदायक प्रवास करण्याची गरज नाहीशी होईल.</li>
+</ul>
+
+<p><span style=""color: rgb(0, 0, 0); ""><span style=""display: flex;gap: 6px;align-items: center;""><span style=""display: flex;gap: 6px;align-items: center;""><img height=""26px"" src=""//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png"" width=""26px"" /><strong><span style=""vertical-align: middle;font-size: 21px;""><u>Additional Information</u></span></strong></span>&nbsp;</span></span></p>
+
+<ul>
+	<li><u><strong>आधुनिक सुविधा:</strong></u> हे संकुल न्यायाधीश, कायदेशीर व्यावसायिक आणि पक्षकारांना अधिक कार्यक्षमतेने मदत करण्यासाठी प्रगत तांत्रिक साधनांनी सुसज्ज आहे.</li>
+	<li><u><strong>लडाख केंद्रशासित प्रदेशाचा दर्जा:</strong></u> या प्रदेशाची केंद्रशासित प्रदेशात पुनर्रचना झाल्यापासून, स्थानिक लोकांसाठी मजबूत, स्वतंत्र पायाभूत सुविधा निर्माण करण्यावर वेगाने भर देण्यात आला आहे.</li>
+</ul>",https://mock-test-new.vercel.app?test=d-70309
+D-70310,एका आयताच्या बाजूंचे गुणोत्तर 5 : 3 असून त्याची परिमिती 112 सेमी आहे. तर आयताचे क्षेत्रफळ काढा:,735 सेमी<sup>2</sup> / ,"695 <span style=""color: rgb(33, 37, 41);"">सेमी</span><span style=""position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;"">2</span> / ","595 <span style=""color: rgb(33, 37, 41);"">सेमी</span><span style=""position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;"">2</span> / ","620 <span style=""color: rgb(33, 37, 41);"">सेमी</span><span style=""position: relative;  line-height: 0; vertical-align: baseline; top: -0.5em;font-size:10.5px;"">2</span> / ",1,2.0,0.5,10,"<p><strong>दिलेले आहे:</strong></p>
+
+<p>आयताच्या बाजूंचे गुणोत्तर 5 : 3 आहे आणि त्याची परिमिती 112 सेमी आहे.</p>
+
+<p><strong>वापरलेले सूत्र:</strong></p>
+
+<p>आयताची परिमिती = 2(लांबी + रुंदी)</p>
+
+<p>आयताचे क्षेत्रफळ = लांबी <span style=""color: rgb(33, 37, 41);"">&times;</span> रुंदी</p>
+
+<p><strong>गणना:</strong></p>
+
+<p>समजा, लांबी 5x आणि रुंदी 3x आहे.</p>
+
+<p>परिमिती = 2(5x + 3x) = 112 सेमी</p>
+
+<p>&rArr; 16x = 112</p>
+
+<p>&rArr; x = 7</p>
+
+<p>म्हणून, लांबी = 5x = 5 <span style=""color: rgb(33, 37, 41);"">&times;</span> 7 = 35 सेमी</p>
+
+<p>रुंदी = 3x = 3 <span style=""color: rgb(33, 37, 41);"">&times;</span> 7 = 21 सेमी</p>
+
+<p>क्षेत्रफळ = लांबी <span style=""color: rgb(33, 37, 41);"">&times;</span> रुंदी</p>
+
+<p>&rArr; क्षेत्रफळ = 35 <span style=""color: rgb(33, 37, 41);"">&times;</span> 21 = 735 सेमी<sup>2</sup></p>
+
+<p><strong>&there4; पर्याय 1 योग्य आहे.</strong></p>",https://mock-test-new.vercel.app?test=d-70310
+D-70310,47 सेमी आणि 48 सेमी&nbsp;कर्ण असलेल्या समभुज चौकोनाचे क्षेत्रफळ (सेमी<sup>2</sup> मध्ये) शोधा.,1116 / ,1100 / ,1028 / ,1128 / ,4,2.0,0.5,10,"<p><strong>दिलेले आहे:</strong></p>
+
+<p>समभुज चौकोनाचे कर्ण, d<sub>1</sub> = 47 सेमी आणि d<sub>2</sub> = 48 सेमी</p>
+
+<p><strong>वापरलेले सूत्र:</strong></p>
+
+<p><span style=""color: rgb(33, 37, 41);"">समभुज चौ</span><span style=""color: rgb(33, 37, 41);"">कोनाचे&nbsp;</span>क्षेत्रफळ = (1/2) <span style=""color: rgb(33, 37, 41);"">&times;</span> d<sub>1</sub> <span style=""color: rgb(33, 37, 41);"">&times;</span> d<sub>2</sub></p>
+
+<p><strong>गणना:</strong></p>
+
+<p>क्षेत्रफळ = (1/2) <span style=""color: rgb(33, 37, 41);"">&times;</span> 47 सेमी <span style=""color: rgb(33, 37, 41);"">&times;</span> 48 सेमी</p>
+
+<p>&rArr; क्षेत्रफळ = (1/2) <span style=""color: rgb(33, 37, 41);"">&times;</span> 2256 सेमी<sup>2</sup></p>
+
+<p>&rArr; क्षेत्रफळ = 1128 सेमी<sup>2</sup></p>
+
+<p><strong>&there4; पर्याय (4) योग्य आहे.</strong></p>",https://mock-test-new.vercel.app?test=d-70310
+D-70310,समभुज चौकोनाच्या कर्णांची लांबी 10 सेमी आणि 24 सेमी आहे. त्या समभुज चौकोनाच्या बाजूची लांबी काढा:,10 सेमी / ,9 सेमी / ,13 सेमी / ,8 सेमी / ,3,2.0,0.5,10,"<p><strong>दिलेले आहे:</strong></p>
+
+<p>समभुज चौकोनाच्या कर्णांची&nbsp;लांबी 10 सेमी आणि 24 सेमी आहेत.</p>
+
+<p><strong>वापरलेले सूत्र:</strong></p>
+
+<p>समभुज चौकोनाची&nbsp;बाजू = <span class=""math-tex"">\(\sqrt{(\frac{d1}{2})^2 + (\frac{d2}{2})^2}\)</span></p>
+
+<p><strong>गणना:</strong></p>
+
+<p>d1 = 10 सेमी</p>
+
+<p>d2 = 24 सेमी</p>
+
+<p>कर्णांची निम्मी&nbsp;लांबी:</p>
+
+<p><span class=""math-tex"">\(\frac{d1}{2} = \frac{10}{2}\)</span> = 5 सेमी</p>
+
+<p><span class=""math-tex"">\(\frac{d2}{2} = \frac{24}{2}\)</span> = 12 सेमी</p>
+
+<p>सूत्र वापरून:</p>
+
+<p><span style=""color: rgb(33, 37, 41);"">समभुज चौकोनाची</span> बाजू = <span class=""math-tex"">\(\sqrt{5^2 + 12^2}\)</span></p>
+
+<p>&rArr; <span style=""color: rgb(33, 37, 41);"">समभुज चौकोनाची</span> बाजू = <span class=""math-tex"">\(\sqrt{25 + 144}\)</span></p>
+
+<p>&rArr; <span style=""color: rgb(33, 37, 41);"">समभुज चौकोनाची</span> बाजू = <span class=""math-tex"">\(\sqrt{169}\)</span></p>
+
+<p>&rArr; <span style=""color: rgb(33, 37, 41);"">समभुज चौकोनाची</span> बाजू = 13 सेमी</p>
+
+<p><strong><span style=""color: rgb(33, 37, 41);"">समभुज चौकोना</span>च्या बाजूची लांबी 13 सेमी आहे.</strong></p>",https://mock-test-new.vercel.app?test=d-70310
+D-70310,पितळमधील तांबे आणि जस्त यांचे गुणोत्तर 25 : 12 आहे. तर 370 किलो पितळमध्ये तांब्याचे एकूण&nbsp;प्रमाण किती असेल?,150 किलो / ,250 किलो / ,50 किलो / ,350 किलो / ,2,2.0,0.5,10,"<meta charset=""UTF-8""><meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<title></title>
+<style type=""text/css"">p {
+            font-family: Arial, sans-serif;
+        }
+        .superscript {
+            position: relative;
+            line-height: 0;
+            vertical-align: baseline;
+            top: -0.5em;
+            font-size: 10.5px;
+        }
+</style>
+<p><strong>दिलेल्याप्रमाणे:</strong></p>
+
+<p>पितळातील तांबे आणि जस्त यांचे प्रमाण 25 : 12 आहे</p>
+
+<p>पितळाचे एकूण वजन = 370 किलो</p>
+
+<p><strong>वापरलेली संकल्पना:</strong></p>
+
+<p>गुणोत्तर आणि प्रमाण</p>
+
+<p><strong>वापरलेले सूत्र:</strong></p>
+
+<p>तांब्याची रक्कम = (तांब्याचे गुणोत्तर / गुणोत्तरांची बेरीज) &times; एकूण पितळेचे वजन</p>
+
+<p><strong>गणना:</strong></p>
+
+<p>गुणोत्तरांची बेरीज = 25 + 12 = 37</p>
+
+<p>&rArr; तांब्याची रक्कम = (25 / 37) &times; 370</p>
+
+<p>&rArr; तांब्याची रक्कम = 25 &times; 10</p>
+
+<p>&rArr; तांब्याचे प्रमाण = 250 किलो</p>
+
+<p><strong>&there4; 370 किलो पितळात तांब्याचे प्रमाण 250 किलो असते.</strong></p>",https://mock-test-new.vercel.app?test=d-70310
+D-70310,350 ग्रॅमच्या एका संमिश्रातील तांबे आणि कांस्य यांचे गुणोत्तर 3 : 4 आहे. गुणोत्तर 4 : 3 करण्यासाठी त्यात मिसळाव्या लागणाऱ्या तांब्याचे प्रमाण (ग्रॅममध्ये) काढा:,116.67 ग्रॅम / ,126.67 ग्रॅम / ,123.33 ग्रॅम / ,113.33 ग्रॅम / ,1,2.0,0.5,10,"<p><strong>दिलेल्याप्रमाणे:</strong></p>
+
+<p>तांबे : कांस्य = <span style=""color: rgb(33, 37, 41);"">3 :4&nbsp;</span></p>
+
+<p>एकूण मिश्र धातु = 350 ग्रॅम</p>
+
+<p>तांब्यामध्ये प्रमाण जोडल्यानंतर अंतिम गुणोत्तर = 4:3&nbsp;</p>
+
+<p><strong>गणना:</strong></p>
+
+<p>येथे, तांबे : कांस्य = 3:4</p>
+
+<p>समजा, तांबे आणि कांस्य 3x आणि 4x आणि दिलेले एकूण मिश्र धातु = 350 ग्रॅम</p>
+
+<p>&rArr; (3x + 4x) = 350</p>
+
+<p>&rArr; 7x = 350 &hArr; x = 50 ग्रॅम</p>
+
+<p>&rArr; तांबे = 3x = ( 3 &times; 50) = 150 ग्रॅम, कांस्य = 4x = ( 4 &times; 50 ) = 200 ग्रॅम</p>
+
+<p>आता, समजा तांब्यामध्ये जोडलेले प्रमाण y आहे</p>
+
+<p>दिलेल्या प्रश्नानुसार,</p>
+
+<p>&rArr; (150 + y) : 200 = 4 :3</p>
+
+<p>&rArr; 800 = 450 + 3y</p>
+
+<p>&rArr; 3y = 350 &hArr; y = 350/3 = 116.67 ग्रॅम</p>
+
+<p><strong>म्हणून, तांब्यामध्ये जोडण्याचे&nbsp;आवश्यक प्रमाण&nbsp;</strong><span style=""font-weight: bolder;"">116.67 ग्रॅम&nbsp;</span><strong>आहे.</strong></p>",https://mock-test-new.vercel.app?test=d-70310
